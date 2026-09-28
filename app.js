@@ -41,6 +41,7 @@ function nextFlag() {
 }
 function feedback(message, type='') { $('feedback').textContent=message; $('feedback').className=type; }
 function renderRound() {
+  renderStats();
   imageReady=false;
   $('all-mode').classList.toggle('active',mode==='all'); $('all-mode').setAttribute('aria-pressed',String(mode==='all'));
   $('missed-mode').classList.toggle('active',mode==='missed'); $('missed-mode').setAttribute('aria-pressed',String(mode==='missed'));
@@ -110,8 +111,9 @@ function renderStats() {
   $('streak').textContent=summary.streak;
   $('missed-mode').disabled=!summary.missed.length;
   $('review-from-stats').disabled=!summary.missed.length;
-  $('top-misses').innerHTML=summary.missed.slice(0,3).map(s=>`<div class="miss-row"><img src="assets/flags/${s.code}.svg" alt=""><span>${escape(BY_CODE.get(s.code).name)}</span><small>${s.missed} ${s.missed===1?'miss':'misses'}</small></div>`).join('');
-  document.querySelector('.misses>.muted').textContent=summary.missed.length?'A second look goes a long way.':'Your most-missed flags will appear here.';
+  const visibleMisses=summary.missed.filter(s=>round?.status!=='answering'||s.code!==round.code);
+  $('top-misses').innerHTML=visibleMisses.slice(0,3).map(s=>`<div class="miss-row"><img src="assets/flags/${s.code}.svg" alt=""><span>${escape(BY_CODE.get(s.code).name)}</span><small>${s.missed} ${s.missed===1?'miss':'misses'}</small></div>`).join('');
+  document.querySelector('.misses>.muted').textContent=visibleMisses.length?'A second look goes a long way.':summary.missed.length?'Finish this flag to see your latest misses.':'Your most-missed flags will appear here.';
   const stats=[[summary.seen,'rounds attempted'],[summary.accuracy===null?'—':summary.accuracy+'%','first-try accuracy'],[summary.named+' / 195','different flags named'],[summary.best,'best first-try streak']];
   $('stats-grid').innerHTML=stats.map(([value,label])=>`<div class="stat-card"><strong>${value}</strong><span>${label}</span></div>`).join('');
   const countryRows=[...summary.perCountry.values()].sort((a,b)=>b.missed-a.missed || b.missed/b.seen-a.missed/a.seen || BY_CODE.get(a.code).name.localeCompare(BY_CODE.get(b.code).name));
