@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#11171c"><meta name="description" content="Learn 195 country flags with exact-spelling practice and a personal record of your progress.">
+<title>Flagbook — know your world</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=1">
+<script type="module" src="app.js?v=1"></script>
+</head>
+<body>
+<header class="header"><a class="brand" href="#practice" aria-label="Flagbook home"><span class="brand-icon" aria-hidden="true">⚑</span>flagbook<span class="brand-period">.</span></a><nav aria-label="Main navigation"><a href="#practice" id="practice-link" aria-current="page">Practice</a><a href="#progress" id="progress-link">My progress</a></nav><span class="edition">THE WORLD, ONE FLAG AT A TIME</span></header>
+<main>
+<div id="storage-warning" role="alert" class="notice" hidden></div>
+<section id="practice-view" aria-labelledby="practice-title">
+<div class="page-heading"><div><p class="eyebrow">YOUR DAILY DOSE OF GEOGRAPHY</p><h1 id="practice-title">Know it when you see it.</h1><p class="intro">One flag. One country. How many do you know?</p></div><div class="scope"><strong>195</strong><span>countries to discover</span></div></div>
+<div class="practice-layout">
+<div class="quiz panel">
+<div class="quiz-top"><div class="mode-group" role="group" aria-label="Practice mode"><button id="all-mode" class="mode active" aria-pressed="true">All flags</button><button id="missed-mode" class="mode" aria-pressed="false">Revisit misses</button></div><span id="deck-position" class="muted"></span></div>
+<div class="flag-stage" id="flag-stage"><span class="stage-label">NAME THIS COUNTRY</span><img id="flag" alt="Country flag to identify" draggable="false"><p id="flag-error" hidden role="alert">The flag couldn’t load. <button id="retry-image" class="text-button">Try again</button></p><span class="stage-corner" aria-hidden="true">＋</span></div>
+<div class="answer-area"><form id="answer-form" novalidate><label for="answer">Which country is this?</label><div class="answer-row"><input id="answer" name="answer" placeholder="Type the country name…" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" maxlength="160" aria-describedby="answer-help feedback" required><button class="primary" id="check-answer" type="submit">Check answer <span aria-hidden="true">↵</span></button></div></form><div class="answer-footer"><p id="answer-help">Exact spelling. Capitalization doesn’t matter.</p><button id="reveal" class="text-button">I don’t know</button></div><div id="feedback" role="status" aria-live="polite"></div><button id="next-flag" class="primary" hidden>Next flag →</button></div>
+</div>
+<aside class="practice-aside">
+<section class="panel snapshot"><div class="section-heading"><h2>Your journey</h2><span class="small-tag">ALL TIME</span></div><div class="accuracy-line"><strong id="accuracy">—</strong><span>first-try<br>accuracy</span></div><div class="meter"><span id="accuracy-bar"></span></div><div class="mini-stats"><div><strong id="named">0<span>/195</span></strong><span>flags named</span></div><div><strong id="streak">0</strong><span>current streak</span></div></div><p class="save-note" id="save-note">Progress saved in this browser</p></section>
+<section class="panel misses"><div class="section-heading"><h2>A little more practice</h2><span class="round-icon" aria-hidden="true">↻</span></div><p class="muted">Your most-missed flags will appear here.</p><div id="top-misses"></div><a href="#progress" class="text-link">See your full progress <span aria-hidden="true">↗</span></a></section>
+<div class="practice-note"><span aria-hidden="true">✳</span><p>Getting one wrong is part of learning.<br>Try again, or reveal it and remember it.</p></div>
+</aside>
+</div>
+<p class="keyboard-note"><kbd>Enter</kbd> to check · Correct answers move on automatically</p>
+</section>
+<section id="progress-view" aria-labelledby="progress-title" hidden>
+<div class="page-heading"><div><p class="eyebrow">A RECORD OF EVERY TRY</p><h1 id="progress-title">Watch your world grow.</h1><p class="intro">The flags you know. The ones you’re getting to know.</p></div><a href="#practice" class="primary button-link">Back to practice →</a></div>
+<div class="stats-grid" id="stats-grid"></div>
+<div class="panel progress-panel"><div class="section-heading"><div><h2>Where to focus</h2><p class="muted">Ranked by rounds missed on the first try. Retrying a flag doesn’t add another missed round.</p></div><button id="review-from-stats" class="secondary">Practice these flags ↻</button></div><div id="country-stats"></div></div>
+<div class="panel progress-panel"><div class="section-heading"><div><h2>Your attempts</h2><p class="muted">Every answer and reveal, newest first.</p></div><span id="history-count" class="small-tag"></span></div><div id="history"></div><button id="more-history" class="secondary" hidden>Show more</button></div>
+<div class="backup-panel"><div><h2>Keep your progress</h2><p>Saved only in this browser on this device. Download a backup before clearing browser data, or import it on another device.</p></div><div class="backup-actions"><button id="export" class="secondary">Download backup ↓</button><button id="import-button" class="secondary">Import backup ↑</button><input type="file" id="import-file" accept="application/json,.json" hidden></div><p id="backup-status" role="status"></p></div>
+</section>
+</main>
+<footer><span>flagbook. <span class="muted">A little practice. A bigger world.</span></span><span>193 UN members + Vatican City & Palestine <span aria-hidden="true">·</span> <a href="https://github.com/hampusborgos/country-flags" target="_blank" rel="noopener noreferrer">Flag artwork ↗</a></span></footer>
+<noscript><p class="notice">Please enable JavaScript to practice and save attempts.</p></noscript>
+</body>
+</html>
