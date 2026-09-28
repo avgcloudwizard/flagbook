@@ -10,3 +10,70 @@
 @media(max-width:760px){.header{flex-wrap:wrap;gap:16px}.header nav{order:2;flex-basis:100%;display:grid;grid-template-columns:repeat(3,1fr);text-align:center}.header nav a{padding:11px 8px;font-size:14px}.explorer-totals{display:none}.globe-stage{height:400px}.globe-page-heading h1{font-size:33px}.discovery-main{grid-template-columns:1fr 1fr}.country-story{padding:20px}.country-story h3{font-size:21px}.country-story>p:not(.eyebrow){font-size:14px}.mini-globe{height:270px}.country-numbers{grid-template-columns:repeat(3,1fr);gap:0}.country-numbers>div+div{border-top:0;border-left:1px solid var(--line);padding-top:0}.country-numbers>div{padding:0 15px}.country-numbers strong{font-size:20px}.discovery-heading h2{font-size:32px}.discovery-heading{padding:24px}.facts-heading{padding:22px 24px 0}.facts-heading h3{font-size:20px}.fun-facts{padding:20px 24px}.globe-toolbar{padding:15px 18px}.globe-toolbar>span{font-size:10px;letter-spacing:1px}.globe-progress-values{grid-template-columns:1fr 1fr}.globe-progress-heading{flex-wrap:wrap}.globe-progress-panel{padding:20px}.globe-progress-heading .text-link{font-size:13px}.globe-progress-heading h2{font-size:23px}}
 @media(max-width:520px){.discovery-main{grid-template-columns:1fr}.mini-globe{height:290px}.mini-world{min-height:290px}.country-story{padding:24px}.country-numbers{grid-template-columns:1fr;gap:18px}.country-numbers>div+div{border-left:0;border-top:1px solid var(--line);padding-top:18px}.country-numbers>div{padding-left:24px;padding-right:24px}.country-numbers strong{font-size:25px}.country-numbers .currency-value{font-size:20px}.discovery-heading h2{font-size:30px}.discovery-flag{width:55px;height:38px}.globe-stage{height:350px}.globe-question-card{padding:23px}.globe-question-card h2{font-size:29px}#globe-instructions{font-size:12px;margin-bottom:12px}.map-fineprint{font-size:11px;padding:0 18px 18px}.map-controls{right:12px;bottom:12px;gap:5px}.map-controls button{width:34px;height:34px}.globe-compass{left:20px;top:18px}.globe-toolbar{padding:13px}.globe-toolbar>span{font-size:9px;letter-spacing:.8px}.map-random{font-size:12px;padding:8px}.header nav a{font-size:12px;padding:11px 4px}.page-heading{margin-top:3px}.discovery-heading .eyebrow{font-size:10px}.facts-heading .small-tag{display:none}.globe-page-heading h1{font-size:30px}.globe-stage{margin-top:-8px}.globe-toolbar{position:relative;z-index:1}.globe-progress-heading .eyebrow{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.discovery-card,.loading-orbit{animation:none}}
+
+/* Country field notes: a warm conversation card and a compact country briefing. */
+.party-note{position:relative;margin:30px 28px 0;padding:27px 30px 22px;border:1px solid #d1a37a;border-radius:14px;background:linear-gradient(120deg,#f2d7b6,#e6bb92);color:#34291f;overflow:hidden}
+.party-note-top{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:10px}
+.party-kicker{display:flex;align-items:center;gap:9px;font-size:10px;font-weight:750;letter-spacing:1.5px}
+.party-kicker>span{font-size:25px;line-height:1}
+.party-stamp{border:1px solid #9a70566b;border-radius:50%;width:55px;height:55px;display:grid;place-content:center;transform:rotate(12deg);font-size:9px;font-weight:700;line-height:1.3;letter-spacing:1px;text-align:center;flex:none;margin-top:-5px}
+.party-note h3{font-family:var(--display);font-size:29px;font-weight:500;line-height:1.2;letter-spacing:-.7px;margin:0 0 15px;max-width:650px}
+.party-note>p{font-size:16px;line-height:1.85;max-width:720px;margin:0 0 23px;color:#493829}
+.party-note-footer{display:flex;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid #9e75584a;padding-top:15px;font-size:11px;color:#624b38}
+.context-source{font-size:11px;font-weight:600;text-decoration:underline;text-underline-offset:3px;line-height:1.6}
+.party-note .context-source{color:#3c3026;white-space:nowrap}
+.party-note .context-source:hover{color:#000}
+.party-note a:focus-visible{outline-color:#543b28}
+.context-heading{padding:32px 29px 18px}
+.context-heading .eyebrow{font-size:9px;letter-spacing:1.6px;margin-bottom:7px}
+.context-heading h3{font-family:var(--display);font-size:27px;font-weight:500;letter-spacing:-.6px;margin:0}
+.history-note{margin:0 28px 16px;background:#172027;border:1px solid #3d4a52;border-radius:13px;padding:23px 25px}
+.context-section-title{display:flex;align-items:center;gap:13px;margin-bottom:18px}
+.context-icon{display:grid;place-items:center;width:38px;height:38px;flex:none;background:#a7bac314;border:1px solid #637b854d;border-radius:10px;font-size:25px;line-height:1;color:#bfcecc}
+.context-kicker{font-size:9px;letter-spacing:1.5px;color:#acc0c7;font-weight:650;margin:0 0 6px;line-height:1.5}
+.context-section-title h4,.tourism-note h4{font-size:19px;font-family:var(--display);font-weight:500;letter-spacing:-.3px;margin:0;line-height:1.3}
+.history-text{font-size:14px;line-height:1.9;color:#c1ccd2;margin:0 0 19px}
+.history-text strong{color:#e1ebd2;font-weight:650;font-variant-numeric:tabular-nums}
+.context-card-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;border-top:1px solid #91a7b326;padding-top:13px;margin-top:20px;color:#91a4af;font-size:10px;line-height:1.7}
+.context-card-footer .context-source{color:#c0d2d6}
+.context-source:hover{color:var(--accent)}
+.context-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:16px;padding:0 28px 12px;align-items:start}
+.economy-note,.tourism-note{min-width:0;padding:23px 25px;border:1px solid #3d4a52;border-radius:13px;background:#172027}
+.economy-description{color:#d4dedb;font-size:14px;line-height:1.8;margin:0 0 20px}
+.economy-field{margin-top:18px}
+.economy-field h5{font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:#9eb9ad;margin:0 0 7px;font-weight:600}
+.economy-field p{font-size:13px;line-height:1.85;margin:0;color:#b7c4cb}
+.context-details{font-size:12px;margin-top:22px;color:#b7c5cb}
+.context-details summary{cursor:pointer;font-size:12px;color:#dae4d6;line-height:1.7;list-style-position:outside;margin-left:13px}
+.context-details summary:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+.context-details[open] summary{margin-bottom:15px}
+.context-fineprint{font-size:10px;line-height:1.8;color:#a2b2bb}
+.sector-chart{display:grid;gap:14px;margin:20px 0}
+.sector-row>div:first-child{display:flex;justify-content:space-between;gap:12px;font-size:11px;margin-bottom:6px;text-transform:capitalize;color:#c7d4d7}
+.sector-row small{color:#94a6af;font-size:9px;margin-left:5px}
+.sector-row b{font-weight:500;color:var(--accent)}
+.sector-track{height:5px;background:#35434a;border-radius:5px;overflow:hidden}
+.sector-track i{height:100%;display:block;background:#a9cd8d;border-radius:5px}
+.tourism-note{background:radial-gradient(ellipse at top right,#41433247,transparent 70%),#202823;border-color:#4c5845}
+.tourism-note .context-kicker{color:#b0c79e}
+.tourism-score{display:flex;align-items:baseline;gap:10px;margin-top:15px;color:var(--accent)}
+.tourism-score strong{font-family:var(--display);font-size:78px;font-weight:400;letter-spacing:-5px;line-height:1.1}
+.tourism-score>span{color:#a5b79b;font-family:var(--display);font-size:20px}
+.tourism-score.unrated>span{font-size:16px}
+.tourism-label{color:#d7e3cb;font-size:12px;line-height:1.6;margin:10px 0 17px}
+.tourism-meter{display:grid;grid-template-columns:repeat(10,1fr);gap:4px}
+.tourism-meter i{height:19px;border-radius:3px;background:#3c4936}
+.tourism-meter i.filled{background:#bbdb83}
+.tourism-evidence{font-size:11px;color:#b6c6ab;margin:19px 0 12px;line-height:1.9}
+.tourism-evidence strong{color:#e7eddf;font-weight:550}
+.tourism-evidence b{font-weight:500}
+.older-benchmark{display:block;font-size:10px;color:#d6c9a4;margin-top:4px}
+.tourism-caveat{font-size:10px;color:#a2b599;line-height:1.8;margin:0}
+.tourism-method p{font-size:11px;line-height:1.8}
+.score-bands{padding-left:24px;font-size:10px;line-height:2;color:#cbd9c1;font-variant-numeric:tabular-nums}
+.score-bands li::marker{color:var(--accent)}
+.tourism-note .context-card-footer{border-color:#91a77e33}
+@media(max-width:1180px){.context-grid{grid-template-columns:1fr}.party-note h3{font-size:27px}.tourism-score strong{font-size:66px}.tourism-meter{max-width:350px}}
+@media(min-width:981px){#globe-discovery .context-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}}
+@media(max-width:760px){.party-note{margin:24px 23px 0;padding:23px}.party-note h3{font-size:26px}.party-note>p{font-size:15px}.context-grid{padding:0 23px 10px;grid-template-columns:1fr}.history-note{margin:0 23px 16px;padding:22px}.context-heading{padding:29px 24px 17px}.economy-note,.tourism-note{padding:22px}}
+@media(max-width:520px){.party-note{margin:20px 16px 0;padding:22px 20px 18px}.party-kicker{font-size:8px;letter-spacing:.8px}.party-stamp{width:44px;height:44px;font-size:7px}.party-note-top{gap:10px;margin-bottom:17px}.party-note h3{font-size:25px;line-height:1.3}.party-note>p{font-size:14px;line-height:1.85}.party-note-footer{align-items:flex-start;flex-direction:column;gap:9px}.context-heading{padding:27px 21px 17px}.context-heading h3{font-size:25px}.history-note{margin:0 16px 14px;padding:21px 19px}.history-text{font-size:13px}.context-section-title h4,.tourism-note h4{font-size:19px}.context-grid{padding:0 16px 10px;gap:14px}.economy-note,.tourism-note{padding:21px 19px}.context-card-footer{align-items:flex-start;flex-direction:column;gap:8px}.context-section-title{gap:11px}.context-kicker{letter-spacing:1.1px;font-size:8px}.economy-field p{font-size:12px}.tourism-meter{max-width:none}}

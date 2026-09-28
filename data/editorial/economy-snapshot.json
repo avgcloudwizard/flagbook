@@ -1,0 +1,4760 @@
+{
+  "af": {
+    "description": "Agriculture, local trade and small-scale industry support livelihoods; aid and remittances are important external sources of income.",
+    "industries": "small-scale production of bricks, textiles, soap, furniture, shoes, fertilizer, apparel, food products, non-alcoholic beverages, mineral water, cement; handwoven carpets; natural gas, coal, copper",
+    "exports": "coal, grapes, tropical fruits, gum resins, other nuts (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 34.7,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 13.4,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 46.4,
+        "year": 2023
+      }
+    ],
+    "remittances": "1.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/af.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "al": {
+    "description": "Upper-middle-income Balkan economy.",
+    "industries": "food; footwear, apparel and clothing; lumber, oil, cement, chemicals, mining, basic metals, hydropower",
+    "exports": "garments, footwear, electricity, crude petroleum, iron alloys (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 15.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 48.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "8.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/al.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "dz": {
+    "description": "Suffering oil and gas economy.",
+    "industries": "petroleum, natural gas, light industries, mining, electrical, petrochemical, food processing",
+    "exports": "natural gas, crude petroleum, refined petroleum, fertilizers, iron bars (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 13.1,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 37.8,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 45.6,
+        "year": 2023
+      }
+    ],
+    "remittances": "0.8% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ag.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ad": {
+    "description": "High GDP.",
+    "industries": "tourism (particularly skiing), banking, timber, furniture",
+    "exports": "paintings, integrated circuits, cars, orthopedic appliances, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 12.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 77.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/an.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ao": {
+    "description": "Middle-income, oil-dependent African economy.",
+    "industries": "petroleum; diamonds, iron ore, phosphates, feldspar, bauxite, uranium, and gold; cement; basic metal products; fish processing; food processing, brewing, tobacco products, sugar; textiles; ship repair",
+    "exports": "crude petroleum, diamonds, natural gas, ships, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 16.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 44.2,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 39.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ao.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ag": {
+    "description": "Dual island-tourism and construction-driven economy.",
+    "industries": "tourism, construction, light manufacturing (clothing, alcohol, household appliances)",
+    "exports": "refined petroleum, ships, soybean meal, shellfish, paintings (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.9,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 19.0,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 69.1,
+        "year": 2023
+      }
+    ],
+    "remittances": "1.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/ac.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ar": {
+    "description": "Large diversified economy.",
+    "industries": "food processing, motor vehicles, consumer durables, textiles, chemicals and petrochemicals, printing, metallurgy, steel",
+    "exports": "soybean meal, corn, trucks, soybean oil, crude petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 53.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/ar.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "am": {
+    "description": "Services, mining, food processing and trade support the economy, alongside money sent home by Armenians abroad.",
+    "industries": "brandy, mining, diamond processing, metal-cutting machine tools, forging and pressing machines, electric motors, knitted wear, hosiery, shoes, silk fabric, chemicals, trucks, instruments, microelectronics, jewelry, software, food processing",
+    "exports": "gold, diamonds, copper ore, broadcasting equipment, jewelry (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 7.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.2,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 61.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "4.6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/am.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "au": {
+    "description": "High-income and globally integrated economy.",
+    "industries": "mining, industrial and transportation equipment, food processing, chemicals, steel",
+    "exports": "iron ore, coal, natural gas, gold, minerals (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 26.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/as.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "at": {
+    "description": "One of the strongest EU and euro economies.",
+    "industries": "construction, machinery, vehicles and parts, food, metals, chemicals, lumber and paper, electronics, tourism",
+    "exports": "cars, packaged medicine, vaccines, vehicle parts/accessories, nitrogen compounds (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/au.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "az": {
+    "description": "Upper-middle income, oil-dependent Caucasus economy.",
+    "industries": "petroleum and petroleum products, natural gas, oilfield equipment; steel, iron ore; cement; chemicals and petrochemicals; textiles",
+    "exports": "crude petroleum, natural gas, refined petroleum, plastics, electricity (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 5.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 42.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 42.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/aj.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bs": {
+    "description": "Tourism and financial services are the main engines of an economy closely connected to North American visitors and markets.",
+    "industries": "tourism, banking, oil bunkering, maritime industries, transshipment and logistics, salt, aragonite, pharmaceuticals",
+    "exports": "refined petroleum, ships, aluminum, shellfish, plastics (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 9.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 77.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/bf.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bh": {
+    "description": "Finance, petroleum refining and aluminium production diversify an economy historically built around oil.",
+    "industries": "petroleum processing and refining, aluminum smelting, iron pelletization, fertilizers, Islamic and offshore banking, insurance, ship repairing, tourism",
+    "exports": "refined petroleum, aluminum, iron ore, aluminum wire, jewelry (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.3,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 43.4,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 51.9,
+        "year": 2023
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/ba.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bd": {
+    "description": "Garment exports bring in foreign earnings, while agriculture, domestic services and remittances support millions of households.",
+    "industries": "cotton, textiles and clothing, jute, tea, paper, cement, fertilizer, sugar, light engineering",
+    "exports": "garments, footwear, fabric, textiles, trunks and cases (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 11.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 34.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 51.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/bg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bb": {
+    "description": "High-income Eastern Caribbean economy.",
+    "industries": "tourism, sugar, light manufacturing, component assembly for export",
+    "exports": "liquor, refined petroleum, packaged medicine, margarine, baked goods (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.9,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 13.2,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 75.4,
+        "year": 2023
+      }
+    ],
+    "remittances": "1.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/bb.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "by": {
+    "description": "Declining Russian energy subsidies will end in 2024.",
+    "industries": "metal-cutting machine tools, tractors, trucks, earthmovers, motorcycles, synthetic fibers, fertilizer, textiles, refrigerators, washing machines and other household appliances",
+    "exports": "fertilizers, rapeseed oil, wood, poultry, beef (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 30.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 49.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/bo.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "be": {
+    "description": "High-income, core EU and eurozone economy.",
+    "industries": "engineering and metal products, motor vehicle assembly, transportation equipment, scientific instruments, processed food and beverages, chemicals, pharmaceuticals, base metals, textiles, glass, petroleum",
+    "exports": "refined petroleum, natural gas, vaccines, cars, packaged medicine (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 72.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.3% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/be.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bz": {
+    "description": "Tourism- and agriculture-driven economy.",
+    "industries": "garment production, food processing, tourism, construction, oil",
+    "exports": "raw sugar, bananas, fish, shellfish, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 8.1,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 14.3,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 62.4,
+        "year": 2023
+      }
+    ],
+    "remittances": "4.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/bh.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bj": {
+    "description": "Robust economic growth.",
+    "industries": "textiles, food processing, construction materials, cement",
+    "exports": "gold, cotton, coconuts/brazil nuts/cashews, soybeans, wood (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 24.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 48.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.7% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/bn.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bt": {
+    "description": "Hydropower investments spurring economic development.",
+    "industries": "cement, wood products, processed fruits, alcoholic beverages, calcium carbide, tourism",
+    "exports": "iron alloys, aircraft, dolomite, semi-finished iron, cement (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 15.0,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 29.6,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 52.7,
+        "year": 2023
+      }
+    ],
+    "remittances": "3.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/bt.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bo": {
+    "description": "Resource-rich economy benefits during commodity booms.",
+    "industries": "mining, smelting, electricity, petroleum, food and beverages, handicrafts, clothing, jewelry",
+    "exports": "gold, natural gas, precious metal ore, zinc ore, soybean meal (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 13.5,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 24.2,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 51.1,
+        "year": 2023
+      }
+    ],
+    "remittances": "3.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/bl.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ba": {
+    "description": "Import-dominated economy.",
+    "industries": "steel, coal, iron ore, lead, zinc, manganese, bauxite, aluminum, motor vehicle assembly, textiles, tobacco products, wooden furniture, ammunition, domestic appliances, oil refining",
+    "exports": "footwear, electricity, garments, plastic products, insulated wire (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 58.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "11% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/bk.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bw": {
+    "description": "Good economic governance and financial management.",
+    "industries": "diamonds, copper, nickel, salt, soda ash, potash, coal, iron ore, silver; beef processing; textiles",
+    "exports": "diamonds, copper ore, insulated wire, carbonates, cattle (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 29.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 63.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/bc.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "br": {
+    "description": "Upper-middle-income, largest Latin American economy.",
+    "industries": "textiles, shoes, chemicals, cement, lumber, iron ore, tin, steel, aircraft, motor vehicles and parts, other machinery and equipment",
+    "exports": "soybeans, crude petroleum, iron ore, raw sugar, corn (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 5.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 21.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/br.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bn": {
+    "description": "Almost exclusively an oil and gas economy.",
+    "industries": "petroleum, petroleum refining, liquefied natural gas, construction, agriculture, aquaculture, transportation",
+    "exports": "refined petroleum, natural gas, crude petroleum, hydrocarbons, fertilizers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 61.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 38.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/bx.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bg": {
+    "description": "Upper-middle-income EU economy.",
+    "industries": "electricity, gas, water; food, beverages, tobacco; machinery and equipment, automotive parts, base metals, chemical products, coke, refined petroleum, nuclear fuel; outsourcing centers",
+    "exports": "refined petroleum, garments, refined copper, wheat, natural gas (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 62.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/bu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bf": {
+    "description": "Highly agrarian, low-income economy.",
+    "industries": "cotton lint, beverages, agricultural processing, soap, cigarettes, textiles, gold",
+    "exports": "gold, cotton, oil seeds, coconuts/brazil nuts/cashews, cement (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 18.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 29.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 40.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/uv.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "bi": {
+    "description": "Highly agrarian, low-income Sub-Saharan economy.",
+    "industries": "light consumer goods (sugar, shoes, soap, beer); cement, assembly of imported components; public works construction; food processing (fruits)",
+    "exports": "gold, coffee, tea, tin ores, iron bars (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 25.3,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 9.6,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 49.0,
+        "year": 2023
+      }
+    ],
+    "remittances": "7.5% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/by.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "kh": {
+    "description": "Garment manufacturing, tourism, construction and agriculture are important sources of jobs and income.",
+    "industries": "tourism, garments, construction, rice milling, fishing, wood and wood products, rubber, cement, gem mining, textiles",
+    "exports": "garments, semiconductors, trunks and cases, footwear, gold (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 16.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 41.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 35.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "6.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/cb.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cm": {
+    "description": "Largest CEMAC economy with many natural resources.",
+    "industries": "petroleum production and refining, aluminum production, food processing, light consumer goods, textiles, lumber, ship repair",
+    "exports": "crude petroleum, natural gas, gold, cocoa beans, wood (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 17.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 49.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/cm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ca": {
+    "description": "High-income economy and second-largest US trading partner.",
+    "industries": "transportation equipment, chemicals, processed and unprocessed minerals, food products, wood and paper products, fish products, petroleum, natural gas",
+    "exports": "crude petroleum, cars, gold, natural gas, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.6,
+        "year": 2021
+      },
+      {
+        "name": "industry",
+        "share": 25.3,
+        "year": 2021
+      },
+      {
+        "name": "services",
+        "share": 66.4,
+        "year": 2021
+      }
+    ],
+    "remittances": "0% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/north-america/ca.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cv": {
+    "description": "Stable, middle-income, developing island economy.",
+    "industries": "food and beverages, fish processing, shoes and garments, salt mining, ship repair",
+    "exports": "fish, refined petroleum, railway cargo containers, shellfish, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 10.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 69.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "12.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/cv.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cf": {
+    "description": "Enormous natural resources.",
+    "industries": "gold and diamond mining, logging, brewing, sugar refining",
+    "exports": "gold, wood, diamonds, vehicle parts/accessories, cotton (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 32.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 40.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ct.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "td": {
+    "description": "Oil-dependent economy challenged by market fluctuations, regional instability, refugee influx, and climate vulnerability.",
+    "industries": "oil, cotton textiles, brewing, natron (sodium carbonate), soap, cigarettes, construction materials",
+    "exports": "crude petroleum, gold, oil seeds, gum resins, cotton (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 32.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 29.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 31.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/cd.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cl": {
+    "description": "Export-driven economy.",
+    "industries": "copper, lithium, other minerals, foodstuffs, fish processing, iron and steel, wood and wood products, transport equipment, cement, textiles",
+    "exports": "copper ore, refined copper, fish, carbonates, pitted fruits (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 30.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 56.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/ci.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cn": {
+    "description": "Manufacturing and exports are major strengths; domestic services, investment, construction and agriculture also support output.",
+    "industries": "world leader in gross value of industrial output; mining and ore processing, iron, steel, aluminum, and other metals, coal; machine building; armaments; textiles and apparel; petroleum; cement; chemicals; fertilizer; consumer products (including footwear, toys, and electronics); food processing; transportation equipment, including automobiles, railcars and locomotives, ships, aircraft; telecommunications equipment, commercial space launch vehicles, satellites",
+    "exports": "broadcasting equipment, computers, integrated circuits, garments, machine parts (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 36.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 56.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/ch.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "co": {
+    "description": "Services support domestic activity, while petroleum, coal, coffee and other agricultural exports bring in foreign earnings.",
+    "industries": "textiles, food processing, oil, clothing and footwear, beverages, chemicals, cement; gold, coal, emeralds",
+    "exports": "crude petroleum, coal, gold, coffee, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 9.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 58.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/co.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "km": {
+    "description": "Small trade-based island economy.",
+    "industries": "fishing, tourism, perfume distillation",
+    "exports": "cloves, ships, essential oils, vanilla, scrap iron (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 36.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 9.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 50.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "21.4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/cn.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cr": {
+    "description": "Trade-based upper middle-income economy.",
+    "industries": "medical equipment, food processing, textiles and clothing, construction materials, fertilizer, plastic products",
+    "exports": "medical instruments, integrated circuits, orthopedic appliances, bananas, tropical fruits (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 19.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 68.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/cs.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "hr": {
+    "description": "Upper-middle-income Balkan economy.",
+    "industries": "chemicals and plastics, machine tools, fabricated metal, electronics, pig iron and rolled steel products, aluminum, paper, wood products, construction materials, textiles, shipbuilding, petroleum and petroleum refining, food and beverages, tourism",
+    "exports": "ships, garments, electricity, packaged medicine, wood (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 19.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "7.3% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/hr.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cu": {
+    "description": "Still largely state-run planned economy, although privatization increasing under new constitution.",
+    "industries": "petroleum, nickel, cobalt, pharmaceuticals, tobacco, construction, steel, cement, agricultural machinery, sugar",
+    "exports": "tobacco, nickel, liquor, zinc ore, precious metal ore (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.3,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 27.5,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 70.0,
+        "year": 2023
+      }
+    ],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/cu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cy": {
+    "description": "Services-based, high-income EU island economy.",
+    "industries": "tourism, food and beverage processing, cement and gypsum, ship repair and refurbishment, textiles, light chemicals, metal products, wood, paper, stone and clay products",
+    "exports": "ships, refined petroleum, packaged medicine, cheese, scented mixtures (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 10.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 76.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.8% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/cy.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cz": {
+    "description": "High-income, diversified EU economy.",
+    "industries": "motor vehicles, metallurgy, machinery and equipment, glass, armaments",
+    "exports": "cars, vehicle parts/accessories, broadcasting equipment, computers, plastic products (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 30.2,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/ez.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ci": {
+    "description": "One of West Africa’s most influential, stable, and rapidly developing economies.",
+    "industries": "foodstuffs, beverages; wood products, oil refining, gold mining, truck and bus assembly, textiles, fertilizer, building materials, electricity",
+    "exports": "gold, cocoa beans, rubber, refined petroleum, coconuts/brazil nuts/cashews (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 17.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 53.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/iv.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cd": {
+    "description": "Copper, cobalt and other minerals generate export earnings, while agriculture and small-scale trade support many livelihoods.",
+    "industries": "mining (copper, cobalt, gold, diamonds, coltan, zinc, tin, tungsten), mineral processing, consumer products (textiles, plastics, footwear, cigarettes), metal products, processed foods and beverages, timber, cement, commercial ship repair",
+    "exports": "refined copper, cobalt, copper ore, raw copper, crude petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 17.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 46.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 33.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "4.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/cg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "dk": {
+    "description": "High-income, EU-member, trade-oriented Nordic economy.",
+    "industries": "wind turbines, pharmaceuticals, medical equipment, shipbuilding and refurbishment, iron, steel, nonferrous metals, chemicals, food processing, machinery and transportation equipment, textiles and clothing, electronics, construction, furniture and other wood products",
+    "exports": "packaged medicine, fish, vaccines, refined petroleum, pork (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 64.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/da.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "dj": {
+    "description": "Food import-dependent Horn of Africa economy driven by various national military bases and port-based trade.",
+    "industries": "construction, agricultural processing, shipping",
+    "exports": "raw sugar, seed oils, cars, palm oil, rice (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 15.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 75.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/dj.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "dm": {
+    "description": "Highly agrarian OECS island economy.",
+    "industries": "soap, coconut oil, tourism, copra, furniture, cement blocks, shoes",
+    "exports": "iron blocks, medical instruments, excavation machinery, power equipment, soap (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 12.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 13.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 56.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "5.6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/do.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "do": {
+    "description": "Surging middle-income tourism, construction, mining, and telecommunications OECS economy.",
+    "industries": "tourism, sugar processing, gold mining, textiles, cement, tobacco, electrical components, medical devices",
+    "exports": "medical instruments, tobacco, gold, garments, power equipment (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 28.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "9% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/dr.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ec": {
+    "description": "Highly informal South American economy.",
+    "industries": "petroleum, food processing, textiles, wood products, chemicals",
+    "exports": "crude petroleum, shellfish, bananas, fish, gold (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 9.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 26.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 57.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "5.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/ec.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "eg": {
+    "description": "Services, agriculture and industry support livelihoods; tourism, Suez Canal activity, energy and remittances earn foreign income.",
+    "industries": "textiles, food processing, tourism, chemicals, pharmaceuticals, hydrocarbons, construction, cement, metals, light manufactures",
+    "exports": "refined petroleum, natural gas, fertilizers, garments, crude petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 13.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 32.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 48.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "4.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/eg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sv": {
+    "description": "Upper-middle-income, dollarized Central American economy.",
+    "industries": "food processing, beverages, petroleum, chemicals, fertilizer, textiles, furniture, light metals",
+    "exports": "garments, plastic products, electrical capacitors, raw sugar, toilet paper (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 61.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "24% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/es.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gq": {
+    "description": "Oil and gas dominate export earnings and public revenue; this makes the economy sensitive to energy production and prices.",
+    "industries": "petroleum, natural gas, sawmilling",
+    "exports": "crude petroleum, natural gas, alcohols, wood, scrap iron (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 45.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 51.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ek.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "er": {
+    "description": "Largely agrarian economy with a significant mining sector.",
+    "industries": "food processing, beverages, clothing and textiles, light manufacturing, salt, cement",
+    "exports": "copper ore, zinc ore, gold, garments, liquor (2023)",
+    "sectors": [],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/er.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ee": {
+    "description": "High-income, service-based EU and eurozone economy.",
+    "industries": "food, engineering, electronics, wood and wood products, textiles; information technology, telecommunications",
+    "exports": "cars, wood, broadcasting equipment, refined petroleum, prefabricated buildings (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 20.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/en.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sz": {
+    "description": "Landlocked southern African economy.",
+    "industries": "soft drink concentrates, coal, forestry, sugar processing, textiles, and apparel",
+    "exports": "scented mixtures, raw sugar, industrial acids/oils/alcohols, garments, wood (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.8,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 34.7,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 51.7,
+        "year": 2023
+      }
+    ],
+    "remittances": "1.7% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/wz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "et": {
+    "description": "Agriculture supports livelihoods and exports such as coffee; manufacturing, construction and services also contribute.",
+    "industries": "food processing, beverages, textiles, leather, garments, chemicals, metals processing, cement",
+    "exports": "coffee, garments, dried legumes, cut flowers, oil seeds (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 34.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 37.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.33% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/et.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "fj": {
+    "description": "Upper-middle income, tourism-based Pacific island economy.",
+    "industries": "tourism, sugar processing, clothing, copra, gold, silver, lumber",
+    "exports": "water, fish, raw sugar, refined petroleum, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 8.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 14.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 56.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "9.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/fj.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "fi": {
+    "description": "High-income, export-based EU and eurozone economy.",
+    "industries": "metals and metal products, electronics, machinery and scientific instruments, shipbuilding, pulp and paper, foodstuffs, chemicals, textiles, clothing",
+    "exports": "paper, refined petroleum, steel, wood pulp, ships (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 62.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/fi.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "fr": {
+    "description": "High-income, advanced EU economy and eurozone member.",
+    "industries": "machinery, chemicals, automobiles, metallurgy, aircraft, electronics, textiles, food processing, tourism",
+    "exports": "aircraft, cars, packaged medicine, gas turbines, vehicle parts/accessories (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 70.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/fr.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ga": {
+    "description": "Oil, manganese mining and forestry are major economic activities and sources of export income.",
+    "industries": "petroleum extraction and refining; manganese, gold; chemicals, ship repair, food and beverages, textiles, lumbering and plywood, cement",
+    "exports": "crude petroleum, ships, manganese ore, refined petroleum, wood (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 50.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 37.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/gb.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gm": {
+    "description": "Low-income West African economy.",
+    "industries": "peanuts, fish, hides, tourism, beverages, agricultural machinery assembly, woodworking, metalworking, clothing",
+    "exports": "packaged medicine, cars, harvesting machinery, refined petroleum, trailers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 24.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 14.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 53.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "21.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ga.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ge": {
+    "description": "Trade, transport, tourism and other services are important, alongside agriculture and money sent home from abroad.",
+    "industries": "steel, machine tools, electrical appliances, mining (manganese, copper, gold), chemicals, wood products, wine",
+    "exports": "cars, copper ore, electricity, garments, wine (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 5.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 19.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 62.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "11.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/gg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "de": {
+    "description": "Leading export-driven, core EU and eurozone economy.",
+    "industries": "iron, steel, coal, cement, chemicals, machinery, vehicles, machine tools, electronics, automobiles, food and beverages, shipbuilding, textiles",
+    "exports": "cars, vehicle parts/accessories, packaged medicine, plastic products, vaccines (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 63.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.5% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/gm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gh": {
+    "description": "West African lower-middle income economy.",
+    "industries": "mining, lumbering, light manufacturing, aluminum smelting, food processing, cement, small commercial ship building, petroleum",
+    "exports": "gold, crude petroleum, cocoa beans, manganese ore, cocoa paste (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 20.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 28.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 43.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/gh.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gr": {
+    "description": "High-income EU and eurozone economy.",
+    "industries": "tourism, food and tobacco processing, textiles, chemicals, metal products; mining, petroleum",
+    "exports": "refined petroleum, packaged medicine, aluminum, olive oil, tobacco (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 15.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 68.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/gr.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gd": {
+    "description": "Small OECS service-based economy.",
+    "industries": "food and beverages, textiles, light assembly operations, tourism, construction, education, call-center operations",
+    "exports": "nutmeg/cardamons, fish, wheat flours, frozen fruits and nuts, aqueous paints (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 14.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "5% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/gj.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gt": {
+    "description": "Developing Central American economy.",
+    "industries": "sugar, textiles and clothing, furniture, chemicals, petroleum, metals, rubber, tourism",
+    "exports": "garments, bananas, coffee, palm oil, raw sugar (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 9.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 21.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 61.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "19.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/gt.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gn": {
+    "description": "Mining, especially bauxite and gold, earns export revenue; agriculture supports many household livelihoods.",
+    "industries": "bauxite, gold, diamonds, iron ore; light manufacturing, agricultural processing",
+    "exports": "gold, aluminum ore, cocoa beans, crude petroleum, coconuts/brazil nuts/cashews (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 29.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 37.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/gv.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gw": {
+    "description": "Extremely poor West African economy.",
+    "industries": "agricultural products processing, beer, soft drinks",
+    "exports": "coconuts/brazil nuts/cashews, fish, fish oil, processed crustaceans, malt extract (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 36.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 16.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 42.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "9.8% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/pu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gy": {
+    "description": "Small, hydrocarbon-driven South American export economy.",
+    "industries": "bauxite, sugar, rice milling, timber, textiles, gold mining",
+    "exports": "crude petroleum, railway cargo containers, gold, ships, rice (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 8.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 74.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 15.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/gy.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ht": {
+    "description": "Small Caribbean island economy and OECS-member state.",
+    "industries": "textiles, sugar refining, flour milling, cement, light assembly using imported parts",
+    "exports": "garments, essential oils, scrap iron, industrial acids/oils/alcohols, bedding (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 15.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 33.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 48.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "18.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/ha.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "hn": {
+    "description": "Manufacturing, agriculture and services support output; exports and remittances are important sources of foreign income.",
+    "industries": "sugar processing, coffee, woven and knit apparel, wood products, cigars",
+    "exports": "garments, coffee, insulated wire, palm oil, shellfish (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 11.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 26.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 58.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "25.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/ho.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "hu": {
+    "description": "High-income EU and OECD economy.",
+    "industries": "mining, metallurgy, construction materials, processed foods, textiles, chemicals (especially pharmaceuticals), motor vehicles",
+    "exports": "cars, vehicle parts/accessories, electric batteries, packaged medicine, computers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.3% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/hu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "is": {
+    "description": "High-income North Atlantic island economy.",
+    "industries": "tourism, fish processing; aluminum smelting; geothermal power, hydropower; medical/pharmaceutical products",
+    "exports": "aluminum, fish, orthopedic appliances, animal meal, iron alloys (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 19.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/ic.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "in": {
+    "description": "Services, including IT and business services, support a large domestic economy alongside manufacturing and agriculture.",
+    "industries": "textiles, chemicals, food processing, steel, transportation equipment, cement, mining, petroleum, machinery, software, pharmaceuticals",
+    "exports": "refined petroleum, packaged medicine, diamonds, broadcasting equipment, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 16.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 49.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.5% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/in.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "id": {
+    "description": "A large domestic market supports services and manufacturing, alongside mining, energy and agricultural exports.",
+    "industries": "petroleum and natural gas, textiles, automotive, electrical appliances, apparel, footwear, mining, cement, medical instruments and appliances, handicrafts, chemical fertilizers, plywood, rubber, processed food, jewelry, and tourism",
+    "exports": "coal, palm oil, iron alloys, lignite, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 12.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 39.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 43.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/id.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ir": {
+    "description": "Oil and gas, manufacturing, agriculture and services support the economy; sanctions constrain international trade and finance.",
+    "industries": "petroleum, petrochemicals, gas, fertilizer, caustic soda, textiles, cement and other construction materials, food processing (particularly sugar refining and vegetable oil production), ferrous and nonferrous metal fabrication, armaments",
+    "exports": "plastics, iron ore, alcohols, natural gas, refined copper (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 13.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 36.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 47.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/ir.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "iq": {
+    "description": "Oil exports dominate public revenue and foreign earnings, making government spending highly sensitive to the energy sector.",
+    "industries": "petroleum, chemicals, textiles, leather, construction materials, food processing, fertilizer, metal fabrication/processing",
+    "exports": "crude petroleum, refined petroleum, petroleum coke, gold, natural gas (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 51.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 45.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/iz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ie": {
+    "description": "High-income, export-oriented EU economy.",
+    "industries": "pharmaceuticals, chemicals, computer hardware and software, food products, beverages and brewing; medical devices",
+    "exports": "vaccines, packaged medicine, nitrogen compounds, integrated circuits, hormones (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 30.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 61.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/ei.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "il": {
+    "description": "High-income, technology- and industrial-based economy.",
+    "industries": "high-technology products (including aviation, communications, computer-aided design and manufactures, medical electronics, fiber optics), wood and paper products, potash and phosphates, food, beverages, and tobacco, caustic soda, cement, pharmaceuticals, construction, metal products, chemical products, plastics, cut diamonds, textiles, footwear",
+    "exports": "integrated circuits, diamonds, broadcasting equipment, medical instruments, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 72.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/is.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "it": {
+    "description": "High-income, core EU economy.",
+    "industries": "tourism, machinery, iron and steel, chemicals, food processing, textiles, motor vehicles, clothing, footwear, ceramics",
+    "exports": "packaged medicine, garments, cars, refined petroleum, vehicle parts/accessories (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 21.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.5% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/it.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "jm": {
+    "description": "Upper-middle-income Caribbean island economy.",
+    "industries": "agriculture, mining, manufacture, construction, financial and insurance services, tourism, telecommunications",
+    "exports": "aluminum oxide, refined petroleum, natural gas, liquor, processed fruits and nuts (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 9.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 18.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 60.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "17.9% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/jm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "jp": {
+    "description": "Second-largest East Asian economy.",
+    "industries": "motor vehicles, electronic equipment, machine tools, steel and nonferrous metals, ships, chemicals, textiles, processed foods",
+    "exports": "cars, integrated circuits, machinery, vehicle parts/accessories, construction vehicles (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.9,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 28.6,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 69.8,
+        "year": 2023
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/ja.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "jo": {
+    "description": "Upper-middle-income Middle Eastern economy.",
+    "industries": "tourism, information technology, clothing, fertilizer, potash, phosphate mining, pharmaceuticals, petroleum refining, cement, inorganic chemicals, light manufacturing",
+    "exports": "fertilizers, garments, phosphates, jewelry, phosphoric acid (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 5.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 60.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "8.8% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/jo.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "kz": {
+    "description": "Upper-middle-income Central Asian economy.",
+    "industries": "oil, coal, iron ore, manganese, chromite, lead, zinc, copper, titanium, bauxite, gold, silver, phosphates, sulfur, uranium, iron and steel; tractors and other agricultural machinery, electric motors, construction materials",
+    "exports": "crude petroleum, gold, radioactive chemicals, refined copper, copper ore (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 31.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 58.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/kz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ke": {
+    "description": "Agriculture, trade, finance, telecommunications and tourism support the economy. Tea and cut flowers are important exports.",
+    "industries": "agriculture, transportation, services, manufacturing, construction, telecommunications, tourism, retail",
+    "exports": "tea, cut flowers, garments, gold, tropical fruits (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 21.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 16.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 55.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ke.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ki": {
+    "description": "Lower-middle income, Pacific island economy.",
+    "industries": "fishing, handicrafts",
+    "exports": "fish, coconut oil (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 27.8,
+        "year": 2022
+      },
+      {
+        "name": "industry",
+        "share": 9.9,
+        "year": 2022
+      },
+      {
+        "name": "services",
+        "share": 65.7,
+        "year": 2022
+      }
+    ],
+    "remittances": "4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/kr.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "kw": {
+    "description": "Small, high-income, oil-based Middle East economy.",
+    "industries": "petroleum, petrochemicals, cement, shipbuilding and repair, water desalination, food processing, construction materials",
+    "exports": "crude petroleum, refined petroleum, natural gas, hydrocarbons, plastics (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 57.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 55.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/ku.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "kg": {
+    "description": "Landlocked, lower-middle-income Central Asian economy.",
+    "industries": "small machinery, textiles, food processing, cement, shoes, lumber, refrigerators, furniture, electric motors, gold, rare earth metals",
+    "exports": "gold, coal, precious metal ore, refined petroleum, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 8.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 52.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "18.8% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/kg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "la": {
+    "description": "Lower middle-income, industrial Southeast Asian economy.",
+    "industries": "mining (copper, tin, gold, gypsum); timber, electric power, agricultural processing, rubber, construction, garments, cement, tourism",
+    "exports": "electricity, fertilizers, gold, garments, paper (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 16.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 29.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 43.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.8% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/la.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "lv": {
+    "description": "High-income EU and eurozone member.",
+    "industries": "processed foods, processed wood products, textiles, processed metals, pharmaceuticals, railroad cars, synthetic fibers, electronics",
+    "exports": "wood, wheat, broadcasting equipment, packaged medicine, natural gas (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 19.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 63.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/lg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "lb": {
+    "description": "Lower middle-income Middle Eastern economy.",
+    "industries": "banking, tourism, real estate and construction, food processing, wine, jewelry, cement, textiles, mineral and chemical products, wood and furniture products, oil refining, metal fabricating",
+    "exports": "jewelry, cars, diamonds, scrap iron, gold (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.0,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 2.1,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 42.4,
+        "year": 2023
+      }
+    ],
+    "remittances": "33.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/le.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ls": {
+    "description": "Lower middle-income economy surrounded by South Africa.",
+    "industries": "food, beverages, textiles, apparel assembly, handicrafts, construction, tourism",
+    "exports": "diamonds, garments, wool, power equipment, bedding (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 31.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 48.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "22% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/lt.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "lr": {
+    "description": "Low-income West African economy.",
+    "industries": "mining (iron ore and gold), rubber processing, palm oil processing, diamonds",
+    "exports": "gold, ships, iron ore, rubber, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 33.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 42.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "18.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/li.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ly": {
+    "description": "Upper middle-income, fossil fuel-based North African economy.",
+    "industries": "petroleum, petrochemicals, aluminum, iron and steel, food processing, textiles, handicrafts, cement",
+    "exports": "crude petroleum, natural gas, refined petroleum, gold, scrap iron (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 68.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 34.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ly.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "li": {
+    "description": "High-income European economy.",
+    "industries": "electronics, metal manufacturing, dental products, ceramics, pharmaceuticals, food products, precision instruments, tourism, optical instruments",
+    "exports": "small specialty machinery, connectors for audio and video, parts for motor vehicles, dental products, hardware",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.2,
+        "year": 2022
+      },
+      {
+        "name": "industry",
+        "share": 40.6,
+        "year": 2022
+      },
+      {
+        "name": "services",
+        "share": 55.6,
+        "year": 2022
+      }
+    ],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/ls.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "lt": {
+    "description": "High-income EU and eurozone member, largest Baltic economy.",
+    "industries": "metal-cutting machine tools, electric motors, televisions, refrigerators and freezers, petroleum refining, shipbuilding (small ships), furniture, textiles, food processing, fertilizer, agricultural machinery, optical equipment, lasers, electronic components, computers, amber jewelry, information technology, video game development, app/software development, biotechnology",
+    "exports": "refined petroleum, furniture, plastic products, wheat, cars (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 63.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/lh.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "lu": {
+    "description": "Financial services and other business services are central, supported by cross-border trade and workers.",
+    "industries": "banking and financial services, construction, real estate services, iron, metals, and steel, information technology, telecommunications, cargo transportation and logistics, chemicals, engineering, tires, glass, aluminum, tourism, biotechnology",
+    "exports": "iron blocks, gas turbines, plastic products, rubber tires, plastics (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 9.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 81.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/lu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mg": {
+    "description": "Low-income East African island economy.",
+    "industries": "meat processing, seafood, soap, beer, leather, sugar, textiles, glassware, cement, automobile assembly plant, paper, petroleum, tourism, mining",
+    "exports": "garments, nickel, vanilla, cloves, gold (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 22.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 46.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ma.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mw": {
+    "description": "Low-income East African economy.",
+    "industries": "tobacco, tea, sugar, sawmill products, cement, consumer goods",
+    "exports": "tobacco, tea, dried legumes, soybean meal, raw sugar (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 32.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 16.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 44.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/mi.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "my": {
+    "description": "Upper middle-income Southeast Asian economy.",
+    "industries": "Peninsular Malaysia - rubber and oil palm processing and manufacturing, petroleum and natural gas, light manufacturing, pharmaceuticals, medical technology, electronics and semiconductors, timber processing; Sabah - logging, petroleum and natural gas production; Sarawak - agriculture processing, petroleum and natural gas production, logging",
+    "exports": "integrated circuits, refined petroleum, crude petroleum, natural gas, palm oil (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 8.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 37.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 53.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/my.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mv": {
+    "description": "Tourism is the principal economic engine, with fishing and related processing also important for jobs and exports.",
+    "industries": "tourism, fish processing, shipping, boat building, coconut processing, woven mats, rope, handicrafts, coral and sand mining",
+    "exports": "fish, aircraft, refined petroleum, scrap iron, natural gas (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 9.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 73.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/mv.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ml": {
+    "description": "Low-income Saharan economy.",
+    "industries": "food processing; construction; phosphate and gold mining",
+    "exports": "gold, cotton, oil seeds, fertilizers, gum resins (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 33.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 36.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "4.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ml.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mt": {
+    "description": "Tourism, financial and business services, manufacturing and trade support this small island economy.",
+    "industries": "tourism, electronics, ship building and repair, construction, food and beverages, pharmaceuticals, footwear, clothing, tobacco, aviation services, financial services, information technology services",
+    "exports": "refined petroleum, integrated circuits, packaged medicine, ships, postage stamps/documents (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 11.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 80.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/mt.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mh": {
+    "description": "US assistance, public services, fishing and related activities are major sources of income.",
+    "industries": "copra, tuna processing, tourism, craft items (from seashells, wood, and pearls)",
+    "exports": "ships, refined petroleum, fish, natural gas, stone processing machines (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 19.5,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 11.1,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 70.5,
+        "year": 2023
+      }
+    ],
+    "remittances": "13.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/rm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mr": {
+    "description": "Lower middle-income West African economy.",
+    "industries": "fish processing, oil production, mining (iron ore, gold, copper)",
+    "exports": "gold, iron ore, fish, processed crustaceans, copper ore (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 18.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 30.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 43.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/mr.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mu": {
+    "description": "Upper middle-income Indian Ocean island economy.",
+    "industries": "food processing (largely sugar milling), textiles, clothing, mining, chemicals, metal products, transport equipment, nonelectrical machinery, tourism",
+    "exports": "fish, garments, raw sugar, fertilizers, diamonds (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 64.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/mp.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mx": {
+    "description": "Upper-middle-income economy.",
+    "industries": "food and beverages, tobacco, chemicals, iron and steel, petroleum, mining, textiles, clothing, motor vehicles, consumer durables, tourism",
+    "exports": "cars, vehicle parts/accessories, crude petroleum, trucks, computers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 31.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 58.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/north-america/mx.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "fm": {
+    "description": "External assistance, public services, fishing and agriculture support the economy of these widely dispersed islands.",
+    "industries": "tourism, construction; specialized aquaculture, craft items (shell and wood)",
+    "exports": "fish, diamonds, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 23.3,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 5.0,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 69.2,
+        "year": 2023
+      }
+    ],
+    "remittances": "5.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/fm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "md": {
+    "description": "Upper middle-income Eastern European economy.",
+    "industries": "sugar processing, vegetable oil, food processing, agricultural machinery; foundry equipment, refrigerators and freezers, washing machines; hosiery, shoes, textiles",
+    "exports": "insulated wire, garments, refined petroleum, seed oils, wheat (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 7.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 16.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 62.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "10.5% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/md.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mc": {
+    "description": "High-income European economy.",
+    "industries": "banking, insurance, tourism, construction, small-scale industrial and consumer products",
+    "exports": "jewelry, perfumes, watches, packaged medicines, cars (2021)",
+    "sectors": [
+      {
+        "name": "industry",
+        "share": 11.5,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 88.5,
+        "year": 2023
+      }
+    ],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/mn.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mn": {
+    "description": "Lower middle-income East Asian economy.",
+    "industries": "construction and construction materials; mining (coal, copper, molybdenum, fluorspar, tin, tungsten, gold); oil; food and beverages; processing of animal products, cashmere and natural fiber manufacturing",
+    "exports": "coal, copper ore, gold, iron ore, crude petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 7.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 38.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 44.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/mg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "me": {
+    "description": "Upper-middle-income, small Balkan economy.",
+    "industries": "steelmaking, aluminum, agricultural processing, consumer goods, tourism",
+    "exports": "electricity, aluminum, copper ore, aluminum ore, packaged medicine (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 5.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 11.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 62.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "10.6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/mj.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ma": {
+    "description": "Lower middle-income North African economy.",
+    "industries": "automotive parts, phosphate mining and processing, aerospace, food processing, leather goods, textiles, construction, energy, tourism",
+    "exports": "fertilizers, cars, garments, insulated wire, tomatoes (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 10.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 54.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "8.1% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/mo.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mz": {
+    "description": "Low-income East African economy.",
+    "industries": "aluminum, petroleum products, chemicals (fertilizer, soap, paints), textiles, cement, glass, asbestos, tobacco, food, beverages",
+    "exports": "coal, natural gas, aluminum, gold, precious stones (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 26.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 38.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/mz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mm": {
+    "description": "Slowly recovering Southeast Asian economy.",
+    "industries": "agricultural processing; wood and wood products; copper, tin, tungsten, iron; cement, construction materials; pharmaceuticals; fertilizer; oil and natural gas; garments; jade and gems",
+    "exports": "garments, natural gas, dried legumes, rare-earth metal compounds, precious stones (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 20.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 37.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 41.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/bm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "na": {
+    "description": "Mining, fishing, agriculture and tourism are important; diamonds and uranium are among the major exports.",
+    "industries": "mining, tourism, fishing, agriculture",
+    "exports": "gold, diamonds, radioactive chemicals, fish, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 7.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 28.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 54.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/wa.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "nr": {
+    "description": "Fishing licences, external assistance, the Australian regional processing centre and remaining phosphate activities support income.",
+    "industries": "phosphate mining, offshore banking, coconut products",
+    "exports": "fish, phosphates (2023)",
+    "sectors": [],
+    "remittances": "0.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/nr.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "np": {
+    "description": "Low-income South Asian economy.",
+    "industries": "tourism, carpets, textiles, small rice, jute, sugar, oilseed mills, cigarettes, cement and brick production",
+    "exports": "knotted carpets, garments, flat-rolled iron, synthetic fibers, palm oil (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 21.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 11.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 55.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "33.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/np.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "nl": {
+    "description": "High-income, core EU- and eurozone-member economy.",
+    "industries": "agroindustries, metal and engineering products, electrical machinery and equipment, chemicals, petroleum, construction, microelectronics, fishing",
+    "exports": "refined petroleum, vaccines, machinery, crude petroleum, broadcasting equipment (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 70.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/nl.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "nz": {
+    "description": "High-income, globally integrated Pacific island economy.",
+    "industries": "agriculture, forestry, fishing, logs and wood articles, manufacturing, mining, construction, financial services, real estate services, tourism",
+    "exports": "milk, wood, beef, butter, sheep and goat meat (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 4.6,
+        "year": 2022
+      },
+      {
+        "name": "industry",
+        "share": 19.6,
+        "year": 2022
+      },
+      {
+        "name": "services",
+        "share": 67.4,
+        "year": 2022
+      }
+    ],
+    "remittances": "0.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/nz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ni": {
+    "description": "Low-income Central American economy.",
+    "industries": "food processing, chemicals, machinery and metal products, knit and woven apparel, petroleum refining and distribution, beverages, footwear, wood, electric wire harness manufacturing, mining",
+    "exports": "garments, gold, insulated wire, coffee, beef (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 14.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 27.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 46.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "26.6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/nu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ne": {
+    "description": "Low-income Sahel economy.",
+    "industries": "uranium mining, petroleum, cement, brick, soap, textiles, food processing, chemicals, slaughterhouses",
+    "exports": "gold, oil seeds, uranium and thorium ore, radioactive chemicals, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 33.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 45.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.7% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ng.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ng": {
+    "description": "Largest African market economy.",
+    "industries": "crude oil, coal, tin, columbite; rubber products, wood; hides and skins, textiles, cement and other construction materials, food products, footwear, chemicals, fertilizer, printing, ceramics, steel",
+    "exports": "crude petroleum, natural gas, gold, fertilizers, cocoa beans (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 20.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 29.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 47.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "11.3% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ni.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "kp": {
+    "description": "One of the last centrally planned economies.",
+    "industries": "military products; machine building, electric power, chemicals; mining (coal, iron ore, limestone, magnesite, graphite, copper, zinc, lead, and precious metals), metallurgy; textiles, food processing; tourism",
+    "exports": "fake hair, iron alloys, tungsten ore, electricity, cars (2023)",
+    "sectors": [],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/kn.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "mk": {
+    "description": "Upper-middle-income European economy.",
+    "industries": "food processing, beverages, textiles, chemicals, iron, steel, cement, energy, pharmaceuticals, automotive parts",
+    "exports": "reaction and catalytic products, insulated wire, electricity, garments, seats (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/mk.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "no": {
+    "description": "High-income, non-EU economy with trade links via European Economic Area (EEA).",
+    "industries": "petroleum and gas, shipping, fishing, aquaculture, food processing, shipbuilding, pulp and paper products, metals, chemicals, timber, mining, textiles",
+    "exports": "natural gas, crude petroleum, fish, refined petroleum, aluminum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 37.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 51.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/no.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "om": {
+    "description": "High-income, oil-based economy.",
+    "industries": "crude oil production and refining, natural and liquefied natural gas production; construction, cement, copper, steel, chemicals, optic fiber",
+    "exports": "crude petroleum, refined petroleum, natural gas, semi-finished iron, fertilizers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 54.2,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 46.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/mu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "pk": {
+    "description": "Lower middle-income South Asian economy.",
+    "industries": "textiles and apparel, food processing, pharmaceuticals, surgical instruments, construction materials, paper products, fertilizer, shrimp",
+    "exports": "garments, fabric, refined petroleum, rice, cotton fabric (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 23.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 20.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 50.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "9.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/pk.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "pw": {
+    "description": "Tourism, external assistance and fishing support a small economy closely connected to the United States.",
+    "industries": "tourism, fishing, subsistence agriculture",
+    "exports": "ships, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.0,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 9.9,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 76.7,
+        "year": 2023
+      }
+    ],
+    "remittances": "0.7% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/ps.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ps": {
+    "description": "Services, commerce, agriculture and manufacturing support livelihoods, alongside remittances and external assistance. Conflict and restrictions on movement severely disrupt the economy; conditions differ between the West Bank and Gaza.",
+    "industries": "Food processing, textiles, stone and construction materials, agriculture and local services.",
+    "exports": "Stone, agricultural products and manufactured goods are among the export activities described in the territorial profiles.",
+    "sectors": [],
+    "remittances": "",
+    "source": "https://www.worldbank.org/en/country/westbankandgaza/overview",
+    "snapshot": "Structural overview; wartime conditions change rapidly."
+  },
+  "pa": {
+    "description": "The canal, ports, logistics, commerce and finance make services central to Panama’s economy.",
+    "industries": "construction, brewing, cement and other construction materials, sugar milling",
+    "exports": "copper ore, ships, refined petroleum, bananas, fish (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 26.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 68.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/pm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "pg": {
+    "description": "Lower-middle-income Pacific island economy.",
+    "industries": "oil and gas; mining (gold, copper, and nickel); palm oil processing; plywood and wood chip production; copra crushing; construction; tourism; fishing; livestock (pork, poultry, cattle) and dairy farming; spice products (turmeric, vanilla, ginger, cardamom, chili, pepper, citronella, and nutmeg)",
+    "exports": "natural gas, gold, copper ore, palm oil, nickel (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 17.2,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 37.2,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 41.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/pp.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "py": {
+    "description": "Upper middle-income South American economy.",
+    "industries": "sugar processing, cement, textiles, beverages, wood products, steel, base metals, electric power",
+    "exports": "soybeans, beef, electricity, corn, soybean meal (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 10.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 32.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 48.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/pa.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "pe": {
+    "description": "Upper-middle-income South American economy.",
+    "industries": "mining and refining of minerals; steel, metal fabrication; petroleum extraction and refining, natural gas and natural gas liquefaction; fishing and fish processing, cement, glass, textiles, clothing, food processing, beer, soft drinks, rubber, machinery, electrical machinery, chemicals, furniture",
+    "exports": "copper ore, gold, refined copper, refined petroleum, grapes (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 32.2,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 52.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.7% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/pe.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ph": {
+    "description": "Services, including business-process outsourcing, manufacturing and remittances are important sources of income.",
+    "industries": "semiconductors and electronics assembly, business process outsourcing, food and beverage manufacturing, construction, electric/gas/water supply, chemical products, radio/television/communications equipment and apparatus, petroleum and fuel, textile and garments, non-metallic minerals, basic metal industries, transport equipment",
+    "exports": "integrated circuits, machine parts, gold, insulated wire, semiconductors (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 9.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 27.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 63.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "8.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/rp.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "pl": {
+    "description": "High-income, diversified, EU-member economy.",
+    "industries": "machine building, iron and steel, coal mining, chemicals, shipbuilding, food processing, glass, beverages, textiles",
+    "exports": "vehicle parts/accessories, electric batteries, plastic products, cars, seats (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 26.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.9% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/pl.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "pt": {
+    "description": "High-income EU and eurozone economy.",
+    "industries": "textiles, clothing, footwear, wood and cork, paper and pulp, chemicals, fuels and lubricants, automobiles and auto parts, base metals, minerals, porcelain and ceramics, glassware, technology, telecommunications; dairy products, wine, other foodstuffs; ship construction and refurbishment; tourism, plastics, financial services, optics",
+    "exports": "cars, garments, vehicle parts/accessories, unpackaged medicine, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 18.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 66.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.6% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/po.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "qa": {
+    "description": "High-income, oil-and-gas-based Middle Eastern economy.",
+    "industries": "liquefied natural gas, crude oil production and refining, ammonia, fertilizer, petrochemicals, steel reinforcing bars, cement, commercial ship repair",
+    "exports": "natural gas, crude petroleum, refined petroleum, plastics, fertilizers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 58.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 45.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/qa.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "cg": {
+    "description": "Primarily an oil- and natural resources-based economy.",
+    "industries": "petroleum extraction, cement, lumber, brewing, sugar, palm oil, soap, flour, cigarettes",
+    "exports": "crude petroleum, refined copper, gold, wood, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 9.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 40.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 45.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.3% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/cf.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ro": {
+    "description": "High-income, EU-member economy.",
+    "industries": "electric machinery and equipment, auto assembly, textiles and footwear, light machinery, metallurgy, chemicals, food processing, petroleum refining, mining, timber, construction materials",
+    "exports": "cars, vehicle parts/accessories, insulated wire, garments, wheat (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 62.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.5% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/ro.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ru": {
+    "description": "Natural resource-rich Eurasian economy.",
+    "industries": "complete range of mining and extractive industries producing coal, oil, gas, chemicals, and metals; all forms of machine building from rolling mills to high-performance aircraft and space vehicles; defense industries (including radar, missile production, advanced electronic components), shipbuilding; road and rail transportation equipment; communications equipment; agricultural machinery, tractors, and construction equipment; electric power generating and transmitting equipment; medical and scientific instruments; consumer durables, textiles, foodstuffs, handicrafts",
+    "exports": "crude petroleum, refined petroleum, natural gas, coal, fertilizers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 30.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 57.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/rs.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "rw": {
+    "description": "Low-income Sub-Saharan economy.",
+    "industries": "cement, agricultural products, small-scale beverages, soap, furniture, shoes, plastic goods, textiles, cigarettes",
+    "exports": "gold, rare earth ores, coffee, tea, tin ores (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 24.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 21.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 47.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/rw.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "kn": {
+    "description": "High-income, tourism-based Caribbean OECS economy.",
+    "industries": "tourism, cotton, salt, copra, clothing, footwear, beverages",
+    "exports": "ships, measuring instruments, beer, electrical transformers, electrical control boards (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 21.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/sc.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "lc": {
+    "description": "Upper middle-income, tourism-based Caribbean island economy.",
+    "industries": "tourism; clothing, assembly of electronic components, beverages, corrugated cardboard boxes, lime processing, coconut processing",
+    "exports": "refined petroleum, gravel and crushed stone, beer, liquor, paper containers (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 9.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 75.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.5% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/st.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "vc": {
+    "description": "Upper middle-income Caribbean island economy.",
+    "industries": "tourism; food processing, cement, furniture, clothing, starch",
+    "exports": "ships, wheat flours, animal food, shellfish, construction vehicles (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 15.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 66.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "8.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/vc.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ws": {
+    "description": "A Pacific island economy supported by agriculture, fishing, services and remittances.",
+    "industries": "food processing, building materials, auto parts",
+    "exports": "refined petroleum, integrated circuits, coconut oil, fish, insulated wire (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 11.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 10.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 72.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "26.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/ws.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sm": {
+    "description": "High-income, non-EU European economy.",
+    "industries": "tourism, banking, textiles, electronics, ceramics, cement, wine",
+    "exports": "washing and bottling machines, other foods, packaged medicine, woodworking machines, aircraft (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.0,
+        "year": 2022
+      },
+      {
+        "name": "industry",
+        "share": 37.6,
+        "year": 2022
+      },
+      {
+        "name": "services",
+        "share": 55.1,
+        "year": 2022
+      }
+    ],
+    "remittances": "1.2% of GDP (2022 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/sm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sa": {
+    "description": "High-income, oil-based Middle Eastern economy.",
+    "industries": "crude oil production, petroleum refining, basic petrochemicals, ammonia, industrial gases, sodium hydroxide (caustic soda), cement, fertilizer, plastics, metals, commercial ship repair, commercial aircraft repair, construction",
+    "exports": "crude petroleum, refined petroleum, plastics, alcohols, ships (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 44.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 47.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/sa.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sn": {
+    "description": "Lower middle-income, services-driven West African economy.",
+    "industries": "agricultural and fish processing, phosphate mining, fertilizer production, petroleum refining, zircon, and gold mining, construction materials, ship construction and repair",
+    "exports": "gold, refined petroleum, phosphoric acid, fish, cement (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 15.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 49.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "10.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/sg.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "rs": {
+    "description": "Upper middle-income Balkan economy.",
+    "industries": "automobiles, base metals, furniture, food processing, machinery, chemicals, sugar, tires, clothes, pharmaceuticals",
+    "exports": "insulated wire, electricity, copper ore, plastic products, electric motors (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 3.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 58.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "7.1% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/ri.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sc": {
+    "description": "High-income Indian Ocean island economy.",
+    "industries": "fishing, tourism, beverages",
+    "exports": "fish, scrap iron, animal meal, broadcasting equipment, ships (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 12.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.5% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/se.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sl": {
+    "description": "Low-income West African economy.",
+    "industries": "diamond mining; iron ore, rutile and bauxite mining; small-scale manufacturing (beverages, textiles, footwear)",
+    "exports": "iron ore, titanium ore, diamonds, aluminum ore, cocoa beans (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 25.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 27.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 44.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "4.6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/sl.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sg": {
+    "description": "Trade, logistics, finance and other business services combine with advanced manufacturing in a highly connected economy.",
+    "industries": "electronics, chemicals, financial services, oil drilling equipment, petroleum refining, biomedical products, scientific instruments, telecommunication equipment, processed food and beverages, ship repair, offshore platform construction, entrepot trade",
+    "exports": "integrated circuits, refined petroleum, machinery, vaccines, gold (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 21.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 73.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/sn.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sk": {
+    "description": "High-income EU and eurozone economy.",
+    "industries": "automobiles; metal and metal products; electricity, gas, coke, oil, nuclear fuel; chemicals, synthetic fibers, wood and paper products; machinery; earthenware and ceramics; textiles; electrical and optical apparatus; rubber products; food and beverages; pharmaceutical",
+    "exports": "cars, vehicle parts/accessories, video displays, broadcasting equipment, refined petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 28.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 60.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.9% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/lo.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "si": {
+    "description": "High-income EU and eurozone economy.",
+    "industries": "ferrous metallurgy and aluminum products, lead and zinc smelting; electronics (including military electronics), trucks, automobiles, electric power equipment, wood products, textiles, chemicals, machine tools",
+    "exports": "packaged medicine, cars, refined petroleum, vehicle parts/accessories, plastic products (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 28.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 58.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/si.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sb": {
+    "description": "Lower middle-income Pacific island economy.",
+    "industries": "fish (tuna), mining, timber",
+    "exports": "wood, fish, gold, precious metal ore, palm oil (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 33.8,
+        "year": 2022
+      },
+      {
+        "name": "industry",
+        "share": 18.7,
+        "year": 2022
+      },
+      {
+        "name": "services",
+        "share": 47.3,
+        "year": 2022
+      }
+    ],
+    "remittances": "5.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/bp.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "so": {
+    "description": "Livestock, agriculture, trade and telecommunications support livelihoods, alongside substantial remittances and external assistance.",
+    "industries": "light industries, including sugar refining, textiles, wireless communication",
+    "exports": "sheep and goats, gold, postage stamps/documents, other animals, cattle (2023)",
+    "sectors": [],
+    "remittances": "15.8% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/so.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "za": {
+    "description": "Upper-middle-income, largest southern African economy.",
+    "industries": "mining (world's largest producer of platinum, gold, chromium), automobile assembly, metalworking, machinery, textiles, iron and steel, chemicals, fertilizer, foodstuffs, commercial ship repair",
+    "exports": "gold, platinum, coal, cars, iron ore (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.4,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 62.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/sf.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "kr": {
+    "description": "High-income, export- and technology-oriented East Asian economy.",
+    "industries": "electronics, telecommunications, automobile production, chemicals, shipbuilding, steel",
+    "exports": "integrated circuits, cars, refined petroleum, plastics, machine parts (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.6,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 31.6,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 58.4,
+        "year": 2023
+      }
+    ],
+    "remittances": "0.4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/ks.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ss": {
+    "description": "Oil is central to export earnings and public finance. Agriculture, livestock and assistance support many households.",
+    "industries": "Oil production and agriculture; household livelihoods also depend on livestock, trade and external assistance.",
+    "exports": "crude petroleum, refined petroleum, forage crops, gold, scrap iron (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 10.4,
+        "year": 2015
+      },
+      {
+        "name": "industry",
+        "share": 33.1,
+        "year": 2015
+      },
+      {
+        "name": "services",
+        "share": 56.6,
+        "year": 2015
+      }
+    ],
+    "remittances": "9.5% of GDP (2015 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/od.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "es": {
+    "description": "High-income, core-EU and eurozone economy.",
+    "industries": "textiles and apparel (including footwear), food and beverages, metals and metal manufactures, chemicals, shipbuilding, automobiles, machine tools, tourism, clay and refractory products, footwear, pharmaceuticals, medical equipment",
+    "exports": "cars, packaged medicine, refined petroleum, vehicle parts/accessories, garments (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 2.5,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 19.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 69.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/sp.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "lk": {
+    "description": "Economic contraction in 2022-23 marked by increased poverty and significant inflation.",
+    "industries": "processing of rubber, tea, coconuts, tobacco and other agricultural commodities; tourism; clothing and textiles; mining",
+    "exports": "garments, tea, precious stones, used rubber tires, rubber products (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 8.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 57.5,
+        "year": 2024
+      }
+    ],
+    "remittances": "7.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-asia/ce.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sd": {
+    "description": "Agriculture, livestock, gold and services are important economic activities. Conflict has severely disrupted production, trade and livelihoods.",
+    "industries": "oil, cotton ginning, textiles, cement, edible oils, sugar, soap distilling, shoes, petroleum refining, pharmaceuticals, armaments, automobile/light truck assembly, milling",
+    "exports": "crude petroleum, gold, oil seeds, sheep and goats, ground nuts (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 22.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 23.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 54.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.5% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/su.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sr": {
+    "description": "Upper middle-income South American economy.",
+    "industries": "gold mining, oil, lumber, food processing, fishing",
+    "exports": "gold, fish, refined petroleum, wood, tobacco (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 7.5,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 39.9,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 48.3,
+        "year": 2023
+      }
+    ],
+    "remittances": "3.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/ns.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "se": {
+    "description": "High-income, largest Nordic economy.",
+    "industries": "iron and steel, precision equipment (bearings, radio and telephone parts, armaments), wood pulp and paper products, processed foods, motor vehicles",
+    "exports": "cars, refined petroleum, packaged medicine, paper, vehicle parts/accessories (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 22.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.9,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/sw.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ch": {
+    "description": "High-income, non-EU European economy.",
+    "industries": "machinery, chemicals, watches, textiles, precision instruments, tourism, banking, insurance, pharmaceuticals",
+    "exports": "gold, packaged medicine, vaccines, nitrogen compounds, base metal watches (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 72.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/sz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "sy": {
+    "description": "Low-income Middle Eastern economy.",
+    "industries": "petroleum, textiles, food processing, beverages, tobacco, phosphate rock mining, cement, oil seeds crushing, automobile assembly",
+    "exports": "olive oil, phosphates, spice seeds, cotton, tomatoes (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 43.1,
+        "year": 2022
+      },
+      {
+        "name": "industry",
+        "share": 12.0,
+        "year": 2022
+      },
+      {
+        "name": "services",
+        "share": 44.9,
+        "year": 2022
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/sy.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "st": {
+    "description": "Lower middle-income Central African island economy.",
+    "industries": "light construction, textiles, soap, beer, fish processing, timber",
+    "exports": "crude petroleum, cocoa beans, vehicle parts/accessories, palm oil, aircraft parts (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 12.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 2.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 76.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.5% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/tp.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tj": {
+    "description": "Lower-middle-income Central Asian economy.",
+    "industries": "aluminum, cement, coal, gold, silver, antimony, textile, vegetable oil",
+    "exports": "gold, precious metal ore, aluminum, lead ore, antimony (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 22.9,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 33.6,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 34.7,
+        "year": 2023
+      }
+    ],
+    "remittances": "47.9% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/ti.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tz": {
+    "description": "Emerging lower middle-income East African economy.",
+    "industries": "agricultural processing (sugar, beer, cigarettes, sisal twine); mining (diamonds, gold, and iron), salt, soda ash; cement, oil refining, shoes, apparel, wood products, fertilizer",
+    "exports": "gold, refined petroleum, dried legumes, refined copper, coal (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 23.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 28.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 28.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "1% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/tz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "th": {
+    "description": "Upper middle-income Southeast Asian economy.",
+    "industries": "tourism, textiles and garments, agricultural processing, beverages, tobacco, cement, light manufacturing such as jewelry and electric appliances, computers and parts, integrated circuits, furniture, plastics, automobiles and automotive parts, agricultural machinery, air conditioning and refrigeration, ceramics, aluminum, chemical, environmental management, glass, granite and marble, leather, machinery and metal work, petrochemical, petroleum refining, pharmaceuticals, printing, pulp and paper, rubber, sugar, rice, fishing, cassava, world's second-largest tungsten producer and third-largest tin producer",
+    "exports": "machine parts, integrated circuits, trucks, cars, broadcasting equipment (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 8.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 32.1,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 59.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "1.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/th.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tl": {
+    "description": "Lower middle-income Southeast Asian economy.",
+    "industries": "printing, soap manufacturing, handicrafts, woven cloth",
+    "exports": "crude petroleum, natural gas, coffee, scrap iron, telephones (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 16.9,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 23.9,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 61.0,
+        "year": 2023
+      }
+    ],
+    "remittances": "11.7% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/tt.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tg": {
+    "description": "Low-income West African economy.",
+    "industries": "phosphate mining, agricultural processing, cement, handicrafts, textiles, beverages",
+    "exports": "gold, refined petroleum, soybeans, phosphates, coconuts/brazil nuts/cashews (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 18.0,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 20.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 52.0,
+        "year": 2024
+      }
+    ],
+    "remittances": "7.1% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/to.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "to": {
+    "description": "Upper middle-income Pacific island economy.",
+    "industries": "tourism, construction, fishing",
+    "exports": "refined petroleum, gold, processed fruits and nuts, cassava, fish (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 17.5,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 13.5,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 50.2,
+        "year": 2023
+      }
+    ],
+    "remittances": "50% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/tn.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tt": {
+    "description": "High-income Caribbean economy.",
+    "industries": "petroleum and petroleum products, liquefied natural gas, methanol, ammonia, urea, steel products, beverages, food processing, cement, cotton textiles",
+    "exports": "natural gas, alcohols, ammonia, crude petroleum, iron reductions (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.8,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 35.0,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 59.9,
+        "year": 2023
+      }
+    ],
+    "remittances": "0.8% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-america-n-caribbean/td.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tn": {
+    "description": "Lower middle-income North African economy.",
+    "industries": "petroleum, mining (particularly phosphate, iron ore), tourism, textiles, footwear, agribusiness, beverages",
+    "exports": "garments, insulated wire, olive oil, refined petroleum, crude petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 9.3,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 23.6,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 62.1,
+        "year": 2023
+      }
+    ],
+    "remittances": "6% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ts.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tm": {
+    "description": "Upper-middle-income Central Asian economy.",
+    "industries": "natural gas, oil, petroleum products, textiles, food processing",
+    "exports": "natural gas, refined petroleum, fertilizers, crude petroleum, electricity (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 11.3,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 39.3,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 49.4,
+        "year": 2023
+      }
+    ],
+    "remittances": "0% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/tx.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tv": {
+    "description": "Fishing-access fees, foreign assistance, trust-fund income and licensing the .tv internet domain support public finances and livelihoods.",
+    "industries": "Fishing, small-scale food production and public services.",
+    "exports": "fish (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 15.9,
+        "year": 2015
+      },
+      {
+        "name": "industry",
+        "share": 7.0,
+        "year": 2015
+      },
+      {
+        "name": "services",
+        "share": 70.0,
+        "year": 2012
+      }
+    ],
+    "remittances": "4.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/tv.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "tr": {
+    "description": "Upper-middle-income, diversified Middle Eastern economy.",
+    "industries": "textiles, food processing, automobiles, electronics, mining (coal, chromate, copper, boron), steel, petroleum, construction, lumber, paper",
+    "exports": "garments, cars, gold, refined petroleum, vehicle parts/accessories (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 5.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 25.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 56.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/tu.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ug": {
+    "description": "Low-income, primarily agrarian East African economy.",
+    "industries": "sugar processing, brewing, tobacco, cotton textiles; cement, steel production",
+    "exports": "gold, coffee, fish, refined petroleum, tobacco (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 24.7,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 24.9,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 43.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "2.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/ug.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ua": {
+    "description": "Lower-middle-income, non-EU, Eastern European economy.",
+    "industries": "industrial machinery, ferrous and nonferrous metals, automotive and aircraft components, electronics, chemicals, textiles, mining, construction",
+    "exports": "corn, seed oils, wheat, iron ore, soybeans (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 7.1,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 19.0,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 60.6,
+        "year": 2024
+      }
+    ],
+    "remittances": "6.3% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/up.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ae": {
+    "description": "High-income, oil-driven Middle Eastern economy.",
+    "industries": "petroleum and petrochemicals; fishing, aluminum, cement, fertilizer, commercial ship repair, construction materials, handicrafts, textiles",
+    "exports": "crude petroleum, refined petroleum, gold, broadcasting equipment, natural gas (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.7,
+        "year": 2023
+      },
+      {
+        "name": "industry",
+        "share": 47.7,
+        "year": 2023
+      },
+      {
+        "name": "services",
+        "share": 51.6,
+        "year": 2023
+      }
+    ],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/ae.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "gb": {
+    "description": "High-income, non-EU European economy.",
+    "industries": "machine tools, electric power equipment, automation equipment, railroad equipment, shipbuilding, aircraft, motor vehicles and parts, electronics and communications equipment, metals, chemicals, coal, petroleum, paper and paper products, food processing, textiles, clothing, other consumer goods",
+    "exports": "cars, gold, gas turbines, packaged medicine, crude petroleum (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.6,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 16.7,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 72.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.1% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/uk.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "us": {
+    "description": "Services dominate the economy, with major roles for finance, healthcare, technology and professional services, alongside manufacturing and energy.",
+    "industries": "highly diversified, world leading, high-technology innovator, second-largest industrial output in the world; petroleum, steel, motor vehicles, aerospace, telecommunications, chemicals, electronics, food processing, consumer goods, lumber, mining",
+    "exports": "crude petroleum, refined petroleum, natural gas, gas turbines, cars (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 0.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 17.3,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 79.7,
+        "year": 2024
+      }
+    ],
+    "remittances": "0% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/north-america/us.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "uy": {
+    "description": "High-income, export-oriented South American economy.",
+    "industries": "food processing, electrical machinery, transportation equipment, petroleum products, textiles, chemicals, beverages",
+    "exports": "wood pulp, beef, milk, rice, wood (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 6.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 16.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 65.3,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.2% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/uy.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "uz": {
+    "description": "Lower-middle income Central Asian economy.",
+    "industries": "textiles, food processing, machine building, metallurgy, mining, hydrocarbon extraction, chemicals",
+    "exports": "gold, cotton yarn, garments, fertilizers, fabric (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 18.3,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 31.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 45.2,
+        "year": 2024
+      }
+    ],
+    "remittances": "14.4% of GDP (2024 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/central-asia/uz.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "vu": {
+    "description": "Lower-middle income Pacific island economy.",
+    "industries": "food and fish freezing, wood processing, meat canning",
+    "exports": "fish, ships, perfume plants, wood, copra (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 24.9,
+        "year": 2022
+      },
+      {
+        "name": "industry",
+        "share": 7.5,
+        "year": 2022
+      },
+      {
+        "name": "services",
+        "share": 60.4,
+        "year": 2022
+      }
+    ],
+    "remittances": "12.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/australia-oceania/nh.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "va": {
+    "description": "Tourism and museum admissions, donations, investments and sales of stamps and publications support Vatican activities. Vatican City and the Holy See have distinct but related finances.",
+    "industries": "printing; production of coins, medals, postage stamps; mosaics, staff uniforms; worldwide banking and financial activities",
+    "exports": "",
+    "sectors": [],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/europe/vt.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ve": {
+    "description": "South American economy.",
+    "industries": "agricultural products, livestock, raw materials, machinery and equipment, transport equipment, construction materials, medical equipment, pharmaceuticals, chemicals, iron and steel products, crude oil and petroleum products",
+    "exports": "crude petroleum, petroleum coke, scrap iron, alcohols, fertilizers (2023)",
+    "sectors": [],
+    "remittances": "",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/south-america/ve.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "vn": {
+    "description": "Lower middle-income socialist East Asian economy.",
+    "industries": "food processing, garments, shoes, machine-building; mining, coal, steel; cement, chemical fertilizer, glass, tires, oil, mobile phones",
+    "exports": "broadcasting equipment, garments, integrated circuits, machine parts, footwear (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 11.9,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 37.6,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 42.4,
+        "year": 2024
+      }
+    ],
+    "remittances": "3.2% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/east-n-southeast-asia/vm.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "ye": {
+    "description": "Low-income Middle Eastern economy.",
+    "industries": "crude oil production and petroleum refining; small-scale production of cotton textiles, leather goods; food processing; handicrafts; aluminum products; cement; commercial ship repair; natural gas production",
+    "exports": "gold, fish, scrap iron, shellfish, industrial acids/oils/alcohols (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 28.7,
+        "year": 2018
+      },
+      {
+        "name": "industry",
+        "share": 25.4,
+        "year": 2018
+      },
+      {
+        "name": "services",
+        "share": 41.8,
+        "year": 2018
+      }
+    ],
+    "remittances": "20.05% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/middle-east/ym.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "zm": {
+    "description": "Lower-middle-income sub-Saharan economy.",
+    "industries": "copper mining and processing, emerald mining, construction, foodstuffs, beverages, chemicals, textiles, fertilizer, horticulture",
+    "exports": "raw copper, refined copper, gold, precious stones, electricity (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 1.8,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 37.5,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 55.1,
+        "year": 2024
+      }
+    ],
+    "remittances": "0.9% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/za.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  },
+  "zw": {
+    "description": "Low income Sub-Saharan economy.",
+    "industries": "mining (coal, gold, platinum, copper, nickel, tin, diamonds, clay, numerous metallic and nonmetallic ores), steel, wood products, cement, chemicals, fertilizer, clothing and footwear, foodstuffs, beverages",
+    "exports": "gold, tobacco, nickel, minerals, diamonds (2023)",
+    "sectors": [
+      {
+        "name": "agriculture",
+        "share": 5.4,
+        "year": 2024
+      },
+      {
+        "name": "industry",
+        "share": 31.8,
+        "year": 2024
+      },
+      {
+        "name": "services",
+        "share": 55.8,
+        "year": 2024
+      }
+    ],
+    "remittances": "9.4% of GDP (2023 est.)",
+    "source": "https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/africa/zi.json",
+    "snapshot": "2025–2026 archive; individual observations vary"
+  }
+}

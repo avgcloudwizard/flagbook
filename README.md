@@ -45,3 +45,11 @@ Surprise me chooses a random country. Reveal this answer records a miss and lets
 Globe attempts and the current quiz step persist in a separate browser record, preserving existing flag history. **My progress** shows separate globe totals and recent attempts. Exported backups include both histories; older flag-only backups remain compatible.
 
 All map geometry, D3/TopoJSON libraries and country data are bundled locally. There is no map-service bill or API key. See [data/SOURCES.md](data/SOURCES.md) for data dates, sources, licenses and important capital/flag conventions.
+
+### More than a flag
+
+Every result card in flag practice and the globe quiz now adds a separate **Fun fact** conversation card, a **Who ruled here?** history with dates, and **What keeps it going?** economic drivers, exports and an expandable GDP-sector chart where data exist.
+
+**Tourism scale** shows a transparent 1–10 historical arrivals benchmark. It uses 2019 or the latest reported 2010–2018 value, displays the year, and explains the bands in an expandable panel. There are 183 scored countries and 12 explicitly unrated countries with no benchmark data. It measures historical visitor volume rather than current travel conditions or desirability. See `data/SOURCES.md` for the method and provenance.
+
+Reviewed additions live in `data/editorial/`; run `python3 scripts/build-country-context.py` after editing them. The page loads the generated `data/country-context.json` when a discovery card opens. Quiz scoring, saved progress and backup formats are unchanged.

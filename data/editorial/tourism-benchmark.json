@@ -1,0 +1,755 @@
+{
+  "indicator": "ST.INT.ARVL",
+  "retrieved": "2026-09-28",
+  "window": [
+    2010,
+    2019
+  ],
+  "source": "https://data.worldbank.org/indicator/ST.INT.ARVL",
+  "observations": {
+    "al": {
+      "arrivals": 6406000,
+      "year": 2019
+    },
+    "dz": {
+      "arrivals": 2371000,
+      "year": 2019
+    },
+    "ad": {
+      "arrivals": 8235000,
+      "year": 2019
+    },
+    "ao": {
+      "arrivals": 218000,
+      "year": 2019
+    },
+    "ag": {
+      "arrivals": 1035000,
+      "year": 2019
+    },
+    "ar": {
+      "arrivals": 7399000,
+      "year": 2019
+    },
+    "am": {
+      "arrivals": 1894000,
+      "year": 2019
+    },
+    "au": {
+      "arrivals": 9466000,
+      "year": 2019
+    },
+    "at": {
+      "arrivals": 31884000,
+      "year": 2019
+    },
+    "az": {
+      "arrivals": 3170000,
+      "year": 2019
+    },
+    "bs": {
+      "arrivals": 7250000,
+      "year": 2019
+    },
+    "bh": {
+      "arrivals": 11061000,
+      "year": 2019
+    },
+    "bd": {
+      "arrivals": 323000,
+      "year": 2019
+    },
+    "bb": {
+      "arrivals": 966000,
+      "year": 2019
+    },
+    "by": {
+      "arrivals": 11832000,
+      "year": 2019
+    },
+    "be": {
+      "arrivals": 9343000,
+      "year": 2019
+    },
+    "bz": {
+      "arrivals": 1674000,
+      "year": 2019
+    },
+    "bj": {
+      "arrivals": 337000,
+      "year": 2019
+    },
+    "bt": {
+      "arrivals": 316000,
+      "year": 2019
+    },
+    "bo": {
+      "arrivals": 1239000,
+      "year": 2019
+    },
+    "ba": {
+      "arrivals": 1198000,
+      "year": 2019
+    },
+    "bw": {
+      "arrivals": 1830000,
+      "year": 2018
+    },
+    "br": {
+      "arrivals": 6353000,
+      "year": 2019
+    },
+    "bn": {
+      "arrivals": 4449000,
+      "year": 2019
+    },
+    "bg": {
+      "arrivals": 12552000,
+      "year": 2019
+    },
+    "bf": {
+      "arrivals": 143000,
+      "year": 2019
+    },
+    "bi": {
+      "arrivals": 299000,
+      "year": 2017
+    },
+    "cv": {
+      "arrivals": 758000,
+      "year": 2019
+    },
+    "kh": {
+      "arrivals": 6611000,
+      "year": 2019
+    },
+    "cm": {
+      "arrivals": 1021000,
+      "year": 2019
+    },
+    "ca": {
+      "arrivals": 32430000,
+      "year": 2019
+    },
+    "cf": {
+      "arrivals": 87000,
+      "year": 2019
+    },
+    "td": {
+      "arrivals": 81000,
+      "year": 2019
+    },
+    "cl": {
+      "arrivals": 5431000,
+      "year": 2019
+    },
+    "cn": {
+      "arrivals": 162538000,
+      "year": 2019
+    },
+    "co": {
+      "arrivals": 4531000,
+      "year": 2019
+    },
+    "km": {
+      "arrivals": 45099.9984741211,
+      "year": 2019
+    },
+    "cd": {
+      "arrivals": 351000,
+      "year": 2016
+    },
+    "cg": {
+      "arrivals": 158000,
+      "year": 2018
+    },
+    "cr": {
+      "arrivals": 3366000,
+      "year": 2019
+    },
+    "ci": {
+      "arrivals": 2070000,
+      "year": 2019
+    },
+    "hr": {
+      "arrivals": 60021000,
+      "year": 2019
+    },
+    "cu": {
+      "arrivals": 4276000,
+      "year": 2019
+    },
+    "cy": {
+      "arrivals": 4117000,
+      "year": 2019
+    },
+    "cz": {
+      "arrivals": 37202000,
+      "year": 2019
+    },
+    "dk": {
+      "arrivals": 33093000,
+      "year": 2019
+    },
+    "dj": {
+      "arrivals": 63000,
+      "year": 2013
+    },
+    "dm": {
+      "arrivals": 322000,
+      "year": 2019
+    },
+    "do": {
+      "arrivals": 7550000,
+      "year": 2019
+    },
+    "ec": {
+      "arrivals": 2108000,
+      "year": 2019
+    },
+    "eg": {
+      "arrivals": 13026000,
+      "year": 2019
+    },
+    "sv": {
+      "arrivals": 2639000,
+      "year": 2019
+    },
+    "er": {
+      "arrivals": 142000,
+      "year": 2016
+    },
+    "ee": {
+      "arrivals": 6103000,
+      "year": 2019
+    },
+    "sz": {
+      "arrivals": 1226000,
+      "year": 2019
+    },
+    "et": {
+      "arrivals": 812000,
+      "year": 2019
+    },
+    "fj": {
+      "arrivals": 969000,
+      "year": 2019
+    },
+    "fi": {
+      "arrivals": 3290000,
+      "year": 2019
+    },
+    "fr": {
+      "arrivals": 217877000,
+      "year": 2019
+    },
+    "gm": {
+      "arrivals": 620000,
+      "year": 2019
+    },
+    "ge": {
+      "arrivals": 7726000,
+      "year": 2019
+    },
+    "de": {
+      "arrivals": 39563000,
+      "year": 2019
+    },
+    "gh": {
+      "arrivals": 897000,
+      "year": 2015
+    },
+    "gr": {
+      "arrivals": 34005000,
+      "year": 2019
+    },
+    "gd": {
+      "arrivals": 526000,
+      "year": 2019
+    },
+    "gt": {
+      "arrivals": 2560000,
+      "year": 2019
+    },
+    "gn": {
+      "arrivals": 99000,
+      "year": 2017
+    },
+    "gw": {
+      "arrivals": 52400.0015258789,
+      "year": 2019
+    },
+    "gy": {
+      "arrivals": 315000,
+      "year": 2019
+    },
+    "ht": {
+      "arrivals": 938000,
+      "year": 2019
+    },
+    "hn": {
+      "arrivals": 2315000,
+      "year": 2019
+    },
+    "hu": {
+      "arrivals": 61397000,
+      "year": 2019
+    },
+    "is": {
+      "arrivals": 2202000,
+      "year": 2019
+    },
+    "in": {
+      "arrivals": 17914000,
+      "year": 2019
+    },
+    "id": {
+      "arrivals": 16107000,
+      "year": 2019
+    },
+    "ir": {
+      "arrivals": 9107000,
+      "year": 2019
+    },
+    "iq": {
+      "arrivals": 892000,
+      "year": 2013
+    },
+    "ie": {
+      "arrivals": 10951000,
+      "year": 2019
+    },
+    "il": {
+      "arrivals": 4905000,
+      "year": 2019
+    },
+    "it": {
+      "arrivals": 95399000,
+      "year": 2019
+    },
+    "jm": {
+      "arrivals": 4233000,
+      "year": 2019
+    },
+    "jp": {
+      "arrivals": 31881000,
+      "year": 2019
+    },
+    "jo": {
+      "arrivals": 5361000,
+      "year": 2019
+    },
+    "kz": {
+      "arrivals": 8515000,
+      "year": 2019
+    },
+    "ke": {
+      "arrivals": 2049000,
+      "year": 2019
+    },
+    "ki": {
+      "arrivals": 12000,
+      "year": 2019
+    },
+    "kr": {
+      "arrivals": 17503000,
+      "year": 2019
+    },
+    "kw": {
+      "arrivals": 8565000,
+      "year": 2019
+    },
+    "kg": {
+      "arrivals": 8508000,
+      "year": 2019
+    },
+    "la": {
+      "arrivals": 4791000,
+      "year": 2019
+    },
+    "lv": {
+      "arrivals": 8342000,
+      "year": 2019
+    },
+    "lb": {
+      "arrivals": 1936000,
+      "year": 2019
+    },
+    "ls": {
+      "arrivals": 1142000,
+      "year": 2019
+    },
+    "li": {
+      "arrivals": 98099.9984741211,
+      "year": 2019
+    },
+    "lt": {
+      "arrivals": 6150000,
+      "year": 2019
+    },
+    "lu": {
+      "arrivals": 1041000,
+      "year": 2019
+    },
+    "mg": {
+      "arrivals": 486000,
+      "year": 2019
+    },
+    "mw": {
+      "arrivals": 871000,
+      "year": 2018
+    },
+    "my": {
+      "arrivals": 26101000,
+      "year": 2019
+    },
+    "mv": {
+      "arrivals": 1703000,
+      "year": 2019
+    },
+    "ml": {
+      "arrivals": 217000,
+      "year": 2019
+    },
+    "mt": {
+      "arrivals": 3519000,
+      "year": 2019
+    },
+    "mh": {
+      "arrivals": 6099.99990463257,
+      "year": 2019
+    },
+    "mu": {
+      "arrivals": 1418000,
+      "year": 2019
+    },
+    "mx": {
+      "arrivals": 97406000,
+      "year": 2019
+    },
+    "fm": {
+      "arrivals": 18000,
+      "year": 2019
+    },
+    "md": {
+      "arrivals": 174000,
+      "year": 2019
+    },
+    "mc": {
+      "arrivals": 363000,
+      "year": 2019
+    },
+    "mn": {
+      "arrivals": 637000,
+      "year": 2019
+    },
+    "me": {
+      "arrivals": 2510000,
+      "year": 2019
+    },
+    "ma": {
+      "arrivals": 13109000,
+      "year": 2019
+    },
+    "mz": {
+      "arrivals": 2033000,
+      "year": 2019
+    },
+    "mm": {
+      "arrivals": 4364000,
+      "year": 2019
+    },
+    "na": {
+      "arrivals": 1651000,
+      "year": 2019
+    },
+    "np": {
+      "arrivals": 1197000,
+      "year": 2019
+    },
+    "nl": {
+      "arrivals": 20129000,
+      "year": 2019
+    },
+    "nz": {
+      "arrivals": 3888000,
+      "year": 2019
+    },
+    "ni": {
+      "arrivals": 1455000,
+      "year": 2019
+    },
+    "ne": {
+      "arrivals": 192000,
+      "year": 2019
+    },
+    "ng": {
+      "arrivals": 5265000,
+      "year": 2016
+    },
+    "mk": {
+      "arrivals": 758000,
+      "year": 2019
+    },
+    "no": {
+      "arrivals": 5879000,
+      "year": 2019
+    },
+    "om": {
+      "arrivals": 3506000,
+      "year": 2019
+    },
+    "pk": {
+      "arrivals": 966000,
+      "year": 2012
+    },
+    "pw": {
+      "arrivals": 94000,
+      "year": 2019
+    },
+    "pa": {
+      "arrivals": 2494000,
+      "year": 2019
+    },
+    "pg": {
+      "arrivals": 211000,
+      "year": 2019
+    },
+    "py": {
+      "arrivals": 4368000,
+      "year": 2019
+    },
+    "pe": {
+      "arrivals": 5275000,
+      "year": 2019
+    },
+    "ph": {
+      "arrivals": 8261000,
+      "year": 2019
+    },
+    "pl": {
+      "arrivals": 88515000,
+      "year": 2019
+    },
+    "pt": {
+      "arrivals": 17283000,
+      "year": 2019
+    },
+    "qa": {
+      "arrivals": 2136500,
+      "year": 2019
+    },
+    "ro": {
+      "arrivals": 12815000,
+      "year": 2019
+    },
+    "ru": {
+      "arrivals": 24419000,
+      "year": 2019
+    },
+    "rw": {
+      "arrivals": 1634000,
+      "year": 2019
+    },
+    "ws": {
+      "arrivals": 181000,
+      "year": 2019
+    },
+    "sm": {
+      "arrivals": 1904000,
+      "year": 2019
+    },
+    "st": {
+      "arrivals": 33400.0015258789,
+      "year": 2018
+    },
+    "sa": {
+      "arrivals": 20292000,
+      "year": 2019
+    },
+    "sn": {
+      "arrivals": 1376000,
+      "year": 2017
+    },
+    "rs": {
+      "arrivals": 1847000,
+      "year": 2019
+    },
+    "sc": {
+      "arrivals": 428000,
+      "year": 2019
+    },
+    "sl": {
+      "arrivals": 71000,
+      "year": 2019
+    },
+    "sg": {
+      "arrivals": 19116000,
+      "year": 2019
+    },
+    "sk": {
+      "arrivals": 15299000,
+      "year": 2018
+    },
+    "si": {
+      "arrivals": 4702000,
+      "year": 2019
+    },
+    "sb": {
+      "arrivals": 28899.9996185303,
+      "year": 2019
+    },
+    "za": {
+      "arrivals": 14797000,
+      "year": 2019
+    },
+    "es": {
+      "arrivals": 126170000,
+      "year": 2019
+    },
+    "lk": {
+      "arrivals": 2027000,
+      "year": 2019
+    },
+    "kn": {
+      "arrivals": 1107000,
+      "year": 2019
+    },
+    "lc": {
+      "arrivals": 1220000,
+      "year": 2019
+    },
+    "vc": {
+      "arrivals": 392000,
+      "year": 2019
+    },
+    "sd": {
+      "arrivals": 836000,
+      "year": 2018
+    },
+    "sr": {
+      "arrivals": 279000,
+      "year": 2017
+    },
+    "se": {
+      "arrivals": 7616000,
+      "year": 2019
+    },
+    "ch": {
+      "arrivals": 11818000,
+      "year": 2019
+    },
+    "sy": {
+      "arrivals": 2424000,
+      "year": 2019
+    },
+    "tj": {
+      "arrivals": 1035000,
+      "year": 2018
+    },
+    "tz": {
+      "arrivals": 1527000,
+      "year": 2019
+    },
+    "th": {
+      "arrivals": 39916000,
+      "year": 2019
+    },
+    "tl": {
+      "arrivals": 74800.0030517578,
+      "year": 2019
+    },
+    "tg": {
+      "arrivals": 876000,
+      "year": 2019
+    },
+    "to": {
+      "arrivals": 94000,
+      "year": 2019
+    },
+    "tt": {
+      "arrivals": 480000,
+      "year": 2019
+    },
+    "tn": {
+      "arrivals": 9429000,
+      "year": 2019
+    },
+    "tr": {
+      "arrivals": 51747000,
+      "year": 2019
+    },
+    "tv": {
+      "arrivals": 3599.99990463257,
+      "year": 2019
+    },
+    "ug": {
+      "arrivals": 1543000,
+      "year": 2019
+    },
+    "ua": {
+      "arrivals": 13710000,
+      "year": 2019
+    },
+    "ae": {
+      "arrivals": 25282000,
+      "year": 2019
+    },
+    "gb": {
+      "arrivals": 40857000,
+      "year": 2019
+    },
+    "us": {
+      "arrivals": 165478000,
+      "year": 2019
+    },
+    "uy": {
+      "arrivals": 3480000,
+      "year": 2019
+    },
+    "uz": {
+      "arrivals": 6749000,
+      "year": 2019
+    },
+    "vu": {
+      "arrivals": 256000,
+      "year": 2019
+    },
+    "ve": {
+      "arrivals": 429000,
+      "year": 2017
+    },
+    "vn": {
+      "arrivals": 18009000,
+      "year": 2019
+    },
+    "ps": {
+      "arrivals": 688000,
+      "year": 2019
+    },
+    "ye": {
+      "arrivals": 398000,
+      "year": 2015
+    },
+    "zm": {
+      "arrivals": 1266000,
+      "year": 2019
+    },
+    "zw": {
+      "arrivals": 2294000,
+      "year": 2019
+    },
+    "af": null,
+    "gq": null,
+    "ga": null,
+    "lr": null,
+    "ly": null,
+    "mr": null,
+    "nr": null,
+    "kp": null,
+    "so": null,
+    "ss": null,
+    "tm": null,
+    "va": null
+  }
+}
