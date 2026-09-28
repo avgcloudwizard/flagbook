@@ -14,13 +14,15 @@ A free, personal flag and geography learning website hosted on GitHub Pages.
 
 ## Learning
 
-Open **Learning** for an alphabetical revision sheet of all 195 flags, country names and capitals. The compact three-column table fits mobile screens and can be searched by country, alternative country name or capital. Multiple capitals and government seats follow the same reviewed data as the quizzes. Reading and searching do not record quiz attempts.
+Open **Learning** for an alphabetical revision sheet of all 195 flags, country names and capitals. The compact three-column table fits mobile screens. Choose a continent, then optionally search within it by country, alternative country name or capital. Continent groups follow the atlas regions; North America includes Central America and the Caribbean. Multiple capitals and government seats follow the same reviewed data as the quizzes. Reading and searching do not record quiz attempts.
 
 ## Progress
 
 Every submitted answer and reveal is saved with a timestamp. A round is a flag presentation with at least one answer or reveal. First-try accuracy is the percentage of rounds answered correctly on the first try. A wrong first answer or reveal counts as one missed round, even after repeated retries. “Flags named” counts different countries eventually answered correctly; it is not a mastery score. Streaks count consecutive rounds correct on the first try.
 
 **Progress is stored only in this browser on this device.** It survives reloads and browser restarts, but does not automatically sync between devices or browsers. Private browsing and clearing website data can erase it. Use My progress → Download backup regularly. Import backup merges records without duplicating attempts. No user attempts are sent to GitHub, an API, or a database. Local preview and the live site have separate progress.
+
+Use **Flag practice → Reset flag progress** for a fresh flag deck and empty flag statistics. The confirmation offers a backup download; globe progress is preserved. Resets also update other open Flagbook tabs so old flag attempts are not merged back in.
 
 ## Run and update
 

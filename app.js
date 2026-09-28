@@ -1,6 +1,6 @@
 import {showDiscovery,clearDiscovery} from './discovery.js';
 import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js';
-import {startLearning} from './learning.js';
+import {startLearning} from './learning.js?v=4';
 import { COUNTRIES } from './countries.js';
 import { BY_CODE, STORAGE_KEY, isCorrect, shuffled, summarize, validateEvents, parseBackup } from './core.js';
 const $ = id => document.getElementById(id);
@@ -20,17 +20,35 @@ function readStore() {
 let initial;
 try { initial = readStore(); if (initial) events = initial.events; }
 catch { warnStorage('Your saved progress couldn’t be read. It has been left untouched. New attempts will work here, but download a backup to keep them.'); }
+let resetId = initial?.resetId ?? null;
+function applyExternalReset(latest) {
+  if (!latest || (latest.resetId ?? null) === resetId) return false;
+  resetId = latest.resetId;
+  events = latest.events;
+  mode = 'all'; deck = []; round = undefined; historyLimit = 30;
+  nextFlag();
+  $('reset-status').textContent = 'Flag progress was reset in another tab.';
+  return true;
+}
+function syncReset() {
+  if (!storageHealthy) return false;
+  try { return applyExternalReset(readStore()); }
+  catch { warnStorage('Your saved progress couldn’t be read. Download a backup before closing this page.'); return false; }
+}
 function save() {
   if (!storageHealthy) return;
+  if (syncReset() || !storageHealthy) return;
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify({ version:1, events, session:{round, mode, deck, deckSize} }));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ version:1, resetId, events, session:{round, mode, deck, deckSize} }));
     $('save-note').textContent = 'Progress saved in this browser';
   } catch { warnStorage('This browser couldn’t save your progress. You can keep practising, but download a backup from My progress before closing this page.'); }
 }
 function record(type, answer = '') {
+  if (syncReset()) return false;
   events.push({id:uuid(), question:round.id, code:round.code, type, answer, at:new Date().toISOString()});
   if (type === 'reveal' || isCorrect(BY_CODE.get(round.code), answer)) round.status = type === 'reveal' ? 'revealed' : 'correct';
   save(); renderStats();
+  return true;
 }
 function eligible() { return mode === 'missed' ? summarize(events).missed.map(s => s.code) : COUNTRIES.map(c => c.code); }
 function newDeck(previous) { deck = shuffled(eligible(), previous); deckSize = deck.length; }
@@ -79,7 +97,7 @@ function submitAnswer(answer) {
     feedback('Type a country name first.','error'); $('answer').focus(); return {accepted:false,reason:'A country name is required.'};
   }
   const correct=isCorrect(BY_CODE.get(round.code),answer);
-  record('guess',answer.trim());
+  if (!record('guess',answer.trim())) return {accepted:false,reason:'Progress was reset in another tab. Try the new flag.'};
   if (correct) {
     feedback(`Correct — ${BY_CODE.get(round.code).name}! Explore its story below.`,'success');
     $('answer').removeAttribute('aria-invalid'); $('answer').disabled=true; $('check-answer').disabled=true; $('reveal').disabled=true;
@@ -94,7 +112,8 @@ $('answer-form').addEventListener('submit', e => {e.preventDefault();submitAnswe
 $('answer').addEventListener('input', () => $('answer').removeAttribute('aria-invalid'));
 $('reveal').addEventListener('click', () => {
   if (round.status!=='answering' || !imageReady) return;
-  record('reveal'); renderRound(); $('next-flag').focus({preventScroll:true});
+  if (!record('reveal')) return;
+  renderRound(); $('next-flag').focus({preventScroll:true});
 });
 $('next-flag').addEventListener('click',nextFlag);
 $('continue-flag').addEventListener('click',()=>{nextFlag();$('practice-title').scrollIntoView({behavior:'smooth',block:'start'});});
@@ -106,6 +125,30 @@ function changeMode(next) {
 $('all-mode').addEventListener('click',()=>changeMode('all'));
 $('missed-mode').addEventListener('click',()=>changeMode('missed'));
 $('review-from-stats').addEventListener('click',()=> { changeMode('missed'); location.hash='practice'; });
+$('reset-progress').addEventListener('click',()=> {
+  $('reset-error').textContent = '';
+  $('reset-dialog').showModal();
+});
+$('reset-cancel').addEventListener('click',()=> $('reset-dialog').close());
+$('reset-confirm').addEventListener('click',()=> {
+  const freshDeck = shuffled(COUNTRIES.map(c=>c.code), round?.code);
+  const freshRound = {id:uuid(),code:freshDeck.shift(),status:'answering'};
+  const freshResetId = uuid();
+  // Persist first: a failed write must leave the current progress intact.
+  try {
+    localStorage.setItem(STORAGE_KEY,JSON.stringify({version:1,resetId:freshResetId,events:[],session:{round:freshRound,mode:'all',deck:freshDeck,deckSize:COUNTRIES.length}}));
+  } catch {
+    $('reset-error').textContent = 'Couldn’t reset saved progress. Your current progress is unchanged. Please try again.';
+    return;
+  }
+  clearTimeout(timer);
+  events=[]; resetId=freshResetId; round=freshRound; mode='all'; deck=freshDeck; deckSize=COUNTRIES.length; historyLimit=30;
+  storageHealthy=true; $('storage-warning').hidden=true; $('save-note').textContent='Progress saved in this browser';
+  renderRound();
+  $('reset-dialog').close();
+  $('reset-status').textContent='Flag progress reset. Your next chapter starts here.';
+  $('answer').focus({preventScroll:true});
+});
 function flagName(code) { const c=BY_CODE.get(code); return `<img src="assets/flags/${c.code}.svg" alt="" loading="lazy">${escape(c.name)}`; }
 function renderStats() {
   summary=summarize(events);
@@ -145,11 +188,13 @@ function navigate() {
   if(page==='practice'&&round.status==='answering')$('answer').focus({preventScroll:true});
 }
 window.addEventListener('hashchange',navigate);
-$('export').addEventListener('click',()=> {
+function downloadBackup() {
   const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),events,globeEvents:getGlobeEvents()},null,2)],{type:'application/json'});
   const url=URL.createObjectURL(blob), a=document.createElement('a'); a.href=url; a.download=`flagbook-progress-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   $('backup-status').textContent='Backup downloaded. Keep this file to restore or transfer your progress.';
-});
+}
+$('export').addEventListener('click',downloadBackup);
+$('reset-backup').addEventListener('click',downloadBackup);
 $('import-button').addEventListener('click',()=>$('import-file').click());
 $('import-file').addEventListener('change',async e=>{
   const file=e.target.files[0];if(!file)return;
@@ -174,6 +219,7 @@ window.addEventListener('storage', e=>{
   if(e.key!==STORAGE_KEY)return;
   try {
     const latest=readStore();if(!latest)return;
+    if (applyExternalReset(latest)) return;
     const combined=new Map([...events,...latest.events].map(e=>[e.id,e]));
     const merged=[...combined.values()].sort((a,b)=>Date.parse(a.at)-Date.parse(b.at));validateEvents(merged);events=merged;
     if(round.status==='answering' && events.some(e=>e.question===round.id)){nextFlag();}

@@ -4,10 +4,10 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#11171c"><meta name="description" content="Learn flags, explore an interactive globe, guess countries and capitals, and discover the stories behind 195 countries.">
 <title>Flagbook — know your world</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=3">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=4">
 <script defer src="vendor/d3.min.js"></script>
 <script defer src="vendor/topojson-client.min.js"></script>
-<script type="module" src="app.js?v=3"></script>
+<script type="module" src="app.js?v=4"></script>
 </head>
 <body>
 <header class="header"><a class="brand" href="#practice" aria-label="Flagbook home"><span class="brand-icon" aria-hidden="true">⚑</span>flagbook<span class="brand-period">.</span></a><nav aria-label="Main navigation"><a href="#practice" id="practice-link" aria-current="page">Flag practice</a><a href="#globe" id="globe-link">Globe explorer</a><a href="#learning" id="learning-link">Learning</a><a href="#progress" id="progress-link">My progress</a></nav><span class="edition">THE WORLD, ONE FLAG AT A TIME</span></header>
@@ -23,13 +23,14 @@
 </div>
 <div id="country-discovery" hidden></div><button id="continue-flag" class="primary discovery-next" hidden>Next flag →</button></div>
 <aside class="practice-aside">
-<section class="panel snapshot"><div class="section-heading"><h2>Your journey</h2><span class="small-tag">ALL TIME</span></div><div class="accuracy-line"><strong id="accuracy">—</strong><span>first-try<br>accuracy</span></div><div class="meter"><span id="accuracy-bar"></span></div><div class="mini-stats"><div><strong id="named">0<span>/195</span></strong><span>flags named</span></div><div><strong id="streak">0</strong><span>current streak</span></div></div><p class="save-note" id="save-note">Progress saved in this browser</p></section>
+<section class="panel snapshot"><div class="section-heading"><h2>Your journey</h2><span class="small-tag">ALL TIME</span></div><div class="accuracy-line"><strong id="accuracy">—</strong><span>first-try<br>accuracy</span></div><div class="meter"><span id="accuracy-bar"></span></div><div class="mini-stats"><div><strong id="named">0<span>/195</span></strong><span>flags named</span></div><div><strong id="streak">0</strong><span>current streak</span></div></div><p class="save-note" id="save-note">Progress saved in this browser</p><button id="reset-progress" class="text-button reset-link">Reset flag progress</button><p id="reset-status" class="reset-status" role="status" aria-live="polite"></p></section>
 <section class="panel misses"><div class="section-heading"><h2>A little more practice</h2><span class="round-icon" aria-hidden="true">↻</span></div><p class="muted">Your most-missed flags will appear here.</p><div id="top-misses"></div><a href="#progress" class="text-link">See your full progress <span aria-hidden="true">↗</span></a></section>
 <div class="practice-note"><span aria-hidden="true">✳</span><p>Getting one wrong is part of learning.<br>Try again, or reveal it and remember it.</p></div>
 </aside>
 </div>
 <p class="keyboard-note"><kbd>Enter</kbd> to check · Discover the country, then choose your next flag</p>
 </section>
+<dialog id="reset-dialog" class="reset-dialog" aria-labelledby="reset-title" aria-describedby="reset-description"><p class="eyebrow">A FRESH START</p><h2 id="reset-title">Reset your flag progress?</h2><p id="reset-description">This clears your flag attempts, accuracy, streaks and missed flags in this browser, and starts a new deck. Your globe progress stays saved. This cannot be undone unless you have a backup.</p><button id="reset-backup" class="text-button">Download a backup first</button><p id="reset-error" role="alert"></p><div class="reset-actions"><button id="reset-cancel" class="secondary" autofocus>Keep my progress</button><button id="reset-confirm" class="reset-confirm">Yes, reset flag progress</button></div></dialog>
 <section id="globe-view" aria-labelledby="globe-title" hidden>
 <div class="page-heading globe-page-heading"><div><p class="eyebrow">A DIFFERENT WAY TO KNOW THE WORLD</p><h1 id="globe-title">Follow your curiosity.</h1><p class="intro">Spin the globe. Pick a country. Name it, then its capital.</p></div><div class="explorer-totals"><div><strong id="globe-country-count">0</strong><span>countries found</span></div><div><strong id="globe-capital-count">0</strong><span>capitals recalled</span></div></div></div>
 <div class="explorer-layout">
@@ -39,9 +40,9 @@
 </section>
 <section id="learning-view" class="learning-page" aria-labelledby="learning-title" hidden>
 <div class="page-heading"><div><p class="eyebrow">YOUR QUICK REVISION SHEET</p><h1 id="learning-title">A world worth remembering.</h1><p class="intro">Flag. Country. Capital. All together, from A to Z.</p></div></div>
-<div class="learning-toolbar"><label class="learning-search" for="learning-search"><span>Find a country or capital</span><input id="learning-search" type="search" placeholder="Search countries or capitals…" autocomplete="off" disabled></label><span id="learning-count" role="status" aria-live="polite">195 countries</span></div>
+<div class="learning-toolbar"><label class="learning-search" for="learning-search"><span>Find a country or capital</span><input id="learning-search" type="search" placeholder="Search countries or capitals…" autocomplete="off" disabled></label><label class="learning-continent" for="learning-continent"><span>Continent</span><select id="learning-continent" disabled><option value="">All continents</option><option>Africa</option><option>Asia</option><option>Europe</option><option>North America</option><option>South America</option><option>Oceania</option></select></label><span id="learning-count" role="status" aria-live="polite">195 countries</span></div>
 <div id="learning-loading" class="learning-notice" role="status">Loading your revision sheet…</div><button id="learning-retry" class="secondary" hidden>Try loading again</button>
-<div id="learning-table-wrap" class="learning-table-wrap" hidden><table class="learning-table"><caption class="visually-hidden">Flags, countries and capitals for revision</caption><colgroup><col class="learning-flag-col"><col class="learning-country-col"><col></colgroup><thead><tr><th scope="col">Flag</th><th scope="col">Country</th><th scope="col">Capital / seat</th></tr></thead><tbody id="learning-rows"></tbody></table><p id="learning-empty" class="learning-notice" hidden>No matches. Try another country or capital.</p></div>
+<div id="learning-table-wrap" class="learning-table-wrap" hidden><table class="learning-table"><caption class="visually-hidden">Flags, countries and capitals for revision</caption><colgroup><col class="learning-flag-col"><col class="learning-country-col"><col></colgroup><thead><tr><th scope="col">Flag</th><th scope="col">Country</th><th scope="col">Capital / seat</th></tr></thead><tbody id="learning-rows"></tbody></table><p id="learning-empty" class="learning-notice" hidden>No matches. Try another search or continent.</p></div>
 <p class="learning-footnote">Multiple capitals or government seats are listed where applicable. Nauru has no official capital; Yaren is its government seat. Uses the same country information as the quizzes.</p>
 </section>
 <section id="progress-view" aria-labelledby="progress-title" hidden>
