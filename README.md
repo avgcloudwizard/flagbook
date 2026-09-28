@@ -12,6 +12,10 @@ A free, personal flag and geography learning website hosted on GitHub Pages.
 - “I don’t know” records a reveal and shows the country; Next flag continues.
 - All flags uses a shuffled deck, with no repeats until the deck finishes. Revisit misses practices countries previously missed.
 
+## Learning
+
+Open **Learning** for an alphabetical revision sheet of all 195 flags, country names and capitals. The compact three-column table fits mobile screens and can be searched by country, alternative country name or capital. Multiple capitals and government seats follow the same reviewed data as the quizzes. Reading and searching do not record quiz attempts.
+
 ## Progress
 
 Every submitted answer and reveal is saved with a timestamp. A round is a flag presentation with at least one answer or reveal. First-try accuracy is the percentage of rounds answered correctly on the first try. A wrong first answer or reveal counts as one missed round, even after repeated retries. “Flags named” counts different countries eventually answered correctly; it is not a mastery score. Streaks count consecutive rounds correct on the first try.

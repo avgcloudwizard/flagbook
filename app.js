@@ -1,5 +1,6 @@
 import {showDiscovery,clearDiscovery} from './discovery.js';
 import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js';
+import {startLearning} from './learning.js';
 import { COUNTRIES } from './countries.js';
 import { BY_CODE, STORAGE_KEY, isCorrect, shuffled, summarize, validateEvents, parseBackup } from './core.js';
 const $ = id => document.getElementById(id);
@@ -134,12 +135,13 @@ function renderHistory() {
 }
 $('more-history').addEventListener('click',()=>{historyLimit+=50;renderHistory();});
 function navigate() {
-  const page=['#globe','#progress'].includes(location.hash)?location.hash.slice(1):'practice';
-  for(const name of ['practice','globe','progress']){
+  const page=['#globe','#learning','#progress'].includes(location.hash)?location.hash.slice(1):'practice';
+  for(const name of ['practice','globe','learning','progress']){
     $(name+'-view').hidden=name!==page;
     if(name===page)$(name+'-link').setAttribute('aria-current','page');else $(name+'-link').removeAttribute('aria-current');
   }
   if(page==='globe')startGlobe();
+  if(page==='learning')startLearning();
   if(page==='practice'&&round.status==='answering')$('answer').focus({preventScroll:true});
 }
 window.addEventListener('hashchange',navigate);
