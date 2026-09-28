@@ -1,3 +1,5 @@
+import {showDiscovery,clearDiscovery} from './discovery.js';
+import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js';
 import { COUNTRIES } from './countries.js';
 import { BY_CODE, STORAGE_KEY, isCorrect, shuffled, summarize, validateEvents, parseBackup } from './core.js';
 const $ = id => document.getElementById(id);
@@ -50,23 +52,23 @@ function renderRound() {
   $('flag-error').hidden=true; $('flag').hidden=false;
   $('flag').alt='Country flag to identify';
   $('answer').disabled=round.status!=='answering'; $('check-answer').disabled=true; $('reveal').disabled=true;
-  $('next-flag').hidden=true;
+  $('next-flag').hidden=true; $('continue-flag').hidden=true; clearDiscovery($('country-discovery'));
   feedback('');
   $('flag').src=`assets/flags/${round.code}.svg`;
   if (round.status==='revealed') {
     const country=BY_CODE.get(round.code);
-    feedback(`This is ${country.name}. Take a look, then try the next flag.`, 'revealed');
+    feedback(`This is ${country.name}. Explore its story below, then choose your next flag.`, 'revealed');
     $('flag').alt=`Flag of ${country.name}`;
-    $('next-flag').hidden=false;
+    $('next-flag').hidden=false; $('continue-flag').hidden=false; showDiscovery($('country-discovery'),round.code);
   } else if (round.status==='correct') {
     feedback(`Correct — ${BY_CODE.get(round.code).name}!`, 'success');
-    timer=setTimeout(nextFlag,1000);
+    $('next-flag').hidden=false; $('continue-flag').hidden=false; showDiscovery($('country-discovery'),round.code);
   }
 }
 $('flag').addEventListener('load', () => {
   imageReady=true;
   $('check-answer').disabled=round.status!=='answering'; $('reveal').disabled=round.status!=='answering';
-  if (round.status==='answering' && !location.hash.includes('progress')) $('answer').focus({preventScroll:true});
+  if (round.status==='answering' && (!location.hash||location.hash==='#practice')) $('answer').focus({preventScroll:true});
 });
 $('flag').addEventListener('error', () => { imageReady=false; $('flag').hidden=true; $('flag-error').hidden=false; });
 $('retry-image').addEventListener('click',renderRound);
@@ -78,9 +80,9 @@ function submitAnswer(answer) {
   const correct=isCorrect(BY_CODE.get(round.code),answer);
   record('guess',answer.trim());
   if (correct) {
-    feedback(`Correct — ${BY_CODE.get(round.code).name}! Next flag coming up…`,'success');
+    feedback(`Correct — ${BY_CODE.get(round.code).name}! Explore its story below.`,'success');
     $('answer').removeAttribute('aria-invalid'); $('answer').disabled=true; $('check-answer').disabled=true; $('reveal').disabled=true;
-    timer=setTimeout(nextFlag,1000);
+    $('next-flag').hidden=false; $('continue-flag').hidden=false; showDiscovery($('country-discovery'),round.code);
   } else {
     feedback('Not quite. Check the country and spelling, then try again.','error');
     $('answer').setAttribute('aria-invalid','true'); $('answer').focus(); $('answer').select();
@@ -94,6 +96,7 @@ $('reveal').addEventListener('click', () => {
   record('reveal'); renderRound(); $('next-flag').focus({preventScroll:true});
 });
 $('next-flag').addEventListener('click',nextFlag);
+$('continue-flag').addEventListener('click',()=>{nextFlag();$('practice-title').scrollIntoView({behavior:'smooth',block:'start'});});
 function changeMode(next) {
   if (next===mode) return;
   if (next==='missed' && !summary.missed.length) return;
@@ -131,15 +134,17 @@ function renderHistory() {
 }
 $('more-history').addEventListener('click',()=>{historyLimit+=50;renderHistory();});
 function navigate() {
-  const progress=location.hash==='#progress';
-  $('practice-view').hidden=progress; $('progress-view').hidden=!progress;
-  $('practice-link').toggleAttribute('aria-current',!progress); $('progress-link').toggleAttribute('aria-current',progress);
-  (progress?$('progress-link'):$('practice-link')).setAttribute('aria-current','page');
-  if (!progress && round.status==='answering') $('answer').focus({preventScroll:true});
+  const page=['#globe','#progress'].includes(location.hash)?location.hash.slice(1):'practice';
+  for(const name of ['practice','globe','progress']){
+    $(name+'-view').hidden=name!==page;
+    if(name===page)$(name+'-link').setAttribute('aria-current','page');else $(name+'-link').removeAttribute('aria-current');
+  }
+  if(page==='globe')startGlobe();
+  if(page==='practice'&&round.status==='answering')$('answer').focus({preventScroll:true});
 }
 window.addEventListener('hashchange',navigate);
 $('export').addEventListener('click',()=> {
-  const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),events},null,2)],{type:'application/json'});
+  const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),events,globeEvents:getGlobeEvents()},null,2)],{type:'application/json'});
   const url=URL.createObjectURL(blob), a=document.createElement('a'); a.href=url; a.download=`flagbook-progress-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   $('backup-status').textContent='Backup downloaded. Keep this file to restore or transfer your progress.';
 });
@@ -148,15 +153,18 @@ $('import-file').addEventListener('change',async e=>{
   const file=e.target.files[0];if(!file)return;
   try {
     if(file.size>30*1024*1024)throw new Error('This backup is too large.');
-    const imported=parseBackup(await file.text()), combined=new Map(events.map(e=>[e.id,e]));
+    const backupText=await file.text();
+    const imported=parseBackup(backupText), combined=new Map(events.map(e=>[e.id,e]));
+    const mergedGlobe=prepareGlobeImport(JSON.parse(backupText).globeEvents||[]);
+    const addedGlobe=mergedGlobe.length-getGlobeEvents().length;
     for(const item of imported){
       if(combined.has(item.id) && JSON.stringify(combined.get(item.id))!==JSON.stringify(item))throw new Error('This backup contains conflicting attempts.');
       combined.set(item.id,item);
     }
     const merged=[...combined.values()].sort((a,b)=>Date.parse(a.at)-Date.parse(b.at));validateEvents(merged);
-    const added=merged.length-events.length;events=merged;
+    const added=merged.length-events.length;events=merged; applyGlobeImport(mergedGlobe);
     clearTimeout(timer);newDeck();nextFlag();renderStats();save();
-    $('backup-status').textContent=`Imported ${added} new ${added===1?'record':'records'}. Existing attempts were kept.${storageHealthy?'':' Download a backup before closing; browser saving is unavailable.'}`;
+    $('backup-status').textContent=`Imported ${added} flag records and ${addedGlobe} globe records. Existing attempts were kept.${storageHealthy?'':' Download a backup before closing; browser saving is unavailable.'}`;
   }catch(error){$('backup-status').textContent=`Couldn’t import: ${error.message} Your progress is unchanged.`;}
   e.target.value='';
 });

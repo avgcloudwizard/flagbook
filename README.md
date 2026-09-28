@@ -1,6 +1,6 @@
 # Flagbook
 
-A free, personal flag-learning website hosted on GitHub Pages.
+A free, personal flag and geography learning website hosted on GitHub Pages.
 
 ## Practice
 
@@ -8,7 +8,7 @@ A free, personal flag-learning website hosted on GitHub Pages.
 - Type the country name and press Enter or Check answer.
 - Spelling must match a listed name exactly. Capitalization, leading/trailing or repeated spaces and straight/curly apostrophes are ignored. No fuzzy matching, spellcheck or autocomplete.
 - Explicit, correctly spelled alternative names are accepted (for example Turkey / Türkiye and Czechia / Czech Republic). Accepted names live in `countries.js`. Abbreviations are not accepted. Plain Congo is ambiguous and is not accepted for either Congo.
-- Incorrect answers stay on the same flag. Correct answers advance after one second.
+- Incorrect answers stay on the same flag. Correct answers unlock a country guide. Choose Next flag when you have finished reading.
 - “I don’t know” records a reveal and shows the country; Next flag continues.
 - All flags uses a shuffled deck, with no repeats until the deck finishes. Revisit misses practices countries previously missed.
 
@@ -27,3 +27,21 @@ Push changes to `main` to publish. GitHub Pages is configured to deploy from the
 ## Sources
 
 See [assets/SOURCES.md](assets/SOURCES.md) for flag artwork and country data provenance. Flags preserve their source proportions. The country list is a learning scope, not a statement on recognition. Flag artwork is a snapshot and can be updated as flags change.
+
+## Country discovery cards
+
+After a correct flag answer or reveal, a card below the quiz shows the flag’s description, symbolism and history; a globe with the country highlighted; capitals or seats of government; dated population; currencies; and three memorable country facts. The card stays open until Next flag. Source links appear on each card. Coverage: all 195 countries.
+
+## Globe explorer
+
+Open **Globe explorer** in the main navigation. Drag to rotate, scroll or use + / − to zoom, and click a country. Tiny states have clickable point markers. No country-name tooltips spoil the quiz.
+
+1. Name the highlighted country, using the same exact-spelling rules as flag practice.
+2. Once correct, name its capital. Countries with multiple accepted seats explain that any listed one is valid.
+3. A correct capital answer opens the country’s field notes. Try another country, or click elsewhere on the globe.
+
+Surprise me chooses a random country. Reveal this answer records a miss and lets you continue. Keyboard users can focus the globe, rotate with arrows, zoom with + / −, and select the centre country with Enter.
+
+Globe attempts and the current quiz step persist in a separate browser record, preserving existing flag history. **My progress** shows separate globe totals and recent attempts. Exported backups include both histories; older flag-only backups remain compatible.
+
+All map geometry, D3/TopoJSON libraries and country data are bundled locally. There is no map-service bill or API key. See [data/SOURCES.md](data/SOURCES.md) for data dates, sources, licenses and important capital/flag conventions.
