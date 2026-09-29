@@ -1,17 +1,7 @@
 import {COUNTRIES} from './countries.js';
-import {esc} from './discovery.js';
+import {esc} from './explore-data.js';
 
-const normalize = value => value.normalize('NFD').replace(/\p{M}/gu,'').toLocaleLowerCase('en').trim();
-// Keep the atlas's regional convention: each country appears in one group.
-const continentForRegion = region => {
-  for (const continent of ['Africa','Asia','Europe']) {
-    if (region.endsWith(continent)) return continent;
-  }
-  if (['North America','Central America','Caribbean'].includes(region)) return 'North America';
-  if (region === 'South America') return 'South America';
-  if (['Australia and New Zealand','Melanesia','Micronesia','Polynesia'].includes(region)) return 'Oceania';
-  throw new Error(`Unknown country region: ${region}`);
-};
+import {normalize,continentForRegion} from './explore-data.js';
 let rows;
 let pending;
 let bound = false;

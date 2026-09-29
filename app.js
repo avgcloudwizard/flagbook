@@ -1,6 +1,8 @@
-import {showDiscovery,clearDiscovery} from './discovery.js';
-import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js';
-import {startLearning} from './learning.js?v=4';
+import {startAtlas} from './atlas.js';
+import {startRecords} from './records.js';
+import {showDiscovery,clearDiscovery} from './discovery.js?v=5';
+import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=5';
+import {startLearning} from './learning.js?v=5';
 import { COUNTRIES } from './countries.js';
 import { BY_CODE, STORAGE_KEY, isCorrect, shuffled, summarize, validateEvents, parseBackup } from './core.js';
 const $ = id => document.getElementById(id);
@@ -178,13 +180,17 @@ function renderHistory() {
 }
 $('more-history').addEventListener('click',()=>{historyLimit+=50;renderHistory();});
 function navigate() {
-  const page=['#globe','#learning','#progress'].includes(location.hash)?location.hash.slice(1):'practice';
-  for(const name of ['practice','globe','learning','progress']){
+  const [route,query='']=location.hash.slice(1).split('?');
+  const page=['globe','learning','atlas','records','progress'].includes(route)?route:'practice';
+  const params=new URLSearchParams(query);
+  for(const name of ['practice','globe','learning','atlas','records','progress']){
     $(name+'-view').hidden=name!==page;
     if(name===page)$(name+'-link').setAttribute('aria-current','page');else $(name+'-link').removeAttribute('aria-current');
   }
   if(page==='globe')startGlobe();
   if(page==='learning')startLearning();
+  if(page==='atlas')startAtlas(params);
+  if(page==='records')startRecords(params);
   if(page==='practice'&&round.status==='answering')$('answer').focus({preventScroll:true});
 }
 window.addEventListener('hashchange',navigate);

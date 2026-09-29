@@ -59,3 +59,11 @@ Every result card in flag practice and the globe quiz now adds a separate **Fun 
 **Tourism scale** shows a transparent 1–10 historical arrivals benchmark. It uses 2019 or the latest reported 2010–2018 value, displays the year, and explains the bands in an expandable panel. There are 183 scored countries and 12 explicitly unrated countries with no benchmark data. It measures historical visitor volume rather than current travel conditions or desirability. See `data/SOURCES.md` for the method and provenance.
 
 Reviewed additions live in `data/editorial/`; run `python3 scripts/build-country-context.py` after editing them. The page loads the generated `data/country-context.json` when a discovery card opens. Quiz scoring, saved progress and backup formats are unchanged.
+
+## World atlas and world records
+
+**World atlas** is a separate, non-quiz globe with country names. Drag or use the keyboard to rotate, zoom to reveal labels, select a continent to hide other countries, and search the country/capital list. Selecting a place focuses the globe and opens a short profile. Atlas and Records browsing never changes quiz progress.
+
+**World records** has category, topic and country selectors. The initial catalogue includes 17 topics across Nature, Agriculture, Textiles, Industry and Services, with illustrated landscapes and sourced top-five tables. A country filter adds its highest point, longest listed river, top-five appearances and available position in the selected dataset. Missing coverage is explicitly labelled. Links connect the records to the learning globe.
+
+Globe-quiz results now begin with a country introduction; the flag story remains in a disclosure below. All country cards include official/spoken-language context, native country names, available written sentence samples, and dated INR currency references. Agriculture, Industry and Services buttons open product-specific top-five comparisons. The figures are bundled snapshots, not live market feeds; observation years and definitions appear next to the data.

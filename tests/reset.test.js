@@ -19,7 +19,7 @@ function browser(localStorage) {
     if(!nodes.has(id))nodes.set(id,{hidden:false,disabled:false,value:'',textContent:'',innerHTML:'',style:{},handlers:{},classList:{toggle(){}},setAttribute(){},removeAttribute(){},addEventListener(name,fn){this.handlers[name]=fn;},focus(){},select(){},scrollIntoView(){},showModal(){this.open=true;},close(){this.open=false;}});
     return nodes.get(id);
   }
-  const context=vm.createContext({...core,COUNTRIES,localStorage,crypto:{randomUUID},location:{hash:'#practice'},clearTimeout(){},setTimeout(){},showDiscovery(){},clearDiscovery(){},startGlobe(){},startLearning(){},getGlobeEvents(){return [];},prepareGlobeImport(){return [];},applyGlobeImport(){},document:{getElementById:node,querySelector:node},window:{addEventListener(name,fn){listeners.set(name,fn);}}});
+  const context=vm.createContext({...core,COUNTRIES,URLSearchParams,localStorage,crypto:{randomUUID},location:{hash:'#practice'},clearTimeout(){},setTimeout(){},showDiscovery(){},clearDiscovery(){},startGlobe(){},startLearning(){},getGlobeEvents(){return [];},prepareGlobeImport(){return [];},applyGlobeImport(){},document:{getElementById:node,querySelector:node},window:{addEventListener(name,fn){listeners.set(name,fn);}}});
   vm.runInContext(source,context);
   return {node,listeners,click(id){node(id).handlers.click();}};
 }

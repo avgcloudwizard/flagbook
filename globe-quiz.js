@@ -1,7 +1,7 @@
 import {COUNTRIES} from './countries.js';
 import {BY_CODE} from './core.js';
-import {Globe,loadAtlas} from './globe.js';
-import {showDiscovery,clearDiscovery,esc} from './discovery.js';
+import {Globe,loadAtlas} from './globe.js?v=5';
+import {showDiscovery,clearDiscovery,esc} from './discovery.js?v=5';
 import {GLOBE_KEY,checkGlobeAnswer,validateGlobeEvents,mergeGlobeEvents,globeSummary} from './globe-core.js';
 const $=id=>document.getElementById(id);
 let events=[],session=null,globe=null,atlas=null,starting=null,healthy=true;
@@ -30,7 +30,7 @@ function renderQuiz(){
  $('globe-answer-help').textContent=stage==='capital'&&c.capitals.length>1?'More than one valid capital or seat is accepted. Exact spelling still counts.':'Exact spelling. Capitalization doesn’t matter.';
  $('globe-country-badge').hidden=stage==='country'||stage==='pick';
  if(c&&stage!=='country')$('globe-country-badge').innerHTML=`<img src="assets/flags/${session.code}.svg" alt="">${esc(c.region)}`;
- if(stage==='complete'){ $('globe-capital-result').textContent=c.capitals.join(' · ');showDiscovery($('globe-discovery'),session.code); }
+ if(stage==='complete'){ $('globe-capital-result').textContent=c.capitals.join(' · ');showDiscovery($('globe-discovery'),session.code,{countryFirst:true}); }
  $('globe-canvas').setAttribute('aria-label','Interactive globe. Drag to rotate; use arrow keys to rotate and Enter to select the centre country. Country names are hidden during the quiz.');
 }
 function submit(e){

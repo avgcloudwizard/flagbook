@@ -14,9 +14,10 @@ export function loadAtlas() {
   return atlasPromise;
 }
 export class Globe {
-  constructor(canvas,atlas,{interactive=true,onSelect=()=>{},onMessage=()=>{},compact=false}={}) {
+  constructor(canvas,atlas,{interactive=true,onSelect=()=>{},onMessage=()=>{},compact=false,labels=false}={}) {
     this.canvas=canvas;this.ctx=canvas.getContext('2d');this.atlas=atlas;this.compact=compact;this.onSelect=onSelect;this.onMessage=onMessage;
     this.rotation=[-12,-16,0];this.zoom=1;this.selected=null;this.hovered=null;this.frame=0;
+    this.labels=labels;this.allowedCodes=null;
     this.projection=d3.geoOrthographic().clipAngle(90).precision(.4);
     this.path=d3.geoPath(this.projection,this.ctx);this.graticule=d3.geoGraticule().step([20,20])();
     const codeSet=new Set(atlas.features.map(f=>f.code));
@@ -41,19 +42,36 @@ export class Globe {
     ctx.beginPath();this.path({type:'Sphere'});ctx.fillStyle=ocean;ctx.fill();ctx.restore();
     ctx.beginPath();this.path(this.graticule);ctx.strokeStyle='#75c3d51f';ctx.lineWidth=.65;ctx.stroke();
     for(const f of this.atlas.features){
+      if(this.allowedCodes&&!this.allowedCodes.has(f.code))continue;
       ctx.beginPath();this.path(f);ctx.fillStyle=this.selected&&f.code===this.selected?'#d4f285':this.hovered&&f.code===this.hovered?'#74ada2':f.code?'#3e746c':'#304e52';ctx.fill();
       ctx.strokeStyle=this.selected&&f.code===this.selected?'#edffb8':'#a5d6c345';ctx.lineWidth=this.selected&&f.code===this.selected?1.25:.65;ctx.stroke();
     }
     // Tiny states remain discoverable and selectable, even below the map scale.
     for(const point of this.small){
+      if(this.allowedCodes&&!this.allowedCodes.has(point.code))continue;
       if(!this.visible(point.coords))continue;const xy=this.projection(point.coords);if(!xy)continue;
       ctx.beginPath();ctx.arc(xy[0],xy[1],point.code===this.selected?5:3,0,Math.PI*2);ctx.fillStyle=point.code===this.selected?'#e5ffab':'#8dc5b1';ctx.fill();ctx.strokeStyle='#152c36';ctx.lineWidth=1;ctx.stroke();
     }
     if(this.selected){const c=this.atlas.details[this.selected],coords=[c.coordinates[1],c.coordinates[0]];
       if(this.visible(coords)){const [x,y]=this.projection(coords);ctx.beginPath();ctx.arc(x,y,8,0,Math.PI*2);ctx.strokeStyle='#ebffb5aa';ctx.lineWidth=1.5;ctx.stroke();ctx.beginPath();ctx.arc(x,y,2.5,0,Math.PI*2);ctx.fillStyle='#efffc9';ctx.fill();}
     }
+    if(this.labels)this.drawLabels();
     ctx.beginPath();this.path({type:'Sphere'});ctx.strokeStyle='#9cdae14a';ctx.lineWidth=1.2;ctx.stroke();
   }
+  drawLabels(){
+    const ctx=this.ctx,occupied=[];
+    const countries=Object.entries(this.atlas.details).filter(([code])=>!this.allowedCodes||this.allowedCodes.has(code)).sort((a,b)=>Number(b[0]===this.selected||b[0]===this.hovered)-Number(a[0]===this.selected||a[0]===this.hovered)||b[1].area-a[1].area);
+    ctx.save();ctx.font='500 12px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.lineJoin='round';
+    for(const [code,c] of countries){
+      const chosen=code===this.selected||code===this.hovered,coords=[c.coordinates[1],c.coordinates[0]];
+      if(!this.visible(coords)||(!chosen&&c.area<160000/(this.zoom*this.zoom)))continue;
+      const xy=this.projection(coords);if(!xy)continue;const [x,y]=xy,half=ctx.measureText(c.name).width/2+5;
+      if(x-half<4||x+half>this.width-4||y<15||y>this.height-15)continue;
+      if(!chosen&&occupied.some(b=>Math.abs(x-b.x)<half+b.half&&Math.abs(y-b.y)<22))continue;
+      occupied.push({x,y,half});ctx.lineWidth=4;ctx.strokeStyle='#102932e6';ctx.strokeText(c.name,x,y-10);ctx.fillStyle=chosen?'#f0ffbd':'#e8f3ed';ctx.fillText(c.name,x,y-10);
+    }ctx.restore();
+  }
+  filter(codes){this.allowedCodes=codes?new Set(codes):null;this.hovered=null;if(this.selected&&this.allowedCodes&&!this.allowedCodes.has(this.selected))this.selected=null;this.requestDraw();}
   visible(coords){return d3.geoDistance(coords,[-this.rotation[0],-this.rotation[1]])<Math.PI/2-.012;}
   select(code,{focus=true}={}){
     this.selected=code;if(code&&focus){const c=this.atlas.details[code];this.rotation=[-c.coordinates[1],-c.coordinates[0],0];}this.requestDraw();
@@ -64,10 +82,10 @@ export class Globe {
   pick(x,y){
     const r=this.projection.scale(),center=this.projection.translate();if(Math.hypot(x-center[0],y-center[1])>r)return null;
     let pin=null,best=10;
-    for(const p of this.small){if(!this.visible(p.coords))continue;const xy=this.projection(p.coords),distance=Math.hypot(x-xy[0],y-xy[1]);if(distance<best){best=distance;pin=p.code;}}
+    for(const p of this.small){if((this.allowedCodes&&!this.allowedCodes.has(p.code))||!this.visible(p.coords))continue;const xy=this.projection(p.coords),distance=Math.hypot(x-xy[0],y-xy[1]);if(distance<best){best=distance;pin=p.code;}}
     if(pin)return pin;
     const coords=this.projection.invert([x,y]);if(!coords||!Number.isFinite(coords[0]))return null;
-    return this.atlas.features.find(f=>f.code&&d3.geoContains(f,coords))?.code||null;
+    return this.atlas.features.find(f=>f.code&&(!this.allowedCodes||this.allowedCodes.has(f.code))&&d3.geoContains(f,coords))?.code||null;
   }
   bind(){
     const el=this.canvas;let drag=null,hoverTime=0;
