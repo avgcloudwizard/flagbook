@@ -1,8 +1,9 @@
-import {startAtlas} from './atlas.js';
-import {startRecords} from './records.js';
-import {showDiscovery,clearDiscovery} from './discovery.js?v=5';
-import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=5';
-import {startLearning} from './learning.js?v=5';
+import {startFacts} from './facts.js?v=7';
+import {startAtlas} from './atlas.js?v=7';
+import {startRecords} from './records.js?v=7';
+import {showDiscovery,clearDiscovery} from './discovery.js?v=7';
+import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=7';
+import {startLearning} from './learning.js?v=7';
 import { COUNTRIES } from './countries.js';
 import { BY_CODE, STORAGE_KEY, isCorrect, shuffled, summarize, validateEvents, parseBackup } from './core.js';
 const $ = id => document.getElementById(id);
@@ -162,7 +163,7 @@ function renderStats() {
   $('review-from-stats').disabled=!summary.missed.length;
   const visibleMisses=summary.missed.filter(s=>round?.status!=='answering'||s.code!==round.code);
   $('top-misses').innerHTML=visibleMisses.slice(0,3).map(s=>`<div class="miss-row"><img src="assets/flags/${s.code}.svg" alt=""><span>${escape(BY_CODE.get(s.code).name)}</span><small>${s.missed} ${s.missed===1?'miss':'misses'}</small></div>`).join('');
-  document.querySelector('.misses>.muted').textContent=visibleMisses.length?'A second look goes a long way.':summary.missed.length?'Finish this flag to see your latest misses.':'Your most-missed flags will appear here.';
+  document.querySelector('.misses>.muted').textContent=visibleMisses.length?'Most missed on the first try.':summary.missed.length?'Finish this flag to see your latest misses.':'Your most-missed flags will appear here.';
   const stats=[[summary.seen,'rounds attempted'],[summary.accuracy===null?'—':summary.accuracy+'%','first-try accuracy'],[summary.named+' / 195','different flags named'],[summary.best,'best first-try streak']];
   $('stats-grid').innerHTML=stats.map(([value,label])=>`<div class="stat-card"><strong>${value}</strong><span>${label}</span></div>`).join('');
   const countryRows=[...summary.perCountry.values()].sort((a,b)=>b.missed-a.missed || b.missed/b.seen-a.missed/a.seen || BY_CODE.get(a.code).name.localeCompare(BY_CODE.get(b.code).name));
@@ -181,9 +182,9 @@ function renderHistory() {
 $('more-history').addEventListener('click',()=>{historyLimit+=50;renderHistory();});
 function navigate() {
   const [route,query='']=location.hash.slice(1).split('?');
-  const page=['globe','learning','atlas','records','progress'].includes(route)?route:'practice';
+  const page=['globe','learning','atlas','records','facts','progress'].includes(route)?route:'practice';
   const params=new URLSearchParams(query);
-  for(const name of ['practice','globe','learning','atlas','records','progress']){
+  for(const name of ['practice','globe','learning','atlas','records','facts','progress']){
     $(name+'-view').hidden=name!==page;
     if(name===page)$(name+'-link').setAttribute('aria-current','page');else $(name+'-link').removeAttribute('aria-current');
   }
@@ -191,9 +192,10 @@ function navigate() {
   if(page==='learning')startLearning();
   if(page==='atlas')startAtlas(params);
   if(page==='records')startRecords(params);
+  if(page==='facts')startFacts(params);
   if(page==='practice'&&round.status==='answering')$('answer').focus({preventScroll:true});
 }
-window.addEventListener('hashchange',navigate);
+window.addEventListener('hashchange',()=>{navigate();window.scrollTo?.({top:0,behavior:'auto'});});
 function downloadBackup() {
   const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),events,globeEvents:getGlobeEvents()},null,2)],{type:'application/json'});
   const url=URL.createObjectURL(blob), a=document.createElement('a'); a.href=url; a.download=`flagbook-progress-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);

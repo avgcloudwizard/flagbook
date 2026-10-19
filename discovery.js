@@ -1,7 +1,7 @@
-import {Globe,loadAtlas} from './globe.js?v=5';
-import {loadCountryContext,renderCountryContext} from './country-context.js?v=5';
-import {loadExtras,loadRates,countrySummary,currencyReference,languageCard} from './explore-data.js';
-import {bindSectorRankings} from './records.js';
+import {Globe,loadAtlas} from './globe.js?v=7';
+import {loadCountryContext,renderCountryContext} from './country-context.js?v=7';
+import {loadExtras,loadRates,countrySummary,currencyReference,languageCard} from './explore-data.js?v=7';
+import {bindSectorRankings} from './records.js?v=7';
 export const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mounted=new WeakMap();
 export function clearDiscovery(container){const old=mounted.get(container);old?.globe?.destroy();mounted.set(container,{});container.hidden=true;container.innerHTML='';}

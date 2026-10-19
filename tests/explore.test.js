@@ -29,11 +29,11 @@ test('all countries have sourced language samples, high points and valid INR ref
 });
 
 test('all record topics rank only valid countries, preserve ties, units and dates',()=>{
- assert.equal(records.items.length,17);
+ assert.ok(records.items.length>=200);
  for(const item of records.items){
   assert.ok(item.year&&item.unit&&item.coverage&&item.note);
   assert.equal(new URL(item.source).protocol,'https:');
-  assert.ok(topFive(item).length>=5,item.id);
+  assert.ok(topFive(item).length>=Math.min(5,item.entries.length),item.id);
   for(const entry of item.entries){
    assert.ok(entry.value>0);
    assert.equal(entry.rank,1+item.entries.filter(e=>e.value>entry.value).length);
@@ -44,7 +44,7 @@ test('all record topics rank only valid countries, preserve ties, units and date
  }
  const item=id=>records.items.find(i=>i.id===id);
  assert.equal(item('coffee').entries[0].code,'br');assert.equal(item('rice').entries[0].code,'in');
- assert.equal(item('tourism').year,'2019');assert.equal(item('oil').unit,'TWh');
+ assert.ok(!item('tourism'));assert.equal(item('oil').year,'2025');for(const i of records.items)if(/^\d{4}$/.test(i.year))assert.ok(Number(i.year)>=2022,i.id);assert.equal(item('oil').unit,'TWh');
  assert.equal(topFive({entries:[1,2,3,4,5,5,7].map(rank=>({rank}))}).length,6);
 });
 

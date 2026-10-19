@@ -1,6 +1,6 @@
-import {Globe,loadAtlas} from './globe.js?v=5';
-import {CONTINENTS,continentForRegion,esc,normalize,loadExtras,countrySummary,formatValue} from './explore-data.js';
-import {loadCountryContext} from './country-context.js?v=5';
+import {Globe,loadAtlas} from './globe.js?v=7';
+import {CONTINENTS,continentForRegion,esc,normalize,loadExtras,countrySummary,formatValue} from './explore-data.js?v=7';
+import {loadCountryContext} from './country-context.js?v=7';
 const $=id=>document.getElementById(id);
 const views={'Africa':[20,3,1.55],'Asia':[88,33,1.3],'Europe':[18,52,2.15],'North America':[-101,34,1.35],'South America':[-61,-18,1.65],'Oceania':[150,-21,1.5]};
 let globe,atlas,extras,contexts,pending,continent='',selected=null;

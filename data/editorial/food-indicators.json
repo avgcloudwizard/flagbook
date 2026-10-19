@@ -1,0 +1,718 @@
+[
+  {
+    "label": "Almonds",
+    "indicator": 1197488
+  },
+  {
+    "label": "Apples",
+    "indicator": 1197505
+  },
+  {
+    "label": "Apricots",
+    "indicator": 1197520
+  },
+  {
+    "label": "Areca nuts",
+    "indicator": 1197534
+  },
+  {
+    "label": "Artichokes",
+    "indicator": 1197551
+  },
+  {
+    "label": "Asparagus",
+    "indicator": 1197566
+  },
+  {
+    "label": "Avocados",
+    "indicator": 1197581
+  },
+  {
+    "label": "Bananas",
+    "indicator": 1197626
+  },
+  {
+    "label": "Barley",
+    "indicator": 1197641
+  },
+  {
+    "label": "Beans, dry",
+    "indicator": 1197658
+  },
+  {
+    "label": "Beans, green",
+    "indicator": 1197672
+  },
+  {
+    "label": "Beeswax",
+    "indicator": 1197694
+  },
+  {
+    "label": "Blueberries",
+    "indicator": 1197706
+  },
+  {
+    "label": "Brazil nuts, with shell",
+    "indicator": 1197715
+  },
+  {
+    "label": "Broad beans",
+    "indicator": 1197726
+  },
+  {
+    "label": "Buckwheat",
+    "indicator": 1197754
+  },
+  {
+    "label": "Buffalo hides",
+    "indicator": 1197770
+  },
+  {
+    "label": "Cabbages",
+    "indicator": 1197818
+  },
+  {
+    "label": "Canary seed",
+    "indicator": 1197837
+  },
+  {
+    "label": "Carrots and turnips",
+    "indicator": 1197848
+  },
+  {
+    "label": "Cashew nuts",
+    "indicator": 1197866
+  },
+  {
+    "label": "Cassava",
+    "indicator": 1197896
+  },
+  {
+    "label": "Castor oil seed",
+    "indicator": 1197922
+  },
+  {
+    "label": "Cattle hides",
+    "indicator": 1197943
+  },
+  {
+    "label": "Cauliflowers and broccoli",
+    "indicator": 1197962
+  },
+  {
+    "label": "Cereals",
+    "indicator": 1197977
+  },
+  {
+    "label": "Cheese",
+    "indicator": 1198001
+  },
+  {
+    "label": "Cherries",
+    "indicator": 1198042
+  },
+  {
+    "label": "Chestnut",
+    "indicator": 1198056
+  },
+  {
+    "label": "Chickpeas",
+    "indicator": 1198072
+  },
+  {
+    "label": "Chilies and peppers",
+    "indicator": 1198102
+  },
+  {
+    "label": "Citrus fruit",
+    "indicator": 1198146
+  },
+  {
+    "label": "Coconut oil",
+    "indicator": 1198182
+  },
+  {
+    "label": "Coconuts",
+    "indicator": 1198190
+  },
+  {
+    "label": "Coffee, green",
+    "indicator": 1198207
+  },
+  {
+    "label": "Cotton",
+    "indicator": 1198224
+  },
+  {
+    "label": "Cottonseed",
+    "indicator": 1198227
+  },
+  {
+    "label": "Cottonseed oil",
+    "indicator": 1198232
+  },
+  {
+    "label": "Cow peas",
+    "indicator": 1198247
+  },
+  {
+    "label": "Cranberries",
+    "indicator": 1198260
+  },
+  {
+    "label": "Cucumbers and gherkins",
+    "indicator": 1198279
+  },
+  {
+    "label": "Currants",
+    "indicator": 1198290
+  },
+  {
+    "label": "Dates",
+    "indicator": 1198297
+  },
+  {
+    "label": "Eggplants",
+    "indicator": 1198313
+  },
+  {
+    "label": "Eggs from hens",
+    "indicator": 1198325
+  },
+  {
+    "label": "Eggs from other birds",
+    "indicator": 1198334
+  },
+  {
+    "label": "Eggs, total",
+    "indicator": 1198318
+  },
+  {
+    "label": "Fat, buffalo",
+    "indicator": 1198343
+  },
+  {
+    "label": "Fat, camel",
+    "indicator": 1198348
+  },
+  {
+    "label": "Fat, cattle",
+    "indicator": 1198353
+  },
+  {
+    "label": "Fat, goat",
+    "indicator": 1198358
+  },
+  {
+    "label": "Fat, pig",
+    "indicator": 1198363
+  },
+  {
+    "label": "Fat, sheep",
+    "indicator": 1198367
+  },
+  {
+    "label": "Fibre crops",
+    "indicator": 1198374
+  },
+  {
+    "label": "Flax, raw or retted",
+    "indicator": 1198395
+  },
+  {
+    "label": "Fruit",
+    "indicator": 1198409
+  },
+  {
+    "label": "Garlic",
+    "indicator": 1198416
+  },
+  {
+    "label": "Grapefruit",
+    "indicator": 1198447
+  },
+  {
+    "label": "Grapes",
+    "indicator": 1198454
+  },
+  {
+    "label": "Green maize",
+    "indicator": 1198461
+  },
+  {
+    "label": "Groundnut oil",
+    "indicator": 1198468
+  },
+  {
+    "label": "Groundnuts",
+    "indicator": 1198475
+  },
+  {
+    "label": "Hazelnuts",
+    "indicator": 1198481
+  },
+  {
+    "label": "Hempseed",
+    "indicator": 1198488
+  },
+  {
+    "label": "Herbs",
+    "indicator": 1198496
+  },
+  {
+    "label": "Honey",
+    "indicator": 1198499
+  },
+  {
+    "label": "Jute",
+    "indicator": 1198521
+  },
+  {
+    "label": "Karite nuts",
+    "indicator": 1198541
+  },
+  {
+    "label": "Kiwi",
+    "indicator": 1198555
+  },
+  {
+    "label": "Kola nuts",
+    "indicator": 1198562
+  },
+  {
+    "label": "Leeks",
+    "indicator": 1198569
+  },
+  {
+    "label": "Lemons and limes",
+    "indicator": 1198577
+  },
+  {
+    "label": "Lentils",
+    "indicator": 1198583
+  },
+  {
+    "label": "Lettuce",
+    "indicator": 1198590
+  },
+  {
+    "label": "Linseed",
+    "indicator": 1198597
+  },
+  {
+    "label": "Linseed oil",
+    "indicator": 1198601
+  },
+  {
+    "label": "Maize (corn)",
+    "indicator": 1198621
+  },
+  {
+    "label": "Maize (corn) oil",
+    "indicator": 1198625
+  },
+  {
+    "label": "Mangoes",
+    "indicator": 1198631
+  },
+  {
+    "label": "Margarine",
+    "indicator": 1198635
+  },
+  {
+    "label": "Meat, beef and buffalo",
+    "indicator": 1198653
+  },
+  {
+    "label": "Meat, buffalo",
+    "indicator": 1198659
+  },
+  {
+    "label": "Meat, camel",
+    "indicator": 1198665
+  },
+  {
+    "label": "Meat, chicken",
+    "indicator": 1198671
+  },
+  {
+    "label": "Meat, donkey",
+    "indicator": 1198647
+  },
+  {
+    "label": "Meat, duck",
+    "indicator": 1198677
+  },
+  {
+    "label": "Meat, game",
+    "indicator": 1198683
+  },
+  {
+    "label": "Meat, goat",
+    "indicator": 1198689
+  },
+  {
+    "label": "Meat, goose and guinea fowl",
+    "indicator": 1198695
+  },
+  {
+    "label": "Meat, horse",
+    "indicator": 1198701
+  },
+  {
+    "label": "Meat, lamb and mutton",
+    "indicator": 1198707
+  },
+  {
+    "label": "Meat, mule",
+    "indicator": 1198713
+  },
+  {
+    "label": "Meat, pig",
+    "indicator": 1198719
+  },
+  {
+    "label": "Meat, poultry",
+    "indicator": 1198725
+  },
+  {
+    "label": "Meat, rabbit",
+    "indicator": 1198731
+  },
+  {
+    "label": "Meat, sheep and goat",
+    "indicator": 1198737
+  },
+  {
+    "label": "Meat, total",
+    "indicator": 1198743
+  },
+  {
+    "label": "Meat, turkey",
+    "indicator": 1198748
+  },
+  {
+    "label": "Melon",
+    "indicator": 1198779
+  },
+  {
+    "label": "Melonseed",
+    "indicator": 1198786
+  },
+  {
+    "label": "Milk",
+    "indicator": 1198790
+  },
+  {
+    "label": "Millet",
+    "indicator": 1198798
+  },
+  {
+    "label": "Mixed grains",
+    "indicator": 1198805
+  },
+  {
+    "label": "Molasses",
+    "indicator": 1198809
+  },
+  {
+    "label": "Mushrooms",
+    "indicator": 1198813
+  },
+  {
+    "label": "Mustard seed",
+    "indicator": 1198821
+  },
+  {
+    "label": "Oats",
+    "indicator": 1198841
+  },
+  {
+    "label": "Offal, buffaloes",
+    "indicator": 1198848
+  },
+  {
+    "label": "Offal, camels",
+    "indicator": 1198852
+  },
+  {
+    "label": "Offal, cattle",
+    "indicator": 1198857
+  },
+  {
+    "label": "Offal, goats",
+    "indicator": 1198862
+  },
+  {
+    "label": "Offal, horses",
+    "indicator": 1198868
+  },
+  {
+    "label": "Offal, pigs",
+    "indicator": 1198873
+  },
+  {
+    "label": "Offal, sheep",
+    "indicator": 1198878
+  },
+  {
+    "label": "Oilcrops, cake equivalent",
+    "indicator": 1198883
+  },
+  {
+    "label": "Oilcrops, oil equivalent",
+    "indicator": 1198890
+  },
+  {
+    "label": "Okra",
+    "indicator": 1198898
+  },
+  {
+    "label": "Olive oil",
+    "indicator": 1198901
+  },
+  {
+    "label": "Olives",
+    "indicator": 1198907
+  },
+  {
+    "label": "Onions",
+    "indicator": 1198915
+  },
+  {
+    "label": "Oranges",
+    "indicator": 1198928
+  },
+  {
+    "label": "Palm fruit oil",
+    "indicator": 1199031
+  },
+  {
+    "label": "Palm kernel oil",
+    "indicator": 1199035
+  },
+  {
+    "label": "Palm kernels",
+    "indicator": 1199038
+  },
+  {
+    "label": "Palm oil",
+    "indicator": 1199041
+  },
+  {
+    "label": "Papayas",
+    "indicator": 1199047
+  },
+  {
+    "label": "Peaches and nectarines",
+    "indicator": 1199054
+  },
+  {
+    "label": "Pears",
+    "indicator": 1199061
+  },
+  {
+    "label": "Peas, dry",
+    "indicator": 1199068
+  },
+  {
+    "label": "Peas, green",
+    "indicator": 1199075
+  },
+  {
+    "label": "Pepper",
+    "indicator": 1199082
+  },
+  {
+    "label": "Pigeon peas",
+    "indicator": 1199107
+  },
+  {
+    "label": "Pineapples",
+    "indicator": 1199113
+  },
+  {
+    "label": "Pistachios",
+    "indicator": 1199120
+  },
+  {
+    "label": "Plantains",
+    "indicator": 1199128
+  },
+  {
+    "label": "Plums",
+    "indicator": 1199134
+  },
+  {
+    "label": "Poppy seeds",
+    "indicator": 1199141
+  },
+  {
+    "label": "Potatoes",
+    "indicator": 1199148
+  },
+  {
+    "label": "Pulses",
+    "indicator": 1199159
+  },
+  {
+    "label": "Quinoa",
+    "indicator": 1199185
+  },
+  {
+    "label": "Rapeseed",
+    "indicator": 1199201
+  },
+  {
+    "label": "Rapeseed oil",
+    "indicator": 1199205
+  },
+  {
+    "label": "Raspberries",
+    "indicator": 1199211
+  },
+  {
+    "label": "Rice",
+    "indicator": 1199243
+  },
+  {
+    "label": "Roots and tubers",
+    "indicator": 1199250
+  },
+  {
+    "label": "Rye",
+    "indicator": 1199257
+  },
+  {
+    "label": "Safflower oil",
+    "indicator": 1199261
+  },
+  {
+    "label": "Safflower seed",
+    "indicator": 1199267
+  },
+  {
+    "label": "Seed cotton",
+    "indicator": 1199277
+  },
+  {
+    "label": "Sesame oil",
+    "indicator": 1199279
+  },
+  {
+    "label": "Sesame seed",
+    "indicator": 1199284
+  },
+  {
+    "label": "Silk",
+    "indicator": 1199292
+  },
+  {
+    "label": "Skins, goat",
+    "indicator": 1199322
+  },
+  {
+    "label": "Skins, sheep",
+    "indicator": 1199329
+  },
+  {
+    "label": "Sorghum",
+    "indicator": 1199338
+  },
+  {
+    "label": "Soybean oil",
+    "indicator": 1199349
+  },
+  {
+    "label": "Soybeans",
+    "indicator": 1199355
+  },
+  {
+    "label": "Spinach",
+    "indicator": 1199362
+  },
+  {
+    "label": "Strawberries",
+    "indicator": 1199369
+  },
+  {
+    "label": "String beans",
+    "indicator": 1199376
+  },
+  {
+    "label": "Sugar beet",
+    "indicator": 1199386
+  },
+  {
+    "label": "Sugar cane",
+    "indicator": 1199394
+  },
+  {
+    "label": "Sugar crops",
+    "indicator": 1199400
+  },
+  {
+    "label": "Sugar, raw",
+    "indicator": 1199380
+  },
+  {
+    "label": "Sunflower oil",
+    "indicator": 1199405
+  },
+  {
+    "label": "Sunflower seed",
+    "indicator": 1199410
+  },
+  {
+    "label": "Sweet potatoes",
+    "indicator": 1199418
+  },
+  {
+    "label": "Tangerines",
+    "indicator": 1199436
+  },
+  {
+    "label": "Tobacco",
+    "indicator": 1199453
+  },
+  {
+    "label": "Tomatoes",
+    "indicator": 1199460
+  },
+  {
+    "label": "Treenuts",
+    "indicator": 1199467
+  },
+  {
+    "label": "Vegetables",
+    "indicator": 1199504
+  },
+  {
+    "label": "Walnuts",
+    "indicator": 1199518
+  },
+  {
+    "label": "Watermelons",
+    "indicator": 1199525
+  },
+  {
+    "label": "Wheat",
+    "indicator": 1199532
+  },
+  {
+    "label": "Whey",
+    "indicator": 1199536
+  },
+  {
+    "label": "Wine",
+    "indicator": 1199551
+  },
+  {
+    "label": "Wool",
+    "indicator": 1199554
+  },
+  {
+    "label": "Yams",
+    "indicator": 1199560
+  }
+]

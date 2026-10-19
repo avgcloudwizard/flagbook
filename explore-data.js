@@ -14,7 +14,7 @@ export function loadJSON(path){
   return cache.get(path);
 }
 export const loadExtras=()=>loadJSON('data/country-extras.json');
-export const loadRecords=()=>loadJSON('data/world-records.json');
+export const loadRecords=()=>loadJSON('data/world-records.json?v=7');
 export const loadRates=()=>loadJSON('data/exchange-rates.json');
 export function formatValue(value,unit,compact=false){
   if(['m','km'].includes(unit))compact=false;

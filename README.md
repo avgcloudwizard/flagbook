@@ -14,7 +14,7 @@ A free, personal flag and geography learning website hosted on GitHub Pages.
 
 ## Learning
 
-Open **Learning** for an alphabetical revision sheet of all 195 flags, country names and capitals. The compact three-column table fits mobile screens. Choose a continent, then optionally search within it by country, alternative country name or capital. Continent groups follow the atlas regions; North America includes Central America and the Caribbean. Multiple capitals and government seats follow the same reviewed data as the quizzes. Reading and searching do not record quiz attempts.
+Open **Revision** for an alphabetical revision sheet of all 195 flags, country names and capitals. The compact three-column table fits mobile screens. Choose a continent, then optionally search within it by country, alternative country name or capital. Continent groups follow the atlas regions; North America includes Central America and the Caribbean. Multiple capitals and government seats follow the same reviewed data as the quizzes. Reading and searching do not record quiz attempts.
 
 ## Progress
 
@@ -40,7 +40,7 @@ After a correct flag answer or reveal, a card below the quiz shows the flag’s 
 
 ## Globe explorer
 
-Open **Globe explorer** in the main navigation. Drag to rotate, scroll or use + / − to zoom, and click a country. Tiny states have clickable point markers. No country-name tooltips spoil the quiz.
+Open **Globe quiz** in the main navigation. Drag to rotate, scroll or use + / − to zoom, and click a country. Tiny states have clickable point markers. No country-name tooltips spoil the quiz.
 
 1. Name the highlighted country, using the same exact-spelling rules as flag practice.
 2. Once correct, name its capital. Countries with multiple accepted seats explain that any listed one is valid.
@@ -64,6 +64,15 @@ Reviewed additions live in `data/editorial/`; run `python3 scripts/build-country
 
 **World atlas** is a separate, non-quiz globe with country names. Drag or use the keyboard to rotate, zoom to reveal labels, select a continent to hide other countries, and search the country/capital list. Selecting a place focuses the globe and opens a short profile. Atlas and Records browsing never changes quiz progress.
 
-**World records** has category, topic and country selectors. The initial catalogue includes 17 topics across Nature, Agriculture, Textiles, Industry and Services, with illustrated landscapes and sourced top-five tables. A country filter adds its highest point, longest listed river, top-five appearances and available position in the selected dataset. Missing coverage is explicitly labelled. Links connect the records to the learning globe.
+**Records** now covers 224 topics and 19,478 reported entries, including 180 agricultural, food and livestock series; energy; manufacturing; trade; population; transport; environment; and geographic extremes. Search topics, filter by category or continent, compare a country, show 5/10/25/all entries, and download a sourced CSV. Global ranks remain visible when filtering continents. Observation years, coverage and source updates are explicit; the 2019 tourism ranking has been removed from this current catalogue.
+
+**Fun facts** contains 4,130 distinct cards: 1,037 stories/geographic notes and 3,093 country-data facts. Shuffle favours stories and unread cards. Filter by subject, country, text or card type; save favourites; return to a previous card; open a daily pick; guess the country; copy facts with their source; or share a direct card link. A small globe places each country, with links to the atlas and relevant ranking. Arrow keys browse when focus is outside an input or control. Reading history and favourites stay in this browser in `flagbook.facts.v1`, separate from quiz progress; existing quiz backups do not include this reading list.
+
+The refreshed design uses a quieter palette, compact navigation and tables, and a paper-style fact reader. All seven pages support narrow screens.
 
 Globe-quiz results now begin with a country introduction; the flag story remains in a disclosure below. All country cards include official/spoken-language context, native country names, available written sentence samples, and dated INR currency references. Agriculture, Industry and Services buttons open product-specific top-five comparisons. The figures are bundled snapshots, not live market feeds; observation years and definitions appear next to the data.
+
+
+### Refreshing records and facts
+
+Run `python3 scripts/refresh-records.py`, then `python3 scripts/build-facts.py` and `npm test`. The first script uses reviewed indicator IDs and downloads upstream data to `.qa/refresh`; clear that ignored cache for a new retrieval and update the snapshot date before refreshing. The second builds facts entirely from committed inputs. `build-records.py` forwards to the current refresh script. Check source definitions, latest years and coverage before publishing. Production pages use bundled snapshots and require no API keys.
