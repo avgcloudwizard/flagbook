@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {COUNTRIES} from '../countries.js';
 import {countrySummary,currencyReference,languageCard,formatValue,continentForRegion,loadJSON} from '../explore-data.js';
-import {topFive,rankingList,countryHighlights} from '../records.js';
+import {topFive,rankingList,countryHighlights,countryTopFive,countryTopFivePanel} from '../records.js';
 import {Globe} from '../globe.js';
 const json=file=>JSON.parse(readFileSync(new URL('../data/'+file,import.meta.url)));
 const extras=json('country-extras.json'),details=json('country-details.json'),contexts=json('country-context.json'),fx=json('exchange-rates.json'),records=json('world-records.json');
@@ -74,4 +74,29 @@ test('new data loader retries a failed response and shares in-flight requests',a
  const oldFetch=globalThis.fetch;let count=0;
  globalThis.fetch=async()=>({ok:++count>1,json:async()=>({loaded:true})});
  try{await assert.rejects(loadJSON('/test-explore'));const [a,b]=await Promise.all([loadJSON('/test-explore'),loadJSON('/test-explore')]);assert.equal(a,b);assert.equal(count,2);}finally{globalThis.fetch=oldFetch;}
+});
+
+
+test('country top-five overview includes every matching topic, ties and all shared features',()=>{
+ const before=JSON.stringify(records.items);
+ for(const code of codes){
+  const expected=records.items.filter(i=>i.entries.some(e=>e.rank<=5&&(e.code===code||e.countries?.includes(code))));
+  const wins=countryTopFive(records.items,code);
+  assert.deepEqual(wins.map(w=>w.item.id).sort(),expected.map(i=>i.id).sort());
+  for(const {item,entries} of wins)assert.deepEqual(entries,item.entries.filter(e=>e.rank<=5&&(e.code===code||e.countries?.includes(code))));
+ }
+ const mountains=countryTopFive(records.items,'np').find(w=>w.item.id==='mountains');
+ assert.ok(mountains.entries.length>1);
+ const ties={id:'tied',label:'Tied topic',entries:[{code:'in',rank:5},{code:'br',rank:5},{code:'fr',rank:6}]};
+ assert.equal(countryTopFive([ties],'in').length,1);assert.equal(countryTopFive([ties],'fr').length,0);
+ assert.equal(JSON.stringify(records.items),before);
+});
+test('country overview names its coverage and links every topic, with a clear empty state',()=>{
+ const html=countryTopFivePanel(records.items,'in');
+ for(const {item} of countryTopFive(records.items,'in'))assert.ok(html.includes('data-record-topic="'+item.id+'"'));
+ assert.match(html,/Show all/);assert.match(html,/regardless of the filters/);
+ assert.match(countryTopFivePanel(records.items,'np'),/shared feature/);
+ assert.match(countryTopFivePanel(records.items,'us'),/Selected comparison/);
+ assert.match(countryTopFivePanel([],'va'),/No top-five entries here yet/);
+ assert.equal(countryTopFivePanel(records.items,''),'');
 });

@@ -3,7 +3,7 @@ import {startRecordGames} from './record-games.js?v=9';
 import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js';
 import {startFacts} from './facts.js?v=8';
 import {startAtlas} from './atlas.js?v=8';
-import {startRecords} from './records.js?v=8';
+import {startRecords} from './records.js?v=10';
 import {showDiscovery,clearDiscovery} from './discovery.js?v=8';
 import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=8';
 import {startLearning} from './learning.js?v=8';
