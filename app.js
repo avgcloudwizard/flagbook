@@ -1,9 +1,9 @@
-import {startFacts} from './facts.js?v=7';
-import {startAtlas} from './atlas.js?v=7';
-import {startRecords} from './records.js?v=7';
-import {showDiscovery,clearDiscovery} from './discovery.js?v=7';
-import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=7';
-import {startLearning} from './learning.js?v=7';
+import {startFacts} from './facts.js?v=8';
+import {startAtlas} from './atlas.js?v=8';
+import {startRecords} from './records.js?v=8';
+import {showDiscovery,clearDiscovery} from './discovery.js?v=8';
+import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=8';
+import {startLearning} from './learning.js?v=8';
 import { COUNTRIES } from './countries.js';
 import { BY_CODE, STORAGE_KEY, isCorrect, shuffled, summarize, validateEvents, parseBackup } from './core.js';
 const $ = id => document.getElementById(id);

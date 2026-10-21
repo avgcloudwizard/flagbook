@@ -1,7 +1,7 @@
 import {COUNTRIES} from './countries.js';
 import {BY_CODE} from './core.js';
-import {Globe,loadAtlas} from './globe.js?v=7';
-import {showDiscovery,clearDiscovery,esc} from './discovery.js?v=7';
+import {Globe,loadAtlas} from './globe.js?v=8';
+import {showDiscovery,clearDiscovery,esc} from './discovery.js?v=8';
 import {GLOBE_KEY,checkGlobeAnswer,validateGlobeEvents,mergeGlobeEvents,globeSummary} from './globe-core.js';
 const $=id=>document.getElementById(id);
 let events=[],session=null,globe=null,atlas=null,starting=null,healthy=true;

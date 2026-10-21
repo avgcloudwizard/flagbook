@@ -1,0 +1,106 @@
+{
+  "id": "gold-holdings",
+  "category": "Metals & Minerals",
+  "group": "Official holdings",
+  "label": "Gold — official holdings",
+  "unit": "tonnes",
+  "year": "Mixed reporting dates",
+  "measure": "Central-bank and treasury gold · selected countries",
+  "checked": "2026-10-21",
+  "source": "https://www.gold.org/goldhub/data/gold-reserves-by-country",
+  "sourceLabel": "Individual official reports linked in the table",
+  "note": "Gold owned by central banks or national treasuries, wherever it is stored. Excludes private jewellery, mine reserves and international institutions such as the IMF and ECB. Figures retain source rounding. Japan is converted from fine troy ounces; USGS rounds the US Treasury stock to 8,130 tonnes.",
+  "notice": "Selected-country comparison, not a complete global ranking. Reports range from late 2025 to September 2026, plus an undated Italian reference. Each row shows its own date and source.",
+  "coverage": "11 selected countries with accessible official reports or limited attributed World Gold Council figures. Positions apply only to these entries; missing countries do not have zero holdings. Dates differ, so this is not a same-date global series.",
+  "entries": [
+    {
+      "code": "us",
+      "value": 8130,
+      "observed": "2025 year-end",
+      "source": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gold.pdf#page=1",
+      "sourceLabel": "USGS / US Treasury",
+      "detail": "Rounded to the nearest 10 tonnes in the source."
+    },
+    {
+      "code": "de",
+      "value": 3350.285,
+      "observed": "2025-12-31",
+      "source": "https://publikationen.bundesbank.de/publikationen-en/reports-studies/annual-reports/annual-report-2025-974388?article=annual-accounts-of-the-deutsche-bundesbank-for-2025-988046",
+      "sourceLabel": "Deutsche Bundesbank",
+      "detail": "Physical holdings; 3,350,285 kg converted to tonnes."
+    },
+    {
+      "code": "it",
+      "value": 2452,
+      "observed": "Undated official reference",
+      "source": "https://www.bancaditalia.it/compiti/riserve-portafoglio-rischi/riserve-oro/index.html",
+      "sourceLabel": "Banca d’Italia",
+      "detail": "Rounded official stock reference, checked 21 October 2026; no current observation date stated."
+    },
+    {
+      "code": "fr",
+      "value": 2437,
+      "observed": "2026-04-09 statement",
+      "source": "https://www.banque-france.fr/en/news/banque-de-france-2025-results",
+      "sourceLabel": "Banque de France",
+      "detail": "Rounded stock in the April 2026 statement."
+    },
+    {
+      "code": "cn",
+      "value": 2387,
+      "observed": "2026-08-31",
+      "source": "https://www.gold.org/goldhub/gold-focus/2026/10/central-bank-gold-statistics-central-banks-continue-summer-spree-august",
+      "sourceLabel": "World Gold Council / IMF",
+      "detail": "Approximate reported official holdings."
+    },
+    {
+      "code": "ru",
+      "value": 2271,
+      "observed": "2026-08-31",
+      "source": "https://www.gold.org/goldhub/gold-focus/2026/10/central-bank-gold-statistics-central-banks-continue-summer-spree-august",
+      "sourceLabel": "World Gold Council / IMF",
+      "detail": "Approximate reported official holdings."
+    },
+    {
+      "code": "ch",
+      "value": 1040,
+      "observed": "2025-12-31",
+      "source": "https://www.snb.ch/public/asset/en/www-snb-ch/publications/communication/press-releases/2026/pre_20260302/publications0_en/pre_20260302.en.pdf",
+      "sourceLabel": "Swiss National Bank",
+      "detail": "Unchanged volume confirmed again in the June 2026 interim results."
+    },
+    {
+      "code": "in",
+      "value": 880.52,
+      "observed": "2026-03-31",
+      "source": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23811",
+      "sourceLabel": "Reserve Bank of India",
+      "detail": "Total holdings in the 46th half-yearly foreign-exchange reserves report."
+    },
+    {
+      "code": "jp",
+      "value": 846.01,
+      "observed": "2026-09-30",
+      "source": "https://www.mof.go.jp/english/policy/international_policy/reference/official_reserve_assets/e0809.html",
+      "sourceLabel": "Japan Ministry of Finance",
+      "detail": "27.20 million fine troy ounces converted to tonnes; source ounces are rounded."
+    },
+    {
+      "code": "pl",
+      "value": 648,
+      "observed": "2026-08-31",
+      "source": "https://www.gold.org/goldhub/gold-focus/2026/10/central-bank-gold-statistics-central-banks-continue-summer-spree-august",
+      "sourceLabel": "World Gold Council / IMF",
+      "detail": "Approximate reported official holdings."
+    },
+    {
+      "code": "nl",
+      "value": 612.4,
+      "observed": "2026-09-02 statement",
+      "source": "https://www.dnb.nl/en/general-news/press-release-2026/dnb-improves-tradability-of-gold-reserves/",
+      "sourceLabel": "De Nederlandsche Bank",
+      "detail": "Reported total stock; moving bars between countries does not change ownership."
+    }
+  ],
+  "commodity": "gold"
+}

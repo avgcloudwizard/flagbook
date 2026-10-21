@@ -4,11 +4,11 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#171d19"><meta name="description" content="Learn flags, explore an interactive globe, guess countries and capitals, and discover the stories behind 195 countries.">
 <title>Flagbook — know your world</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=7">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=8">
 <script defer src="vendor/d3.min.js"></script>
 <script defer src="vendor/topojson-client.min.js"></script>
-<script type="module" src="app.js?v=7"></script>
-<link rel="stylesheet" href="refine.css?v=7">
+<script type="module" src="app.js?v=8"></script>
+<link rel="stylesheet" href="refine.css?v=8">
 </head>
 <body>
 <header class="header"><a class="brand" href="#practice" aria-label="Flagbook home"><span class="brand-icon" aria-hidden="true">⚑</span><span class="brand-text"><span>flagbook<span class="brand-period">.</span></span><small class="brand-byline">~By Aranya</small></span></a><nav aria-label="Main navigation"><a href="#practice" id="practice-link" aria-current="page">Flags</a><a href="#globe" id="globe-link">Globe quiz</a><a href="#learning" id="learning-link">Revision</a><a href="#atlas" id="atlas-link">Atlas</a><a href="#records" id="records-link">Records</a><a href="#facts" id="facts-link">Fun facts</a><a href="#progress" id="progress-link">Progress</a></nav><span class="edition">THE WORLD, ONE FLAG AT A TIME</span></header>
@@ -55,7 +55,7 @@
 <section id="records-view" class="records-page" aria-labelledby="records-title" hidden>
 <div class="page-heading"><div><p class="eyebrow">THE RECORD BOOK</p><h1 id="records-title">World records.</h1><p class="intro">Compare countries, explore what they produce, and check the numbers.</p></div></div>
 <p id="records-total" class="catalogue-count">Loading the catalogue…</p><div class="records-search-row"><label for="records-search">Find a topic<input id="records-search" type="search" placeholder="Try pistachios, solar, wool, population…" disabled></label><span id="records-matches" role="status"></span></div>
-<div class="topic-shortcuts" aria-label="Popular topics"><span>Start with</span><button data-topic-shortcut="cocoa">Cocoa</button><button data-topic-shortcut="avocados">Avocados</button><button data-topic-shortcut="lakes">Lakes</button><button data-topic-shortcut="solar-electricity">Solar power</button><button data-topic-shortcut="population">Population</button></div>
+<div class="topic-shortcuts" aria-label="Popular topics"><span>Start with</span><button data-topic-shortcut="gold-mine">Gold</button><button data-topic-shortcut="silver-mine">Silver</button><button data-topic-shortcut="lithium-mine">Lithium</button><button data-topic-shortcut="cocoa">Cocoa</button><button data-topic-shortcut="avocados">Avocados</button><button data-topic-shortcut="lakes">Lakes</button><button data-topic-shortcut="solar-electricity">Solar power</button><button data-topic-shortcut="population">Population</button></div>
 <div class="records-controls"><label for="records-category">Category<select id="records-category" disabled><option value="">All categories</option></select></label><label for="records-topic">Topic<select id="records-topic" disabled><option>Loading topics…</option></select></label><label for="records-country">Country lens<select id="records-country" disabled><option value="">All countries</option></select></label></div>
 <p id="records-status" class="records-status" role="status" aria-live="polite"></p><div id="records-results"></div>
 </section>

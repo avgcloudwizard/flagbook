@@ -128,6 +128,9 @@ for id,label,field,sub,unit,note in [
 lakes=[('Caspian Sea',374000,['az','ir','kz','ru','tm']),('Lake Superior',82100,['ca','us']),('Lake Victoria',62940,['ke','tz','ug']),('Lake Huron',59600,['ca','us']),('Lake Michigan',57750,['us']),('Lake Tanganyika',32000,['bi','cd','tz','zm']),('Lake Baikal',31500,['ru']),('Great Bear Lake',31328,['ca']),('Great Slave Lake',28568,['ca']),('Lake Malawi',22490,['mw','mz','tz'])]
 add(id='lakes',category='Nature',group='Geography',label='Largest natural lakes',unit='km²',year='Geographic reference',art='rivers',note='Surface area, not volume. The Caspian Sea is saline. Huron and Michigan are separated here; hydraulically they form one lake. Areas vary seasonally.',source='https://github.com/factbook/factbook.json/blob/144d6977b2b01ac1cbd220de754c0a005616760b/world/xx.json',sourceLabel='World Factbook · world geography',coverage='Ten named natural lakes in the source; reservoirs excluded.',entries=[{'name':n,'value':v,'countries':cs} for n,v,cs in lakes])
 
+# Keep the independently reviewed mineral snapshots when refreshing other series.
+import runpy
+items.extend(runpy.run_path(str(ROOT/'scripts/build-minerals.py'))['compile_minerals']())
 items.sort(key=lambda i:(i['category'],i['label']))
 assert len({i['id'] for i in items})==len(items),'duplicate topic IDs'
 assert len(items)>180,(len(items),failures)

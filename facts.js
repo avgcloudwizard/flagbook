@@ -1,6 +1,6 @@
 import {COUNTRIES} from './countries.js';
-import {Globe,loadAtlas} from './globe.js?v=7';
-import {esc,normalize,loadJSON} from './explore-data.js?v=7';
+import {Globe,loadAtlas} from './globe.js?v=8';
+import {esc,normalize,loadJSON} from './explore-data.js?v=8';
 import {FACTS_KEY,chooseFact,dailyFact,readFactState} from './facts-core.js';
 const $=id=>document.getElementById(id),names=new Map(COUNTRIES.map(c=>[c.code,c.name]));
 let data,atlas,globe,pending,current,seen=new Set(),saved=new Set(),history=[],position=-1,revealed=true,quiz=false,storageOK=true;
@@ -31,7 +31,7 @@ export async function startFacts(params=new URLSearchParams()){
  const apply=()=>{const id=params.get('id');if(id&&data.facts.some(f=>f.id===id)){for(const key of ['facts-category','facts-country','facts-kind','facts-search'])$(key).value='';$('facts-saved-only').checked=false;show(data.facts.find(f=>f.id===id));}else if(!current)show(data.facts[0]);else{render();globe?.resize();}};
  if(data){apply();return;}if(pending)return pending;
  pending=(async()=>{try{
-  [data,atlas]=await Promise.all([loadJSON('data/fun-facts.json'),loadAtlas()]);
+  [data,atlas]=await Promise.all([loadJSON('data/fun-facts.json?v=8'),loadAtlas()]);
   let raw;try{raw=localStorage.getItem(FACTS_KEY);}catch{storageOK=false;}
   ({seen,saved}=readFactState(raw,new Set(data.facts.map(f=>f.id))));
   $('facts-category').innerHTML='<option value="">All subjects</option>'+[...new Set(data.facts.map(f=>f.category))].sort().map(c=>`<option>${esc(c)}</option>`).join('');

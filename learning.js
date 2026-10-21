@@ -1,7 +1,7 @@
 import {COUNTRIES} from './countries.js';
-import {esc} from './explore-data.js?v=7';
+import {esc} from './explore-data.js?v=8';
 
-import {normalize,continentForRegion} from './explore-data.js?v=7';
+import {normalize,continentForRegion} from './explore-data.js?v=8';
 let rows;
 let pending;
 let bound = false;

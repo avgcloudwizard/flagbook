@@ -43,8 +43,8 @@ for code,c in details.items():
  if c['flagStory'] and 70<=len(c['flagStory'][0])<=650:add('flag-'+code,'Read the flag of '+name,c['flagStory'][0],'Flags & symbols',[code],c['source'])
 # Every statistical card corresponds to one distinct country/measure observation.
 for item in records['items']:
- if item['category']=='Nature':continue
- cat={'Agriculture':'Food & drink','Food & livestock':'Food & drink','Textiles':'Things we make','Energy':'Energy & resources','Industry':'Things we make','Economy':'Money & trade','Services':'Money & trade','People':'Places & people','Transport':'Getting around','Environment':'Weather & nature'}[item['category']]
+ if item['category']=='Nature' or item['id']=='gold-holdings':continue
+ cat={'Agriculture':'Food & drink','Food & livestock':'Food & drink','Textiles':'Things we make','Energy':'Energy & resources','Industry':'Things we make','Economy':'Money & trade','Services':'Money & trade','People':'Places & people','Transport':'Getting around','Environment':'Weather & nature','Metals & Minerals':'Metals & minerals'}[item['category']]
  for e in item['entries'][:15]:
   code=e.get('code')
   if not code:continue
@@ -56,6 +56,10 @@ for item in records['items']:
    if share>=1:body+=f' That is about {share:.1f}% of the reported world total.'
    body+=' This measures production, not where a particular item in your shopping basket was sourced.'
    question=f'Which country ranked #{rank} for {label.lower()} production in {year}?'
+  elif item['category']=='Metals & Minerals':
+   period=f'Estimated {year} output' if item['group']=='Production' else 'Estimated recoverable deposits in the 2026 reference'
+   body=f'{name}: {v} {unit} for {label.lower()} — #{rank} among the countries reported in this dataset. {period}. '+item['note']
+   question=f'Which country was #{rank} for {label.lower()} in the {year} dataset?'
   else:
    body=f'For {label.lower()}, {name} recorded {v} {unit} in {year} — #{rank} among the countries reported in this dataset. '+item['note']
    question=f'Which country was #{rank} for {label.lower()} in the {year} dataset?'
@@ -71,5 +75,5 @@ for topic,title,hook in [('cocoa','Your chocolate has a geography.','The cocoa i
 facts.sort(key=lambda f:(f['id']!='everyday-cocoa',f['id']))
 assert len(facts)>2500,len(facts)
 assert len({f['id'] for f in facts})==len(facts)
-(D/'fun-facts.json').write_text(json.dumps({'checked':'2026-10-19','facts':facts,'counts':dict(collections.Counter(f['kind'] for f in facts))},ensure_ascii=False,separators=(',',':'))+'\n')
+(D/'fun-facts.json').write_text(json.dumps({'checked':'2026-10-21','facts':facts,'counts':dict(collections.Counter(f['kind'] for f in facts))},ensure_ascii=False,separators=(',',':'))+'\n')
 print('Built',len(facts),'distinct cards:',collections.Counter(f['kind'] for f in facts))
