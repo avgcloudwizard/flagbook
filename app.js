@@ -1,3 +1,6 @@
+import {startMapChallenge} from './map-challenge.js?v=9';
+import {startRecordGames} from './record-games.js?v=9';
+import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js';
 import {startFacts} from './facts.js?v=8';
 import {startAtlas} from './atlas.js?v=8';
 import {startRecords} from './records.js?v=8';
@@ -182,13 +185,19 @@ function renderHistory() {
 $('more-history').addEventListener('click',()=>{historyLimit+=50;renderHistory();});
 function navigate() {
   const [route,query='']=location.hash.slice(1).split('?');
-  const page=['globe','learning','atlas','records','facts','progress'].includes(route)?route:'practice';
+  const page=['globe','earth','games','learning','atlas','records','facts','progress'].includes(route)?route:'practice';
   const params=new URLSearchParams(query);
-  for(const name of ['practice','globe','learning','atlas','records','facts','progress']){
+  for(const name of ['practice','globe','earth','games','learning','atlas','records','facts','progress']){
     $(name+'-view').hidden=name!==page;
     if(name===page)$(name+'-link').setAttribute('aria-current','page');else $(name+'-link').removeAttribute('aria-current');
   }
   if(page==='globe')startGlobe();
+  if(page==='earth')startMapChallenge();
+  if(page==='games')startRecordGames(params);
+  if(page==='progress'){
+    $('challenge-progress').innerHTML=[['map','Where on Earth?','earth'],['higher','Higher or lower','games?mode=higher'],['five','Name the top five','games?mode=five'],['mystery','Guess the country','games?mode=mystery']].map(([game,label,route])=>`<div><a href="#${route}">${label} ↗</a><div id="progress-game-${game}" class="game-stats"></div></div>`).join('');
+    for(const game of ['map','higher','five','mystery'])renderGameStats(game,$('progress-game-'+game));
+  }
   if(page==='learning')startLearning();
   if(page==='atlas')startAtlas(params);
   if(page==='records')startRecords(params);
@@ -197,7 +206,7 @@ function navigate() {
 }
 window.addEventListener('hashchange',()=>{navigate();window.scrollTo?.({top:0,behavior:'auto'});});
 function downloadBackup() {
-  const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),events,globeEvents:getGlobeEvents()},null,2)],{type:'application/json'});
+  const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),events,globeEvents:getGlobeEvents(),gameEvents:getGameEvents()},null,2)],{type:'application/json'});
   const url=URL.createObjectURL(blob), a=document.createElement('a'); a.href=url; a.download=`flagbook-progress-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   $('backup-status').textContent='Backup downloaded. Keep this file to restore or transfer your progress.';
 }
@@ -212,14 +221,16 @@ $('import-file').addEventListener('change',async e=>{
     const imported=parseBackup(backupText), combined=new Map(events.map(e=>[e.id,e]));
     const mergedGlobe=prepareGlobeImport(JSON.parse(backupText).globeEvents||[]);
     const addedGlobe=mergedGlobe.length-getGlobeEvents().length;
+    const mergedGames=prepareGameImport(JSON.parse(backupText).gameEvents||[]);
+    const addedGames=mergedGames.length-getGameEvents().length;
     for(const item of imported){
       if(combined.has(item.id) && JSON.stringify(combined.get(item.id))!==JSON.stringify(item))throw new Error('This backup contains conflicting attempts.');
       combined.set(item.id,item);
     }
     const merged=[...combined.values()].sort((a,b)=>Date.parse(a.at)-Date.parse(b.at));validateEvents(merged);
-    const added=merged.length-events.length;events=merged; applyGlobeImport(mergedGlobe);
-    clearTimeout(timer);newDeck();nextFlag();renderStats();save();
-    $('backup-status').textContent=`Imported ${added} flag records and ${addedGlobe} globe records. Existing attempts were kept.${storageHealthy?'':' Download a backup before closing; browser saving is unavailable.'}`;
+    const added=merged.length-events.length;events=merged; applyGlobeImport(mergedGlobe);applyGameImport(mergedGames);
+    clearTimeout(timer);newDeck();nextFlag();renderStats();save();navigate();
+    $('backup-status').textContent=`Imported ${added} flag records, ${addedGlobe} globe records and ${addedGames} game records. Existing attempts were kept.${storageHealthy?'':' Download a backup before closing; browser saving is unavailable.'}`;
   }catch(error){$('backup-status').textContent=`Couldn’t import: ${error.message} Your progress is unchanged.`;}
   e.target.value='';
 });

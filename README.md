@@ -78,3 +78,17 @@ Globe-quiz results now begin with a country introduction; the flag story remains
 ### Refreshing records and facts
 
 Run `python3 scripts/refresh-records.py`, then `python3 scripts/build-facts.py` and `npm test`. The first script uses reviewed indicator IDs and downloads upstream data to `.qa/refresh`; clear that ignored cache for a new retrieval and update the snapshot date before refreshing. Mineral inputs are reviewed transcriptions in `data/editorial/minerals-source.json` and `gold-holdings.json`; `python3 scripts/build-minerals.py` rebuilds this category without a network request and is also included in the full refresh. The second builds facts entirely from committed inputs. `build-records.py` forwards to the current refresh script. Check source definitions, latest years and coverage before publishing. Production pages use bundled snapshots and require no API keys.
+
+## Where on Earth? and Records games
+
+**Where on Earth?** (`#earth`) reverses the globe quiz: read a country name and select its territory on an unlabelled, draggable globe. Choose the whole world or a continent, zoom, ask for a regional hint or reveal the answer. Incorrect clicks identify the selected country and let you keep trying. Tiny countries have clickable markers; keyboard players can move a country under the centre crosshair and press Enter. The deck visits each eligible country once before reshuffling.
+
+**Records games** (`#games`) contains three modes using the existing sourced catalogue:
+
+- **Higher or lower:** compare two different positive country values from the same topic and reporting period. Answer once, then see both figures.
+- **Name the top five:** type the countries in any order. Fifth-place ties are included. Duplicate answers do not count as mistakes; spelling follows flag practice's accepted-name rules.
+- **Guess the country:** progressively open statistical, regional and capital clues. Statistical clues use untied top-five values so an alternative country cannot satisfy the same first clue. Only subjects with enough clues are offered.
+
+All games keep source years and reveal source links and coverage after the round. Comparisons exclude mixed-date gold holdings and shared natural features. “Surprise me” favours familiar topics; the subject and topic selectors expose the wider eligible catalogue.
+
+Each mode tracks completed rounds and clean rounds (all answers correct, no hints or reveals). Attempts are stored separately in `flagbook.games.v1`; active rounds survive reloads within a tab through session storage. **Progress** shows all four game modes, and its existing backup/import includes `gameEvents`, merging by attempt ID. Older backups remain compatible. Resetting flag progress does not reset games.
