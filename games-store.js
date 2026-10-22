@@ -1,4 +1,4 @@
-import {validateGameEvents,mergeGameEvents,gameSummary} from './games-core.js';
+import {validateGameEvents,mergeGameEvents,gameSummary} from './games-core.js?v=11';
 export const GAMES_KEY='flagbook.games.v1';
 let events=[],loaded=false,healthy=true;
 function warn(){

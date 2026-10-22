@@ -1,6 +1,7 @@
-import {startMapChallenge} from './map-challenge.js?v=9';
-import {startRecordGames} from './record-games.js?v=9';
-import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js';
+import {startBorders} from './border-game.js?v=11';
+import {startMapChallenge} from './map-challenge.js?v=11';
+import {startRecordGames} from './record-games.js?v=11';
+import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js?v=11';
 import {startFacts} from './facts.js?v=8';
 import {startAtlas} from './atlas.js?v=8';
 import {startRecords} from './records.js?v=10';
@@ -185,18 +186,19 @@ function renderHistory() {
 $('more-history').addEventListener('click',()=>{historyLimit+=50;renderHistory();});
 function navigate() {
   const [route,query='']=location.hash.slice(1).split('?');
-  const page=['globe','earth','games','learning','atlas','records','facts','progress'].includes(route)?route:'practice';
+  const page=['globe','earth','borders','games','learning','atlas','records','facts','progress'].includes(route)?route:'practice';
   const params=new URLSearchParams(query);
-  for(const name of ['practice','globe','earth','games','learning','atlas','records','facts','progress']){
+  for(const name of ['practice','globe','earth','borders','games','learning','atlas','records','facts','progress']){
     $(name+'-view').hidden=name!==page;
     if(name===page)$(name+'-link').setAttribute('aria-current','page');else $(name+'-link').removeAttribute('aria-current');
   }
   if(page==='globe')startGlobe();
   if(page==='earth')startMapChallenge();
+  if(page==='borders')startBorders();
   if(page==='games')startRecordGames(params);
   if(page==='progress'){
-    $('challenge-progress').innerHTML=[['map','Where on Earth?','earth'],['higher','Higher or lower','games?mode=higher'],['five','Name the top five','games?mode=five'],['mystery','Guess the country','games?mode=mystery']].map(([game,label,route])=>`<div><a href="#${route}">${label} ↗</a><div id="progress-game-${game}" class="game-stats"></div></div>`).join('');
-    for(const game of ['map','higher','five','mystery'])renderGameStats(game,$('progress-game-'+game));
+    $('challenge-progress').innerHTML=[['map','Where on Earth?','earth'],['borders','Border hop','borders'],['higher','Higher or lower','games?mode=higher'],['five','Name the top five','games?mode=five'],['mystery','Guess the country','games?mode=mystery']].map(([game,label,route])=>`<div><a href="#${route}">${label} ↗</a><div id="progress-game-${game}" class="game-stats"></div></div>`).join('');
+    for(const game of ['map','higher','five','mystery','borders'])renderGameStats(game,$('progress-game-'+game));
   }
   if(page==='learning')startLearning();
   if(page==='atlas')startAtlas(params);

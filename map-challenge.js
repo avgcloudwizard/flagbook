@@ -1,7 +1,7 @@
 import {Globe,loadAtlas} from './globe.js?v=8';
 import {BY_CODE,shuffled} from './core.js';
 import {CONTINENTS,continentForRegion,esc} from './explore-data.js?v=8';
-import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js';
+import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js?v=11';
 const $=id=>document.getElementById(id);
 const views={'Africa':[20,3,1.25],'Asia':[88,33,1.1],'Europe':[18,52,1.8],'North America':[-101,34,1.1],'South America':[-61,-18,1.3],'Oceania':[150,-21,1.1]};
 let globe,atlas,pending,state;

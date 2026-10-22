@@ -52,7 +52,7 @@ export function pickMystery(items,previous,random=Math.random) {
   for(const clue of ordered)if(!chosen.includes(clue))chosen.push(clue);
   return {code:candidate.code,clues:chosen.slice(0,3)};
 }
-export const GAME_MODES=['map','higher','five','mystery'];
+export const GAME_MODES=['map','higher','five','mystery','borders'];
 export function validateGameEvents(events) {
   if(!Array.isArray(events)||events.length>200000)throw new Error('Invalid game history.');
   const ids=new Set();

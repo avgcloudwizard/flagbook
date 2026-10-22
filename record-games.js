@@ -1,8 +1,8 @@
 import {BY_CODE,shuffled} from './core.js';
 import {loadAtlas} from './globe.js?v=8';
 import {loadRecords,esc,formatValue} from './explore-data.js?v=8';
-import {gameTopics,topFiveEntries,comparison,checkDirection,checkTopFive,matchCountry,pickMystery,mysteryCandidates} from './games-core.js';
-import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js';
+import {gameTopics,topFiveEntries,comparison,checkDirection,checkTopFive,matchCountry,pickMystery,mysteryCandidates} from './games-core.js?v=11';
+import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js?v=11';
 const $=id=>document.getElementById(id);
 const starter=['coffee','cocoa','rice','wheat','bananas','gold-mine','silver-mine','oil','solar-electricity','population','country-area','forest','cotton'];
 const titles={higher:'Higher or lower?',five:'Name the top five.',mystery:'Which country am I?'};
