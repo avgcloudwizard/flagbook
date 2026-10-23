@@ -48,3 +48,21 @@ export function restoreRoute(saved,graph){
   for(const answer of saved.answers){if(typeof answer!=='string'||answer.length>160)return null;const result=guessRoute(state,answer,graph);if(result.kind==='ignored')return null;state=result.state;}
   return {...saved,...state};
 }
+
+// Enumerate every simple route in the mode's range. Reverse distances prune
+// branches that cannot reach the destination within the remaining crossings.
+export function allRoutes(graph,start,end,level){
+  const [min,max]=LEVELS[level],distances=new Map([[end,0]]),queue=[end],routes=[];
+  for(let i=0;i<queue.length;i++)for(const c of graph[queue[i]]||[])if(!distances.has(c)){distances.set(c,distances.get(queue[i])+1);queue.push(c);}
+  const path=[start],visited=new Set(path);
+  function visit(current){
+    const crossings=path.length-1;
+    if(current===end){if(crossings>=min)routes.push([...path]);return;}
+    if(crossings+(distances.get(current)??Infinity)>max)return;
+    for(const next of graph[current]||[])if(!visited.has(next)&&crossings+1+(distances.get(next)??Infinity)<=max){
+      path.push(next);visited.add(next);visit(next);visited.delete(next);path.pop();
+    }
+  }
+  visit(start);
+  return routes.sort((a,b)=>a.length-b.length||a.join().localeCompare(b.join()));
+}

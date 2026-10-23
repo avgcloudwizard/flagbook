@@ -1,4 +1,4 @@
-import {startBorders} from './border-game.js?v=11';
+import {startBorders} from './border-game.js?v=12';
 import {startMapChallenge} from './map-challenge.js?v=11';
 import {startRecordGames} from './record-games.js?v=11';
 import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js?v=11';

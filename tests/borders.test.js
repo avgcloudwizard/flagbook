@@ -56,3 +56,29 @@ test('border attempts survive backup merges and distinguish wins from losses',()
  validateGameEvents(events);assert.equal(mergeGameEvents(events,events).length,2);assert.deepEqual(gameSummary(events,'borders'),{completed:1,clean:1});
  events[1].correct=false;assert.deepEqual(gameSummary(events,'borders'),{completed:1,clean:0});
 });
+
+test('all routes include distinct correct answers, all lengths in range, and both directions',async()=>{
+ const {allRoutes}=await import('../border-core.js');
+ // Independent brute-force oracle on a small cyclic graph.
+ const g={a:['b','c'],b:['a','c','d'],c:['a','b','d','e'],d:['b','c','e'],e:['c','d']},expected=[];
+ function walk(path){if(path.at(-1)==='e'){if(path.length>=4&&path.length<=5)expected.push(path);return;}if(path.length===5)return;for(const n of g[path.at(-1)])if(!path.includes(n))walk([...path,n]);}
+ walk(['a']);const result=allRoutes(g,'a','e','easy');
+ assert.deepEqual(result.map(p=>p.join()).sort(),expected.map(p=>p.join()).sort());
+ assert.ok(result.some(p=>p.length===4));assert.ok(result.some(p=>p.length===5));
+ assert.deepEqual(allRoutes(g,'e','a','easy').map(p=>p.reverse().join()).sort(),expected.map(p=>p.join()).sort());
+ const actual=allRoutes(graph,'pt','de','easy');
+ assert.ok(actual.some(p=>p.join()==='pt,es,fr,de'));
+ assert.ok(actual.some(p=>p.join()==='pt,es,fr,be,de'));
+ assert.ok(actual.some(p=>p.join()==='pt,es,fr,ch,de'));
+ assert.equal(new Set(actual.map(p=>p.join())).size,actual.length);
+ for(const route of actual){assert.ok(route.length>=4&&route.length<=5);assert.equal(new Set(route).size,route.length);for(let i=1;i<route.length;i++)assert.ok(graph[route[i-1]].includes(route[i]));}
+ assert.deepEqual(allRoutes(graph,'jp','de','hard'),[]);
+});
+test('route tags stay within the canvas, avoid each other and label tiny countries with leaders',async()=>{
+ const {layoutRouteLabels}=await import('../border-labels.js');
+ for(const [width,height] of [[326,320],[796,440]]){
+  const items=Array.from({length:11},(_,i)=>({text:'Country '+i,width:70+i*4,anchor:[width/2+i,height/2+i],inside:i===0}));
+  const tags=layoutRouteLabels(items,width,height);assert.equal(tags.length,11);assert.equal(tags[0].leader,false);
+  tags.forEach((a,i)=>{assert.ok(a.x>=0&&a.y>=0&&a.x+a.width<=width&&a.y+a.height<=height);if(i)assert.equal(a.leader,true);for(const b of tags.slice(i+1))assert.ok(a.x+a.width<=b.x||b.x+b.width<=a.x||a.y+a.height<=b.y||b.y+b.height<=a.y);});
+ }
+});
