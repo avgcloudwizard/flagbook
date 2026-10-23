@@ -82,3 +82,11 @@ test('route tags stay within the canvas, avoid each other and label tiny countri
   tags.forEach((a,i)=>{assert.ok(a.x>=0&&a.y>=0&&a.x+a.width<=width&&a.y+a.height<=height);if(i)assert.equal(a.leader,true);for(const b of tags.slice(i+1))assert.ok(a.x+a.width<=b.x||b.x+b.width<=a.x||a.y+a.height<=b.y||b.y+b.height<=a.y);});
  }
 });
+
+test('every displayed route country has a distinct colour, with stable endpoint colours',async()=>{
+ const {routeColors}=await import('../border-colors.js');
+ const path=['pt','es','fr','be','nl','de','pl','cz','at','si','hr'],ends=['pt','gr'];
+ const colors=routeColors(path,ends);assert.equal(colors.size,12);assert.equal(new Set(colors.values()).size,12);assert.ok([...colors.values()].every(Boolean));
+ const shorter=routeColors(path.slice(0,5),ends);for(const [code,color] of shorter)assert.equal(colors.get(code),color);
+ const reverse=routeColors([...path].reverse(),ends);for(const c of ends)assert.equal(reverse.get(c),colors.get(c));
+});

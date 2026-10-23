@@ -1,8 +1,12 @@
+import {gameNumber} from './game-format.js?v=13';
 import {BY_CODE,isCorrect,shuffled} from './core.js';
+
+export const FAMILIAR_TOPICS=new Set(['coffee','cocoa','rice','wheat','maize','bananas','potatoes','sugarcane','palm-oil','milk','cotton','gold-mine','silver-mine','copper-mine','iron-ore-mine','oil','gas','coal-production','solar-electricity','population','country-area','forest','english-speakers-eu','spanish-speakers-eu','french-speakers-eu','german-speakers-eu','spanish-native-speakers']);
+const BROAD_METRICS=new Set(['population','country-area','forest','english-speakers-eu','spanish-speakers-eu','french-speakers-eu','german-speakers-eu','spanish-native-speakers']);
 
 // Comparisons must use a single observation period and actual country values.
 export function gameTopics(items) {
-  return items.filter(item => !/mixed/i.test(item.year) && item.entries.length >= 2 &&
+  return items.filter(item => FAMILIAR_TOPICS.has(item.id) && !/mixed/i.test(item.year) && item.entries.length >= 2 &&
     item.entries.every(e => BY_CODE.has(e.code) && Number.isFinite(e.value) && e.value >= 0 && !e.observed) &&
     new Set(item.entries.map(e => e.code)).size === item.entries.length &&
     new Set(item.entries.map(e => e.value)).size > 1);
@@ -14,10 +18,10 @@ export function topFiveEntries(item) {
   return sorted.filter(e=>e.value>=sorted[4].value);
 }
 export function comparison(item, random=Math.random) {
-  const entries=item.entries.filter(e=>e.value>0);
+  const entries=item.entries.filter(e=>e.value>0&&(BROAD_METRICS.has(item.id)||e.rank<=3));
   const first=entries[Math.floor(random()*entries.length)];
   if(!first)return null;
-  const choices=entries.filter(e=>e.code!==first.code && e.value!==first.value);
+  const choices=entries.filter(e=>e.code!==first.code && e.value!==first.value&&gameNumber(e.value,item.unit)!==gameNumber(first.value,item.unit));
   if(!choices.length)return null;
   return [first,choices[Math.floor(random()*choices.length)]];
 }
@@ -34,11 +38,11 @@ export function checkTopFive(item,found,answer) {
 }
 export function mysteryCandidates(items) {
   const byCountry=new Map();
-  for(const item of items)for(const e of item.entries.filter(e=>e.rank<=5&&e.value>0&&item.entries.filter(other=>other.value===e.value).length===1)){
+  for(const item of gameTopics(items).filter(i=>!i.higherOnly))for(const e of item.entries.filter(e=>e.rank<=3&&e.value>0&&item.entries.filter(other=>other.value===e.value).length===1)){
     if(!byCountry.has(e.code))byCountry.set(e.code,[]);
     byCountry.get(e.code).push({topic:item.id,rank:e.rank,value:e.value});
   }
-  return [...byCountry].filter(([,clues])=>clues.length>=2).map(([code,clues])=>({code,clues}));
+  return [...byCountry].filter(([,clues])=>clues.length>=1).map(([code,clues])=>({code,clues}));
 }
 export function pickMystery(items,previous,random=Math.random) {
   const candidate=shuffled(mysteryCandidates(items),undefined,random).find(c=>c.code!==previous)||mysteryCandidates(items)[0];
@@ -50,7 +54,7 @@ export function pickMystery(items,previous,random=Math.random) {
     chosen.push(clue);categories.add(topics.get(clue.topic).category);
   }
   for(const clue of ordered)if(!chosen.includes(clue))chosen.push(clue);
-  return {code:candidate.code,clues:chosen.slice(0,3)};
+  return {code:candidate.code,clues:chosen.slice(0,1)};
 }
 export const GAME_MODES=['map','higher','five','mystery','borders'];
 export function validateGameEvents(events) {

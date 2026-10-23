@@ -1,3 +1,4 @@
+import {routeColors} from './border-colors.js?v=13';
 import {layoutRouteLabels} from './border-labels.js?v=12';
 import {BY_CODE} from './core.js';
 import {Globe,loadAtlas} from './globe.js?v=11';
@@ -10,9 +11,8 @@ const PAGE_SIZE=6;
 class BorderGlobe extends Globe{
   draw(){
     super.draw();if(!this.width||!state)return;
-    const ctx=this.ctx,display=selectedRoute||state.path,colors=new Map(display.map(c=>[c,'#d4f285'])),labels=[];
+    const ctx=this.ctx,display=selectedRoute||state.path,colors=routeColors(display,state.endpoints),labels=[];
     ctx.font='600 12px sans-serif';
-    state.endpoints.forEach((c,i)=>{if(!colors.has(c))colors.set(c,i?'#e8a77b':'#88cddd');});
     for(const f of this.atlas.features)if(colors.has(f.code)){
       ctx.beginPath();this.path(f);ctx.fillStyle=colors.get(f.code);ctx.fill();ctx.strokeStyle='#f2f5d9';ctx.lineWidth=1;ctx.stroke();
     }
@@ -59,7 +59,7 @@ function render(){
   $('border-endpoints').querySelectorAll('button').forEach(b=>b.onclick=()=>globe.select(b.dataset.focus));
   $('border-lives').innerHTML=`<span class="border-life-dots" aria-hidden="true">${Array.from({length:5},(_,i)=>`<i class="${i<state.misses?'spent':''}"></i>`).join('')}</span><span>${5-state.misses} mistakes left</span>`;
   $('border-count').textContent=`${crossings} / 10 borders`;
-  $('border-route').innerHTML=state.path.length?state.path.map((code,i)=>`<li><span>${i}</span><img src="assets/flags/${code}.svg" alt="">${escape(name(code))}</li>`).join(''):'<li class="border-route-empty">Your route starts here.</li>';
+  $('border-route').innerHTML=state.path.length?state.path.map((code,i)=>`<li><span style="background:${routeColors(state.path,state.endpoints).get(code)};color:#172820">${i}</span><img src="assets/flags/${code}.svg" alt="">${escape(name(code))}</li>`).join(''):'<li class="border-route-empty">Your route starts here.</li>';
   const current=state.path.at(-1),destination=state.endpoints.find(c=>c!==state.path[0]);
   $('border-prompt').textContent=done?(state.status==='won'?'You connected the dots.':'The route ends here.'):current?`Next neighbour of ${name(current)}?`:'Where will you start?';
   $('border-instruction').textContent=done?'Your route and every alternative in this mode. Select one to see it on the globe.':current?`Heading for ${name(destination)}. Each answer must share a land border with ${name(current)}.`:'Type either endpoint, or a country bordering either one. Your first step chooses the direction.';
@@ -73,7 +73,7 @@ function routeMarkup(route){return route.map(c=>`<span>${escape(name(c))}</span>
 function showRoute(route,label){
   selectedRoute=route;globe.selected=null;overview();
   $('border-map-view').hidden=false;$('border-count').textContent=`Viewing ${Math.max(0,route.length-1)} borders`;$('border-legend-route').textContent='Selected route';
-  $('border-map-view').innerHTML=`<strong>${escape(label)}</strong><span>${Math.max(0,route.length-1)} borders · Select a country to locate it</span><div>${route.map((c,i)=>`<button data-route-country="${c}">${i}. ${escape(name(c))}</button>`).join('')}</div>`;
+  $('border-map-view').innerHTML=`<strong>${escape(label)}</strong><span>${Math.max(0,route.length-1)} borders · Select a country to locate it</span><div>${route.map((c,i)=>`<button data-route-country="${c}" style="border-left:5px solid ${routeColors(route,state.endpoints).get(c)}">${i}. ${escape(name(c))}</button>`).join('')}</div>`;
   $('border-map-view').querySelectorAll('button').forEach(b=>b.onclick=()=>globe.select(b.dataset.routeCountry));
 }
 function renderResults(){

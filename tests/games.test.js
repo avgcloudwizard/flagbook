@@ -5,7 +5,7 @@ import {gameTopics,topFiveEntries,comparison,checkDirection,checkTopFive,pickMys
 const records=JSON.parse(readFileSync(new URL('../data/world-records.json',import.meta.url))).items;
 const topics=gameTopics(records);
 test('games exclude mixed-date holdings and shared features; comparable topics retain source periods',()=>{
- assert.ok(topics.length>230);
+ assert.ok(topics.length>=20&&topics.length<40);
  assert.equal(topics.some(i=>i.id==='gold-holdings'),false);
  assert.equal(topics.some(i=>i.id==='rivers'),false);
  assert.ok(topics.some(i=>i.id==='gold-mine'));
@@ -34,13 +34,13 @@ test('top-five accepts the fifth-place tie, rejects repeated answers and enforce
  assert.equal(topFiveEntries({entries:item.entries.slice(0,4)}).length,0);
 });
 test('mystery clues point to the same country with original values, dates and ranks',()=>{
- assert.ok(mysteryCandidates(topics).length>50);
+ assert.ok(mysteryCandidates(topics).length>=15);
  for(let i=0;i<30;i++){
-  const mystery=pickMystery(topics);assert.ok(mystery.clues.length>=2);
+  const mystery=pickMystery(topics);assert.ok(mystery.clues.length===1);
   assert.equal(new Set(mystery.clues.map(c=>c.topic)).size,mystery.clues.length);
   for(const clue of mystery.clues){
    const item=topics.find(i=>i.id===clue.topic),entry=item.entries.find(e=>e.code===mystery.code);
-   assert.equal(entry.value,clue.value);assert.equal(entry.rank,clue.rank);assert.ok(entry.rank<=5);
+   assert.equal(entry.value,clue.value);assert.equal(entry.rank,clue.rank);assert.ok(entry.rank<=3);
   }
  }
  assert.equal(pickMystery([]),null);
@@ -70,4 +70,30 @@ test('mystery clues never penalise another country tied for the displayed statis
   const item=topics.find(i=>i.id===clue.topic);
   assert.equal(item.entries.filter(e=>e.value===clue.value).length,1);
  }
+});
+
+test('familiar topics exclude niche crops in every game and producer comparisons stay in top three',()=>{
+ for(const id of ['pepper','karite-nuts','cow-peas'])assert.ok(!topics.some(i=>i.id===id));
+ for(const id of ['rice','gold-mine','oil','coffee','population','country-area'])assert.ok(topics.some(i=>i.id===id));
+ for(const item of topics.filter(i=>!['population','country-area','forest'].includes(i.id)))for(let i=0;i<20;i++)assert.ok(comparison(item).every(e=>e.rank<=3));
+});
+test('game values spell out large units and never pair indistinguishable rounded values',async()=>{
+ const {gameNumber,topThreeEntries,checkTopThree}=await import('../game-format.js');
+ assert.equal(gameNumber(300000000000,'people'),'300 billion people');
+ assert.equal(gameNumber(130034675,'people'),'130 million people');
+ assert.equal(gameNumber(77500,'tonnes'),'77.5 thousand tonnes');
+ assert.equal(gameNumber(95,'%'),'95%');
+ assert.equal(comparison({id:'population',unit:'people',entries:[{code:'in',value:130034675},{code:'cn',value:130035675}]}),null);
+ const item={entries:[{code:'cn',rank:1,value:9},{code:'in',rank:2,value:8},{code:'us',rank:3,value:7},{code:'br',rank:3,value:7},{code:'fr',rank:5,value:4}]};
+ assert.equal(topThreeEntries(item).length,4);
+ assert.equal(checkTopThree(item,[],'Brazil',answer=>answer==='Brazil'?'br':null).status,'correct');
+});
+test('language comparisons keep their source years, definitions and geographic coverage',()=>{
+ const content=JSON.parse(readFileSync(new URL('../data/game-content.json',import.meta.url)));
+ const english=content.items.find(i=>i.id==='english-speakers-eu'),spanish=content.items.find(i=>i.id==='spanish-native-speakers');
+ assert.equal(english.entries.length,27);assert.equal(english.entries.find(e=>e.code==='nl').value,95);assert.match(english.year,/2023/);assert.match(english.coverage,/EU/);
+ assert.equal(spanish.entries.find(e=>e.code==='mx').value,130034675);assert.match(spanish.measure,/native/);
+ for(const i of content.items){assert.ok(i.higherOnly);assert.match(i.source,/^https:/);assert.equal(new Set(i.entries.map(e=>e.code)).size,i.entries.length);}
+ assert.equal(mysteryCandidates(gameTopics(content.items)).length,0);
+ for(const c of Object.values(content.culture)){assert.ok(c.text.length>20);assert.match(c.source,/^https:/);}
 });

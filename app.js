@@ -1,6 +1,6 @@
-import {startBorders} from './border-game.js?v=12';
+import {startBorders} from './border-game.js?v=13';
 import {startMapChallenge} from './map-challenge.js?v=11';
-import {startRecordGames} from './record-games.js?v=11';
+import {startRecordGames} from './record-games.js?v=13';
 import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js?v=11';
 import {startFacts} from './facts.js?v=8';
 import {startAtlas} from './atlas.js?v=8';
@@ -197,7 +197,7 @@ function navigate() {
   if(page==='borders')startBorders();
   if(page==='games')startRecordGames(params);
   if(page==='progress'){
-    $('challenge-progress').innerHTML=[['map','Where on Earth?','earth'],['borders','Border hop','borders'],['higher','Higher or lower','games?mode=higher'],['five','Name the top five','games?mode=five'],['mystery','Guess the country','games?mode=mystery']].map(([game,label,route])=>`<div><a href="#${route}">${label} ↗</a><div id="progress-game-${game}" class="game-stats"></div></div>`).join('');
+    $('challenge-progress').innerHTML=[['map','Where on Earth?','earth'],['borders','Border hop','borders'],['higher','Higher or lower','games?mode=higher'],['five','Name the top three','games?mode=five'],['mystery','Guess the country','games?mode=mystery']].map(([game,label,route])=>`<div><a href="#${route}">${label} ↗</a><div id="progress-game-${game}" class="game-stats"></div></div>`).join('');
     for(const game of ['map','higher','five','mystery','borders'])renderGameStats(game,$('progress-game-'+game));
   }
   if(page==='learning')startLearning();

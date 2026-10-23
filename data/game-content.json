@@ -1,0 +1,803 @@
+{
+  "version": 1,
+  "checked": "2026-10-23",
+  "culture": {
+    "in": {
+      "category": "Tradition",
+      "text": "Yoga, with its poses, breathing and meditation, originated here.",
+      "source": "https://ich.unesco.org/en/RL/yoga-01163"
+    },
+    "br": {
+      "category": "Dance & sport",
+      "text": "Capoeira brings music, dance and martial arts together in a circle.",
+      "source": "https://ich.unesco.org/en/RL/capoeira-circle-00892"
+    },
+    "cn": {
+      "category": "Food & drink",
+      "text": "Tea-making and tea-sharing traditions are part of everyday social life here.",
+      "source": "https://ich.nlc.cn/unesco/detail/27"
+    },
+    "pe": {
+      "category": "Food",
+      "text": "Ceviche — fish marinated with citrus and chilli — is a celebrated local dish.",
+      "source": "https://ich.unesco.org/en/RL/ceviche-an-expression-of-traditional-peruvian-cuisine-01952"
+    },
+    "mx": {
+      "category": "Food",
+      "text": "Corn, beans and chilli underpin a cuisine known for tortillas and tamales.",
+      "source": "https://ich.unesco.org/en/RL/traditional-mexican-cuisine-00400"
+    },
+    "ci": {
+      "category": "Food",
+      "text": "Attiéké, a steamed cassava dish, is a staple at family meals and celebrations.",
+      "source": "https://ich.unesco.org/en/RL/skills-related-to-attieke-production-in-cote-d-ivoire-02086"
+    },
+    "gh": {
+      "category": "Music & dance",
+      "text": "Highlife music and dance blend local rhythms with influences from brass bands and other musical traditions.",
+      "source": "https://unescoghana.gov.gh/intangible-cultural-heritage/"
+    },
+    "cd": {
+      "category": "Music & dance",
+      "text": "Rumba is a major music-and-dance tradition here, shared with the neighbouring Republic of the Congo.",
+      "source": "https://ich.unesco.org/en/RL/congolese-rumba-01711"
+    },
+    "id": {
+      "category": "Sport & tradition",
+      "text": "Pencak silat combines martial arts, self-defence, music and movement.",
+      "source": "https://ich.unesco.org/en/RL/traditions-of-pencak-silat-01391"
+    },
+    "ca": {
+      "category": "Sport",
+      "text": "Ice hockey is the official winter sport; lacrosse is the official summer sport.",
+      "source": "https://laws-lois.justice.gc.ca/eng/acts/n-16.7/page-1.html"
+    },
+    "au": {
+      "category": "Sport",
+      "text": "Cricket, rugby and a home-grown code of football are popular here.",
+      "source": "https://www.dfat.gov.au/about-australia"
+    },
+    "sa": {
+      "category": "Dance",
+      "text": "Alardah Alnajdiyah brings dance, drumming and poetry together.",
+      "source": "https://ich.unesco.org/en/state/saudi-arabia-SA"
+    },
+    "ua": {
+      "category": "Food",
+      "text": "Borscht cooking is a cherished tradition here, recognised by UNESCO.",
+      "source": "https://ich.unesco.org/en/ukraine-request-17com-4bur-01262"
+    },
+    "co": {
+      "category": "Music",
+      "text": "Traditional vallenato combines the accordion, caja drum and guacharaca scraper.",
+      "source": "https://ich.unesco.org/doc/src/29941.pdf"
+    },
+    "vn": {
+      "category": "Food",
+      "text": "Phở, a rice-noodle soup with beef or chicken and herbs, is often eaten for breakfast here.",
+      "source": "https://vietnam.travel/things-to-do/must-try-noodles-vietnam"
+    },
+    "fr": {
+      "category": "Food",
+      "text": "The baguette, made with flour, water, salt and yeast or leaven, is a familiar bakery staple.",
+      "source": "https://ich.unesco.org/en/RL/artisanal-know-how-and-culture-of-baguette-bread-01883"
+    },
+    "ar": {
+      "category": "Dance",
+      "text": "Tango grew in the Río de la Plata region; the tradition is shared with Uruguay.",
+      "source": "https://ich.unesco.org/en/rl/tango-00258"
+    },
+    "cl": {
+      "category": "Dance",
+      "text": "The cueca is our national dance, with regional variations across the country.",
+      "source": "https://www.memoriachilena.gob.cl/602/w3-article-3510.html"
+    },
+    "ir": {
+      "category": "Celebration",
+      "text": "Nowruz marks the spring new year here, a celebration shared with several neighbouring cultures.",
+      "source": "https://www.unesco.org/en/days/nowruz"
+    }
+  },
+  "items": [
+    {
+      "id": "english-speakers-eu",
+      "label": "English speakers · EU share",
+      "category": "Languages",
+      "unit": "%",
+      "year": "2023 survey · published 2024",
+      "measure": "Share of respondents aged 15+ who speak English as a mother tongue or well enough for a conversation",
+      "note": "Self-reported language ability, including mother tongues. Eurobarometer 540, D48.alllang, report page 24. Rounded survey estimates; differences are descriptive, not a test of statistical significance.",
+      "coverage": "27 EU countries only; percentages of survey respondents aged 15+, not worldwide speaker counts.",
+      "source": "https://europa.eu/eurobarometer/surveys/detail/2979",
+      "sourceLabel": "European Commission · Special Eurobarometer 540",
+      "gameOnly": true,
+      "higherOnly": true,
+      "entries": [
+        {
+          "code": "ie",
+          "value": 97,
+          "rank": 1
+        },
+        {
+          "code": "nl",
+          "value": 95,
+          "rank": 2
+        },
+        {
+          "code": "mt",
+          "value": 91,
+          "rank": 3
+        },
+        {
+          "code": "se",
+          "value": 91,
+          "rank": 3
+        },
+        {
+          "code": "dk",
+          "value": 90,
+          "rank": 5
+        },
+        {
+          "code": "fi",
+          "value": 82,
+          "rank": 6
+        },
+        {
+          "code": "cy",
+          "value": 80,
+          "rank": 7
+        },
+        {
+          "code": "lu",
+          "value": 71,
+          "rank": 8
+        },
+        {
+          "code": "de",
+          "value": 66,
+          "rank": 9
+        },
+        {
+          "code": "si",
+          "value": 62,
+          "rank": 10
+        },
+        {
+          "code": "be",
+          "value": 61,
+          "rank": 11
+        },
+        {
+          "code": "ee",
+          "value": 59,
+          "rank": 12
+        },
+        {
+          "code": "at",
+          "value": 59,
+          "rank": 12
+        },
+        {
+          "code": "lv",
+          "value": 55,
+          "rank": 14
+        },
+        {
+          "code": "gr",
+          "value": 52,
+          "rank": 15
+        },
+        {
+          "code": "hr",
+          "value": 45,
+          "rank": 16
+        },
+        {
+          "code": "lt",
+          "value": 45,
+          "rank": 16
+        },
+        {
+          "code": "cz",
+          "value": 43,
+          "rank": 18
+        },
+        {
+          "code": "fr",
+          "value": 42,
+          "rank": 19
+        },
+        {
+          "code": "pt",
+          "value": 42,
+          "rank": 19
+        },
+        {
+          "code": "sk",
+          "value": 40,
+          "rank": 21
+        },
+        {
+          "code": "es",
+          "value": 39,
+          "rank": 22
+        },
+        {
+          "code": "it",
+          "value": 34,
+          "rank": 23
+        },
+        {
+          "code": "hu",
+          "value": 31,
+          "rank": 24
+        },
+        {
+          "code": "pl",
+          "value": 31,
+          "rank": 24
+        },
+        {
+          "code": "bg",
+          "value": 30,
+          "rank": 26
+        },
+        {
+          "code": "ro",
+          "value": 27,
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "id": "spanish-speakers-eu",
+      "label": "Spanish speakers · EU share",
+      "category": "Languages",
+      "unit": "%",
+      "year": "2023 survey · published 2024",
+      "measure": "Share of respondents aged 15+ who speak Spanish as a mother tongue or well enough for a conversation",
+      "note": "Self-reported language ability, including mother tongues. Eurobarometer 540, D48.alllang, report page 24. Rounded survey estimates; differences are descriptive, not a test of statistical significance.",
+      "coverage": "27 EU countries only; percentages of survey respondents aged 15+, not worldwide speaker counts.",
+      "source": "https://europa.eu/eurobarometer/surveys/detail/2979",
+      "sourceLabel": "European Commission · Special Eurobarometer 540",
+      "gameOnly": true,
+      "higherOnly": true,
+      "entries": [
+        {
+          "code": "es",
+          "value": 97,
+          "rank": 1
+        },
+        {
+          "code": "lu",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "code": "fr",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "code": "be",
+          "value": 10,
+          "rank": 4
+        },
+        {
+          "code": "se",
+          "value": 10,
+          "rank": 4
+        },
+        {
+          "code": "dk",
+          "value": 9,
+          "rank": 6
+        },
+        {
+          "code": "nl",
+          "value": 9,
+          "rank": 6
+        },
+        {
+          "code": "pt",
+          "value": 9,
+          "rank": 6
+        },
+        {
+          "code": "de",
+          "value": 8,
+          "rank": 9
+        },
+        {
+          "code": "ie",
+          "value": 7,
+          "rank": 10
+        },
+        {
+          "code": "it",
+          "value": 6,
+          "rank": 11
+        },
+        {
+          "code": "mt",
+          "value": 4,
+          "rank": 12
+        },
+        {
+          "code": "at",
+          "value": 4,
+          "rank": 12
+        },
+        {
+          "code": "si",
+          "value": 4,
+          "rank": 12
+        },
+        {
+          "code": "fi",
+          "value": 4,
+          "rank": 12
+        },
+        {
+          "code": "bg",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "code": "cz",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "code": "ro",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "code": "ee",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "code": "gr",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "code": "lv",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "code": "hu",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "code": "sk",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "code": "hr",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "code": "cy",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "code": "lt",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "code": "pl",
+          "value": 1,
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "id": "french-speakers-eu",
+      "label": "French speakers · EU share",
+      "category": "Languages",
+      "unit": "%",
+      "year": "2023 survey · published 2024",
+      "measure": "Share of respondents aged 15+ who speak French as a mother tongue or well enough for a conversation",
+      "note": "Self-reported language ability, including mother tongues. Eurobarometer 540, D48.alllang, report page 24. Rounded survey estimates; differences are descriptive, not a test of statistical significance.",
+      "coverage": "27 EU countries only; percentages of survey respondents aged 15+, not worldwide speaker counts.",
+      "source": "https://europa.eu/eurobarometer/surveys/detail/2979",
+      "sourceLabel": "European Commission · Special Eurobarometer 540",
+      "gameOnly": true,
+      "higherOnly": true,
+      "entries": [
+        {
+          "code": "fr",
+          "value": 97,
+          "rank": 1
+        },
+        {
+          "code": "lu",
+          "value": 94,
+          "rank": 2
+        },
+        {
+          "code": "be",
+          "value": 83,
+          "rank": 3
+        },
+        {
+          "code": "nl",
+          "value": 27,
+          "rank": 4
+        },
+        {
+          "code": "de",
+          "value": 16,
+          "rank": 5
+        },
+        {
+          "code": "ie",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "code": "es",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "code": "mt",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "code": "pt",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "code": "se",
+          "value": 12,
+          "rank": 10
+        },
+        {
+          "code": "dk",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "code": "at",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "code": "it",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "code": "cy",
+          "value": 9,
+          "rank": 14
+        },
+        {
+          "code": "ro",
+          "value": 7,
+          "rank": 15
+        },
+        {
+          "code": "gr",
+          "value": 6,
+          "rank": 16
+        },
+        {
+          "code": "cz",
+          "value": 5,
+          "rank": 17
+        },
+        {
+          "code": "hr",
+          "value": 4,
+          "rank": 18
+        },
+        {
+          "code": "fi",
+          "value": 4,
+          "rank": 18
+        },
+        {
+          "code": "bg",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "code": "lv",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "code": "lt",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "code": "ee",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "code": "hu",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "code": "si",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "code": "sk",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "code": "pl",
+          "value": 1,
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "id": "german-speakers-eu",
+      "label": "German speakers · EU share",
+      "category": "Languages",
+      "unit": "%",
+      "year": "2023 survey · published 2024",
+      "measure": "Share of respondents aged 15+ who speak German as a mother tongue or well enough for a conversation",
+      "note": "Self-reported language ability, including mother tongues. Eurobarometer 540, D48.alllang, report page 24. Rounded survey estimates; differences are descriptive, not a test of statistical significance.",
+      "coverage": "27 EU countries only; percentages of survey respondents aged 15+, not worldwide speaker counts.",
+      "source": "https://europa.eu/eurobarometer/surveys/detail/2979",
+      "sourceLabel": "European Commission · Special Eurobarometer 540",
+      "gameOnly": true,
+      "higherOnly": true,
+      "entries": [
+        {
+          "code": "de",
+          "value": 98,
+          "rank": 1
+        },
+        {
+          "code": "at",
+          "value": 98,
+          "rank": 1
+        },
+        {
+          "code": "lu",
+          "value": 66,
+          "rank": 3
+        },
+        {
+          "code": "nl",
+          "value": 61,
+          "rank": 4
+        },
+        {
+          "code": "dk",
+          "value": 50,
+          "rank": 5
+        },
+        {
+          "code": "si",
+          "value": 33,
+          "rank": 6
+        },
+        {
+          "code": "se",
+          "value": 25,
+          "rank": 7
+        },
+        {
+          "code": "sk",
+          "value": 21,
+          "rank": 8
+        },
+        {
+          "code": "cz",
+          "value": 20,
+          "rank": 9
+        },
+        {
+          "code": "fi",
+          "value": 19,
+          "rank": 10
+        },
+        {
+          "code": "be",
+          "value": 18,
+          "rank": 11
+        },
+        {
+          "code": "lv",
+          "value": 18,
+          "rank": 11
+        },
+        {
+          "code": "hr",
+          "value": 15,
+          "rank": 13
+        },
+        {
+          "code": "ee",
+          "value": 14,
+          "rank": 14
+        },
+        {
+          "code": "hu",
+          "value": 13,
+          "rank": 15
+        },
+        {
+          "code": "lt",
+          "value": 12,
+          "rank": 16
+        },
+        {
+          "code": "ie",
+          "value": 7,
+          "rank": 17
+        },
+        {
+          "code": "gr",
+          "value": 7,
+          "rank": 17
+        },
+        {
+          "code": "cy",
+          "value": 7,
+          "rank": 17
+        },
+        {
+          "code": "fr",
+          "value": 6,
+          "rank": 20
+        },
+        {
+          "code": "bg",
+          "value": 5,
+          "rank": 21
+        },
+        {
+          "code": "pl",
+          "value": 5,
+          "rank": 21
+        },
+        {
+          "code": "it",
+          "value": 4,
+          "rank": 23
+        },
+        {
+          "code": "mt",
+          "value": 4,
+          "rank": 23
+        },
+        {
+          "code": "es",
+          "value": 3,
+          "rank": 25
+        },
+        {
+          "code": "ro",
+          "value": 3,
+          "rank": 25
+        },
+        {
+          "code": "pt",
+          "value": 1,
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "id": "spanish-native-speakers",
+      "label": "Spanish native speakers",
+      "category": "Languages",
+      "unit": "people",
+      "year": "2025 estimate",
+      "measure": "Estimated speakers with native command of Spanish",
+      "note": "Instituto Cervantes 2025, table 1, Grupo de Dominio Nativo (GDN). Estimates of native command, not all learners or all people able to hold a conversation.",
+      "coverage": "Selected 16 Spanish-speaking countries from table 1. Not a worldwide ranking; excludes the United States and other countries outside this selection.",
+      "source": "https://cvc.cervantes.es/lengua/anuario/anuario_25/moreno-alvarez/cuadros.htm",
+      "sourceLabel": "Instituto Cervantes · 2025 language report",
+      "gameOnly": true,
+      "higherOnly": true,
+      "entries": [
+        {
+          "code": "mx",
+          "value": 130034675,
+          "rank": 1
+        },
+        {
+          "code": "co",
+          "value": 52090983,
+          "rank": 2
+        },
+        {
+          "code": "es",
+          "value": 47250026,
+          "rank": 3
+        },
+        {
+          "code": "ar",
+          "value": 46866195,
+          "rank": 4
+        },
+        {
+          "code": "pe",
+          "value": 29601626,
+          "rank": 5
+        },
+        {
+          "code": "ve",
+          "value": 28631153,
+          "rank": 6
+        },
+        {
+          "code": "cl",
+          "value": 19315922,
+          "rank": 7
+        },
+        {
+          "code": "ec",
+          "value": 16963223,
+          "rank": 8
+        },
+        {
+          "code": "gt",
+          "value": 13722652,
+          "rank": 9
+        },
+        {
+          "code": "do",
+          "value": 10323570,
+          "rank": 10
+        },
+        {
+          "code": "cu",
+          "value": 9970591,
+          "rank": 11
+        },
+        {
+          "code": "hn",
+          "value": 9548292,
+          "rank": 12
+        },
+        {
+          "code": "bo",
+          "value": 9197806,
+          "rank": 13
+        },
+        {
+          "code": "ni",
+          "value": 7001696,
+          "rank": 14
+        },
+        {
+          "code": "sv",
+          "value": 6358547,
+          "rank": 15
+        },
+        {
+          "code": "py",
+          "value": 5222154,
+          "rank": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,22 +1,24 @@
+import {gameNumber,topThreeEntries,checkTopThree} from './game-format.js?v=13';
 import {BY_CODE,shuffled} from './core.js';
 import {loadAtlas} from './globe.js?v=8';
-import {loadRecords,esc,formatValue} from './explore-data.js?v=8';
-import {gameTopics,topFiveEntries,comparison,checkDirection,checkTopFive,matchCountry,pickMystery,mysteryCandidates} from './games-core.js?v=11';
+import {loadRecords,loadExtras,loadJSON,esc} from './explore-data.js?v=8';
+import {gameTopics,comparison,checkDirection,matchCountry,pickMystery,mysteryCandidates} from './games-core.js?v=13';
 import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js?v=11';
 const $=id=>document.getElementById(id);
-const starter=['coffee','cocoa','rice','wheat','bananas','gold-mine','silver-mine','oil','solar-electricity','population','country-area','forest','cotton'];
-const titles={higher:'Higher or lower?',five:'Name the top five.',mystery:'Which country am I?'};
+const topicNames={'coffee':'Coffee production','cocoa':'Cocoa production','rice':'Rice production','maize':'Corn production','cotton':'Cotton production','country-area':'Country area','gold-mine':'Gold production','silver-mine':'Silver production','copper-mine':'Copper production','iron-ore-mine':'Iron ore production'};
+const titles={higher:'Higher or lower?',five:'Name the top three.',mystery:'Which country am I?'};
 const descriptions={higher:'Two countries. One statistic. Trust your world knowledge.',five:'Fill the leaderboard in any order. Exact spelling; recognised country names are accepted.',mystery:'Read the clues. Name the country. Reveal another clue when you need one.'};
-let topics,details,pending,bound=false,state,topicDeck=[];
+let topics,details,extras,content,pending,bound=false,state,topicDeck=[];
 function save(){saveGameSession('records',state);}
 function pool(){
   return topics.filter(i=>(!$('games-category').value||i.category===$('games-category').value)&&
-    ($('games-mode').value!=='five'||topFiveEntries(i).length>=5));
+    ($('games-mode').value==='higher'||!i.higherOnly)&&
+    ($('games-mode').value!=='five'||topThreeEntries(i).length>=3));
 }
 function filters(){
   const mode=$('games-mode').value;
   const category=$('games-category').value;
-  const categories=[...new Set(topics.map(i=>i.category))].sort().filter(c=>mode!=='mystery'||mysteryCandidates(topics.filter(i=>i.category===c)).length);
+  const categories=[...new Set(topics.filter(i=>mode==='higher'||!i.higherOnly).map(i=>i.category))].sort().filter(c=>mode!=='mystery'||mysteryCandidates(topics.filter(i=>i.category===c)).length);
   $('games-category').innerHTML='<option value="">All subjects</option>'+categories.map(c=>`<option>${esc(c)}</option>`).join('');
   if(categories.includes(category))$('games-category').value=category;
   const previous=$('games-topic').value;
@@ -32,16 +34,15 @@ function chooseTopic(){
   const eligible=pool(),chosen=eligible.find(i=>i.id===$('games-topic').value);
   if(chosen)return chosen;
   if(!topicDeck.length){
-    // The first shuffle favours familiar topics; subject filters expose the full catalogue.
-    const accessible=eligible.filter(i=>starter.includes(i.id));
-    topicDeck=shuffled((!$('games-category').value&&accessible.length?accessible:eligible).map(i=>i.id),state?.topic);
+    // Every subject uses the same familiar-topic whitelist.
+    topicDeck=shuffled(eligible.map(i=>i.id),state?.topic);
   }
   const id=topicDeck.shift();
   return eligible.find(i=>i.id===id);
 }
 function newRound(){
   const mode=$('games-mode').value,previous=state?.code;
-  const next={id:crypto.randomUUID(),mode,category:$('games-category').value,selectedTopic:$('games-topic').value,done:false,found:[],mistakes:0,shown:1,feedback:''};
+  const next={rulesVersion:2,id:crypto.randomUUID(),mode,category:$('games-category').value,selectedTopic:$('games-topic').value,done:false,found:[],mistakes:0,shown:1,feedback:''};
   if(mode==='mystery'){
     const mystery=pickMystery(pool(),previous);
     if(!mystery){empty('Not enough clues in this category. Choose another subject.');return;}
@@ -63,47 +64,51 @@ function log(type,answer,correct,finished){
 }
 function flag(code){return `<img src="assets/flags/${code}.svg" alt="" loading="lazy">`;}
 function sourceDetails(items){
-  return [...new Map(items.map(i=>[i.id,i])).values()].map(i=>`<details><summary>${esc(i.label)} · ${esc(i.year)} — source & coverage</summary><p>${esc(i.note)}</p>${i.notice?`<p>${esc(i.notice)}</p>`:''}<p>${esc(i.coverage)}</p><a href="${esc(i.source)}" target="_blank" rel="noopener noreferrer">${esc(i.sourceLabel)} ↗</a><a href="#records?topic=${encodeURIComponent(i.id)}">Open the ranking →</a></details>`).join('');
+  return [...new Map(items.map(i=>[i.id,i])).values()].map(i=>`<details><summary>${esc(i.label)} · ${esc(i.year)} — source & coverage</summary><p>${esc(i.note)}</p>${i.notice?`<p>${esc(i.notice)}</p>`:''}<p>${esc(i.coverage)}</p><a href="${esc(i.source)}" target="_blank" rel="noopener noreferrer">${esc(i.sourceLabel)} ↗</a>${i.gameOnly?'':`<a href="#records?topic=${encodeURIComponent(i.id)}">Open the ranking →</a>`}</details>`).join('');
 }
 function answerForm(label){return `<form id="game-answer-form" class="game-answer-form" novalidate><label for="game-answer">${label}</label><div><input id="game-answer" placeholder="Type a country…" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" maxlength="160"><button class="primary" type="submit">Check ↵</button></div><span>Exact spelling · No abbreviations</span></form>`;}
 function renderHigher(){
   const item=topic(),pair=state.pair.map(c=>item.entries.find(e=>e.code===c));
-  const card=(e,index)=>`<div class="comparison-country ${index?'comparison-question':''}"><span class="game-overline">${index?'THE CHALLENGER':'THE BENCHMARK'}</span>${flag(e.code)}<h3>${esc(BY_CODE.get(e.code).name)}</h3><strong class="comparison-value">${!index||state.done?esc(formatValue(e.value,item.unit)): '?'}</strong>${index&&!state.done?'<span class="comparison-hidden">Higher or lower than the benchmark?</span>':''}</div>`;
-  $('games-board').innerHTML=`<div class="game-board-title"><span class="eyebrow">${esc(item.category)} · ${esc(item.year)}</span><h2>${esc(item.label)}</h2><p>${esc(item.measure||item.label)} · figures in ${esc(item.unit)}</p></div><div class="comparison-pair">${card(pair[0],0)}<span class="comparison-vs" aria-hidden="true">vs</span>${card(pair[1],1)}</div>${state.done?'':`<div class="direction-choices"><button class="primary" data-direction="higher">↑ Higher</button><button class="secondary" data-direction="lower">↓ Lower</button></div>`}`;
+  const card=(e,index)=>`<div class="comparison-country ${index?'comparison-question':''}"><span class="game-overline">${index?'THE CHALLENGER':'THE BENCHMARK'}</span>${flag(e.code)}<h3>${esc(BY_CODE.get(e.code).name)}</h3><strong class="comparison-value">${!index||state.done?esc(gameNumber(e.value,item.unit)): '?'}</strong>${index&&!state.done?'<span class="comparison-hidden">Higher or lower than the benchmark?</span>':''}</div>`;
+  $('games-board').innerHTML=`<div class="game-board-title"><span class="eyebrow">${esc(item.category)} · ${esc(item.year)}</span><h2>${esc(item.label)}</h2><p>${esc(item.measure||item.label)} · figures in ${esc(item.unit)}</p>${item.higherOnly?`<p class="game-scope-note">${esc(item.coverage)}</p>`:''}</div><div class="comparison-pair">${card(pair[0],0)}<span class="comparison-vs" aria-hidden="true">vs</span>${card(pair[1],1)}</div>${state.done?'':`<div class="direction-choices"><button class="primary" data-direction="higher">↑ Higher</button><button class="secondary" data-direction="lower">↓ Lower</button></div>`}`;
   if(!state.done)$('games-board').querySelectorAll('[data-direction]').forEach(button=>button.onclick=()=>{
     if(state.done)return;const correct=checkDirection(pair,button.dataset.direction);
     log('guess',button.dataset.direction,correct,true);state.done=true;state.correct=correct;
-    state.feedback=`${correct?'Correct!':'Not this time.'} ${BY_CODE.get(pair[1].code).name} has the ${pair[1].value>pair[0].value?'higher':'lower'} figure: ${formatValue(pair[1].value,item.unit)}, compared with ${formatValue(pair[0].value,item.unit)}.`;save();render();
+    state.feedback=`${correct?'Correct!':'Not this time.'} ${BY_CODE.get(pair[1].code).name} has the ${pair[1].value>pair[0].value?'higher':'lower'} figure: ${gameNumber(pair[1].value,item.unit)}, compared with ${gameNumber(pair[0].value,item.unit)}.`;save();render();
   });
 }
 function renderFive(){
-  const item=topic(),answers=topFiveEntries(item);
-  $('games-board').innerHTML=`<div class="game-board-title"><span class="eyebrow">${esc(item.category)} · ${esc(item.year)}</span><h2>${esc(item.label)}</h2><p>Name the ${answers.length===5?'five':answers.length} countries in the top five places of this catalogue.${answers.length>5?' Ties are included.':''}</p><span class="game-found-count">${state.found.length} / ${answers.length} found</span></div><ol class="five-slots">${answers.map(e=>{
+  const item=topic(),answers=topThreeEntries(item);
+  $('games-board').innerHTML=`<div class="game-board-title"><span class="eyebrow">${esc(item.category)} · ${esc(item.year)}</span><h2>${esc(item.label)}</h2><p>Name the ${answers.length===3?'three':answers.length} countries in the top three places of this catalogue.${answers.length>3?' Ties are included.':''}</p><span class="game-found-count">${state.found.length} / ${answers.length} found</span></div><ol class="five-slots">${answers.map(e=>{
     const visible=state.done||state.found.includes(e.code);
-    return `<li class="${state.found.includes(e.code)?'slot-found':state.done?'slot-revealed':''}"><span class="slot-rank">${e.rank}</span>${visible?`${flag(e.code)}<span>${esc(BY_CODE.get(e.code).name)}</span><strong>${esc(formatValue(e.value,item.unit))}</strong>`:'<span class="slot-blank">Country to discover</span>'}</li>`;
+    return `<li class="${state.found.includes(e.code)?'slot-found':state.done?'slot-revealed':''}"><span class="slot-rank">${e.rank}</span>${visible?`${flag(e.code)}<span>${esc(BY_CODE.get(e.code).name)}</span><strong>${esc(gameNumber(e.value,item.unit))}</strong>`:'<span class="slot-blank">Country to discover</span>'}</li>`;
   }).join('')}</ol>${state.done?'':answerForm('Name any country on this leaderboard')}`;
   if(!state.done)$('game-answer-form').onsubmit=e=>{e.preventDefault();submitFive();};
 }
 function submitFive(){
   if(state.done)return;const input=$('game-answer'),answer=input.value.trim();if(!answer){input.focus();return;}
-  const result=checkTopFive(topic(),state.found,answer);
+  const result=checkTopThree(topic(),state.found,answer,matchCountry);
   if(result.status==='duplicate'){$('games-feedback').textContent='You already found that country. Try another.';input.select();return;}
   const correct=result.status==='correct';
   if(correct)state.found.push(result.code);else state.mistakes++;
-  state.done=state.found.length===topFiveEntries(topic()).length;
+  state.done=state.found.length===topThreeEntries(topic()).length;
   log('guess',answer,correct,state.done);
   state.correct=correct;state.feedback=correct?`${BY_CODE.get(result.code).name} is on the board!${state.done?' You found them all.':''}`:'Not on this leaderboard. Check the country and its spelling, then try again.';
   save();render();if(!state.done){$('game-answer').focus({preventScroll:true});if(!correct){$('game-answer').value=answer;$('game-answer').select();}}
 }
 function clues(){
-  return [...state.clues.map(c=>{
-    const item=topics.find(i=>i.id===c.topic);
-    return {text:`I rank #${c.rank} in this catalogue for ${item.label.toLocaleLowerCase('en')}: ${formatValue(c.value,item.unit)}.`,meta:item.year};
-  }),{text:`You’ll find me in ${details[state.code].region}.`,meta:'Location'},{text:`My capital / seat of government: ${details[state.code].capitals.join(' / ')}.`,meta:'Capital'}];
+  const c=state.clues[0],item=topics.find(i=>i.id===c.topic),country=details[state.code],extra=extras[state.code],culture=content.culture[state.code];
+  return [
+    {text:`I rank #${c.rank} for ${item.label.toLocaleLowerCase('en')}: about ${gameNumber(c.value,item.unit)}.`,meta:`A familiar world ranking · ${item.year}`,source:item.source},
+    {text:`You’ll find me in ${country.region}.`,meta:'Geography',source:country.source},
+    culture?{text:culture.text,meta:culture.category,source:culture.source}:{text:`My highest point: ${extra.highestPoint.split(';')[0]}.`,meta:'Landscape',source:extra.source},
+    {text:`Languages you’ll hear here include ${extra.languages.slice(0,3).join(', ')}.`,meta:'Language',source:extra.languageSource},
+    {text:`My capital / seat of government: ${country.capitals.join(' / ')}.`,meta:'Capital',source:country.source}
+  ];
 }
 function renderMystery(){
   const all=clues();
-  $('games-board').innerHTML=`<div class="game-board-title"><span class="eyebrow">FOLLOW THE CLUES</span><h2>${state.done?esc(BY_CODE.get(state.code).name):'A country, in numbers.'}</h2><p>${state.done?'The clues lead here. Keep one fact for next time.':`${state.shown} of ${all.length} clues open · how soon can you name it?`}</p></div>${state.done?`<div class="mystery-reveal">${flag(state.code)}<a class="text-link" href="#atlas?country=${state.code}">Find it in the atlas ↗</a></div>`:''}<ol class="mystery-clues">${all.map((c,index)=>`<li class="${index<state.shown||state.done?'':'clue-locked'}"><span>${String(index+1).padStart(2,'0')}</span><div>${index<state.shown||state.done?`<p>${esc(c.text)}</p><small>${esc(c.meta)}</small>`:'<p>Another piece of the puzzle</p><small>Reveal the next clue when you need it</small>'}</div></li>`).join('')}</ol>${state.done?'':answerForm('Which country fits these clues?')}`;
+  $('games-board').innerHTML=`<div class="game-board-title"><span class="eyebrow">FOLLOW THE CLUES</span><h2>${state.done?esc(BY_CODE.get(state.code).name):'Which country am I?'}</h2><p>${state.done?'The clues lead here. Keep one fact for next time.':`${state.shown} of ${all.length} clues open · how soon can you name it?`}</p></div>${state.done?`<div class="mystery-reveal">${flag(state.code)}<a class="text-link" href="#atlas?country=${state.code}">Find it in the atlas ↗</a></div>`:''}<ol class="mystery-clues">${all.map((c,index)=>`<li class="${index<state.shown||state.done?'':'clue-locked'}"><span>${String(index+1).padStart(2,'0')}</span><div>${index<state.shown||state.done?`<p>${esc(c.text)}</p><small>${esc(c.meta)}</small>`:'<p>Another piece of the puzzle</p><small>Reveal the next clue when you need it</small>'}</div></li>`).join('')}</ol>${state.done?'':answerForm('Which country fits these clues?')}`;
   if(!state.done)$('game-answer-form').onsubmit=e=>{
     e.preventDefault();const input=$('game-answer'),answer=input.value.trim();if(!answer)return;
     const correct=matchCountry(answer)===state.code;state.done=correct;state.correct=correct;
@@ -124,17 +129,17 @@ function render(){
   $('games-hint').hidden=state.done||state.mode!=='mystery';
   $('games-hint').disabled=state.mode==='mystery'&&state.shown>=clues().length;
   const items=state.mode==='mystery'?state.clues.map(c=>topics.find(i=>i.id===c.topic)):[topic()];
-  $('games-source').innerHTML=state.done?sourceDetails(items)+(state.mode==='mystery'?`<p><a href="${esc(details[state.code].source)}" target="_blank" rel="noopener noreferrer">Country guide source ↗</a></p>`:''):'<p>Source links, figures and coverage appear after the round. Rankings refer to the countries reported in our catalogue.</p>';
+  $('games-source').innerHTML=state.done?sourceDetails(items)+(state.mode==='mystery'?`<details><summary>Geography, culture & language sources</summary>${clues().slice(1).map(c=>`<p><a href="${esc(c.source)}" target="_blank" rel="noopener noreferrer">${esc(c.meta)} source ↗</a></p>`).join('')}</details>`:''):'<p>Source links, figures and coverage appear after the round. Rankings refer to the countries reported in our catalogue.</p>';
   renderGameStats(state.mode,$('games-stats'));
 }
 function restore(saved){
-  if(!saved||!['higher','five','mystery'].includes(saved.mode)||typeof saved.id!=='string'||typeof saved.done!=='boolean'||typeof saved.feedback!=='string'||!Array.isArray(saved.found)||!saved.found.every(c=>BY_CODE.has(c)))return false;
+  if(!saved||saved.rulesVersion!==2||!['higher','five','mystery'].includes(saved.mode)||typeof saved.id!=='string'||typeof saved.done!=='boolean'||typeof saved.feedback!=='string'||!Array.isArray(saved.found)||!saved.found.every(c=>BY_CODE.has(c)))return false;
   if(saved.mode==='mystery'){
-    if(!BY_CODE.has(saved.code)||!Number.isInteger(saved.shown)||saved.shown<1||!Array.isArray(saved.clues)||saved.clues.length<2||saved.clues.length>3||saved.shown>saved.clues.length+2)return false;
-    for(const c of saved.clues){const e=topics.find(i=>i.id===c.topic)?.entries.find(e=>e.code===saved.code);if(!e||e.value!==c.value||e.rank!==c.rank)return false;}
+    if(!BY_CODE.has(saved.code)||!Number.isInteger(saved.shown)||saved.shown<1||!Array.isArray(saved.clues)||saved.clues.length!==1||saved.shown>5)return false;
+    for(const c of saved.clues){const e=topics.find(i=>i.id===c.topic)?.entries.find(e=>e.code===saved.code);if(!e||e.value!==c.value||e.rank!==c.rank||e.rank>3||topics.find(i=>i.id===c.topic).higherOnly)return false;}
   }else{
-    const item=topics.find(i=>i.id===saved.topic);if(!item)return false;
-    if(saved.mode==='five'&&(!topFiveEntries(item).length||!saved.found.every(c=>topFiveEntries(item).some(e=>e.code===c))))return false;
+    const item=topics.find(i=>i.id===saved.topic);if(!item||(saved.mode==='five'&&item.higherOnly))return false;
+    if(saved.mode==='five'&&(!topThreeEntries(item).length||!saved.found.every(c=>topThreeEntries(item).some(e=>e.code===c))))return false;
     if(saved.mode==='higher'&&(!Array.isArray(saved.pair)||saved.pair.length!==2||saved.pair[0]===saved.pair[1]||!saved.pair.every(c=>item.entries.some(e=>e.code===c))))return false;
   }
   state=saved;if(getGameEvents().some(e=>e.round===state.id&&e.finished))state.done=true;
@@ -148,8 +153,8 @@ export async function startRecordGames(params=new URLSearchParams()){
   };
   if(topics){applyRoute();return;}if(pending)return pending;
   pending=(async()=>{try{
-    const [catalogue,atlas]=await Promise.all([loadRecords(),loadAtlas()]);details=atlas.details;
-    topics=gameTopics(catalogue.items).filter(i=>comparison(i));
+    const [catalogue,atlas,extraData,gameContent]=await Promise.all([loadRecords(),loadAtlas(),loadExtras(),loadJSON('data/game-content.json?v=13')]);details=atlas.details;extras=extraData;content=gameContent;
+    topics=gameTopics([...catalogue.items,...content.items]).filter(i=>comparison(i)).map(i=>({...i,label:topicNames[i.id]||i.label}));
     $('games-category').innerHTML='<option value="">All subjects</option>'+[...new Set(topics.map(i=>i.category))].sort().map(c=>`<option>${esc(c)}</option>`).join('');
     $('games-category').disabled=false;$('games-mode').disabled=false;
     if(!bound){
