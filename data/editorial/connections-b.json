@@ -1,0 +1,654 @@
+[
+  {
+    "id": "islenos-louisiana",
+    "slug": "islenos-louisiana",
+    "title": "Canary Islands roots in the Louisiana wetlands",
+    "hook": "What connects an Atlantic archipelago to the Mississippi Delta?",
+    "shortFact": "Louisiana’s Isleño communities trace their heritage to settlers from Spain’s Canary Islands, including arrivals in 1778 under Spanish colonial rule. Their descendants helped shape the culture of St. Bernard Parish.",
+    "explanation": "Louisiana was a Spanish colony when a group of Canary Islanders arrived in 1778. The colonial government supported these soldier-settlers with supplies and animals: they were expected to build communities and help defend the territory. In the Mississippi Delta, they adapted to a wetland landscape very different from their Atlantic islands. Fishing, shellfish gathering and trapping became important ways of making a living. Isleño means “islander” in Spanish, and descendants in St. Bernard Parish preserve a distinctive local heritage shaped by both their island origins and Louisiana. This is a story about particular communities, not a claim that all Louisianans have Canary Islands ancestry.",
+    "category": "People & migration",
+    "tags": [
+      "Isleños",
+      "Canary Islands",
+      "Spanish",
+      "wetlands",
+      "migration"
+    ],
+    "countries": [
+      "es",
+      "us"
+    ],
+    "regions": [
+      "North America",
+      "Atlantic Islands"
+    ],
+    "places": [
+      "Canary Islands",
+      "St. Bernard Parish, Louisiana"
+    ],
+    "period": "1778 onward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route.",
+      "locations": [
+        {
+          "label": "Canary Islands · Spain",
+          "coordinates": [
+            -15.6,
+            28.1
+          ],
+          "approximate": true
+        },
+        {
+          "label": "St. Bernard Parish · Louisiana",
+          "coordinates": [
+            -89.7,
+            29.9
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Islenos of South Louisiana",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/jela/learn/historyculture/people-islenos.htm",
+        "published": "2026-03-21"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Isleño identifies a community and heritage; it is not a label for Louisiana’s entire population. Map points mark regions approximately.",
+    "related": [
+      "ukulele-madeira-hawaii",
+      "montserrat-st-patrick"
+    ],
+    "guess": {
+      "question": "Which islands connect to Louisiana’s Isleño heritage?",
+      "options": [
+        "Canary Islands",
+        "Galápagos Islands",
+        "Faroe Islands"
+      ],
+      "answer": "Canary Islands"
+    }
+  },
+  {
+    "id": "montserrat-st-patrick",
+    "slug": "montserrat-st-patrick",
+    "title": "St Patrick’s Day remembers resistance in Montserrat",
+    "hook": "Why does an Irish feast day carry a Caribbean history?",
+    "shortFact": "On Montserrat, a British Overseas Territory in the Caribbean, St Patrick’s Day is a public holiday celebrating African and Irish heritage. It also commemorates a thwarted uprising by enslaved people in 1768.",
+    "explanation": "Montserrat’s March celebrations carry more than one history. The festival highlights the island’s African and Irish heritage, but March 17 also remembers a planned uprising by enslaved people in 1768. That matters: the holiday cannot be explained simply as Ireland transplanted to a tropical island. Remembering resistance to slavery is part of its local meaning. Today the wider festival brings together music, parades and food, with soca and reggae among its sounds. Montserrat is a British Overseas Territory, not an independent country. Its celebrations show how communities can give an inherited calendar date a meaning rooted in their own experiences.",
+    "category": "Language & culture",
+    "tags": [
+      "St Patrick",
+      "Ireland",
+      "slavery",
+      "resistance",
+      "festival"
+    ],
+    "countries": [
+      "gb",
+      "ie"
+    ],
+    "regions": [
+      "Caribbean",
+      "Europe"
+    ],
+    "places": [
+      "Montserrat",
+      "Ireland"
+    ],
+    "period": "1768; annual March festival",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route.",
+      "locations": [
+        {
+          "label": "Ireland",
+          "coordinates": [
+            -8,
+            53.3
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Montserrat · British Overseas Territory",
+          "coordinates": [
+            -62.2,
+            16.75
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Festivals & Events",
+        "publisher": "Montserrat Tourism Authority",
+        "url": "https://www.visitmontserrat.com/festivals-events/",
+        "published": null
+      },
+      {
+        "title": "Montserrat History & Facts",
+        "publisher": "Montserrat Tourism Authority",
+        "url": "https://www.visitmontserrat.com/montserrat-history-facts/",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The source’s “only country” claim is deliberately omitted. Montserrat is a British Overseas Territory. The 1768 event was thwarted; it was not a successful liberation.",
+    "related": [
+      "islenos-louisiana",
+      "breadfruit-caribbean"
+    ]
+  },
+  {
+    "id": "geet-gawai-mauritius",
+    "slug": "geet-gawai-mauritius",
+    "title": "Bhojpuri wedding songs crossed the Indian Ocean",
+    "hook": "How does a wedding keep a migration story alive?",
+    "shortFact": "Geet-Gawai, a pre-wedding tradition especially associated with Bhojpuri-speaking Mauritians, connects Mauritius with India. Its songs travelled with Indian indentured migrants and became part of Mauritian cultural life.",
+    "explanation": "Beginning in the nineteenth century, Indian migrants went to Mauritius under indenture: labour contracts used by colonial plantation employers. Many worked on sugar estates. They carried languages and traditions as well as labour, including Bhojpuri songs that became part of Mauritian Geet-Gawai. Before a wedding, relatives and neighbours gather at the bride’s or groom’s home for prayers, music, rituals and dancing. Women have been central to passing the repertoire between generations. It is a living Mauritian tradition with Indian roots, rather than an unchanged performance frozen at the moment of migration. Families, community centres and teaching groups continue to transmit it.",
+    "category": "Language & culture",
+    "tags": [
+      "Bhojpuri",
+      "weddings",
+      "music",
+      "indenture",
+      "Indian diaspora"
+    ],
+    "countries": [
+      "in",
+      "mu"
+    ],
+    "regions": [
+      "South Asia",
+      "Indian Ocean"
+    ],
+    "places": [
+      "Bhojpuri-speaking region of India",
+      "Mauritius"
+    ],
+    "period": "Nineteenth century onward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route.",
+      "locations": [
+        {
+          "label": "Bhojpuri-speaking region · approximate",
+          "coordinates": [
+            84,
+            25.5
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Mauritius",
+          "coordinates": [
+            57.55,
+            -20.25
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Bhojpuri Folk Songs in Mauritius, Geet-Gawai",
+        "publisher": "UNESCO Multimedia Archives / Mauritius Ministry of Arts and Culture",
+        "url": "https://www.unesco.org/archives/multimedia/document-4367",
+        "published": "2015"
+      },
+      {
+        "title": "Geet Gawai: Our National Heritage",
+        "publisher": "Dr Sarita Boodhoo, Mauritius Times",
+        "url": "https://www.mauritiustimes.com/mt/sarita-boodhoo-85/",
+        "published": "2016-10-02"
+      },
+      {
+        "title": "Aapravasi Ghat",
+        "publisher": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/1227/",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Indenture was a colonial labour system, distinct from slavery; the heritage is associated especially with Bhojpuri-speaking communities, not every Mauritian. The Indian map point represents a broad language region.",
+    "related": [
+      "chilli-americas-india",
+      "kochi-synagogue-trade"
+    ]
+  },
+  {
+    "id": "chilli-americas-india",
+    "slug": "chilli-americas-india",
+    "title": "India’s chilli heat has American roots",
+    "hook": "What would Indian cooking taste like before chillies arrived?",
+    "shortFact": "Chilli peppers came from the Americas, not India. After Atlantic contact, seeds reached Europe and cultivation spread through Portuguese colonial networks into Africa, India and Asia.",
+    "explanation": "Chilli can feel inseparable from Indian cooking, yet Capsicum peppers belong to an American story that began long before Europeans arrived. Indigenous peoples cultivated them, and the Aztecs already knew many varieties when the Spanish reached Mexico. Kew records that Columbus carried seeds to Europe and that cultivation then expanded in Portuguese colonies, including in India. Cooks in new places made these plants their own, turning an introduced ingredient into something locally familiar. Chilli is also botanically different from black pepper: the latter is Piper nigrum, a member of another plant family. Similar everyday names do not mean the two spices share the same origin.",
+    "category": "Food journeys",
+    "tags": [
+      "chilli",
+      "pepper",
+      "Indian food",
+      "Columbian exchange",
+      "Portuguese trade"
+    ],
+    "countries": [
+      "mx",
+      "pt",
+      "in"
+    ],
+    "regions": [
+      "Americas",
+      "South Asia"
+    ],
+    "places": [
+      "Mexico",
+      "Portuguese colonial trade networks",
+      "India"
+    ],
+    "period": "After 1492",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route.",
+      "locations": [
+        {
+          "label": "Mexico · one pre-contact cultivation region",
+          "coordinates": [
+            -102,
+            23
+          ],
+          "approximate": true
+        },
+        {
+          "label": "India",
+          "coordinates": [
+            78,
+            21
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Capsicum annuum: Kew Species Profile",
+        "publisher": "Royal Botanic Gardens, Kew",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:316944-2/general-information",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The map connects regions conceptually and omits intermediate ports. It does not identify a single introduction voyage or imply that Indian food lacked pungent spices before chilli.",
+    "related": [
+      "potatoes-andes-europe",
+      "kochi-synagogue-trade"
+    ],
+    "guess": {
+      "question": "Where did chilli peppers originate?",
+      "options": [
+        "The Americas",
+        "India",
+        "West Africa"
+      ],
+      "answer": "The Americas"
+    }
+  },
+  {
+    "id": "kochi-synagogue-trade",
+    "slug": "kochi-synagogue-trade",
+    "title": "A Kochi synagogue connects China, Belgium and India",
+    "hook": "How did a place of worship become a map of trade?",
+    "shortFact": "Kochi’s Paradesi Synagogue has Chinese hand-painted floor tiles and Belgian chandeliers. Its interior reflects the far-reaching connections of a Jewish community in an Indian port city.",
+    "explanation": "The synagogue was built in 1568 beside Mattancherry Palace. Its much-admired floor came later: in the eighteenth century, the Jewish spice trader Ezekiel Rahabi commissioned tiles from Canton, now Guangzhou, in China. Rahabi worked in trade between India and East Asia for the Dutch East India Company. The Belgian glass chandeliers belong to the nineteenth century. These objects were therefore added in different periods, rather than arriving as one coordinated shipment. Looking around the room brings distant places into focus through the work of merchants and a local religious community. The trade connection is visible in the building itself, without needing to turn its people into a vanished curiosity.",
+    "category": "Language & culture",
+    "tags": [
+      "Kochi",
+      "Jewish heritage",
+      "synagogue",
+      "trade",
+      "tiles"
+    ],
+    "countries": [
+      "in",
+      "cn",
+      "be"
+    ],
+    "regions": [
+      "South Asia",
+      "East Asia",
+      "Europe"
+    ],
+    "places": [
+      "Kochi",
+      "Guangzhou (Canton)",
+      "Belgium"
+    ],
+    "period": "Synagogue: 1568; tiles: eighteenth century; chandeliers: nineteenth century",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic China–Kochi connection, not a documented voyage. Belgian chandeliers are a separate connection described in the text.",
+      "locations": [
+        {
+          "label": "Guangzhou / Canton",
+          "coordinates": [
+            113.26,
+            23.13
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Paradesi Synagogue · Kochi",
+          "coordinates": [
+            76.26,
+            9.96
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Paradesi Synagogue, Mattancherry",
+        "publisher": "Kerala Tourism, Government of Kerala",
+        "url": "https://www.keralatourism.org/kochi/paradeso-synagogue-mattancherry.php",
+        "published": null
+      },
+      {
+        "title": "Tiles, interior of the Cochin synagogue",
+        "publisher": "National Centre for Biological Sciences, Tata Institute of Fundamental Research",
+        "url": "https://artsandculture.google.com/asset/tiles-interior-of-the-cochin-synagogue/UQHH7SqIUdMzTg",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The tiles and chandeliers are later additions, not original fittings from 1568. No claim is made about the age of copper-plate charters, whose dating is inconsistently reported by tourist sources.",
+    "related": [
+      "chilli-americas-india",
+      "geet-gawai-mauritius"
+    ]
+  },
+  {
+    "id": "ukulele-madeira-hawaii",
+    "slug": "ukulele-madeira-hawaii",
+    "title": "Hawaiʻi transformed a Portuguese instrument",
+    "hook": "What does a Hawaiian sound owe to an Atlantic island?",
+    "shortFact": "The ʻukulele developed in Hawaiʻi from small Portuguese string instruments brought by immigrants. Portuguese woodworkers arriving in 1879 helped establish the craft, and Hawaiian players adapted it into a distinctive instrument.",
+    "explanation": "The ʻukulele is Hawaiian, but its family tree crosses an ocean and a continent. Portuguese workers arriving in Hawaiʻi in 1879 included woodworkers familiar with small instruments such as the braguinha. Hawaiians learned to play them and changed the instrument; King Kalākaua helped encourage its popularity. The result was a musical tradition with its own Hawaiian makers, performers and innovations. Madeira, a Portuguese island in the Atlantic, is part of that earlier connection. Describing this as simply a foreign instrument misses the creative work that happened after arrival. Migration supplied an ingredient; people in Hawaiʻi made something new with it.",
+    "category": "Language & culture",
+    "tags": [
+      "ukulele",
+      "music",
+      "Madeira",
+      "Hawaii",
+      "migration"
+    ],
+    "countries": [
+      "pt",
+      "us"
+    ],
+    "regions": [
+      "Atlantic Islands",
+      "Pacific"
+    ],
+    "places": [
+      "Madeira",
+      "Hawaiʻi"
+    ],
+    "period": "1879 onward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route.",
+      "locations": [
+        {
+          "label": "Madeira · Portugal",
+          "coordinates": [
+            -16.95,
+            32.75
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Honolulu · Hawaiʻi",
+          "coordinates": [
+            -157.86,
+            21.31
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "An ʻUkulele Comeback",
+        "publisher": "University of Hawaiʻi",
+        "url": "https://www.hawaii.edu/malamalama/2007/01/f1_ukulele.html",
+        "published": "2007-01"
+      },
+      {
+        "title": "The ukulele’s origins: interview with historian Jim Tranquada",
+        "publisher": "Hawaii News Now",
+        "url": "https://www.hawaiinewsnow.com/2024/03/31/no-ukulele-did-not-originate-hawaii-heres-where-story-actually-begins/",
+        "published": "2024-04-02"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The instrument developed in Hawaiʻi from Portuguese antecedents. Competing “jumping flea” naming legends are omitted. Hawaiʻi was a kingdom in 1879; its modern U.S. location is used only for browsing.",
+    "related": [
+      "islenos-louisiana",
+      "geet-gawai-mauritius"
+    ]
+  },
+  {
+    "id": "breadfruit-caribbean",
+    "slug": "breadfruit-caribbean",
+    "title": "Breadfruit’s Caribbean journey was tied to slavery",
+    "hook": "Why was a British ship sent to collect Pacific fruit?",
+    "shortFact": "Britain sent William Bligh to the Pacific to collect breadfruit as food for enslaved people on Caribbean plantations. The Bounty mission failed after the 1789 mutiny, but a later expedition introduced the crop to St Vincent and Jamaica.",
+    "explanation": "Breadfruit was already an established Pacific food when European voyagers encountered it. Its starchy flesh can be cooked and eaten much like a staple root crop. Joseph Banks promoted a plan to move it to the Caribbean to feed enslaved plantation workers, and the Admiralty sent Bligh aboard HMS Bounty in 1787. The famous mutiny interrupted that mission after the ship left Tahiti in 1789. Bligh returned to Tahiti on another expedition in 1792 and successfully carried plants to St Vincent and Jamaica. The journey is therefore more than an adventure at sea: botanical collecting was being used to support a coercive plantation economy.",
+    "category": "Food journeys",
+    "tags": [
+      "breadfruit",
+      "Tahiti",
+      "Bounty",
+      "slavery",
+      "plantations"
+    ],
+    "countries": [
+      "fr",
+      "vc",
+      "jm",
+      "gb"
+    ],
+    "regions": [
+      "Pacific",
+      "Caribbean"
+    ],
+    "places": [
+      "Tahiti, French Polynesia",
+      "St Vincent",
+      "Jamaica"
+    ],
+    "period": "1787–1790s",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route.",
+      "locations": [
+        {
+          "label": "Tahiti · French Polynesia",
+          "coordinates": [
+            -149.45,
+            -17.65
+          ],
+          "approximate": true
+        },
+        {
+          "label": "St Vincent · Caribbean",
+          "coordinates": [
+            -61.2,
+            13.2
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Artocarpus altilis: Bligh’s mission to take breadfruit to the Caribbean",
+        "publisher": "Royal Botanic Gardens, Kew",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:582598-1/general-information",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The second expedition delivered the plants; the Bounty voyage did not. Modern place labels are used for orientation, not to assign today’s political status to the eighteenth century.",
+    "related": [
+      "montserrat-st-patrick",
+      "potatoes-andes-europe"
+    ]
+  },
+  {
+    "id": "potatoes-andes-europe",
+    "slug": "potatoes-andes-europe",
+    "title": "Europe’s potatoes had to learn a new season",
+    "hook": "Why was crossing an ocean only half the challenge?",
+    "shortFact": "Potatoes reached Europe from the Andes in the sixteenth century, but many early plants formed tubers only as autumn days shortened. Adapting to Europe’s longer summer days helped turn an American crop into a European staple.",
+    "explanation": "Andean farmers domesticated potatoes long before Spanish conquest brought the crop across the Atlantic. But moving a plant does not instantly make it suited to its new home. Early introductions from the equatorial Andes responded to short days; in Europe, tubers developed late, leaving little growing time before frost. A 2019 genetic study using historical plant specimens traced later European potatoes to both Andean and Chilean ancestry. The researchers associated nineteenth-century adaptation with the arrival of Chilean potatoes. The familiar European crop is therefore the result of Indigenous American cultivation, colonial movement and later biological change, rather than a plant that simply arrived ready-made for every northern field.",
+    "category": "Food journeys",
+    "tags": [
+      "potato",
+      "Andes",
+      "Chile",
+      "seasons",
+      "crop adaptation"
+    ],
+    "countries": [
+      "pe",
+      "bo",
+      "cl",
+      "es"
+    ],
+    "regions": [
+      "South America",
+      "Europe"
+    ],
+    "places": [
+      "Andes",
+      "Chile",
+      "Europe"
+    ],
+    "period": "Sixteenth–nineteenth centuries; research published 2019",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route.",
+      "locations": [
+        {
+          "label": "Central Andes · approximate",
+          "coordinates": [
+            -69,
+            -17
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Europe · approximate",
+          "coordinates": [
+            8,
+            50
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Origins of the European potato",
+        "publisher": "Max Planck Society",
+        "url": "https://www.mpg.de/13618613/potato-origin",
+        "published": "2019-06-25"
+      },
+      {
+        "title": "Learning to love the potato",
+        "publisher": "Europeana",
+        "url": "https://www.europeana.eu/en/exhibitions/edible-plants-from-the-americas/potato",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "This describes historical introductions and the cited genetic study, not a claim that every modern variety has identical ancestry or that potatoes cannot grow under long days.",
+    "related": [
+      "chilli-americas-india",
+      "breadfruit-caribbean"
+    ]
+  },
+  {
+    "id": "maltese-mediterranean",
+    "slug": "maltese-mediterranean",
+    "title": "Maltese carries several Mediterranean histories",
+    "hook": "Why can one language connect Arabic, Italian and English?",
+    "shortFact": "Maltese developed from a form of Arabic and became an independent language with its own literature. It uses a Latin-based alphabet and has absorbed substantial Sicilian, Italian and English influence.",
+    "explanation": "Malta sits south of Sicily, between the northern and southern shores of the Mediterranean. Its language developed from Arabic associated with the medieval Arab period, then followed its own course after political rule changed. Contact with Sicilian and Italian, and later English, left a strong mark on vocabulary, while much grammar and many words retain Arabic roots. Maltese uses a Latin-based writing system with additional letters for its sounds. It is not simply modern Arabic written differently: it is a distinct language with its own history and literary tradition. The language makes the island’s long record of contact audible in ordinary conversation.",
+    "category": "Language & culture",
+    "tags": [
+      "Maltese",
+      "Arabic",
+      "Sicilian",
+      "Italian",
+      "language contact"
+    ],
+    "countries": [
+      "mt",
+      "it"
+    ],
+    "regions": [
+      "Mediterranean",
+      "Europe",
+      "North Africa"
+    ],
+    "places": [
+      "Malta",
+      "Sicily",
+      "Maghreb"
+    ],
+    "period": "Medieval period onward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic language-contact connection, not a migration route. Arabic roots also connect Malta to the wider Mediterranean.",
+      "locations": [
+        {
+          "label": "Sicily · Italy",
+          "coordinates": [
+            14,
+            37.6
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Malta",
+          "coordinates": [
+            14.4,
+            35.9
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "The Maltese Language",
+        "publisher": "National Council for the Maltese Language",
+        "url": "https://kunsilltalmalti.gov.mt/national-council-for-the-maltese-language/",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The precise historical path through Arabic varieties is qualified in the source. Current population figures and broad “only Semitic language” claims are deliberately omitted.",
+    "related": [
+      "geet-gawai-mauritius",
+      "islenos-louisiana"
+    ]
+  }
+]

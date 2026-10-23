@@ -1,0 +1,823 @@
+[
+  {
+    "id": "france-brazil-neighbours",
+    "slug": "france-brazil-neighbours",
+    "title": "France and Brazil are next-door neighbours",
+    "hook": "How can France have an Amazonian border?",
+    "shortFact": "France shares a land border with Brazil through French Guiana, an overseas part of France in South America. The Oyapock River forms part of that frontier.",
+    "explanation": "A map centred on Europe leaves out a large piece of French geography. French Guiana lies on South America’s Atlantic coast, beside Brazil. Its present status grew out of French colonial rule: it became a French department in 1946. Today it belongs to the French Republic, rather than being an independent country with a similar name. Across the Oyapock River is the Brazilian state of Amapá. A bridge links the two sides, and their governments cooperate on education, health and environmental issues. The frontier is therefore part of everyday regional life, not simply a surprising line in a quiz.",
+    "category": "Borders & belonging",
+    "tags": [
+      "overseas regions",
+      "France",
+      "Brazil",
+      "borders",
+      "colonial history"
+    ],
+    "countries": [
+      "fr",
+      "br"
+    ],
+    "regions": [
+      "South America",
+      "Amazonia"
+    ],
+    "places": [
+      "French Guiana",
+      "Amapá",
+      "Oyapock River"
+    ],
+    "period": "1946–present",
+    "map": {
+      "type": "location",
+      "caption": "The shared boundary is highlighted on simplified Natural Earth geography. Numbered points locate approximate towns on opposite sides of the Oyapock; this is not a border survey.",
+      "locations": [
+        {
+          "label": "Saint-Georges, French Guiana",
+          "coordinates": [
+            -51.799,
+            3.888
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Oiapoque, Brazil",
+          "coordinates": [
+            -51.834,
+            3.843
+          ],
+          "approximate": true
+        }
+      ],
+      "highlightCountries": [
+        "fr",
+        "br"
+      ],
+      "focusExtent": [
+        [
+          -55,
+          1
+        ],
+        [
+          -50,
+          6
+        ]
+      ],
+      "borderCountries": [
+        "fr",
+        "br"
+      ]
+    },
+    "sources": [
+      {
+        "title": "France and Brazil",
+        "publisher": "French Ministry for Europe and Foreign Affairs",
+        "url": "https://www.diplomatie.gouv.fr/en/information-by-country/brazil/france-and-brazil",
+        "published": null
+      },
+      {
+        "title": "Guyane: research guide",
+        "publisher": "Archives nationales d’outre-mer",
+        "url": "https://archives-nationales-outre-mer.culture.gouv.fr/faire-une-recherche/guyane",
+        "published": null
+      },
+      {
+        "title": "Overseas departments, regions and collectivities",
+        "publisher": "INSEE",
+        "url": "https://www.insee.fr/en/metadonnees/definition/c2316",
+        "published": "2023-12-05"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "French Guiana is part of France; it is different from the independent country Guyana. No “longest border” claim is needed.",
+    "related": [
+      "saba-highest-point",
+      "pheasant-island"
+    ]
+  },
+  {
+    "id": "saba-highest-point",
+    "slug": "saba-highest-point",
+    "title": "The Dutch kingdom’s highest point is in the Caribbean",
+    "hook": "Where would you look for a Dutch mountain?",
+    "shortFact": "Mount Scenery, on the Caribbean island of Saba, reaches about 877 metres above sea level: the highest point in the Kingdom of the Netherlands. Saba is a special municipality of the Netherlands.",
+    "explanation": "The name “Netherlands” often brings flat European landscapes to mind, but the country also has a Caribbean geography. Saba’s Mount Scenery rises far above the surrounding sea. On 10 October 2010, Saba, Bonaire and St Eustatius became special municipalities of the Netherlands. Their status is different from that of Aruba, Curaçao and St Maarten, which are separate constituent countries within the same kingdom. That distinction explains why a Caribbean summit belongs in a discussion of Dutch geography. “Highest in the kingdom” includes its Caribbean parts; it does not mean the highest point in the European Netherlands.",
+    "category": "Borders & belonging",
+    "tags": [
+      "Caribbean",
+      "Netherlands",
+      "Saba",
+      "mountains",
+      "overseas territories"
+    ],
+    "countries": [
+      "nl"
+    ],
+    "regions": [
+      "Caribbean",
+      "Europe"
+    ],
+    "places": [
+      "Saba",
+      "Mount Scenery",
+      "Netherlands"
+    ],
+    "period": "2010–present",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic political connection between Saba and the European Netherlands; not a travel route.",
+      "locations": [
+        {
+          "label": "Mount Scenery, Saba",
+          "coordinates": [
+            -63.237,
+            17.635
+          ],
+          "approximate": true
+        },
+        {
+          "label": "European Netherlands",
+          "coordinates": [
+            5.3,
+            52.1
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "About Public Entity Saba",
+        "publisher": "Public Entity Saba",
+        "url": "https://www.sabagov.nl/management-organization/about-public-entity-saba",
+        "published": null
+      },
+      {
+        "title": "Caribbean parts of the Kingdom",
+        "publisher": "Government of the Netherlands",
+        "url": "https://www.government.nl/themes/government-and-democracy/caribbean-parts-of-the-kingdom",
+        "published": null
+      },
+      {
+        "title": "Caribbean Netherlands and Dutch Caribbean",
+        "publisher": "Statistics Netherlands (CBS)",
+        "url": "https://www.cbs.nl/en-gb/news/2022/49/forecast-caribbean-netherlands-15-more-inhabitants-by-2030/caribbean-netherlands-and-dutch-caribbean",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The kingdom, the constituent country Netherlands, and the European Netherlands are different geographical scopes.",
+    "related": [
+      "france-brazil-neighbours",
+      "chimborazo"
+    ]
+  },
+  {
+    "id": "diomede-date-line",
+    "slug": "diomede-date-line",
+    "title": "Two islands, opposite sides of the date line",
+    "hook": "Can tomorrow be just across the water?",
+    "shortFact": "Russia’s Big Diomede and the United States’ Little Diomede are only about 3.8 kilometres apart, but the International Date Line passes between them. Their nicknames are “Tomorrow” and “Yesterday” islands.",
+    "explanation": "The Diomedes lie in the Bering Strait, between Alaska and far eastern Russia. Two invisible divisions cross the water separating them: the international maritime border and the International Date Line. The date line is a human convention for keeping calendars consistent around a rotating planet; it is not a physical feature in the sea. The islands are close enough to appear together in one satellite image, yet they sit on opposite sides of that convention. Their nicknames describe this calendar contrast. They do not mean that the islands are always exactly 24 clock-hours apart, and this illustration is not a border-crossing suggestion.",
+    "category": "Borders & belonging",
+    "tags": [
+      "date line",
+      "islands",
+      "Russia",
+      "United States",
+      "time"
+    ],
+    "countries": [
+      "ru",
+      "us"
+    ],
+    "regions": [
+      "Bering Strait",
+      "Arctic"
+    ],
+    "places": [
+      "Big Diomede",
+      "Little Diomede",
+      "Alaska",
+      "Chukotka"
+    ],
+    "period": null,
+    "map": {
+      "type": "dateline",
+      "caption": "Approximate island locations. Date-line marker is schematic, not a legal boundary survey.",
+      "locations": [
+        {
+          "label": "Big Diomede · Russia",
+          "coordinates": [
+            -169.065,
+            65.782
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Little Diomede · United States",
+          "coordinates": [
+            -168.952,
+            65.758
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Yesterday and Tomorrow Islands",
+        "publisher": "NASA Earth Observatory",
+        "url": "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/",
+        "published": "2018-01-27"
+      },
+      {
+        "title": "What is the international date line?",
+        "publisher": "NOAA National Ocean Service",
+        "url": "https://oceanservice.noaa.gov/facts/international-date-line.html",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Calendar-day separation is not a fixed 24-hour time-zone difference. Island points and the intervening date-line marker are schematic.",
+    "related": [
+      "tartupaluk-agreement",
+      "pheasant-island"
+    ]
+  },
+  {
+    "id": "baarle-enclaves",
+    "slug": "baarle-enclaves",
+    "title": "A border that wanders through houses",
+    "hook": "Why is this village a patchwork of two countries?",
+    "shortFact": "Baarle contains Belgian enclaves inside the Netherlands, with Dutch pieces inside some of those enclaves. The border can cross streets, gardens and buildings because older land divisions survived into the modern frontier.",
+    "explanation": "An enclave is territory completely surrounded by another state. Baarle’s puzzle began with medieval land arrangements involving the Duke of Brabant and the Lord of Breda. Different plots remained under different authorities instead of becoming one continuous area. Later political changes turned those inherited divisions into an international border, with Baarle-Hertog on the Belgian side and Baarle-Nassau on the Dutch side. Some Dutch plots are enclosed within Belgian plots that are themselves surrounded by the Netherlands. Today pavement markers make many of the boundaries visible. What looks like a cartographer’s prank is a record of centuries of land ownership and government.",
+    "category": "Borders & belonging",
+    "tags": [
+      "enclaves",
+      "Belgium",
+      "Netherlands",
+      "medieval history",
+      "borders"
+    ],
+    "countries": [
+      "be",
+      "nl"
+    ],
+    "regions": [
+      "Europe"
+    ],
+    "places": [
+      "Baarle-Hertog",
+      "Baarle-Nassau"
+    ],
+    "period": "Medieval origins; modern border",
+    "map": {
+      "type": "location",
+      "caption": "Approximate locations; map labels are not territorial boundaries.",
+      "locations": [
+        {
+          "label": "Baarle-Hertog / Baarle-Nassau",
+          "coordinates": [
+            4.931,
+            51.443
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "History of Baarle",
+        "publisher": "Visit Baarle",
+        "url": "https://en.visitbaarle.com/informatie/geschiedenis",
+        "published": null
+      },
+      {
+        "title": "About Baarle",
+        "publisher": "Visit Baarle",
+        "url": "https://en.visitbaarle.com/informatie/overbaarle",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The map locates the village; it does not draw individual property boundaries. The claim concerns territory, not automatic dual nationality for residents.",
+    "related": [
+      "pheasant-island",
+      "france-brazil-neighbours"
+    ]
+  },
+  {
+    "id": "pheasant-island",
+    "slug": "pheasant-island",
+    "title": "An island administered by turns",
+    "hook": "Why do France and Spain take six-month shifts?",
+    "shortFact": "France and Spain share authority over Pheasant Island in the Bidasoa River, taking turns every six months. The island also hosted negotiations for the 1659 Treaty of the Pyrenees.",
+    "explanation": "This small river island sits between Hendaye in France and Irun in Spain. It is a condominium: a place under shared authority, rather than a territory that must be assigned entirely to one state. The two sides alternate responsibility in six-month periods. Its role as a meeting place predates today’s routine: French and Spanish negotiators met here in 1659 to settle the Treaty of the Pyrenees, alongside arrangements for the marriage of Louis XIV and Maria Theresa of Spain. A monument remembers those negotiations. The unusual arrangement makes a tiny island an enduring piece of diplomatic geography.",
+    "category": "Borders & belonging",
+    "tags": [
+      "France",
+      "Spain",
+      "shared territory",
+      "diplomacy",
+      "islands"
+    ],
+    "countries": [
+      "fr",
+      "es"
+    ],
+    "regions": [
+      "Europe",
+      "Basque Country"
+    ],
+    "places": [
+      "Pheasant Island",
+      "Bidasoa River",
+      "Hendaye",
+      "Irun"
+    ],
+    "period": "1659; alternating administration today",
+    "map": {
+      "type": "location",
+      "caption": "Approximate locations; map labels are not territorial boundaries.",
+      "locations": [
+        {
+          "label": "Pheasant Island",
+          "coordinates": [
+            -1.76558,
+            43.3428
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Île de la Conférence (Île des Faisans)",
+        "publisher": "Agence départementale du tourisme 64 / Hendaye Tourisme",
+        "url": "https://www.tourisme64.com/activites/hendaye/PCUAQU064FS000JA-ile-de-la-conference-ou-ile-des-faisans/",
+        "published": null
+      },
+      {
+        "title": "Île des Faisans",
+        "publisher": "Bidasoa-Txingudi Cross-border Consortium",
+        "url": "https://www.irunhondarribiahendaye.com/fr/tourisme-sans-frontieres/sites-a-visiter/patrimoine-historique/462-ile-faisans",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The six-month change concerns administration of shared territory, not the island physically changing countries. Sources give differing surface areas, so no area is quoted.",
+    "related": [
+      "baarle-enclaves",
+      "tartupaluk-agreement"
+    ]
+  },
+  {
+    "id": "tartupaluk-agreement",
+    "slug": "tartupaluk-agreement",
+    "title": "An Arctic island divided by agreement",
+    "hook": "How can a border settlement protect old connections?",
+    "shortFact": "In 2022, Canada and the Kingdom of Denmark, together with Greenland, signed an agreement to divide Tartupaluk, also known as Hans Island. The agreement recognised its significance to Inuit communities on both sides.",
+    "explanation": "Tartupaluk sits between Canada’s Ellesmere Island and Greenland, a self-governing part of the Kingdom of Denmark. Competing sovereignty claims had left its boundary unsettled for decades. On 14 June 2022, the Canadian and Danish foreign ministers and Greenland’s prime minister signed an agreement resolving the dispute. The settlement was developed with consultation of Inuit in Nunavut and Kalaallit Nunaat, the Greenlandic name for Greenland. It provides for continued access and movement across the island, recognising a relationship older than the new line. This is a story about the signed settlement, rather than a claim that every later implementation step occurred in 2022.",
+    "category": "Borders & belonging",
+    "tags": [
+      "Canada",
+      "Greenland",
+      "Denmark",
+      "Inuit",
+      "diplomacy",
+      "borders"
+    ],
+    "countries": [
+      "ca",
+      "dk"
+    ],
+    "regions": [
+      "Arctic",
+      "Greenland",
+      "North America"
+    ],
+    "places": [
+      "Tartupaluk / Hans Island",
+      "Ellesmere Island",
+      "Kalaallit Nunaat / Greenland"
+    ],
+    "period": "14 June 2022 agreement",
+    "map": {
+      "type": "location",
+      "caption": "Approximate locations; map labels are not territorial boundaries.",
+      "locations": [
+        {
+          "label": "Tartupaluk / Hans Island",
+          "coordinates": [
+            -66.459,
+            80.827
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Historic agreement on long-standing boundary disputes",
+        "publisher": "Global Affairs Canada",
+        "url": "https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html",
+        "published": "2022-06-14"
+      },
+      {
+        "title": "Boundary dispute: backgrounder",
+        "publisher": "Global Affairs Canada",
+        "url": "https://www.canada.ca/en/global-affairs/news/2022/06/boundary-dispute.html",
+        "published": "2022-06-14"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Describes the 2022 agreement, not a current entry-into-force claim. Greenland is not the European territory of Denmark.",
+    "related": [
+      "diomede-date-line",
+      "pheasant-island"
+    ]
+  },
+  {
+    "id": "galapagos-penguins",
+    "slug": "galapagos-penguins",
+    "title": "Penguins live north of the equator",
+    "hook": "What keeps an equatorial penguin fed?",
+    "shortFact": "Galápagos penguins live around Ecuador’s equatorial islands, including just north of the equator. Cold, nutrient-rich water rising near the western islands helps support the fish they eat.",
+    "explanation": "Latitude is only part of an animal’s climate story. Near Isabela and Fernandina, the Equatorial Undercurrent runs into the islands and rises towards the surface, bringing cold water and nutrients from below. Those nutrients support the marine food web, including the fish hunted by Galápagos penguins. This makes an equatorial archipelago a possible penguin habitat despite the strong tropical sun. The arrangement is vulnerable: warmer water during El Niño can reduce nutrients and food availability. Galápagos penguins are the only penguin species naturally found north of the equator; that does not mean most of the birds live in the Northern Hemisphere.",
+    "category": "Earth & nature",
+    "tags": [
+      "penguins",
+      "Ecuador",
+      "ocean currents",
+      "ecosystems",
+      "equator"
+    ],
+    "countries": [
+      "ec"
+    ],
+    "regions": [
+      "Pacific Ocean",
+      "South America"
+    ],
+    "places": [
+      "Galápagos Islands",
+      "Isabela",
+      "Fernandina"
+    ],
+    "period": null,
+    "map": {
+      "type": "location",
+      "caption": "Approximate locations; map labels are not territorial boundaries.",
+      "locations": [
+        {
+          "label": "Isabela, Galápagos",
+          "coordinates": [
+            -91.1,
+            -0.3
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Fernandina, Galápagos",
+          "coordinates": [
+            -91.55,
+            -0.37
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Science Behind Conservation: Penguins and Cormorants",
+        "publisher": "Charles Darwin Foundation",
+        "url": "https://www.darwinfoundation.org/en/news/blog/science-behind-conservation-penguins-and-cormorants/",
+        "published": "2024-12-23"
+      },
+      {
+        "title": "Shifting Winds, Ocean Currents Doubled Endangered Galapagos Penguin Population",
+        "publisher": "Woods Hole Oceanographic Institution",
+        "url": "https://www.whoi.edu/press-room/news-release/galapagospenguin/",
+        "published": "2015-08-02"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The “north of the equator” statement concerns natural range. Population totals and projections in older sources are not presented as current counts.",
+    "related": [
+      "story-na",
+      "sahara-amazon-dust"
+    ]
+  },
+  {
+    "id": "blood-falls",
+    "slug": "blood-falls",
+    "title": "Why Antarctica has a blood-red waterfall",
+    "hook": "What turns clear water crimson?",
+    "shortFact": "At Antarctica’s Blood Falls, iron-rich salty water emerges from beneath Taylor Glacier and turns red as it oxidises. A 2023 study identified tiny iron-rich spheres involved in the colour change.",
+    "explanation": "The colour is a chemical reaction, not blood. Water escaping from a salty reservoir beneath Taylor Glacier initially appears clear, then turns red when exposed at the surface. Researchers examining samples with powerful electron microscopes found tiny iron-rich particles, called nanospheres, that oxidise. They also contain elements such as silicon and calcium. Their atoms lack the orderly crystal arrangement required to classify them as minerals, which helps explain why some earlier analytical approaches missed them. The 2023 work sharpened the explanation of the famous red stain and showed why choosing the right instrument matters when studying an unfamiliar environment.",
+    "category": "Earth & nature",
+    "tags": [
+      "Antarctica",
+      "glaciers",
+      "chemistry",
+      "colour",
+      "iron"
+    ],
+    "countries": [],
+    "regions": [
+      "Antarctica"
+    ],
+    "places": [
+      "Blood Falls",
+      "Taylor Glacier",
+      "Lake Bonney"
+    ],
+    "period": "2023 research",
+    "map": {
+      "type": "location",
+      "caption": "Approximate locations; map labels are not territorial boundaries.",
+      "locations": [
+        {
+          "label": "Blood Falls, Taylor Glacier",
+          "coordinates": [
+            162.268,
+            -77.721
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Researchers uncover the century-old mystery of Blood Falls",
+        "publisher": "Johns Hopkins University",
+        "url": "https://hub.jhu.edu/2023/06/26/blood-falls-mystery/",
+        "published": "2023-06-26"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The 2023 finding refines the role of iron-rich non-crystalline particles; it does not mean scientists first discovered iron in the water in 2023.",
+    "related": [
+      "ijen-blue-flames",
+      "devils-tower-columns"
+    ]
+  },
+  {
+    "id": "sahara-amazon-dust",
+    "slug": "sahara-amazon-dust",
+    "title": "A desert helps feed a rainforest",
+    "hook": "How does the Sahara reach the Amazon?",
+    "shortFact": "Wind carries Saharan dust across the Atlantic into the Amazon basin. The dust includes phosphorus, a nutrient that helps replenish rainforest soils.",
+    "explanation": "A rainforest and a desert can be connected without a river between them. Winds lift fine particles from the Sahara and carry some of them across the Atlantic, where they settle over South America. Among the cargo is phosphorus, an essential nutrient for plant growth that rainfall and flooding can remove from soils. A NASA-led study published in 2015 used satellite measurements from 2007–2013 to estimate this transfer in three dimensions. It found that the imported phosphorus was an important contribution to the basin’s nutrient budget. The amount changes from year to year; the connection is more useful to remember than one supposedly permanent tonnage.",
+    "category": "Earth & nature",
+    "tags": [
+      "dust",
+      "Sahara",
+      "Amazon",
+      "phosphorus",
+      "wind",
+      "ecosystems"
+    ],
+    "countries": [
+      "br",
+      "td"
+    ],
+    "regions": [
+      "Sahara",
+      "Amazon basin",
+      "Atlantic Ocean"
+    ],
+    "places": [
+      "Sahara Desert",
+      "Amazon rainforest"
+    ],
+    "period": "2007–2013 observations; 2015 study",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic dust connection between broad regions, not an exact atmospheric trajectory.",
+      "locations": [
+        {
+          "label": "Sahara · approximate source region",
+          "coordinates": [
+            17,
+            18
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Amazon basin · approximate receiving region",
+          "coordinates": [
+            -60,
+            -3
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Satellite Tracks Saharan Dust To Amazon In 3-D",
+        "publisher": "NASA Scientific Visualization Studio",
+        "url": "https://svs.gsfc.nasa.gov/11775/",
+        "published": "2015-02-24"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The endpoints represent broad regions. Dust is one nutrient input, not the sole reason the Amazon exists; the line is not a measured plume trajectory.",
+    "related": [
+      "story-na",
+      "galapagos-penguins"
+    ]
+  },
+  {
+    "id": "tonle-sap-reversal",
+    "slug": "tonle-sap-reversal",
+    "title": "A river changes direction with the seasons",
+    "hook": "How can a river appear to run backwards?",
+    "shortFact": "Cambodia’s Tonle Sap River reverses when the flood-season Mekong rises higher than Tonle Sap Lake. Water then enters the lake; as Mekong levels fall, the lake drains back towards the river.",
+    "explanation": "There is no pump and no exception to gravity. Water responds to differences in level. For part of the year, Tonle Sap Lake drains along its connecting river towards the Mekong at Phnom Penh. During the flood season, the Mekong rises enough to push water the other way, swelling the lake and flooding surrounding land. When the Mekong falls, the direction changes again. This flood pulse helps sustain fish habitat and the livelihoods linked to it. The timing and volume vary between years, so a neat calendar animation would hide important differences. The reversal is a seasonal process, not an unchanging daily schedule.",
+    "category": "Earth & nature",
+    "tags": [
+      "Cambodia",
+      "rivers",
+      "monsoon",
+      "floods",
+      "ecosystems"
+    ],
+    "countries": [
+      "kh"
+    ],
+    "regions": [
+      "Southeast Asia",
+      "Mekong basin"
+    ],
+    "places": [
+      "Tonle Sap Lake",
+      "Tonle Sap River",
+      "Phnom Penh"
+    ],
+    "period": "Seasonal flood cycle",
+    "map": {
+      "type": "connection",
+      "caption": "Lake and confluence locations; connecting line is schematic, not the mapped course of the river.",
+      "locations": [
+        {
+          "label": "Tonle Sap Lake",
+          "coordinates": [
+            104.05,
+            12.9
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Mekong confluence, Phnom Penh",
+          "coordinates": [
+            104.94,
+            11.57
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "State of the Basin Report 2018, section 3.2.4, p. 34",
+        "publisher": "Mekong River Commission",
+        "url": "https://www.mrcmekong.org/wp-content/uploads/2024/08/SOBR-v8_Final-for-web-1.pdf",
+        "published": "2019"
+      },
+      {
+        "title": "Procedures for the Maintenance of Flows on the Mainstream",
+        "publisher": "Mekong River Commission",
+        "url": "https://www.mrcmekong.org/mrc-procedures/",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The connecting Tonle Sap River reverses; the entire Mekong does not. Timing and flood volumes vary, and older averages are not current-year measurements.",
+    "related": [
+      "sahara-amazon-dust",
+      "story-na"
+    ]
+  },
+  {
+    "id": "ijen-blue-flames",
+    "slug": "ijen-blue-flames",
+    "title": "The blue glow at Ijen is burning gas",
+    "hook": "Is that really blue lava?",
+    "shortFact": "At Kawah Ijen in Indonesia, hot sulphurous gases burn with a blue flame when they meet oxygen in the air. The spectacle is a chemical flame, not lava glowing blue.",
+    "explanation": "Kawah Ijen’s crater in East Java contains a striking turquoise lake, but the famous nighttime blue glow has a different explanation. Hot gases containing sulphur emerge and ignite as they encounter oxygen in the atmosphere. That combustion produces blue flames. The lake itself is strongly acidic, containing sulphuric and hydrochloric acids along with dissolved minerals. These are related features of an active volcanic chemical system, but they should not be confused: blue-looking water, a blue flame and molten rock are different things. Remembering the distinction makes the photographs more interesting, because the colour reveals a process rather than a new kind of lava.",
+    "category": "Earth & nature",
+    "tags": [
+      "Indonesia",
+      "volcanoes",
+      "sulphur",
+      "chemistry",
+      "colour"
+    ],
+    "countries": [
+      "id"
+    ],
+    "regions": [
+      "Southeast Asia"
+    ],
+    "places": [
+      "Kawah Ijen",
+      "East Java"
+    ],
+    "period": null,
+    "map": {
+      "type": "location",
+      "caption": "Approximate locations; map labels are not territorial boundaries.",
+      "locations": [
+        {
+          "label": "Kawah Ijen",
+          "coordinates": [
+            114.242,
+            -8.058
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Spooky sights from space: world’s largest acidic lake",
+        "publisher": "European Space Agency",
+        "url": "https://www.esa.int/ESA_Multimedia/Images/2023/10/Spooky_sights_from_space_world_s_largest_acidic_lake",
+        "published": "2023-10-31"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "No claim of blue molten lava is made. The source’s lake-size superlative is not needed for the chemical explanation.",
+    "related": [
+      "blood-falls",
+      "devils-tower-columns"
+    ],
+    "guess": {
+      "question": "What creates Ijen’s blue glow?",
+      "options": [
+        "Burning sulphurous gas",
+        "Blue molten rock",
+        "Bioluminescent algae"
+      ],
+      "answer": "Burning sulphurous gas"
+    }
+  },
+  {
+    "id": "devils-tower-columns",
+    "slug": "devils-tower-columns",
+    "title": "Cooling rock can build its own columns",
+    "hook": "Who carved these giant geometric pillars?",
+    "shortFact": "Devils Tower in Wyoming has polygonal rock columns formed as hot rock cooled, contracted and fractured. Their striking geometry is a natural result of shrinking rock.",
+    "explanation": "When hot rock becomes solid and cools further, it takes up less space. That contraction creates stresses, and fractures divide the rock into neighbouring columns: a process called columnar jointing. At Devils Tower, many columns have four or six sides, with cracks extending through the rock. Later erosion exposed the formation we see today. The Tower is made of phonolite porphyry, an igneous rock, rather than the basalt commonly associated with column formations. Geologists still debate details of the original body’s shape and formation. The cooling-and-fracturing explanation for the columns does not require pretending that every part of the Tower’s history is settled.",
+    "category": "Earth & nature",
+    "tags": [
+      "United States",
+      "Wyoming",
+      "geology",
+      "columns",
+      "cooling"
+    ],
+    "countries": [
+      "us"
+    ],
+    "regions": [
+      "North America"
+    ],
+    "places": [
+      "Devils Tower",
+      "Wyoming"
+    ],
+    "period": null,
+    "map": {
+      "type": "location",
+      "caption": "Approximate locations; map labels are not territorial boundaries.",
+      "locations": [
+        {
+          "label": "Devils Tower, Wyoming",
+          "coordinates": [
+            -104.715,
+            44.59
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "NPS Geodiversity Atlas: Devils Tower National Monument",
+        "publisher": "U.S. National Park Service",
+        "url": "https://www.nps.gov/articles/nps-geodiversity-atlas-devils-tower-national-monument-wyoming.htm",
+        "published": "2024-06-17"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Column formation is distinguished from competing explanations of the original igneous body. No claim that all columns are hexagons is made.",
+    "related": [
+      "ijen-blue-flames",
+      "blood-falls"
+    ]
+  }
+]

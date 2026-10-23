@@ -1,0 +1,2324 @@
+{
+  "version": 1,
+  "collection": "Unexpected Connections",
+  "verified": "2026-10-23",
+  "facts": [
+    {
+      "id": "japan-peru-plantations",
+      "slug": "why-peru-has-a-japanese-community",
+      "title": "How Japan became part of Peru’s story",
+      "hook": "What connected Japan to Peru’s coastal valleys?",
+      "shortFact": "Japanese migration to Peru began in 1899, with early arrivals working on coastal sugar and cotton plantations. Their families helped establish the Japanese-Peruvian community, often called Nikkei.",
+      "explanation": "The connection began with plantation work, then spread into city life. During the early twentieth century, many Japanese immigrants moved to Lima and Callao, opening businesses including restaurants and barbershops. Later arrivals increasingly headed straight for urban opportunities. This was not an uninterrupted success story: anti-Japanese discrimination intensified, and during the Second World War Peru cooperated with the United States in forcibly removing civilians for internment abroad. Families who remained faced restrictions and property confiscation. Community institutions began rebuilding after wartime restrictions were lifted in 1947. Nikkei describes Japanese emigrants and their descendants; it does not mean that Japanese Peruvians are all Japanese citizens, or that most Peruvians have Japanese ancestry.",
+      "category": "People & migration",
+      "tags": [
+        "Japan",
+        "Peru",
+        "Nikkei",
+        "migration",
+        "plantations",
+        "diaspora"
+      ],
+      "countries": [
+        "jp",
+        "pe"
+      ],
+      "regions": [
+        "East Asia",
+        "South America"
+      ],
+      "places": [
+        "Japan",
+        "Peru",
+        "Lima",
+        "Callao"
+      ],
+      "period": "1899 onward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route. Points represent Japan and Peru’s Lima–Callao coast approximately.",
+        "locations": [
+          {
+            "label": "Japan",
+            "coordinates": [
+              138,
+              36
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Lima–Callao coast, Peru",
+            "coordinates": [
+              -77.1,
+              -12.05
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Peru — Migration Historical Overview",
+          "publisher": "Discover Nikkei / Japanese American National Museum",
+          "url": "https://discovernikkei.org/en/journal/2014/4/25/peru/",
+          "published": "2014-04-25"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Ancestry and citizenship are different. The account concerns a community within Peru, not Peru’s entire population.",
+      "related": [
+        "japan-brazil-coffee",
+        "siddi-indian-ocean"
+      ],
+      "guess": {
+        "question": "Which South American country received Japanese plantation workers in 1899?",
+        "options": [
+          "Peru",
+          "Argentina",
+          "Colombia"
+        ],
+        "answer": "Peru"
+      },
+      "kind": "story"
+    },
+    {
+      "id": "japan-brazil-coffee",
+      "slug": "coffee-and-japanese-migration-to-brazil",
+      "title": "Coffee helped connect Japan and Brazil",
+      "hook": "Why did Japanese families cross the world to São Paulo?",
+      "shortFact": "In 1908, the ship Kasato-maru brought Japanese migrants to Brazil, where they were assigned to coffee plantations in São Paulo state. Plantation labour was an early chapter in the history of Brazil’s Japanese-descended community.",
+      "explanation": "Recruitment tied together Japanese hopes for work abroad and São Paulo’s demand for coffee workers. The Kasato-maru sailed from Kobe and reached Santos in June 1908; migrants then travelled inland and were assigned to six plantations. The reality could be grim: poor housing, strict supervision, a disappointing harvest and low earnings undermined expectations. Some workers protested, left plantations or sought jobs in cities and railway construction. That movement matters: the community’s history cannot be reduced to people remaining on the farms where they first arrived. In July 2025, Japan’s foreign ministry described Brazil as having the world’s largest Nikkei community, meaning Japanese immigrants and their descendants rather than Japanese passport holders alone.",
+      "category": "People & migration",
+      "tags": [
+        "Japan",
+        "Brazil",
+        "coffee",
+        "migration",
+        "Nikkei",
+        "Kasato-maru"
+      ],
+      "countries": [
+        "jp",
+        "br"
+      ],
+      "regions": [
+        "East Asia",
+        "South America"
+      ],
+      "places": [
+        "Kobe",
+        "Santos",
+        "São Paulo"
+      ],
+      "period": "1908 onward; community description dated July 2025",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not the ship’s exact voyage. Kobe and Santos are the departure and arrival ports.",
+        "locations": [
+          {
+            "label": "Kobe, Japan",
+            "coordinates": [
+              135.2,
+              34.69
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Santos, Brazil",
+            "coordinates": [
+              -46.33,
+              -23.96
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Prehistory of emigration to Brazil: voyage and plantations",
+          "publisher": "National Diet Library, Japan",
+          "url": "https://www.ndl.go.jp/brasil/e/s2/s2_2.html",
+          "published": null
+        },
+        {
+          "title": "Japan–Brazil exchange and the Nikkei community",
+          "publisher": "Ministry of Foreign Affairs of Japan",
+          "url": "https://www.mofa.go.jp/press/release/pressite_000001_01449.html",
+          "published": "2025-07-14"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The dated superlative refers to immigrants and descendants, not citizenship. Earlier individual arrivals are not ruled out.",
+      "related": [
+        "japan-peru-plantations",
+        "welsh-patagonia"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "welsh-patagonia",
+      "slug": "why-welsh-is-spoken-in-patagonia",
+      "title": "Welsh found another home in Patagonia",
+      "hook": "How did a language from Wales reach Argentina?",
+      "shortFact": "Welsh settlers arrived in Chubut, Argentina, in 1865, hoping to build a community where their language could flourish. Patagonian Welsh developed its own character through contact with Spanish.",
+      "explanation": "Some Welsh emigrants worried that settling in English-speaking societies would gradually erode their language and culture. Patagonia offered a different possibility, while Argentina’s government encouraged European settlement. The first group reached Chubut on 28 July 1865. The community became known as Y Wladfa, the Welsh settlement. Its language mixed features from different Welsh dialects and later absorbed Spanish influences. Welsh did not remain dominant indefinitely: schooling, migration and wider national life strengthened Spanish. Renewed links with Wales, including a language project established in 1997, supported teaching and cultural exchange. This is a particular community within Argentina, not a claim that Patagonia as a whole speaks Welsh.",
+      "category": "Language & culture",
+      "tags": [
+        "Welsh",
+        "Patagonia",
+        "Argentina",
+        "Wales",
+        "language",
+        "migration"
+      ],
+      "countries": [
+        "gb",
+        "ar"
+      ],
+      "regions": [
+        "Europe",
+        "South America",
+        "Patagonia"
+      ],
+      "places": [
+        "Wales",
+        "Chubut",
+        "Y Wladfa"
+      ],
+      "period": "1865 onward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route. Regional points for Wales and Chubut are approximate.",
+        "locations": [
+          {
+            "label": "Wales, United Kingdom",
+            "coordinates": [
+              -3.7,
+              52.3
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Chubut, Argentina",
+            "coordinates": [
+              -65.1,
+              -43.3
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Welsh language in Patagonia: a brief history",
+          "publisher": "British Council",
+          "url": "https://www.britishcouncil.org/voices-magazine/welsh-language-in-patagonia-and-wales",
+          "published": "2018-10-25"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Welsh is a community language in parts of Chubut. Wales is a constituent country of the United Kingdom.",
+      "related": [
+        "sarnami-suriname",
+        "romani-india-europe"
+      ],
+      "guess": {
+        "question": "Which South American country has a historic Welsh-speaking community?",
+        "options": [
+          "Argentina",
+          "Peru",
+          "Colombia"
+        ],
+        "answer": "Argentina"
+      },
+      "kind": "story"
+    },
+    {
+      "id": "sarnami-suriname",
+      "slug": "sarnami-indias-language-connections-in-suriname",
+      "title": "Indian languages took a new shape in Suriname",
+      "hook": "What happens when languages travel together?",
+      "shortFact": "Sarnami developed in Suriname among descendants of indentured labourers brought from India under Dutch colonial rule. It combines roots in languages including Bhojpuri and Awadhi with influences from Dutch and Sranan Tongo.",
+      "explanation": "The workers did not all arrive speaking a single language. Their speech included closely related varieties from areas now in Uttar Pradesh, Bihar and Jharkhand. Living together encouraged features of those languages to merge into a shared form of speech, a process linguists call koineization. Sarnami then continued changing in Suriname’s multilingual society. Contact with Dutch and Sranan Tongo affected vocabulary and even patterns of sentence construction. So it is misleading to describe Sarnami simply as unchanged Hindi transported overseas. It has its own history, shaped both by the colonial indenture system that moved people and by generations of speakers building lives in South America.",
+      "category": "Language & culture",
+      "tags": [
+        "Sarnami",
+        "Bhojpuri",
+        "Awadhi",
+        "India",
+        "Suriname",
+        "indenture",
+        "language"
+      ],
+      "countries": [
+        "in",
+        "sr"
+      ],
+      "regions": [
+        "South Asia",
+        "South America"
+      ],
+      "places": [
+        "Uttar Pradesh",
+        "Bihar",
+        "Jharkhand",
+        "Suriname"
+      ],
+      "period": "Colonial indenture era onward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route. The India point represents a broad source-language region approximately.",
+        "locations": [
+          {
+            "label": "Northern India: source-language region",
+            "coordinates": [
+              83.5,
+              25.5
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Suriname",
+            "coordinates": [
+              -55.2,
+              5.5
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Out of India: contact-induced change in Sarnāmi",
+          "publisher": "University of Hong Kong Scholars Hub / Kofi Yakpo",
+          "url": "https://hub.hku.hk/handle/10722/205622",
+          "published": "2013"
+        },
+        {
+          "title": "Language change in a multiple contact setting: the case of Sarnami",
+          "publisher": "John Benjamins / Kofi Yakpo and Pieter Muysken",
+          "url": "https://benjamins.com/catalog/cll.47.06yak",
+          "published": "2014-01-29"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The account concerns Sarnami speakers, not everyone in Suriname. Related Indian languages contributed in different ways.",
+      "related": [
+        "fiji-hindi-girmit",
+        "welsh-patagonia"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "fiji-hindi-girmit",
+      "slug": "the-agreement-inside-fijis-word-girmit",
+      "title": "An English word survives inside Fiji’s history",
+      "hook": "What does “girmit” have to do with “agreement”?",
+      "shortFact": "Girmit comes from “agreement”, referring to the contracts of Indian indentured labourers. Fiji Hindi developed on plantations among workers transported from colonial India to Fiji between 1879 and 1916.",
+      "explanation": "A small word carries the memory of a much larger system. The agreement was a labour contract under colonial indenture, not a holiday or an ordinary journey to a new home. Workers who spoke different Indian languages lived and worked together on Fiji’s plantations. Their speech mixed, interacted with local languages and became a shared language for their children. Fiji Hindi therefore has its own development rather than being an exact copy of standard Hindi. Scholars use Girmit Hindustani for related languages formed in this wider diaspora. The word girmit also names a historical experience with which descendants identify, preserving a connection between language, labour and family memory.",
+      "category": "Language & culture",
+      "tags": [
+        "Fiji Hindi",
+        "girmit",
+        "India",
+        "Fiji",
+        "indenture",
+        "language",
+        "agreement"
+      ],
+      "countries": [
+        "in",
+        "fj"
+      ],
+      "regions": [
+        "South Asia",
+        "Oceania",
+        "Pacific"
+      ],
+      "places": [
+        "India",
+        "Fiji",
+        "Kolkata (historically Calcutta)"
+      ],
+      "period": "1879–1916 recruitment; language development afterward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route. The points represent India and Fiji approximately.",
+        "locations": [
+          {
+            "label": "India",
+            "coordinates": [
+              82,
+              23
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Fiji",
+            "coordinates": [
+              178,
+              -17.8
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Orthography development of Girmit Hindustani: the case of Fiji Hindi",
+          "publisher": "University of the South Pacific / Directions: Journal of Educational Studies",
+          "url": "https://repository.usp.ac.fj/id/eprint/13961/",
+          "published": "2022"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "1879–1916 describes the transportation period cited by the study, not the full lifetime of the indenture system.",
+      "related": [
+        "sarnami-suriname",
+        "siddi-indian-ocean"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "siddi-indian-ocean",
+      "slug": "siddi-communities-and-indias-african-connections",
+      "title": "India’s African connections have many histories",
+      "hook": "How did African ancestry become part of Indian communities?",
+      "shortFact": "Siddi communities in India have diverse African and local ancestries, connected to centuries of Indian Ocean movement. Some ancestors arrived through enslavement or military service; others came as traders, sailors or people seeking work.",
+      "explanation": "There is no single Siddi arrival story. Indian Ocean networks linked eastern Africa, Arabia and the Indian subcontinent over many centuries. They carried commerce and voluntary travellers, but also enslaved people forced into domestic or military labour. Some people later became influential soldiers and rulers; others built families and working lives in ports and inland cities. Communities associated with the names Siddi and Habshi live in places including Gujarat, Karnataka, Maharashtra and Telangana. Their identities and preferred names vary. Calling them one isolated or “forgotten” African tribe erases that diversity, their Indian citizenship and their connections with other local communities. These are enduring Indian histories, not simply stories of outsiders arriving.",
+      "category": "People & migration",
+      "tags": [
+        "Siddi",
+        "Habshi",
+        "India",
+        "Africa",
+        "Indian Ocean",
+        "migration",
+        "enslavement"
+      ],
+      "countries": [
+        "in"
+      ],
+      "regions": [
+        "East Africa",
+        "South Asia",
+        "Indian Ocean"
+      ],
+      "places": [
+        "Eastern Africa",
+        "Gujarat",
+        "Karnataka",
+        "Maharashtra",
+        "Telangana"
+      ],
+      "period": "Multiple movements over centuries",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic regional connection, not one migration route or a claim of a single ancestral homeland. Both points are approximate.",
+        "locations": [
+          {
+            "label": "Eastern Africa: broad region",
+            "coordinates": [
+              40,
+              -2
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Western India: broad region",
+            "coordinates": [
+              74,
+              17
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Who are the Siddis? Multiple Pasts and Presents of an African Community of India",
+          "publisher": "Sahapedia / Anisha Padma",
+          "url": "https://www.sahapedia.org/who-are-siddis-multiple-pasts-and-presents-african-community-india",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Siddi and Habshi are not universally interchangeable identities. Ancestral origins and migration circumstances vary between communities.",
+      "related": [
+        "japan-peru-plantations",
+        "romani-india-europe"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "koreans-central-asia",
+      "slug": "why-korean-communities-live-in-central-asia",
+      "title": "A forced journey reshaped Korean Central Asia",
+      "hook": "Why do Korean communities have deep roots in Kazakhstan?",
+      "shortFact": "In 1937, Soviet authorities forcibly deported ethnic Koreans from the Soviet Far East to Central Asia. Their descendants are part of the histories of Kazakhstan and Uzbekistan, among other countries.",
+      "explanation": "This connection was created by state coercion, not by a voluntary search for a new home. Soviet authorities moved roughly 172,000 ethnic Koreans from the Far East to Central Asia in cargo trains in 1937. The deportation uprooted an established population and forced people to rebuild under harsh conditions. The name Koryo Saram is associated with Korean communities of the former Soviet Union. Family histories include displacement, survival and later integration into Soviet society, with descendants living across several independent countries after the Soviet Union ended. Ethnic Korean ancestry here should not be confused with present-day South Korean citizenship: the community’s history crosses borders that changed long after the deportation.",
+      "category": "People & migration",
+      "tags": [
+        "Korean",
+        "Koryo Saram",
+        "Kazakhstan",
+        "Uzbekistan",
+        "Soviet Union",
+        "deportation"
+      ],
+      "countries": [
+        "ru",
+        "kz",
+        "uz"
+      ],
+      "regions": [
+        "Central Asia",
+        "Russian Far East"
+      ],
+      "places": [
+        "Soviet Far East",
+        "Kazakhstan",
+        "Uzbekistan"
+      ],
+      "period": "1937 deportation and its aftermath",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection between broad origin and destination regions, not the train route. Central Asia’s point is representative, not an individual settlement.",
+        "locations": [
+          {
+            "label": "Soviet Far East: approximate region",
+            "coordinates": [
+              131.9,
+              43.1
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Central Asia: approximate region",
+            "coordinates": [
+              68,
+              44
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Re-visiting the 1937 Deportation of Ethnic Koreans to Central Asia",
+          "publisher": "George Washington University, Central Asia Program",
+          "url": "https://centralasiaprogram.org/event/victoria-kim-re-visiting-the-1937-deportation-of-ethnic-koreans-to-central-asia-film-screening-of-koryo-saram-the-unreliable-people/",
+          "published": "2017-05-11"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The rounded deportation estimate is historical. Ethnicity does not establish citizenship or a connection to the modern South Korean state.",
+      "related": [
+        "japan-peru-plantations",
+        "siddi-indian-ocean"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "malagasy-borneo",
+      "slug": "madagascars-language-connection-to-borneo",
+      "title": "Madagascar’s language points across the Indian Ocean",
+      "hook": "Why does an African island have linguistic relatives in Borneo?",
+      "shortFact": "Malagasy belongs to the Austronesian language family and is especially closely related to Maanyan in southeastern Borneo. The relationship preserves evidence of Southeast Asian connections across the Indian Ocean.",
+      "explanation": "A map of language relationships can look very different from a map of nearby countries. Malagasy is linked to the Southeast Barito languages of Borneo, despite Madagascar lying off Africa’s coast. Shared vocabulary and language structure help researchers reconstruct that connection. Malagasy also contains influences from other languages, including Malay, which is particularly visible in navigation vocabulary. These clues fit a history of movement and contact across the Indian Ocean. They do not identify one exact voyage, and models for the timing and circumstances of settlement remain research questions. A language family describes relationships between languages; it is not a complete account of a population’s ancestry or identity.",
+      "category": "Language & culture",
+      "tags": [
+        "Malagasy",
+        "Maanyan",
+        "Borneo",
+        "Madagascar",
+        "Austronesian",
+        "language",
+        "Indian Ocean"
+      ],
+      "countries": [
+        "mg",
+        "id"
+      ],
+      "regions": [
+        "Indian Ocean",
+        "Southeast Asia",
+        "Africa"
+      ],
+      "places": [
+        "Madagascar",
+        "Southeastern Borneo",
+        "Kalimantan"
+      ],
+      "period": "Early settlement history; exact timing and routes debated",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic linguistic connection, not a reconstructed voyage. Regional locations are approximate.",
+        "locations": [
+          {
+            "label": "Southeastern Borneo, Indonesia",
+            "coordinates": [
+              115,
+              -2
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Madagascar",
+            "coordinates": [
+              47,
+              -19
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Settlement of Madagascar: What Dialects and Languages Can Tell Us",
+          "publisher": "PLOS ONE / Maurizio Serva",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030666",
+          "published": "2012-02-21"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The linguistic relationship is clearer than any single settlement scenario. No exact departure date, route or genetic proportion is asserted.",
+      "related": [
+        "romani-india-europe",
+        "sarnami-suriname"
+      ],
+      "guess": {
+        "question": "Where are Malagasy’s close Southeast Barito language relatives spoken?",
+        "options": [
+          "Borneo",
+          "Iceland",
+          "Peru"
+        ],
+        "answer": "Borneo"
+      },
+      "kind": "story"
+    },
+    {
+      "id": "romani-india-europe",
+      "slug": "romanis-indian-roots-and-european-history",
+      "title": "A European language with Indian roots",
+      "hook": "What can a language remember about migration?",
+      "shortFact": "Romani is an Indo-Aryan language with roots in the Indian subcontinent, spoken in Europe since the Middle Ages. Its history makes it part of both Europe’s linguistic diversity and a much wider story of movement.",
+      "explanation": "The clue is in the language itself: Romani belongs to the Indo-Aryan branch of the Indo-European family. Its inherited vocabulary connects it with languages of the Indian subcontinent, while contact with Persian, Armenian, Greek and later European languages helped shape its development. That history does not make Romani a recent arrival in Europe; it has been spoken there since medieval times. Nor does it mean every Roma person speaks Romani. Council of Europe education resources explicitly distinguish fluent speakers, children who hear it at home and Roma communities where it is not a home language. Language, community identity and nationality do not line up in a single simple way.",
+      "category": "Language & culture",
+      "tags": [
+        "Romani",
+        "Roma",
+        "India",
+        "Europe",
+        "Indo-Aryan",
+        "language",
+        "migration"
+      ],
+      "countries": [
+        "in",
+        "ua"
+      ],
+      "regions": [
+        "South Asia",
+        "Europe"
+      ],
+      "places": [
+        "Indian subcontinent",
+        "Europe",
+        "Ukraine"
+      ],
+      "period": "Spoken in Europe since the Middle Ages",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic linguistic connection between broad regions, not a migration itinerary or a single ancestral origin point.",
+        "locations": [
+          {
+            "label": "Indian subcontinent: approximate region",
+            "coordinates": [
+              78,
+              27
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Europe: representative point",
+            "coordinates": [
+              24,
+              48
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Survey on the codification of the Romani language in Ukraine",
+          "publisher": "Council of Europe",
+          "url": "https://www.coe.int/en/web/kyiv/-/survey-on-the-codification-of-the-romani-language-in-ukraine",
+          "published": "2020-05-06"
+        },
+        {
+          "title": "Romani language in education",
+          "publisher": "Council of Europe",
+          "url": "https://www.coe.int/en/web/education/romani",
+          "published": null
+        },
+        {
+          "title": "How Migration has Evolved the Romani Language",
+          "publisher": "University of Colorado Boulder, Department of Linguistics",
+          "url": "https://www.colorado.edu/linguistics/2019/04/10/how-migration-has-evolved-romani-language",
+          "published": "2019-04-10"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Romani is not Romanian. Roma communities have varied citizenships and language use; the map is not an exact historical route.",
+      "related": [
+        "malagasy-borneo",
+        "sarnami-suriname"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "islenos-louisiana",
+      "slug": "islenos-louisiana",
+      "title": "Canary Islands roots in the Louisiana wetlands",
+      "hook": "What connects an Atlantic archipelago to the Mississippi Delta?",
+      "shortFact": "Louisiana’s Isleño communities trace their heritage to settlers from Spain’s Canary Islands, including arrivals in 1778 under Spanish colonial rule. Their descendants helped shape the culture of St. Bernard Parish.",
+      "explanation": "Louisiana was a Spanish colony when a group of Canary Islanders arrived in 1778. The colonial government supported these soldier-settlers with supplies and animals: they were expected to build communities and help defend the territory. In the Mississippi Delta, they adapted to a wetland landscape very different from their Atlantic islands. Fishing, shellfish gathering and trapping became important ways of making a living. Isleño means “islander” in Spanish, and descendants in St. Bernard Parish preserve a distinctive local heritage shaped by both their island origins and Louisiana. This is a story about particular communities, not a claim that all Louisianans have Canary Islands ancestry.",
+      "category": "People & migration",
+      "tags": [
+        "Isleños",
+        "Canary Islands",
+        "Spanish",
+        "wetlands",
+        "migration"
+      ],
+      "countries": [
+        "es",
+        "us"
+      ],
+      "regions": [
+        "North America",
+        "Atlantic Islands"
+      ],
+      "places": [
+        "Canary Islands",
+        "St. Bernard Parish, Louisiana"
+      ],
+      "period": "1778 onward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route.",
+        "locations": [
+          {
+            "label": "Canary Islands · Spain",
+            "coordinates": [
+              -15.6,
+              28.1
+            ],
+            "approximate": true
+          },
+          {
+            "label": "St. Bernard Parish · Louisiana",
+            "coordinates": [
+              -89.7,
+              29.9
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Islenos of South Louisiana",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/jela/learn/historyculture/people-islenos.htm",
+          "published": "2026-03-21"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Isleño identifies a community and heritage; it is not a label for Louisiana’s entire population. Map points mark regions approximately.",
+      "related": [
+        "ukulele-madeira-hawaii",
+        "montserrat-st-patrick"
+      ],
+      "guess": {
+        "question": "Which islands connect to Louisiana’s Isleño heritage?",
+        "options": [
+          "Canary Islands",
+          "Galápagos Islands",
+          "Faroe Islands"
+        ],
+        "answer": "Canary Islands"
+      },
+      "kind": "story"
+    },
+    {
+      "id": "montserrat-st-patrick",
+      "slug": "montserrat-st-patrick",
+      "title": "St Patrick’s Day remembers resistance in Montserrat",
+      "hook": "Why does an Irish feast day carry a Caribbean history?",
+      "shortFact": "On Montserrat, a British Overseas Territory in the Caribbean, St Patrick’s Day is a public holiday celebrating African and Irish heritage. It also commemorates a thwarted uprising by enslaved people in 1768.",
+      "explanation": "Montserrat’s March celebrations carry more than one history. The festival highlights the island’s African and Irish heritage, but March 17 also remembers a planned uprising by enslaved people in 1768. That matters: the holiday cannot be explained simply as Ireland transplanted to a tropical island. Remembering resistance to slavery is part of its local meaning. Today the wider festival brings together music, parades and food, with soca and reggae among its sounds. Montserrat is a British Overseas Territory, not an independent country. Its celebrations show how communities can give an inherited calendar date a meaning rooted in their own experiences.",
+      "category": "Language & culture",
+      "tags": [
+        "St Patrick",
+        "Ireland",
+        "slavery",
+        "resistance",
+        "festival"
+      ],
+      "countries": [
+        "gb",
+        "ie"
+      ],
+      "regions": [
+        "Caribbean",
+        "Europe"
+      ],
+      "places": [
+        "Montserrat",
+        "Ireland"
+      ],
+      "period": "1768; annual March festival",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route.",
+        "locations": [
+          {
+            "label": "Ireland",
+            "coordinates": [
+              -8,
+              53.3
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Montserrat · British Overseas Territory",
+            "coordinates": [
+              -62.2,
+              16.75
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Festivals & Events",
+          "publisher": "Montserrat Tourism Authority",
+          "url": "https://www.visitmontserrat.com/festivals-events/",
+          "published": null
+        },
+        {
+          "title": "Montserrat History & Facts",
+          "publisher": "Montserrat Tourism Authority",
+          "url": "https://www.visitmontserrat.com/montserrat-history-facts/",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The source’s “only country” claim is deliberately omitted. Montserrat is a British Overseas Territory. The 1768 event was thwarted; it was not a successful liberation.",
+      "related": [
+        "islenos-louisiana",
+        "breadfruit-caribbean"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "geet-gawai-mauritius",
+      "slug": "geet-gawai-mauritius",
+      "title": "Bhojpuri wedding songs crossed the Indian Ocean",
+      "hook": "How does a wedding keep a migration story alive?",
+      "shortFact": "Geet-Gawai, a pre-wedding tradition especially associated with Bhojpuri-speaking Mauritians, connects Mauritius with India. Its songs travelled with Indian indentured migrants and became part of Mauritian cultural life.",
+      "explanation": "Beginning in the nineteenth century, Indian migrants went to Mauritius under indenture: labour contracts used by colonial plantation employers. Many worked on sugar estates. They carried languages and traditions as well as labour, including Bhojpuri songs that became part of Mauritian Geet-Gawai. Before a wedding, relatives and neighbours gather at the bride’s or groom’s home for prayers, music, rituals and dancing. Women have been central to passing the repertoire between generations. It is a living Mauritian tradition with Indian roots, rather than an unchanged performance frozen at the moment of migration. Families, community centres and teaching groups continue to transmit it.",
+      "category": "Language & culture",
+      "tags": [
+        "Bhojpuri",
+        "weddings",
+        "music",
+        "indenture",
+        "Indian diaspora"
+      ],
+      "countries": [
+        "in",
+        "mu"
+      ],
+      "regions": [
+        "South Asia",
+        "Indian Ocean"
+      ],
+      "places": [
+        "Bhojpuri-speaking region of India",
+        "Mauritius"
+      ],
+      "period": "Nineteenth century onward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route.",
+        "locations": [
+          {
+            "label": "Bhojpuri-speaking region · approximate",
+            "coordinates": [
+              84,
+              25.5
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Mauritius",
+            "coordinates": [
+              57.55,
+              -20.25
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Bhojpuri Folk Songs in Mauritius, Geet-Gawai",
+          "publisher": "UNESCO Multimedia Archives / Mauritius Ministry of Arts and Culture",
+          "url": "https://www.unesco.org/archives/multimedia/document-4367",
+          "published": "2015"
+        },
+        {
+          "title": "Geet Gawai: Our National Heritage",
+          "publisher": "Dr Sarita Boodhoo, Mauritius Times",
+          "url": "https://www.mauritiustimes.com/mt/sarita-boodhoo-85/",
+          "published": "2016-10-02"
+        },
+        {
+          "title": "Aapravasi Ghat",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1227/",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Indenture was a colonial labour system, distinct from slavery; the heritage is associated especially with Bhojpuri-speaking communities, not every Mauritian. The Indian map point represents a broad language region.",
+      "related": [
+        "chilli-americas-india",
+        "kochi-synagogue-trade"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "chilli-americas-india",
+      "slug": "chilli-americas-india",
+      "title": "India’s chilli heat has American roots",
+      "hook": "What would Indian cooking taste like before chillies arrived?",
+      "shortFact": "Chilli peppers came from the Americas, not India. After Atlantic contact, seeds reached Europe and cultivation spread through Portuguese colonial networks into Africa, India and Asia.",
+      "explanation": "Chilli can feel inseparable from Indian cooking, yet Capsicum peppers belong to an American story that began long before Europeans arrived. Indigenous peoples cultivated them, and the Aztecs already knew many varieties when the Spanish reached Mexico. Kew records that Columbus carried seeds to Europe and that cultivation then expanded in Portuguese colonies, including in India. Cooks in new places made these plants their own, turning an introduced ingredient into something locally familiar. Chilli is also botanically different from black pepper: the latter is Piper nigrum, a member of another plant family. Similar everyday names do not mean the two spices share the same origin.",
+      "category": "Food journeys",
+      "tags": [
+        "chilli",
+        "pepper",
+        "Indian food",
+        "Columbian exchange",
+        "Portuguese trade"
+      ],
+      "countries": [
+        "mx",
+        "pt",
+        "in"
+      ],
+      "regions": [
+        "Americas",
+        "South Asia"
+      ],
+      "places": [
+        "Mexico",
+        "Portuguese colonial trade networks",
+        "India"
+      ],
+      "period": "After 1492",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route.",
+        "locations": [
+          {
+            "label": "Mexico · one pre-contact cultivation region",
+            "coordinates": [
+              -102,
+              23
+            ],
+            "approximate": true
+          },
+          {
+            "label": "India",
+            "coordinates": [
+              78,
+              21
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Capsicum annuum: Kew Species Profile",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:316944-2/general-information",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The map connects regions conceptually and omits intermediate ports. It does not identify a single introduction voyage or imply that Indian food lacked pungent spices before chilli.",
+      "related": [
+        "potatoes-andes-europe",
+        "kochi-synagogue-trade"
+      ],
+      "guess": {
+        "question": "Where did chilli peppers originate?",
+        "options": [
+          "The Americas",
+          "India",
+          "West Africa"
+        ],
+        "answer": "The Americas"
+      },
+      "kind": "story"
+    },
+    {
+      "id": "kochi-synagogue-trade",
+      "slug": "kochi-synagogue-trade",
+      "title": "A Kochi synagogue connects China, Belgium and India",
+      "hook": "How did a place of worship become a map of trade?",
+      "shortFact": "Kochi’s Paradesi Synagogue has Chinese hand-painted floor tiles and Belgian chandeliers. Its interior reflects the far-reaching connections of a Jewish community in an Indian port city.",
+      "explanation": "The synagogue was built in 1568 beside Mattancherry Palace. Its much-admired floor came later: in the eighteenth century, the Jewish spice trader Ezekiel Rahabi commissioned tiles from Canton, now Guangzhou, in China. Rahabi worked in trade between India and East Asia for the Dutch East India Company. The Belgian glass chandeliers belong to the nineteenth century. These objects were therefore added in different periods, rather than arriving as one coordinated shipment. Looking around the room brings distant places into focus through the work of merchants and a local religious community. The trade connection is visible in the building itself, without needing to turn its people into a vanished curiosity.",
+      "category": "Language & culture",
+      "tags": [
+        "Kochi",
+        "Jewish heritage",
+        "synagogue",
+        "trade",
+        "tiles"
+      ],
+      "countries": [
+        "in",
+        "cn",
+        "be"
+      ],
+      "regions": [
+        "South Asia",
+        "East Asia",
+        "Europe"
+      ],
+      "places": [
+        "Kochi",
+        "Guangzhou (Canton)",
+        "Belgium"
+      ],
+      "period": "Synagogue: 1568; tiles: eighteenth century; chandeliers: nineteenth century",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic China–Kochi connection, not a documented voyage. Belgian chandeliers are a separate connection described in the text.",
+        "locations": [
+          {
+            "label": "Guangzhou / Canton",
+            "coordinates": [
+              113.26,
+              23.13
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Paradesi Synagogue · Kochi",
+            "coordinates": [
+              76.26,
+              9.96
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Paradesi Synagogue, Mattancherry",
+          "publisher": "Kerala Tourism, Government of Kerala",
+          "url": "https://www.keralatourism.org/kochi/paradeso-synagogue-mattancherry.php",
+          "published": null
+        },
+        {
+          "title": "Tiles, interior of the Cochin synagogue",
+          "publisher": "National Centre for Biological Sciences, Tata Institute of Fundamental Research",
+          "url": "https://artsandculture.google.com/asset/tiles-interior-of-the-cochin-synagogue/UQHH7SqIUdMzTg",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The tiles and chandeliers are later additions, not original fittings from 1568. No claim is made about the age of copper-plate charters, whose dating is inconsistently reported by tourist sources.",
+      "related": [
+        "chilli-americas-india",
+        "geet-gawai-mauritius"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "ukulele-madeira-hawaii",
+      "slug": "ukulele-madeira-hawaii",
+      "title": "Hawaiʻi transformed a Portuguese instrument",
+      "hook": "What does a Hawaiian sound owe to an Atlantic island?",
+      "shortFact": "The ʻukulele developed in Hawaiʻi from small Portuguese string instruments brought by immigrants. Portuguese woodworkers arriving in 1879 helped establish the craft, and Hawaiian players adapted it into a distinctive instrument.",
+      "explanation": "The ʻukulele is Hawaiian, but its family tree crosses an ocean and a continent. Portuguese workers arriving in Hawaiʻi in 1879 included woodworkers familiar with small instruments such as the braguinha. Hawaiians learned to play them and changed the instrument; King Kalākaua helped encourage its popularity. The result was a musical tradition with its own Hawaiian makers, performers and innovations. Madeira, a Portuguese island in the Atlantic, is part of that earlier connection. Describing this as simply a foreign instrument misses the creative work that happened after arrival. Migration supplied an ingredient; people in Hawaiʻi made something new with it.",
+      "category": "Language & culture",
+      "tags": [
+        "ukulele",
+        "music",
+        "Madeira",
+        "Hawaii",
+        "migration"
+      ],
+      "countries": [
+        "pt",
+        "us"
+      ],
+      "regions": [
+        "Atlantic Islands",
+        "Pacific"
+      ],
+      "places": [
+        "Madeira",
+        "Hawaiʻi"
+      ],
+      "period": "1879 onward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route.",
+        "locations": [
+          {
+            "label": "Madeira · Portugal",
+            "coordinates": [
+              -16.95,
+              32.75
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Honolulu · Hawaiʻi",
+            "coordinates": [
+              -157.86,
+              21.31
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "An ʻUkulele Comeback",
+          "publisher": "University of Hawaiʻi",
+          "url": "https://www.hawaii.edu/malamalama/2007/01/f1_ukulele.html",
+          "published": "2007-01"
+        },
+        {
+          "title": "The ukulele’s origins: interview with historian Jim Tranquada",
+          "publisher": "Hawaii News Now",
+          "url": "https://www.hawaiinewsnow.com/2024/03/31/no-ukulele-did-not-originate-hawaii-heres-where-story-actually-begins/",
+          "published": "2024-04-02"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The instrument developed in Hawaiʻi from Portuguese antecedents. Competing “jumping flea” naming legends are omitted. Hawaiʻi was a kingdom in 1879; its modern U.S. location is used only for browsing.",
+      "related": [
+        "islenos-louisiana",
+        "geet-gawai-mauritius"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "breadfruit-caribbean",
+      "slug": "breadfruit-caribbean",
+      "title": "Breadfruit’s Caribbean journey was tied to slavery",
+      "hook": "Why was a British ship sent to collect Pacific fruit?",
+      "shortFact": "Britain sent William Bligh to the Pacific to collect breadfruit as food for enslaved people on Caribbean plantations. The Bounty mission failed after the 1789 mutiny, but a later expedition introduced the crop to St Vincent and Jamaica.",
+      "explanation": "Breadfruit was already an established Pacific food when European voyagers encountered it. Its starchy flesh can be cooked and eaten much like a staple root crop. Joseph Banks promoted a plan to move it to the Caribbean to feed enslaved plantation workers, and the Admiralty sent Bligh aboard HMS Bounty in 1787. The famous mutiny interrupted that mission after the ship left Tahiti in 1789. Bligh returned to Tahiti on another expedition in 1792 and successfully carried plants to St Vincent and Jamaica. The journey is therefore more than an adventure at sea: botanical collecting was being used to support a coercive plantation economy.",
+      "category": "Food journeys",
+      "tags": [
+        "breadfruit",
+        "Tahiti",
+        "Bounty",
+        "slavery",
+        "plantations"
+      ],
+      "countries": [
+        "fr",
+        "vc",
+        "jm",
+        "gb"
+      ],
+      "regions": [
+        "Pacific",
+        "Caribbean"
+      ],
+      "places": [
+        "Tahiti, French Polynesia",
+        "St Vincent",
+        "Jamaica"
+      ],
+      "period": "1787–1790s",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route.",
+        "locations": [
+          {
+            "label": "Tahiti · French Polynesia",
+            "coordinates": [
+              -149.45,
+              -17.65
+            ],
+            "approximate": true
+          },
+          {
+            "label": "St Vincent · Caribbean",
+            "coordinates": [
+              -61.2,
+              13.2
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Artocarpus altilis: Bligh’s mission to take breadfruit to the Caribbean",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:582598-1/general-information",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The second expedition delivered the plants; the Bounty voyage did not. Modern place labels are used for orientation, not to assign today’s political status to the eighteenth century.",
+      "related": [
+        "montserrat-st-patrick",
+        "potatoes-andes-europe"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "potatoes-andes-europe",
+      "slug": "potatoes-andes-europe",
+      "title": "Europe’s potatoes had to learn a new season",
+      "hook": "Why was crossing an ocean only half the challenge?",
+      "shortFact": "Potatoes reached Europe from the Andes in the sixteenth century, but many early plants formed tubers only as autumn days shortened. Adapting to Europe’s longer summer days helped turn an American crop into a European staple.",
+      "explanation": "Andean farmers domesticated potatoes long before Spanish conquest brought the crop across the Atlantic. But moving a plant does not instantly make it suited to its new home. Early introductions from the equatorial Andes responded to short days; in Europe, tubers developed late, leaving little growing time before frost. A 2019 genetic study using historical plant specimens traced later European potatoes to both Andean and Chilean ancestry. The researchers associated nineteenth-century adaptation with the arrival of Chilean potatoes. The familiar European crop is therefore the result of Indigenous American cultivation, colonial movement and later biological change, rather than a plant that simply arrived ready-made for every northern field.",
+      "category": "Food journeys",
+      "tags": [
+        "potato",
+        "Andes",
+        "Chile",
+        "seasons",
+        "crop adaptation"
+      ],
+      "countries": [
+        "pe",
+        "bo",
+        "cl",
+        "es"
+      ],
+      "regions": [
+        "South America",
+        "Europe"
+      ],
+      "places": [
+        "Andes",
+        "Chile",
+        "Europe"
+      ],
+      "period": "Sixteenth–nineteenth centuries; research published 2019",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic connection, not a documented travel route.",
+        "locations": [
+          {
+            "label": "Central Andes · approximate",
+            "coordinates": [
+              -69,
+              -17
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Europe · approximate",
+            "coordinates": [
+              8,
+              50
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Origins of the European potato",
+          "publisher": "Max Planck Society",
+          "url": "https://www.mpg.de/13618613/potato-origin",
+          "published": "2019-06-25"
+        },
+        {
+          "title": "Learning to love the potato",
+          "publisher": "Europeana",
+          "url": "https://www.europeana.eu/en/exhibitions/edible-plants-from-the-americas/potato",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "This describes historical introductions and the cited genetic study, not a claim that every modern variety has identical ancestry or that potatoes cannot grow under long days.",
+      "related": [
+        "chilli-americas-india",
+        "breadfruit-caribbean"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "maltese-mediterranean",
+      "slug": "maltese-mediterranean",
+      "title": "Maltese carries several Mediterranean histories",
+      "hook": "Why can one language connect Arabic, Italian and English?",
+      "shortFact": "Maltese developed from a form of Arabic and became an independent language with its own literature. It uses a Latin-based alphabet and has absorbed substantial Sicilian, Italian and English influence.",
+      "explanation": "Malta sits south of Sicily, between the northern and southern shores of the Mediterranean. Its language developed from Arabic associated with the medieval Arab period, then followed its own course after political rule changed. Contact with Sicilian and Italian, and later English, left a strong mark on vocabulary, while much grammar and many words retain Arabic roots. Maltese uses a Latin-based writing system with additional letters for its sounds. It is not simply modern Arabic written differently: it is a distinct language with its own history and literary tradition. The language makes the island’s long record of contact audible in ordinary conversation.",
+      "category": "Language & culture",
+      "tags": [
+        "Maltese",
+        "Arabic",
+        "Sicilian",
+        "Italian",
+        "language contact"
+      ],
+      "countries": [
+        "mt",
+        "it"
+      ],
+      "regions": [
+        "Mediterranean",
+        "Europe",
+        "North Africa"
+      ],
+      "places": [
+        "Malta",
+        "Sicily",
+        "Maghreb"
+      ],
+      "period": "Medieval period onward",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic language-contact connection, not a migration route. Arabic roots also connect Malta to the wider Mediterranean.",
+        "locations": [
+          {
+            "label": "Sicily · Italy",
+            "coordinates": [
+              14,
+              37.6
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Malta",
+            "coordinates": [
+              14.4,
+              35.9
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "The Maltese Language",
+          "publisher": "National Council for the Maltese Language",
+          "url": "https://kunsilltalmalti.gov.mt/national-council-for-the-maltese-language/",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The precise historical path through Arabic varieties is qualified in the source. Current population figures and broad “only Semitic language” claims are deliberately omitted.",
+      "related": [
+        "geet-gawai-mauritius",
+        "islenos-louisiana"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "france-brazil-neighbours",
+      "slug": "france-brazil-neighbours",
+      "title": "France and Brazil are next-door neighbours",
+      "hook": "How can France have an Amazonian border?",
+      "shortFact": "France shares a land border with Brazil through French Guiana, an overseas part of France in South America. The Oyapock River forms part of that frontier.",
+      "explanation": "A map centred on Europe leaves out a large piece of French geography. French Guiana lies on South America’s Atlantic coast, beside Brazil. Its present status grew out of French colonial rule: it became a French department in 1946. Today it belongs to the French Republic, rather than being an independent country with a similar name. Across the Oyapock River is the Brazilian state of Amapá. A bridge links the two sides, and their governments cooperate on education, health and environmental issues. The frontier is therefore part of everyday regional life, not simply a surprising line in a quiz.",
+      "category": "Borders & belonging",
+      "tags": [
+        "overseas regions",
+        "France",
+        "Brazil",
+        "borders",
+        "colonial history"
+      ],
+      "countries": [
+        "fr",
+        "br"
+      ],
+      "regions": [
+        "South America",
+        "Amazonia"
+      ],
+      "places": [
+        "French Guiana",
+        "Amapá",
+        "Oyapock River"
+      ],
+      "period": "1946–present",
+      "map": {
+        "type": "location",
+        "caption": "The shared boundary is highlighted on simplified Natural Earth geography. Numbered points locate approximate towns on opposite sides of the Oyapock; this is not a border survey.",
+        "locations": [
+          {
+            "label": "Saint-Georges, French Guiana",
+            "coordinates": [
+              -51.799,
+              3.888
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Oiapoque, Brazil",
+            "coordinates": [
+              -51.834,
+              3.843
+            ],
+            "approximate": true
+          }
+        ],
+        "highlightCountries": [
+          "fr",
+          "br"
+        ],
+        "focusExtent": [
+          [
+            -55,
+            1
+          ],
+          [
+            -50,
+            6
+          ]
+        ],
+        "borderCountries": [
+          "fr",
+          "br"
+        ]
+      },
+      "sources": [
+        {
+          "title": "France and Brazil",
+          "publisher": "French Ministry for Europe and Foreign Affairs",
+          "url": "https://www.diplomatie.gouv.fr/en/information-by-country/brazil/france-and-brazil",
+          "published": null
+        },
+        {
+          "title": "Guyane: research guide",
+          "publisher": "Archives nationales d’outre-mer",
+          "url": "https://archives-nationales-outre-mer.culture.gouv.fr/faire-une-recherche/guyane",
+          "published": null
+        },
+        {
+          "title": "Overseas departments, regions and collectivities",
+          "publisher": "INSEE",
+          "url": "https://www.insee.fr/en/metadonnees/definition/c2316",
+          "published": "2023-12-05"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "French Guiana is part of France; it is different from the independent country Guyana. No “longest border” claim is needed.",
+      "related": [
+        "saba-highest-point",
+        "pheasant-island"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "saba-highest-point",
+      "slug": "saba-highest-point",
+      "title": "The Dutch kingdom’s highest point is in the Caribbean",
+      "hook": "Where would you look for a Dutch mountain?",
+      "shortFact": "Mount Scenery, on the Caribbean island of Saba, reaches about 877 metres above sea level: the highest point in the Kingdom of the Netherlands. Saba is a special municipality of the Netherlands.",
+      "explanation": "The name “Netherlands” often brings flat European landscapes to mind, but the country also has a Caribbean geography. Saba’s Mount Scenery rises far above the surrounding sea. On 10 October 2010, Saba, Bonaire and St Eustatius became special municipalities of the Netherlands. Their status is different from that of Aruba, Curaçao and St Maarten, which are separate constituent countries within the same kingdom. That distinction explains why a Caribbean summit belongs in a discussion of Dutch geography. “Highest in the kingdom” includes its Caribbean parts; it does not mean the highest point in the European Netherlands.",
+      "category": "Borders & belonging",
+      "tags": [
+        "Caribbean",
+        "Netherlands",
+        "Saba",
+        "mountains",
+        "overseas territories"
+      ],
+      "countries": [
+        "nl"
+      ],
+      "regions": [
+        "Caribbean",
+        "Europe"
+      ],
+      "places": [
+        "Saba",
+        "Mount Scenery",
+        "Netherlands"
+      ],
+      "period": "2010–present",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic political connection between Saba and the European Netherlands; not a travel route.",
+        "locations": [
+          {
+            "label": "Mount Scenery, Saba",
+            "coordinates": [
+              -63.237,
+              17.635
+            ],
+            "approximate": true
+          },
+          {
+            "label": "European Netherlands",
+            "coordinates": [
+              5.3,
+              52.1
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "About Public Entity Saba",
+          "publisher": "Public Entity Saba",
+          "url": "https://www.sabagov.nl/management-organization/about-public-entity-saba",
+          "published": null
+        },
+        {
+          "title": "Caribbean parts of the Kingdom",
+          "publisher": "Government of the Netherlands",
+          "url": "https://www.government.nl/themes/government-and-democracy/caribbean-parts-of-the-kingdom",
+          "published": null
+        },
+        {
+          "title": "Caribbean Netherlands and Dutch Caribbean",
+          "publisher": "Statistics Netherlands (CBS)",
+          "url": "https://www.cbs.nl/en-gb/news/2022/49/forecast-caribbean-netherlands-15-more-inhabitants-by-2030/caribbean-netherlands-and-dutch-caribbean",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The kingdom, the constituent country Netherlands, and the European Netherlands are different geographical scopes.",
+      "related": [
+        "france-brazil-neighbours",
+        "chimborazo"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "diomede-date-line",
+      "slug": "diomede-date-line",
+      "title": "Two islands, opposite sides of the date line",
+      "hook": "Can tomorrow be just across the water?",
+      "shortFact": "Russia’s Big Diomede and the United States’ Little Diomede are only about 3.8 kilometres apart, but the International Date Line passes between them. Their nicknames are “Tomorrow” and “Yesterday” islands.",
+      "explanation": "The Diomedes lie in the Bering Strait, between Alaska and far eastern Russia. Two invisible divisions cross the water separating them: the international maritime border and the International Date Line. The date line is a human convention for keeping calendars consistent around a rotating planet; it is not a physical feature in the sea. The islands are close enough to appear together in one satellite image, yet they sit on opposite sides of that convention. Their nicknames describe this calendar contrast. They do not mean that the islands are always exactly 24 clock-hours apart, and this illustration is not a border-crossing suggestion.",
+      "category": "Borders & belonging",
+      "tags": [
+        "date line",
+        "islands",
+        "Russia",
+        "United States",
+        "time"
+      ],
+      "countries": [
+        "ru",
+        "us"
+      ],
+      "regions": [
+        "Bering Strait",
+        "Arctic"
+      ],
+      "places": [
+        "Big Diomede",
+        "Little Diomede",
+        "Alaska",
+        "Chukotka"
+      ],
+      "period": null,
+      "map": {
+        "type": "dateline",
+        "caption": "Approximate island locations. Date-line marker is schematic, not a legal boundary survey.",
+        "locations": [
+          {
+            "label": "Big Diomede · Russia",
+            "coordinates": [
+              -169.065,
+              65.782
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Little Diomede · United States",
+            "coordinates": [
+              -168.952,
+              65.758
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Yesterday and Tomorrow Islands",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/",
+          "published": "2018-01-27"
+        },
+        {
+          "title": "What is the international date line?",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/international-date-line.html",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Calendar-day separation is not a fixed 24-hour time-zone difference. Island points and the intervening date-line marker are schematic.",
+      "related": [
+        "tartupaluk-agreement",
+        "pheasant-island"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "baarle-enclaves",
+      "slug": "baarle-enclaves",
+      "title": "A border that wanders through houses",
+      "hook": "Why is this village a patchwork of two countries?",
+      "shortFact": "Baarle contains Belgian enclaves inside the Netherlands, with Dutch pieces inside some of those enclaves. The border can cross streets, gardens and buildings because older land divisions survived into the modern frontier.",
+      "explanation": "An enclave is territory completely surrounded by another state. Baarle’s puzzle began with medieval land arrangements involving the Duke of Brabant and the Lord of Breda. Different plots remained under different authorities instead of becoming one continuous area. Later political changes turned those inherited divisions into an international border, with Baarle-Hertog on the Belgian side and Baarle-Nassau on the Dutch side. Some Dutch plots are enclosed within Belgian plots that are themselves surrounded by the Netherlands. Today pavement markers make many of the boundaries visible. What looks like a cartographer’s prank is a record of centuries of land ownership and government.",
+      "category": "Borders & belonging",
+      "tags": [
+        "enclaves",
+        "Belgium",
+        "Netherlands",
+        "medieval history",
+        "borders"
+      ],
+      "countries": [
+        "be",
+        "nl"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "places": [
+        "Baarle-Hertog",
+        "Baarle-Nassau"
+      ],
+      "period": "Medieval origins; modern border",
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Baarle-Hertog / Baarle-Nassau",
+            "coordinates": [
+              4.931,
+              51.443
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "History of Baarle",
+          "publisher": "Visit Baarle",
+          "url": "https://en.visitbaarle.com/informatie/geschiedenis",
+          "published": null
+        },
+        {
+          "title": "About Baarle",
+          "publisher": "Visit Baarle",
+          "url": "https://en.visitbaarle.com/informatie/overbaarle",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The map locates the village; it does not draw individual property boundaries. The claim concerns territory, not automatic dual nationality for residents.",
+      "related": [
+        "pheasant-island",
+        "france-brazil-neighbours"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "pheasant-island",
+      "slug": "pheasant-island",
+      "title": "An island administered by turns",
+      "hook": "Why do France and Spain take six-month shifts?",
+      "shortFact": "France and Spain share authority over Pheasant Island in the Bidasoa River, taking turns every six months. The island also hosted negotiations for the 1659 Treaty of the Pyrenees.",
+      "explanation": "This small river island sits between Hendaye in France and Irun in Spain. It is a condominium: a place under shared authority, rather than a territory that must be assigned entirely to one state. The two sides alternate responsibility in six-month periods. Its role as a meeting place predates today’s routine: French and Spanish negotiators met here in 1659 to settle the Treaty of the Pyrenees, alongside arrangements for the marriage of Louis XIV and Maria Theresa of Spain. A monument remembers those negotiations. The unusual arrangement makes a tiny island an enduring piece of diplomatic geography.",
+      "category": "Borders & belonging",
+      "tags": [
+        "France",
+        "Spain",
+        "shared territory",
+        "diplomacy",
+        "islands"
+      ],
+      "countries": [
+        "fr",
+        "es"
+      ],
+      "regions": [
+        "Europe",
+        "Basque Country"
+      ],
+      "places": [
+        "Pheasant Island",
+        "Bidasoa River",
+        "Hendaye",
+        "Irun"
+      ],
+      "period": "1659; alternating administration today",
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Pheasant Island",
+            "coordinates": [
+              -1.76558,
+              43.3428
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Île de la Conférence (Île des Faisans)",
+          "publisher": "Agence départementale du tourisme 64 / Hendaye Tourisme",
+          "url": "https://www.tourisme64.com/activites/hendaye/PCUAQU064FS000JA-ile-de-la-conference-ou-ile-des-faisans/",
+          "published": null
+        },
+        {
+          "title": "Île des Faisans",
+          "publisher": "Bidasoa-Txingudi Cross-border Consortium",
+          "url": "https://www.irunhondarribiahendaye.com/fr/tourisme-sans-frontieres/sites-a-visiter/patrimoine-historique/462-ile-faisans",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The six-month change concerns administration of shared territory, not the island physically changing countries. Sources give differing surface areas, so no area is quoted.",
+      "related": [
+        "baarle-enclaves",
+        "tartupaluk-agreement"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "tartupaluk-agreement",
+      "slug": "tartupaluk-agreement",
+      "title": "An Arctic island divided by agreement",
+      "hook": "How can a border settlement protect old connections?",
+      "shortFact": "In 2022, Canada and the Kingdom of Denmark, together with Greenland, signed an agreement to divide Tartupaluk, also known as Hans Island. The agreement recognised its significance to Inuit communities on both sides.",
+      "explanation": "Tartupaluk sits between Canada’s Ellesmere Island and Greenland, a self-governing part of the Kingdom of Denmark. Competing sovereignty claims had left its boundary unsettled for decades. On 14 June 2022, the Canadian and Danish foreign ministers and Greenland’s prime minister signed an agreement resolving the dispute. The settlement was developed with consultation of Inuit in Nunavut and Kalaallit Nunaat, the Greenlandic name for Greenland. It provides for continued access and movement across the island, recognising a relationship older than the new line. This is a story about the signed settlement, rather than a claim that every later implementation step occurred in 2022.",
+      "category": "Borders & belonging",
+      "tags": [
+        "Canada",
+        "Greenland",
+        "Denmark",
+        "Inuit",
+        "diplomacy",
+        "borders"
+      ],
+      "countries": [
+        "ca",
+        "dk"
+      ],
+      "regions": [
+        "Arctic",
+        "Greenland",
+        "North America"
+      ],
+      "places": [
+        "Tartupaluk / Hans Island",
+        "Ellesmere Island",
+        "Kalaallit Nunaat / Greenland"
+      ],
+      "period": "14 June 2022 agreement",
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Tartupaluk / Hans Island",
+            "coordinates": [
+              -66.459,
+              80.827
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Historic agreement on long-standing boundary disputes",
+          "publisher": "Global Affairs Canada",
+          "url": "https://www.canada.ca/en/global-affairs/news/2022/06/canada-and-the-kingdom-of-denmark-together-with-greenland-reach-historic-agreement-on-long-standing-boundary-disputes.html",
+          "published": "2022-06-14"
+        },
+        {
+          "title": "Boundary dispute: backgrounder",
+          "publisher": "Global Affairs Canada",
+          "url": "https://www.canada.ca/en/global-affairs/news/2022/06/boundary-dispute.html",
+          "published": "2022-06-14"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Describes the 2022 agreement, not a current entry-into-force claim. Greenland is not the European territory of Denmark.",
+      "related": [
+        "diomede-date-line",
+        "pheasant-island"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "galapagos-penguins",
+      "slug": "galapagos-penguins",
+      "title": "Penguins live north of the equator",
+      "hook": "What keeps an equatorial penguin fed?",
+      "shortFact": "Galápagos penguins live around Ecuador’s equatorial islands, including just north of the equator. Cold, nutrient-rich water rising near the western islands helps support the fish they eat.",
+      "explanation": "Latitude is only part of an animal’s climate story. Near Isabela and Fernandina, the Equatorial Undercurrent runs into the islands and rises towards the surface, bringing cold water and nutrients from below. Those nutrients support the marine food web, including the fish hunted by Galápagos penguins. This makes an equatorial archipelago a possible penguin habitat despite the strong tropical sun. The arrangement is vulnerable: warmer water during El Niño can reduce nutrients and food availability. Galápagos penguins are the only penguin species naturally found north of the equator; that does not mean most of the birds live in the Northern Hemisphere.",
+      "category": "Earth & nature",
+      "tags": [
+        "penguins",
+        "Ecuador",
+        "ocean currents",
+        "ecosystems",
+        "equator"
+      ],
+      "countries": [
+        "ec"
+      ],
+      "regions": [
+        "Pacific Ocean",
+        "South America"
+      ],
+      "places": [
+        "Galápagos Islands",
+        "Isabela",
+        "Fernandina"
+      ],
+      "period": null,
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Isabela, Galápagos",
+            "coordinates": [
+              -91.1,
+              -0.3
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Fernandina, Galápagos",
+            "coordinates": [
+              -91.55,
+              -0.37
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Science Behind Conservation: Penguins and Cormorants",
+          "publisher": "Charles Darwin Foundation",
+          "url": "https://www.darwinfoundation.org/en/news/blog/science-behind-conservation-penguins-and-cormorants/",
+          "published": "2024-12-23"
+        },
+        {
+          "title": "Shifting Winds, Ocean Currents Doubled Endangered Galapagos Penguin Population",
+          "publisher": "Woods Hole Oceanographic Institution",
+          "url": "https://www.whoi.edu/press-room/news-release/galapagospenguin/",
+          "published": "2015-08-02"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The “north of the equator” statement concerns natural range. Population totals and projections in older sources are not presented as current counts.",
+      "related": [
+        "story-na",
+        "sahara-amazon-dust"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "blood-falls",
+      "slug": "blood-falls",
+      "title": "Why Antarctica has a blood-red waterfall",
+      "hook": "What turns clear water crimson?",
+      "shortFact": "At Antarctica’s Blood Falls, iron-rich salty water emerges from beneath Taylor Glacier and turns red as it oxidises. A 2023 study identified tiny iron-rich spheres involved in the colour change.",
+      "explanation": "The colour is a chemical reaction, not blood. Water escaping from a salty reservoir beneath Taylor Glacier initially appears clear, then turns red when exposed at the surface. Researchers examining samples with powerful electron microscopes found tiny iron-rich particles, called nanospheres, that oxidise. They also contain elements such as silicon and calcium. Their atoms lack the orderly crystal arrangement required to classify them as minerals, which helps explain why some earlier analytical approaches missed them. The 2023 work sharpened the explanation of the famous red stain and showed why choosing the right instrument matters when studying an unfamiliar environment.",
+      "category": "Earth & nature",
+      "tags": [
+        "Antarctica",
+        "glaciers",
+        "chemistry",
+        "colour",
+        "iron"
+      ],
+      "countries": [],
+      "regions": [
+        "Antarctica"
+      ],
+      "places": [
+        "Blood Falls",
+        "Taylor Glacier",
+        "Lake Bonney"
+      ],
+      "period": "2023 research",
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Blood Falls, Taylor Glacier",
+            "coordinates": [
+              162.268,
+              -77.721
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Researchers uncover the century-old mystery of Blood Falls",
+          "publisher": "Johns Hopkins University",
+          "url": "https://hub.jhu.edu/2023/06/26/blood-falls-mystery/",
+          "published": "2023-06-26"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The 2023 finding refines the role of iron-rich non-crystalline particles; it does not mean scientists first discovered iron in the water in 2023.",
+      "related": [
+        "ijen-blue-flames",
+        "devils-tower-columns"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "sahara-amazon-dust",
+      "slug": "sahara-amazon-dust",
+      "title": "A desert helps feed a rainforest",
+      "hook": "How does the Sahara reach the Amazon?",
+      "shortFact": "Wind carries Saharan dust across the Atlantic into the Amazon basin. The dust includes phosphorus, a nutrient that helps replenish rainforest soils.",
+      "explanation": "A rainforest and a desert can be connected without a river between them. Winds lift fine particles from the Sahara and carry some of them across the Atlantic, where they settle over South America. Among the cargo is phosphorus, an essential nutrient for plant growth that rainfall and flooding can remove from soils. A NASA-led study published in 2015 used satellite measurements from 2007–2013 to estimate this transfer in three dimensions. It found that the imported phosphorus was an important contribution to the basin’s nutrient budget. The amount changes from year to year; the connection is more useful to remember than one supposedly permanent tonnage.",
+      "category": "Earth & nature",
+      "tags": [
+        "dust",
+        "Sahara",
+        "Amazon",
+        "phosphorus",
+        "wind",
+        "ecosystems"
+      ],
+      "countries": [
+        "br",
+        "td"
+      ],
+      "regions": [
+        "Sahara",
+        "Amazon basin",
+        "Atlantic Ocean"
+      ],
+      "places": [
+        "Sahara Desert",
+        "Amazon rainforest"
+      ],
+      "period": "2007–2013 observations; 2015 study",
+      "map": {
+        "type": "connection",
+        "caption": "Schematic dust connection between broad regions, not an exact atmospheric trajectory.",
+        "locations": [
+          {
+            "label": "Sahara · approximate source region",
+            "coordinates": [
+              17,
+              18
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Amazon basin · approximate receiving region",
+            "coordinates": [
+              -60,
+              -3
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Satellite Tracks Saharan Dust To Amazon In 3-D",
+          "publisher": "NASA Scientific Visualization Studio",
+          "url": "https://svs.gsfc.nasa.gov/11775/",
+          "published": "2015-02-24"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The endpoints represent broad regions. Dust is one nutrient input, not the sole reason the Amazon exists; the line is not a measured plume trajectory.",
+      "related": [
+        "story-na",
+        "galapagos-penguins"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "tonle-sap-reversal",
+      "slug": "tonle-sap-reversal",
+      "title": "A river changes direction with the seasons",
+      "hook": "How can a river appear to run backwards?",
+      "shortFact": "Cambodia’s Tonle Sap River reverses when the flood-season Mekong rises higher than Tonle Sap Lake. Water then enters the lake; as Mekong levels fall, the lake drains back towards the river.",
+      "explanation": "There is no pump and no exception to gravity. Water responds to differences in level. For part of the year, Tonle Sap Lake drains along its connecting river towards the Mekong at Phnom Penh. During the flood season, the Mekong rises enough to push water the other way, swelling the lake and flooding surrounding land. When the Mekong falls, the direction changes again. This flood pulse helps sustain fish habitat and the livelihoods linked to it. The timing and volume vary between years, so a neat calendar animation would hide important differences. The reversal is a seasonal process, not an unchanging daily schedule.",
+      "category": "Earth & nature",
+      "tags": [
+        "Cambodia",
+        "rivers",
+        "monsoon",
+        "floods",
+        "ecosystems"
+      ],
+      "countries": [
+        "kh"
+      ],
+      "regions": [
+        "Southeast Asia",
+        "Mekong basin"
+      ],
+      "places": [
+        "Tonle Sap Lake",
+        "Tonle Sap River",
+        "Phnom Penh"
+      ],
+      "period": "Seasonal flood cycle",
+      "map": {
+        "type": "connection",
+        "caption": "Lake and confluence locations; connecting line is schematic, not the mapped course of the river.",
+        "locations": [
+          {
+            "label": "Tonle Sap Lake",
+            "coordinates": [
+              104.05,
+              12.9
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Mekong confluence, Phnom Penh",
+            "coordinates": [
+              104.94,
+              11.57
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "State of the Basin Report 2018, section 3.2.4, p. 34",
+          "publisher": "Mekong River Commission",
+          "url": "https://www.mrcmekong.org/wp-content/uploads/2024/08/SOBR-v8_Final-for-web-1.pdf",
+          "published": "2019"
+        },
+        {
+          "title": "Procedures for the Maintenance of Flows on the Mainstream",
+          "publisher": "Mekong River Commission",
+          "url": "https://www.mrcmekong.org/mrc-procedures/",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The connecting Tonle Sap River reverses; the entire Mekong does not. Timing and flood volumes vary, and older averages are not current-year measurements.",
+      "related": [
+        "sahara-amazon-dust",
+        "story-na"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "ijen-blue-flames",
+      "slug": "ijen-blue-flames",
+      "title": "The blue glow at Ijen is burning gas",
+      "hook": "Is that really blue lava?",
+      "shortFact": "At Kawah Ijen in Indonesia, hot sulphurous gases burn with a blue flame when they meet oxygen in the air. The spectacle is a chemical flame, not lava glowing blue.",
+      "explanation": "Kawah Ijen’s crater in East Java contains a striking turquoise lake, but the famous nighttime blue glow has a different explanation. Hot gases containing sulphur emerge and ignite as they encounter oxygen in the atmosphere. That combustion produces blue flames. The lake itself is strongly acidic, containing sulphuric and hydrochloric acids along with dissolved minerals. These are related features of an active volcanic chemical system, but they should not be confused: blue-looking water, a blue flame and molten rock are different things. Remembering the distinction makes the photographs more interesting, because the colour reveals a process rather than a new kind of lava.",
+      "category": "Earth & nature",
+      "tags": [
+        "Indonesia",
+        "volcanoes",
+        "sulphur",
+        "chemistry",
+        "colour"
+      ],
+      "countries": [
+        "id"
+      ],
+      "regions": [
+        "Southeast Asia"
+      ],
+      "places": [
+        "Kawah Ijen",
+        "East Java"
+      ],
+      "period": null,
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Kawah Ijen",
+            "coordinates": [
+              114.242,
+              -8.058
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Spooky sights from space: world’s largest acidic lake",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/ESA_Multimedia/Images/2023/10/Spooky_sights_from_space_world_s_largest_acidic_lake",
+          "published": "2023-10-31"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "No claim of blue molten lava is made. The source’s lake-size superlative is not needed for the chemical explanation.",
+      "related": [
+        "blood-falls",
+        "devils-tower-columns"
+      ],
+      "guess": {
+        "question": "What creates Ijen’s blue glow?",
+        "options": [
+          "Burning sulphurous gas",
+          "Blue molten rock",
+          "Bioluminescent algae"
+        ],
+        "answer": "Burning sulphurous gas"
+      },
+      "kind": "story"
+    },
+    {
+      "id": "devils-tower-columns",
+      "slug": "devils-tower-columns",
+      "title": "Cooling rock can build its own columns",
+      "hook": "Who carved these giant geometric pillars?",
+      "shortFact": "Devils Tower in Wyoming has polygonal rock columns formed as hot rock cooled, contracted and fractured. Their striking geometry is a natural result of shrinking rock.",
+      "explanation": "When hot rock becomes solid and cools further, it takes up less space. That contraction creates stresses, and fractures divide the rock into neighbouring columns: a process called columnar jointing. At Devils Tower, many columns have four or six sides, with cracks extending through the rock. Later erosion exposed the formation we see today. The Tower is made of phonolite porphyry, an igneous rock, rather than the basalt commonly associated with column formations. Geologists still debate details of the original body’s shape and formation. The cooling-and-fracturing explanation for the columns does not require pretending that every part of the Tower’s history is settled.",
+      "category": "Earth & nature",
+      "tags": [
+        "United States",
+        "Wyoming",
+        "geology",
+        "columns",
+        "cooling"
+      ],
+      "countries": [
+        "us"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "places": [
+        "Devils Tower",
+        "Wyoming"
+      ],
+      "period": null,
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Devils Tower, Wyoming",
+            "coordinates": [
+              -104.715,
+              44.59
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "NPS Geodiversity Atlas: Devils Tower National Monument",
+          "publisher": "U.S. National Park Service",
+          "url": "https://www.nps.gov/articles/nps-geodiversity-atlas-devils-tower-national-monument-wyoming.htm",
+          "published": "2024-06-17"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Column formation is distinguished from competing explanations of the original igneous body. No claim that all columns are hexagons is made.",
+      "related": [
+        "ijen-blue-flames",
+        "blood-falls"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "story-na",
+      "slug": "story-na",
+      "title": "A desert watered by fog",
+      "hook": "How does life find water among these dunes?",
+      "shortFact": "In Namibia’s Namib Sand Sea, fog is the main water source for a specialised desert ecosystem. The dunes themselves contain material transported from inland by rivers, ocean currents and wind.",
+      "explanation": "A desert can be extremely dry and still receive vital water without much rain. In the Namib Sand Sea, Atlantic coastal fog supplies moisture that specially adapted animals and plants can use. UNESCO describes a landscape whose small habitats shift with wind, sand and changing fog conditions. There is another hidden journey here: much of the sand did not simply weather out of the rock directly underneath it. Material travelled from the continental interior through a sequence of river transport, ocean movement and wind. Both the water supply and the dunes connect this apparently isolated desert to processes beyond it.",
+      "category": "Earth & nature",
+      "tags": [
+        "Namibia",
+        "fog",
+        "desert",
+        "water",
+        "sand"
+      ],
+      "countries": [
+        "na"
+      ],
+      "regions": [
+        "Southern Africa",
+        "South Atlantic coast"
+      ],
+      "places": [
+        "Namib Sand Sea",
+        "Namib-Naukluft Park"
+      ],
+      "period": null,
+      "map": {
+        "type": "location",
+        "caption": "Approximate locations; map labels are not territorial boundaries.",
+        "locations": [
+          {
+            "label": "Namib Sand Sea · approximate region",
+            "coordinates": [
+              15.4,
+              -24.5
+            ],
+            "approximate": true
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Namib Sand Sea",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1430/",
+          "published": null
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "The primary-water-source claim refers to the Namib Sand Sea World Heritage property, not every location across Namibia.",
+      "related": [
+        "sahara-amazon-dust",
+        "galapagos-penguins"
+      ],
+      "kind": "story"
+    },
+    {
+      "id": "chimborazo",
+      "slug": "chimborazo",
+      "title": "Everest and Chimborazo win different height contests",
+      "hook": "Where you start measuring changes the winner.",
+      "shortFact": "Everest is highest above mean sea level, but Ecuador’s Chimborazo has the summit farthest from Earth’s centre. Earth’s equatorial bulge gives Chimborazo an advantage despite its lower sea-level elevation.",
+      "explanation": "Earth is not a perfect sphere: its rotation makes it wider around the equator. Chimborazo sits close to that bulge, while Everest is much farther north. If you measure altitude from mean sea level, Everest wins at about 8.85 kilometres, compared with Chimborazo’s roughly 6.27 kilometres. If you instead measure from the centre of Earth, Chimborazo’s summit is about 2.1 kilometres farther out than Everest’s. These are two different starting points, not contradictory answers. A diagram exaggerating the bulge can make the idea clearer, but the real planet’s departure from a sphere is much subtler than such an illustration suggests.",
+      "category": "Earth & nature",
+      "tags": [
+        "mountains",
+        "Ecuador",
+        "Nepal",
+        "China",
+        "measurement",
+        "equator"
+      ],
+      "countries": [
+        "ec",
+        "np",
+        "cn"
+      ],
+      "regions": [
+        "South America",
+        "Asia"
+      ],
+      "places": [
+        "Chimborazo",
+        "Mount Everest",
+        "Ecuador",
+        "Nepal",
+        "Tibet"
+      ],
+      "period": null,
+      "map": {
+        "type": "comparison",
+        "caption": "Summit locations. Comparison uses different measurement origins; any Earth-shape illustration is schematic and exaggerates the bulge.",
+        "locations": [
+          {
+            "label": "Chimborazo",
+            "coordinates": [
+              -78.817,
+              -1.469
+            ],
+            "approximate": true
+          },
+          {
+            "label": "Everest",
+            "coordinates": [
+              86.925,
+              27.988
+            ],
+            "approximate": true
+          }
+        ],
+        "comparison": {
+          "seaLevel": [
+            {
+              "label": "Everest",
+              "value": 8.85,
+              "unit": "km"
+            },
+            {
+              "label": "Chimborazo",
+              "value": 6.27,
+              "unit": "km"
+            }
+          ],
+          "earthCentreAdvantage": {
+            "label": "Chimborazo",
+            "value": 2.1,
+            "unit": "km farther than Everest"
+          }
+        }
+      },
+      "sources": [
+        {
+          "title": "Highest point as measured from Earth’s centre",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+          "published": "2026-09-23"
+        }
+      ],
+      "verified": "2026-10-23",
+      "accuracyNote": "Rounded sea-level heights avoid false precision; NOAA gives 6,268 m for Chimborazo and a centre-distance advantage over 2,072 m. “Closest to the stars” is deliberately omitted.",
+      "related": [
+        "saba-highest-point",
+        "devils-tower-columns"
+      ],
+      "kind": "story"
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+[
+  {
+    "id": "japan-peru-plantations",
+    "slug": "why-peru-has-a-japanese-community",
+    "title": "How Japan became part of Peru’s story",
+    "hook": "What connected Japan to Peru’s coastal valleys?",
+    "shortFact": "Japanese migration to Peru began in 1899, with early arrivals working on coastal sugar and cotton plantations. Their families helped establish the Japanese-Peruvian community, often called Nikkei.",
+    "explanation": "The connection began with plantation work, then spread into city life. During the early twentieth century, many Japanese immigrants moved to Lima and Callao, opening businesses including restaurants and barbershops. Later arrivals increasingly headed straight for urban opportunities. This was not an uninterrupted success story: anti-Japanese discrimination intensified, and during the Second World War Peru cooperated with the United States in forcibly removing civilians for internment abroad. Families who remained faced restrictions and property confiscation. Community institutions began rebuilding after wartime restrictions were lifted in 1947. Nikkei describes Japanese emigrants and their descendants; it does not mean that Japanese Peruvians are all Japanese citizens, or that most Peruvians have Japanese ancestry.",
+    "category": "People & migration",
+    "tags": [
+      "Japan",
+      "Peru",
+      "Nikkei",
+      "migration",
+      "plantations",
+      "diaspora"
+    ],
+    "countries": [
+      "jp",
+      "pe"
+    ],
+    "regions": [
+      "East Asia",
+      "South America"
+    ],
+    "places": [
+      "Japan",
+      "Peru",
+      "Lima",
+      "Callao"
+    ],
+    "period": "1899 onward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route. Points represent Japan and Peru’s Lima–Callao coast approximately.",
+      "locations": [
+        {
+          "label": "Japan",
+          "coordinates": [
+            138,
+            36
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Lima–Callao coast, Peru",
+          "coordinates": [
+            -77.1,
+            -12.05
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Peru — Migration Historical Overview",
+        "publisher": "Discover Nikkei / Japanese American National Museum",
+        "url": "https://discovernikkei.org/en/journal/2014/4/25/peru/",
+        "published": "2014-04-25"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Ancestry and citizenship are different. The account concerns a community within Peru, not Peru’s entire population.",
+    "related": [
+      "japan-brazil-coffee",
+      "siddi-indian-ocean"
+    ],
+    "guess": {
+      "question": "Which South American country received Japanese plantation workers in 1899?",
+      "options": [
+        "Peru",
+        "Argentina",
+        "Colombia"
+      ],
+      "answer": "Peru"
+    }
+  },
+  {
+    "id": "japan-brazil-coffee",
+    "slug": "coffee-and-japanese-migration-to-brazil",
+    "title": "Coffee helped connect Japan and Brazil",
+    "hook": "Why did Japanese families cross the world to São Paulo?",
+    "shortFact": "In 1908, the ship Kasato-maru brought Japanese migrants to Brazil, where they were assigned to coffee plantations in São Paulo state. Plantation labour was an early chapter in the history of Brazil’s Japanese-descended community.",
+    "explanation": "Recruitment tied together Japanese hopes for work abroad and São Paulo’s demand for coffee workers. The Kasato-maru sailed from Kobe and reached Santos in June 1908; migrants then travelled inland and were assigned to six plantations. The reality could be grim: poor housing, strict supervision, a disappointing harvest and low earnings undermined expectations. Some workers protested, left plantations or sought jobs in cities and railway construction. That movement matters: the community’s history cannot be reduced to people remaining on the farms where they first arrived. In July 2025, Japan’s foreign ministry described Brazil as having the world’s largest Nikkei community, meaning Japanese immigrants and their descendants rather than Japanese passport holders alone.",
+    "category": "People & migration",
+    "tags": [
+      "Japan",
+      "Brazil",
+      "coffee",
+      "migration",
+      "Nikkei",
+      "Kasato-maru"
+    ],
+    "countries": [
+      "jp",
+      "br"
+    ],
+    "regions": [
+      "East Asia",
+      "South America"
+    ],
+    "places": [
+      "Kobe",
+      "Santos",
+      "São Paulo"
+    ],
+    "period": "1908 onward; community description dated July 2025",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not the ship’s exact voyage. Kobe and Santos are the departure and arrival ports.",
+      "locations": [
+        {
+          "label": "Kobe, Japan",
+          "coordinates": [
+            135.2,
+            34.69
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Santos, Brazil",
+          "coordinates": [
+            -46.33,
+            -23.96
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Prehistory of emigration to Brazil: voyage and plantations",
+        "publisher": "National Diet Library, Japan",
+        "url": "https://www.ndl.go.jp/brasil/e/s2/s2_2.html",
+        "published": null
+      },
+      {
+        "title": "Japan–Brazil exchange and the Nikkei community",
+        "publisher": "Ministry of Foreign Affairs of Japan",
+        "url": "https://www.mofa.go.jp/press/release/pressite_000001_01449.html",
+        "published": "2025-07-14"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The dated superlative refers to immigrants and descendants, not citizenship. Earlier individual arrivals are not ruled out.",
+    "related": [
+      "japan-peru-plantations",
+      "welsh-patagonia"
+    ]
+  },
+  {
+    "id": "welsh-patagonia",
+    "slug": "why-welsh-is-spoken-in-patagonia",
+    "title": "Welsh found another home in Patagonia",
+    "hook": "How did a language from Wales reach Argentina?",
+    "shortFact": "Welsh settlers arrived in Chubut, Argentina, in 1865, hoping to build a community where their language could flourish. Patagonian Welsh developed its own character through contact with Spanish.",
+    "explanation": "Some Welsh emigrants worried that settling in English-speaking societies would gradually erode their language and culture. Patagonia offered a different possibility, while Argentina’s government encouraged European settlement. The first group reached Chubut on 28 July 1865. The community became known as Y Wladfa, the Welsh settlement. Its language mixed features from different Welsh dialects and later absorbed Spanish influences. Welsh did not remain dominant indefinitely: schooling, migration and wider national life strengthened Spanish. Renewed links with Wales, including a language project established in 1997, supported teaching and cultural exchange. This is a particular community within Argentina, not a claim that Patagonia as a whole speaks Welsh.",
+    "category": "Language & culture",
+    "tags": [
+      "Welsh",
+      "Patagonia",
+      "Argentina",
+      "Wales",
+      "language",
+      "migration"
+    ],
+    "countries": [
+      "gb",
+      "ar"
+    ],
+    "regions": [
+      "Europe",
+      "South America",
+      "Patagonia"
+    ],
+    "places": [
+      "Wales",
+      "Chubut",
+      "Y Wladfa"
+    ],
+    "period": "1865 onward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route. Regional points for Wales and Chubut are approximate.",
+      "locations": [
+        {
+          "label": "Wales, United Kingdom",
+          "coordinates": [
+            -3.7,
+            52.3
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Chubut, Argentina",
+          "coordinates": [
+            -65.1,
+            -43.3
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "The Welsh language in Patagonia: a brief history",
+        "publisher": "British Council",
+        "url": "https://www.britishcouncil.org/voices-magazine/welsh-language-in-patagonia-and-wales",
+        "published": "2018-10-25"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Welsh is a community language in parts of Chubut. Wales is a constituent country of the United Kingdom.",
+    "related": [
+      "sarnami-suriname",
+      "romani-india-europe"
+    ],
+    "guess": {
+      "question": "Which South American country has a historic Welsh-speaking community?",
+      "options": [
+        "Argentina",
+        "Peru",
+        "Colombia"
+      ],
+      "answer": "Argentina"
+    }
+  },
+  {
+    "id": "sarnami-suriname",
+    "slug": "sarnami-indias-language-connections-in-suriname",
+    "title": "Indian languages took a new shape in Suriname",
+    "hook": "What happens when languages travel together?",
+    "shortFact": "Sarnami developed in Suriname among descendants of indentured labourers brought from India under Dutch colonial rule. It combines roots in languages including Bhojpuri and Awadhi with influences from Dutch and Sranan Tongo.",
+    "explanation": "The workers did not all arrive speaking a single language. Their speech included closely related varieties from areas now in Uttar Pradesh, Bihar and Jharkhand. Living together encouraged features of those languages to merge into a shared form of speech, a process linguists call koineization. Sarnami then continued changing in Suriname’s multilingual society. Contact with Dutch and Sranan Tongo affected vocabulary and even patterns of sentence construction. So it is misleading to describe Sarnami simply as unchanged Hindi transported overseas. It has its own history, shaped both by the colonial indenture system that moved people and by generations of speakers building lives in South America.",
+    "category": "Language & culture",
+    "tags": [
+      "Sarnami",
+      "Bhojpuri",
+      "Awadhi",
+      "India",
+      "Suriname",
+      "indenture",
+      "language"
+    ],
+    "countries": [
+      "in",
+      "sr"
+    ],
+    "regions": [
+      "South Asia",
+      "South America"
+    ],
+    "places": [
+      "Uttar Pradesh",
+      "Bihar",
+      "Jharkhand",
+      "Suriname"
+    ],
+    "period": "Colonial indenture era onward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route. The India point represents a broad source-language region approximately.",
+      "locations": [
+        {
+          "label": "Northern India: source-language region",
+          "coordinates": [
+            83.5,
+            25.5
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Suriname",
+          "coordinates": [
+            -55.2,
+            5.5
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Out of India: contact-induced change in Sarnāmi",
+        "publisher": "University of Hong Kong Scholars Hub / Kofi Yakpo",
+        "url": "https://hub.hku.hk/handle/10722/205622",
+        "published": "2013"
+      },
+      {
+        "title": "Language change in a multiple contact setting: the case of Sarnami",
+        "publisher": "John Benjamins / Kofi Yakpo and Pieter Muysken",
+        "url": "https://benjamins.com/catalog/cll.47.06yak",
+        "published": "2014-01-29"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The account concerns Sarnami speakers, not everyone in Suriname. Related Indian languages contributed in different ways.",
+    "related": [
+      "fiji-hindi-girmit",
+      "welsh-patagonia"
+    ]
+  },
+  {
+    "id": "fiji-hindi-girmit",
+    "slug": "the-agreement-inside-fijis-word-girmit",
+    "title": "An English word survives inside Fiji’s history",
+    "hook": "What does “girmit” have to do with “agreement”?",
+    "shortFact": "Girmit comes from “agreement”, referring to the contracts of Indian indentured labourers. Fiji Hindi developed on plantations among workers transported from colonial India to Fiji between 1879 and 1916.",
+    "explanation": "A small word carries the memory of a much larger system. The agreement was a labour contract under colonial indenture, not a holiday or an ordinary journey to a new home. Workers who spoke different Indian languages lived and worked together on Fiji’s plantations. Their speech mixed, interacted with local languages and became a shared language for their children. Fiji Hindi therefore has its own development rather than being an exact copy of standard Hindi. Scholars use Girmit Hindustani for related languages formed in this wider diaspora. The word girmit also names a historical experience with which descendants identify, preserving a connection between language, labour and family memory.",
+    "category": "Language & culture",
+    "tags": [
+      "Fiji Hindi",
+      "girmit",
+      "India",
+      "Fiji",
+      "indenture",
+      "language",
+      "agreement"
+    ],
+    "countries": [
+      "in",
+      "fj"
+    ],
+    "regions": [
+      "South Asia",
+      "Oceania",
+      "Pacific"
+    ],
+    "places": [
+      "India",
+      "Fiji",
+      "Kolkata (historically Calcutta)"
+    ],
+    "period": "1879–1916 recruitment; language development afterward",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection, not a documented travel route. The points represent India and Fiji approximately.",
+      "locations": [
+        {
+          "label": "India",
+          "coordinates": [
+            82,
+            23
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Fiji",
+          "coordinates": [
+            178,
+            -17.8
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Orthography development of Girmit Hindustani: the case of Fiji Hindi",
+        "publisher": "University of the South Pacific / Directions: Journal of Educational Studies",
+        "url": "https://repository.usp.ac.fj/id/eprint/13961/",
+        "published": "2022"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "1879–1916 describes the transportation period cited by the study, not the full lifetime of the indenture system.",
+    "related": [
+      "sarnami-suriname",
+      "siddi-indian-ocean"
+    ]
+  },
+  {
+    "id": "siddi-indian-ocean",
+    "slug": "siddi-communities-and-indias-african-connections",
+    "title": "India’s African connections have many histories",
+    "hook": "How did African ancestry become part of Indian communities?",
+    "shortFact": "Siddi communities in India have diverse African and local ancestries, connected to centuries of Indian Ocean movement. Some ancestors arrived through enslavement or military service; others came as traders, sailors or people seeking work.",
+    "explanation": "There is no single Siddi arrival story. Indian Ocean networks linked eastern Africa, Arabia and the Indian subcontinent over many centuries. They carried commerce and voluntary travellers, but also enslaved people forced into domestic or military labour. Some people later became influential soldiers and rulers; others built families and working lives in ports and inland cities. Communities associated with the names Siddi and Habshi live in places including Gujarat, Karnataka, Maharashtra and Telangana. Their identities and preferred names vary. Calling them one isolated or “forgotten” African tribe erases that diversity, their Indian citizenship and their connections with other local communities. These are enduring Indian histories, not simply stories of outsiders arriving.",
+    "category": "People & migration",
+    "tags": [
+      "Siddi",
+      "Habshi",
+      "India",
+      "Africa",
+      "Indian Ocean",
+      "migration",
+      "enslavement"
+    ],
+    "countries": [
+      "in"
+    ],
+    "regions": [
+      "East Africa",
+      "South Asia",
+      "Indian Ocean"
+    ],
+    "places": [
+      "Eastern Africa",
+      "Gujarat",
+      "Karnataka",
+      "Maharashtra",
+      "Telangana"
+    ],
+    "period": "Multiple movements over centuries",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic regional connection, not one migration route or a claim of a single ancestral homeland. Both points are approximate.",
+      "locations": [
+        {
+          "label": "Eastern Africa: broad region",
+          "coordinates": [
+            40,
+            -2
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Western India: broad region",
+          "coordinates": [
+            74,
+            17
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Who are the Siddis? Multiple Pasts and Presents of an African Community of India",
+        "publisher": "Sahapedia / Anisha Padma",
+        "url": "https://www.sahapedia.org/who-are-siddis-multiple-pasts-and-presents-african-community-india",
+        "published": null
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Siddi and Habshi are not universally interchangeable identities. Ancestral origins and migration circumstances vary between communities.",
+    "related": [
+      "japan-peru-plantations",
+      "romani-india-europe"
+    ]
+  },
+  {
+    "id": "koreans-central-asia",
+    "slug": "why-korean-communities-live-in-central-asia",
+    "title": "A forced journey reshaped Korean Central Asia",
+    "hook": "Why do Korean communities have deep roots in Kazakhstan?",
+    "shortFact": "In 1937, Soviet authorities forcibly deported ethnic Koreans from the Soviet Far East to Central Asia. Their descendants are part of the histories of Kazakhstan and Uzbekistan, among other countries.",
+    "explanation": "This connection was created by state coercion, not by a voluntary search for a new home. Soviet authorities moved roughly 172,000 ethnic Koreans from the Far East to Central Asia in cargo trains in 1937. The deportation uprooted an established population and forced people to rebuild under harsh conditions. The name Koryo Saram is associated with Korean communities of the former Soviet Union. Family histories include displacement, survival and later integration into Soviet society, with descendants living across several independent countries after the Soviet Union ended. Ethnic Korean ancestry here should not be confused with present-day South Korean citizenship: the community’s history crosses borders that changed long after the deportation.",
+    "category": "People & migration",
+    "tags": [
+      "Korean",
+      "Koryo Saram",
+      "Kazakhstan",
+      "Uzbekistan",
+      "Soviet Union",
+      "deportation"
+    ],
+    "countries": [
+      "ru",
+      "kz",
+      "uz"
+    ],
+    "regions": [
+      "Central Asia",
+      "Russian Far East"
+    ],
+    "places": [
+      "Soviet Far East",
+      "Kazakhstan",
+      "Uzbekistan"
+    ],
+    "period": "1937 deportation and its aftermath",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic connection between broad origin and destination regions, not the train route. Central Asia’s point is representative, not an individual settlement.",
+      "locations": [
+        {
+          "label": "Soviet Far East: approximate region",
+          "coordinates": [
+            131.9,
+            43.1
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Central Asia: approximate region",
+          "coordinates": [
+            68,
+            44
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Re-visiting the 1937 Deportation of Ethnic Koreans to Central Asia",
+        "publisher": "George Washington University, Central Asia Program",
+        "url": "https://centralasiaprogram.org/event/victoria-kim-re-visiting-the-1937-deportation-of-ethnic-koreans-to-central-asia-film-screening-of-koryo-saram-the-unreliable-people/",
+        "published": "2017-05-11"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The rounded deportation estimate is historical. Ethnicity does not establish citizenship or a connection to the modern South Korean state.",
+    "related": [
+      "japan-peru-plantations",
+      "siddi-indian-ocean"
+    ]
+  },
+  {
+    "id": "malagasy-borneo",
+    "slug": "madagascars-language-connection-to-borneo",
+    "title": "Madagascar’s language points across the Indian Ocean",
+    "hook": "Why does an African island have linguistic relatives in Borneo?",
+    "shortFact": "Malagasy belongs to the Austronesian language family and is especially closely related to Maanyan in southeastern Borneo. The relationship preserves evidence of Southeast Asian connections across the Indian Ocean.",
+    "explanation": "A map of language relationships can look very different from a map of nearby countries. Malagasy is linked to the Southeast Barito languages of Borneo, despite Madagascar lying off Africa’s coast. Shared vocabulary and language structure help researchers reconstruct that connection. Malagasy also contains influences from other languages, including Malay, which is particularly visible in navigation vocabulary. These clues fit a history of movement and contact across the Indian Ocean. They do not identify one exact voyage, and models for the timing and circumstances of settlement remain research questions. A language family describes relationships between languages; it is not a complete account of a population’s ancestry or identity.",
+    "category": "Language & culture",
+    "tags": [
+      "Malagasy",
+      "Maanyan",
+      "Borneo",
+      "Madagascar",
+      "Austronesian",
+      "language",
+      "Indian Ocean"
+    ],
+    "countries": [
+      "mg",
+      "id"
+    ],
+    "regions": [
+      "Indian Ocean",
+      "Southeast Asia",
+      "Africa"
+    ],
+    "places": [
+      "Madagascar",
+      "Southeastern Borneo",
+      "Kalimantan"
+    ],
+    "period": "Early settlement history; exact timing and routes debated",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic linguistic connection, not a reconstructed voyage. Regional locations are approximate.",
+      "locations": [
+        {
+          "label": "Southeastern Borneo, Indonesia",
+          "coordinates": [
+            115,
+            -2
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Madagascar",
+          "coordinates": [
+            47,
+            -19
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "The Settlement of Madagascar: What Dialects and Languages Can Tell Us",
+        "publisher": "PLOS ONE / Maurizio Serva",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030666",
+        "published": "2012-02-21"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "The linguistic relationship is clearer than any single settlement scenario. No exact departure date, route or genetic proportion is asserted.",
+    "related": [
+      "romani-india-europe",
+      "sarnami-suriname"
+    ],
+    "guess": {
+      "question": "Where are Malagasy’s close Southeast Barito language relatives spoken?",
+      "options": [
+        "Borneo",
+        "Iceland",
+        "Peru"
+      ],
+      "answer": "Borneo"
+    }
+  },
+  {
+    "id": "romani-india-europe",
+    "slug": "romanis-indian-roots-and-european-history",
+    "title": "A European language with Indian roots",
+    "hook": "What can a language remember about migration?",
+    "shortFact": "Romani is an Indo-Aryan language with roots in the Indian subcontinent, spoken in Europe since the Middle Ages. Its history makes it part of both Europe’s linguistic diversity and a much wider story of movement.",
+    "explanation": "The clue is in the language itself: Romani belongs to the Indo-Aryan branch of the Indo-European family. Its inherited vocabulary connects it with languages of the Indian subcontinent, while contact with Persian, Armenian, Greek and later European languages helped shape its development. That history does not make Romani a recent arrival in Europe; it has been spoken there since medieval times. Nor does it mean every Roma person speaks Romani. Council of Europe education resources explicitly distinguish fluent speakers, children who hear it at home and Roma communities where it is not a home language. Language, community identity and nationality do not line up in a single simple way.",
+    "category": "Language & culture",
+    "tags": [
+      "Romani",
+      "Roma",
+      "India",
+      "Europe",
+      "Indo-Aryan",
+      "language",
+      "migration"
+    ],
+    "countries": [
+      "in",
+      "ua"
+    ],
+    "regions": [
+      "South Asia",
+      "Europe"
+    ],
+    "places": [
+      "Indian subcontinent",
+      "Europe",
+      "Ukraine"
+    ],
+    "period": "Spoken in Europe since the Middle Ages",
+    "map": {
+      "type": "connection",
+      "caption": "Schematic linguistic connection between broad regions, not a migration itinerary or a single ancestral origin point.",
+      "locations": [
+        {
+          "label": "Indian subcontinent: approximate region",
+          "coordinates": [
+            78,
+            27
+          ],
+          "approximate": true
+        },
+        {
+          "label": "Europe: representative point",
+          "coordinates": [
+            24,
+            48
+          ],
+          "approximate": true
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Survey on the codification of the Romani language in Ukraine",
+        "publisher": "Council of Europe",
+        "url": "https://www.coe.int/en/web/kyiv/-/survey-on-the-codification-of-the-romani-language-in-ukraine",
+        "published": "2020-05-06"
+      },
+      {
+        "title": "Romani language in education",
+        "publisher": "Council of Europe",
+        "url": "https://www.coe.int/en/web/education/romani",
+        "published": null
+      },
+      {
+        "title": "How Migration has Evolved the Romani Language",
+        "publisher": "University of Colorado Boulder, Department of Linguistics",
+        "url": "https://www.colorado.edu/linguistics/2019/04/10/how-migration-has-evolved-romani-language",
+        "published": "2019-04-10"
+      }
+    ],
+    "verified": "2026-10-23",
+    "accuracyNote": "Romani is not Romanian. Roma communities have varied citizenships and language use; the map is not an exact historical route.",
+    "related": [
+      "malagasy-borneo",
+      "sarnami-suriname"
+    ]
+  }
+]

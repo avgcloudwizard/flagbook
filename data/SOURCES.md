@@ -120,3 +120,7 @@ Language metrics: European Commission Special Eurobarometer 540, September–Oct
 Spanish native-command estimates: Instituto Cervantes, El español en el mundo 2025, table 1, GDN column, first 16 Spanish-speaking country rows. https://cvc.cervantes.es/lengua/anuario/anuario_25/moreno-alvarez/cuadros.htm . Selection and definition are shown before the question. This is not a complete world ranking and does not include learners or the United States.
 
 Games display values using three significant digits with long thousand/million/billion wording. Higher/Lower excludes both exact ties and pairs whose displayed rounded values match.
+
+## Unexpected Connections (23 October 2026)
+
+The Fun Facts page now serves `unexpected-connections.json`: 30 newly researched, claim-deduplicated stories plus expanded Namib and Chimborazo entries. Statistical production cards and generic generated notes are not part of this feed. Source titles, publishers, publication dates when available, verification date, accuracy notes and approximate map locations are stored per fact. See `editorial/CONNECTIONS-README.md` and the three editorial review files for evidence and inclusion decisions. Rebuild deterministically with `python3 scripts/build-connections.py`; no network or AI generation is required at runtime.
