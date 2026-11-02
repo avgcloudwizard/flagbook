@@ -1,4 +1,4 @@
-import {Globe,loadAtlas} from './globe.js?v=8';
+import {Globe,loadAtlas} from './globe.js?v=16';
 import {CONTINENTS,continentForRegion,esc,normalize,loadExtras,countrySummary,formatValue} from './explore-data.js?v=8';
 import {loadCountryContext} from './country-context.js?v=8';
 const $=id=>document.getElementById(id);

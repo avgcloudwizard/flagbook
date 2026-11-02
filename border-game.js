@@ -1,7 +1,7 @@
 import {routeColors} from './border-colors.js?v=13';
 import {layoutRouteLabels} from './border-labels.js?v=12';
 import {BY_CODE} from './core.js';
-import {Globe,loadAtlas} from './globe.js?v=11';
+import {Globe,loadAtlas} from './globe.js?v=16';
 import {LEVELS,routePairs,newRoute,guessRoute,restoreRoute,allRoutes} from './border-core.js?v=12';
 import {recordGame,getGameEvents,readGameSession,saveGameSession} from './games-store.js?v=15';
 const $=id=>document.getElementById(id),name=code=>BY_CODE.get(code).name;

@@ -1,4 +1,4 @@
-import {Globe,loadAtlas} from './globe.js?v=8';
+import {Globe,loadAtlas} from './globe.js?v=16';
 import {loadCountryContext,renderCountryContext} from './country-context.js?v=8';
 import {loadExtras,loadRates,countrySummary,currencyReference,languageCard} from './explore-data.js?v=8';
 import {bindSectorRankings} from './records.js?v=8';

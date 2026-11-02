@@ -37,26 +37,26 @@ export class Globe {
     const ctx=this.ctx,w=this.width,h=this.height,r=Math.min(w,h)*.425*this.zoom;
     ctx.setTransform(this.ratio,0,0,this.ratio,0,0);ctx.clearRect(0,0,w,h);
     this.projection.translate([w/2,h/2]).scale(r).rotate(this.rotation);
-    const ocean=ctx.createRadialGradient(w*.38,h*.32,r*.04,w/2,h/2,r);ocean.addColorStop(0,'#234959');ocean.addColorStop(.72,'#102c3b');ocean.addColorStop(1,'#0b1a29');
-    ctx.save();ctx.shadowColor='#5bdae72b';ctx.shadowBlur=this.compact?18:38;
+    const ocean=ctx.createRadialGradient(w*.38,h*.32,r*.04,w/2,h/2,r);ocean.addColorStop(0,'#2078ae');ocean.addColorStop(.72,'#124c82');ocean.addColorStop(1,'#082f59');
+    ctx.save();ctx.shadowColor='#0FFCBE29';ctx.shadowBlur=this.compact?18:38;
     ctx.beginPath();this.path({type:'Sphere'});ctx.fillStyle=ocean;ctx.fill();ctx.restore();
-    ctx.beginPath();this.path(this.graticule);ctx.strokeStyle='#75c3d51f';ctx.lineWidth=.65;ctx.stroke();
+    ctx.beginPath();this.path(this.graticule);ctx.strokeStyle='#b3e7ff32';ctx.lineWidth=.65;ctx.stroke();
     for(const f of this.atlas.features){
       if(this.allowedCodes&&!this.allowedCodes.has(f.code))continue;
-      ctx.beginPath();this.path(f);ctx.fillStyle=this.selected&&f.code===this.selected?'#d4f285':this.hovered&&f.code===this.hovered?'#74ada2':f.code?'#3e746c':'#304e52';ctx.fill();
-      ctx.strokeStyle=this.selected&&f.code===this.selected?'#edffb8':'#a5d6c345';ctx.lineWidth=this.selected&&f.code===this.selected?1.25:.65;ctx.stroke();
+      ctx.beginPath();this.path(f);ctx.fillStyle=this.selected&&f.code===this.selected?'#0FFCBE':this.hovered&&f.code===this.hovered?'#93efdf':f.code?'#469aaa':'#336d8a';ctx.fill();
+      ctx.strokeStyle=this.selected&&f.code===this.selected?'#c5fff0':'#d5f2ff72';ctx.lineWidth=this.selected&&f.code===this.selected?1.25:.65;ctx.stroke();
     }
     // Tiny states remain discoverable and selectable, even below the map scale.
     for(const point of this.small){
       if(this.allowedCodes&&!this.allowedCodes.has(point.code))continue;
       if(!this.visible(point.coords))continue;const xy=this.projection(point.coords);if(!xy)continue;
-      ctx.beginPath();ctx.arc(xy[0],xy[1],point.code===this.selected?5:3,0,Math.PI*2);ctx.fillStyle=point.code===this.selected?'#e5ffab':'#8dc5b1';ctx.fill();ctx.strokeStyle='#152c36';ctx.lineWidth=1;ctx.stroke();
+      ctx.beginPath();ctx.arc(xy[0],xy[1],point.code===this.selected?5:3,0,Math.PI*2);ctx.fillStyle=point.code===this.selected?'#0FFCBE':'#a0d9e8';ctx.fill();ctx.strokeStyle='#0a375b';ctx.lineWidth=1;ctx.stroke();
     }
     if(this.selected){const c=this.atlas.details[this.selected],coords=[c.coordinates[1],c.coordinates[0]];
-      if(this.visible(coords)){const [x,y]=this.projection(coords);ctx.beginPath();ctx.arc(x,y,8,0,Math.PI*2);ctx.strokeStyle='#ebffb5aa';ctx.lineWidth=1.5;ctx.stroke();ctx.beginPath();ctx.arc(x,y,2.5,0,Math.PI*2);ctx.fillStyle='#efffc9';ctx.fill();}
+      if(this.visible(coords)){const [x,y]=this.projection(coords);ctx.beginPath();ctx.arc(x,y,8,0,Math.PI*2);ctx.strokeStyle='#9fffdfcf';ctx.lineWidth=1.5;ctx.stroke();ctx.beginPath();ctx.arc(x,y,2.5,0,Math.PI*2);ctx.fillStyle='#ebfffa';ctx.fill();}
     }
     if(this.labels)this.drawLabels();
-    ctx.beginPath();this.path({type:'Sphere'});ctx.strokeStyle='#9cdae14a';ctx.lineWidth=1.2;ctx.stroke();
+    ctx.beginPath();this.path({type:'Sphere'});ctx.strokeStyle='#a5e7ff82';ctx.lineWidth=1.2;ctx.stroke();
   }
   drawLabels(){
     const ctx=this.ctx,occupied=[];
@@ -68,7 +68,7 @@ export class Globe {
       const xy=this.projection(coords);if(!xy)continue;const [x,y]=xy,half=ctx.measureText(c.name).width/2+5;
       if(x-half<4||x+half>this.width-4||y<15||y>this.height-15)continue;
       if(!chosen&&occupied.some(b=>Math.abs(x-b.x)<half+b.half&&Math.abs(y-b.y)<22))continue;
-      occupied.push({x,y,half});ctx.lineWidth=4;ctx.strokeStyle='#102932e6';ctx.strokeText(c.name,x,y-10);ctx.fillStyle=chosen?'#f0ffbd':'#e8f3ed';ctx.fillText(c.name,x,y-10);
+      occupied.push({x,y,half});ctx.lineWidth=4;ctx.strokeStyle='#083457e6';ctx.strokeText(c.name,x,y-10);ctx.fillStyle=chosen?'#afffee':'#effbff';ctx.fillText(c.name,x,y-10);
     }ctx.restore();
   }
   filter(codes){this.allowedCodes=codes?new Set(codes):null;this.hovered=null;if(this.selected&&this.allowedCodes&&!this.allowedCodes.has(this.selected))this.selected=null;this.requestDraw();}

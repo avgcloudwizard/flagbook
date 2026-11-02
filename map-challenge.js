@@ -1,4 +1,4 @@
-import {Globe,loadAtlas} from './globe.js?v=11';
+import {Globe,loadAtlas} from './globe.js?v=16';
 import {BY_CODE,shuffled} from './core.js';
 import {CONTINENTS,continentForRegion,esc} from './explore-data.js?v=8';
 import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js?v=15';
@@ -17,8 +17,8 @@ class TrailGlobe extends Globe{
     if(this.flight){const t=Math.min(1,(performance.now()-this.flight.start)/650),p=this.flight.interpolate(t*t*(3-2*t));this.rotation=[-p[0],-p[1],0];if(t<1)this.requestDraw();else this.flight=null;}
     super.draw();if(!this.width||!state)return;
     const ctx=this.ctx,points=state.stops.map(s=>atlas.details[s.code].coordinates.slice().reverse());ctx.save();
-    if(points.length>1){ctx.beginPath();this.path({type:'LineString',coordinates:points});ctx.strokeStyle='#f3d596';ctx.lineWidth=1.8;ctx.setLineDash([4,5]);ctx.stroke();ctx.setLineDash([]);}
-    points.forEach((p,i)=>{if(!this.visible(p))return;const [x,y]=this.projection(p);ctx.beginPath();ctx.arc(x,y,10,0,Math.PI*2);ctx.fillStyle='#f3d596';ctx.fill();ctx.fillStyle='#182d2c';ctx.textAlign='center';ctx.font='bold 11px sans-serif';ctx.fillText(String(i+1),x,y+4);});ctx.restore();
+    if(points.length>1){ctx.beginPath();this.path({type:'LineString',coordinates:points});ctx.strokeStyle='#abffeb';ctx.lineWidth=1.8;ctx.setLineDash([4,5]);ctx.stroke();ctx.setLineDash([]);}
+    points.forEach((p,i)=>{if(!this.visible(p))return;const [x,y]=this.projection(p);ctx.beginPath();ctx.arc(x,y,10,0,Math.PI*2);ctx.fillStyle='#abffeb';ctx.fill();ctx.fillStyle='#092e4b';ctx.textAlign='center';ctx.font='bold 11px sans-serif';ctx.fillText(String(i+1),x,y+4);});ctx.restore();
   }
 }
 function save(){saveGameSession('map',state);}

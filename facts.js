@@ -1,8 +1,8 @@
 import {COUNTRIES} from './countries.js';
-import {loadAtlas} from './globe.js?v=11';
+import {loadAtlas} from './globe.js?v=16';
 import {esc,normalize,loadJSON} from './explore-data.js?v=8';
 import {FACTS_KEY,chooseFact,dailyFact,readFactState,filterFacts} from './facts-core.js?v=14';
-import {connectionMap} from './facts-map.js?v=14';
+import {connectionMap} from './facts-map.js?v=16';
 const $=id=>document.getElementById(id),names=new Map(COUNTRIES.map(c=>[c.code,c.name]));
 let data,atlas,pending,current,seen=new Set(),saved=new Set(),history=[],position=-1,revealed=true,quiz=false;
 const expanded=new Set();let mapWorld=false;

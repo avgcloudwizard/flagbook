@@ -1,6 +1,6 @@
 import {gameNumber,topThreeEntries,checkTopThree} from './game-format.js?v=13';
 import {BY_CODE,shuffled} from './core.js';
-import {loadAtlas} from './globe.js?v=8';
+import {loadAtlas} from './globe.js?v=16';
 import {loadRecords,loadExtras,loadJSON,esc} from './explore-data.js?v=8';
 import {gameTopics,comparison,checkDirection,matchCountry,pickMystery,mysteryCandidates} from './games-core.js?v=13';
 import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js?v=15';

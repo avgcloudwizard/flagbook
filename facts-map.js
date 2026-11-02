@@ -16,7 +16,7 @@ export function connectionMap(fact,atlas,{world=false,focus=null}={}){
  }
  projection.clipExtent([[0,0],[w,h]]);
  const path=d3.geoPath(projection),highlight=new Set(fact.map.highlightCountries||fact.countries);
- const land=atlas.features.map(f=>`<path d="${path(f)||''}" fill="${highlight.has(f.code)?(fact.map.borderCountries?.[0]===f.code?'#617c94':'#557c70'):'#304f4e'}"/>`).join('');
+ const land=atlas.features.map(f=>`<path d="${path(f)||''}" fill="${highlight.has(f.code)?(fact.map.borderCountries?.[0]===f.code?'#4486b8':'#418e9c'):'#36698b'}"/>`).join('');
  let line='';
  if(fact.map.borderCountries&&atlas.topology){const ids=fact.map.borderCountries.map(c=>atlas.features.find(f=>f.code===c)?.id);const border=topojson.mesh(atlas.topology,atlas.topology.objects.countries,(a,b)=>a!==b&&ids.includes(a.id)&&ids.includes(b.id));line=`<path d="${path(border)||''}" fill="none" stroke="#ffe0a0" stroke-width="3"/>`;}
  if(points.length>1&&['connection','comparison'].includes(fact.map.type))line=`<path class="connection-line" d="${path({type:'LineString',coordinates:points})||''}"/>`;
@@ -24,6 +24,6 @@ export function connectionMap(fact,atlas,{world=false,focus=null}={}){
  const occupied=[];
  const pins=points.map((p,i)=>{const [px,py]=projection(p);let x=px,y=py;
   if(occupied.some(o=>Math.hypot(o[0]-x,o[1]-y)<45)){x=Math.min(w-25,px+42);y=Math.min(h-25,py+25);}
-  occupied.push([x,y]);return `${x!==px?`<path d="M${px},${py}L${x},${y}" stroke="#e7edd1" stroke-width="1.5"/><circle cx="${px}" cy="${py}" r="3" fill="#e7edd1"/>`:''}<g transform="translate(${x},${y})"><circle class="location-pin" r="19" fill="${i%2?'#e8b585':'#d7e7a4'}"/><text text-anchor="middle" y="6" fill="#182e28" font-size="17" font-weight="700">${i+1}</text></g>`;}).join('');
- return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(locations.map(l=>l.label).join(' connected with '))}. ${esc(fact.map.caption)}"><rect width="720" height="360" fill="#122d36"/><g stroke="#8cb3a14d" stroke-width=".6">${land}</g>${line}${pins}</svg>`;
+  occupied.push([x,y]);return `${x!==px?`<path d="M${px},${py}L${x},${y}" stroke="#e7edd1" stroke-width="1.5"/><circle cx="${px}" cy="${py}" r="3" fill="#e7edd1"/>`:''}<g transform="translate(${x},${y})"><circle class="location-pin" r="19" fill="${i%2?'#e8b585':'#0FFCBE'}"/><text text-anchor="middle" y="6" fill="#092e4b" font-size="17" font-weight="700">${i+1}</text></g>`;}).join('');
+ return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(locations.map(l=>l.label).join(' connected with '))}. ${esc(fact.map.caption)}"><rect width="720" height="360" fill="#093e70"/><g stroke="#c5eaf36b" stroke-width=".6">${land}</g>${line}${pins}</svg>`;
 }
