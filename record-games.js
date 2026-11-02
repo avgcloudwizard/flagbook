@@ -3,7 +3,7 @@ import {BY_CODE,shuffled} from './core.js';
 import {loadAtlas} from './globe.js?v=8';
 import {loadRecords,loadExtras,loadJSON,esc} from './explore-data.js?v=8';
 import {gameTopics,comparison,checkDirection,matchCountry,pickMystery,mysteryCandidates} from './games-core.js?v=13';
-import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js?v=11';
+import {recordGame,renderGameStats,readGameSession,saveGameSession,getGameEvents} from './games-store.js?v=15';
 const $=id=>document.getElementById(id);
 const topicNames={'coffee':'Coffee production','cocoa':'Cocoa production','rice':'Rice production','maize':'Corn production','cotton':'Cotton production','country-area':'Country area','gold-mine':'Gold production','silver-mine':'Silver production','copper-mine':'Copper production','iron-ore-mine':'Iron ore production'};
 const titles={higher:'Higher or lower?',five:'Name the top three.',mystery:'Which country am I?'};

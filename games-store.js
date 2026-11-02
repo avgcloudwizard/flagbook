@@ -23,7 +23,7 @@ function save(){
 export function recordGame(event){
   load();
   const entry={id:crypto.randomUUID(),at:new Date().toISOString(),...event};
-  events.push(entry);save();return entry;
+  events.push(entry);save();globalThis.dispatchEvent?.(new CustomEvent('flagbook:feedback',{detail:entry}));return entry;
 }
 export function renderGameStats(game,target){
   load();const s=gameSummary(events,game);

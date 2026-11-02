@@ -1,12 +1,12 @@
-import {startBorders} from './border-game.js?v=13';
-import {startMapChallenge} from './map-challenge.js?v=11';
-import {startRecordGames} from './record-games.js?v=13';
-import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js?v=11';
+import {startBorders} from './border-game.js?v=15';
+import {startMapChallenge} from './map-challenge.js?v=15';
+import {startRecordGames} from './record-games.js?v=15';
+import {getGameEvents,prepareGameImport,applyGameImport,renderGameStats} from './games-store.js?v=15';
 import {startFacts} from './facts.js?v=14';
 import {startAtlas} from './atlas.js?v=8';
 import {startRecords} from './records.js?v=10';
 import {showDiscovery,clearDiscovery} from './discovery.js?v=8';
-import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=8';
+import {startGlobe,getGlobeEvents,prepareGlobeImport,applyGlobeImport} from './globe-quiz.js?v=15';
 import {startLearning} from './learning.js?v=8';
 import { COUNTRIES } from './countries.js';
 import { BY_CODE, STORAGE_KEY, isCorrect, shuffled, summarize, validateEvents, parseBackup } from './core.js';
@@ -55,6 +55,7 @@ function record(type, answer = '') {
   events.push({id:uuid(), question:round.id, code:round.code, type, answer, at:new Date().toISOString()});
   if (type === 'reveal' || isCorrect(BY_CODE.get(round.code), answer)) round.status = type === 'reveal' ? 'revealed' : 'correct';
   save(); renderStats();
+  globalThis.dispatchEvent?.(new CustomEvent('flagbook:feedback',{detail:{game:'practice',round:round.id,type,correct:round.status==='correct',finished:round.status!=='answering',label:BY_CODE.get(round.code).name}}));
   return true;
 }
 function eligible() { return mode === 'missed' ? summarize(events).missed.map(s => s.code) : COUNTRIES.map(c => c.code); }

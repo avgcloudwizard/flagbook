@@ -12,7 +12,7 @@ export function getGlobeEvents(){return events;}
 export function prepareGlobeImport(imported=[]){return mergeGlobeEvents(events,imported);}
 export function applyGlobeImport(merged){events=merged;save();renderTotals();}
 function message(text,type=''){ $('globe-feedback').textContent=text;$('globe-feedback').className=type; }
-function record(type,answer,correct){events.push({id:crypto.randomUUID(),code:session.code,stage:session.stage,type,answer,correct,at:new Date().toISOString()});save();renderTotals();}
+function record(type,answer,correct){events.push({id:crypto.randomUUID(),code:session.code,stage:session.stage,type,answer,correct,at:new Date().toISOString()});save();renderTotals();globalThis.dispatchEvent?.(new CustomEvent('flagbook:feedback',{detail:{game:'globe',round:events.at(-1).id,type,correct,finished:session.stage==='capital'&&(correct||type==='reveal'),label:BY_CODE.get(session.code).name}}));}
 function choose(code){session={code,stage:'country'};globe.select(code,{focus:false});save();renderQuiz();$('globe-answer').focus({preventScroll:true});if(matchMedia('(max-width:980px)').matches)$('globe-question-card').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth',block:'start'});}
 function randomCountry(){if(!atlas)return;const pool=COUNTRIES.filter(c=>c.code!==session?.code);const code=pool[Math.floor(Math.random()*pool.length)].code;choose(code);globe.select(code);}
 function renderQuiz(){
